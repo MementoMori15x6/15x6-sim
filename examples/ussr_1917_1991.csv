@@ -16,8 +16,22 @@ F2 Error detection & repair,-9
 G1 Cheater detection & suppression,+9
 G2 Modularity,-5
 G3 Info storage centralisation,+8
-# Add the remaining 18 metrics here with canon scores when ready
-# Placeholder rows below — delete or fill
-A4 Metric placeholder,0
-A5 Metric placeholder,0
-# ... continue to 35 rows total
+# Remaining 18 metrics — fill with canon or 0 for testing
+H1 Metric placeholder,0
+H2 Metric placeholder,0
+H3 Metric placeholder,0
+I1 Metric placeholder,0
+I2 Metric placeholder,0
+I3 Metric placeholder,0
+J1 Metric placeholder,0
+J2 Metric placeholder,0
+J3 Metric placeholder,0
+K1 Metric placeholder,0
+K2 Metric placeholder,0
+K3 Metric placeholder,0
+L1 Metric placeholder,0
+L2 Metric placeholder,0
+L3 Metric placeholder,0
+M1 Metric placeholder,0
+M2 Metric placeholder,0
+M3 Metric placeholder,0
