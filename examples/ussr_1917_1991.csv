@@ -1,4 +1,3 @@
-# USSR 1917–1991 — canonical scoring from Chapter 3
 metric,score
 A1 Private property rights,-9
 A2 Market allocation vs planning,-10
@@ -17,4 +16,8 @@ F2 Error detection & repair,-9
 G1 Cheater detection & suppression,+9
 G2 Modularity,-5
 G3 Info storage centralisation,+8
-# (Full 35 — expand with canon if needed; these are key drivers)
+# Add the remaining 18 metrics here with canon scores when ready
+# Placeholder rows below — delete or fill
+A4 Metric placeholder,0
+A5 Metric placeholder,0
+# ... continue to 35 rows total
