@@ -1,5 +1,17 @@
 metric,score
 A1 Private property rights,0
-# ... (most metrics 0 or low, focus on biological replication)
-# Placeholder — use full 35 from Chapter 1 exemplar when ready
+A2 Market allocation vs planning,0
+A3 Profit motive & entrepreneurship,0
+B1 Progressive taxation & redistribution,0
+B2 Welfare state / universal services,0
+# ... (most 0, key replication rules high)
+# Rule 2 replication high mutualism
+C1 Heredity fidelity,9
+# Rule 3 variation competition
+D1 Heritable variation,8
+# Rule 4 persistence competition
+E1 Differential persistence,7
+# Rule 5 survival parasitism (host dependence)
+F1 Host exploitation,7
+# Rest 0 or low
 G5 Info storage centralisation,0
