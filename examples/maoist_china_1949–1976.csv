@@ -1,0 +1,20 @@
+# Maoist China 1949–1976 — canonical scoring from Chapter 4
+metric,score
+A1 Private property rights,-10
+A2 Market allocation vs planning,-10
+A3 Profit motive & entrepreneurship,-10
+B1 Progressive taxation & redistribution,+10
+B2 Welfare state / universal services,+9
+C1 Heredity fidelity,-9
+C2 Heritable variation,-10
+C3 Differential persistence,-9
+D1 Host exploitation (parasitism),+7
+D2 Resource competition,+5
+E1 Individual survival until replication,-8
+E2 Niche construction,+3
+F1 Boundary maintenance,+8
+F2 Error detection & repair,-10
+G1 Cheater detection & suppression,+8
+G2 Modularity,-6
+G3 Info storage centralisation,+9
+# (Full 35 — expand with canon)
