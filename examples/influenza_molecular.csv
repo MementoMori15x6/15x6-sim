@@ -1,17 +1,20 @@
+# Influenza Virus — canonical scoring from 1.6.2a
 metric,score
 A1 Private property rights,0
 A2 Market allocation vs planning,0
 A3 Profit motive & entrepreneurship,0
 B1 Progressive taxation & redistribution,0
 B2 Welfare state / universal services,0
-# ... (most 0, key replication rules high)
-# Rule 2 replication high mutualism
 C1 Heredity fidelity,9
-# Rule 3 variation competition
-D1 Heritable variation,8
-# Rule 4 persistence competition
-E1 Differential persistence,7
-# Rule 5 survival parasitism (host dependence)
-F1 Host exploitation,7
-# Rest 0 or low
-G5 Info storage centralisation,0
+C2 Heritable variation,8
+C3 Differential persistence,7
+D1 Host exploitation (parasitism),7
+D2 Resource competition,0
+E1 Individual survival until replication,0
+E2 Niche construction,0
+F1 Boundary maintenance,0
+F2 Error detection & repair,0
+G1 Cheater detection & suppression,0
+G2 Modularity,0
+G3 Info storage centralisation,0
+# (Full 35 — mostly 0, replication rules high)
