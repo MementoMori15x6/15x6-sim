@@ -1,1 +1,20 @@
-
+# Eusocial Ant Colony — canonical scoring from 1.6.2b
+metric,score
+A1 Private property rights,0
+A2 Market allocation vs planning,0
+A3 Profit motive & entrepreneurship,0
+B1 Progressive taxation & redistribution,0
+B2 Welfare state / universal services,0
+C1 Heredity fidelity,9
+C2 Heritable variation,5
+C3 Differential persistence,8
+D1 Host exploitation (parasitism),0
+D2 Resource competition,6
+E1 Individual survival until replication,9
+E2 Niche construction,9
+F1 Boundary maintenance,8
+F2 Error detection & repair,7
+G1 Cheater detection & suppression,7
+G2 Modularity,8
+G3 Info storage centralisation,7
+# (Full 35 — heavy Mutualism)
