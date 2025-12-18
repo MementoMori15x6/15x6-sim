@@ -3,8 +3,8 @@
 Reproducible Python tools for the 15×6 Master Grid proposed in “The Board – Political Thermodynamics”.
 
 This repo contains:
-- `blank_grid.py` — generates the canon blank grid (page 99 style)
-- `simulate.py` — core engine: 35-metric CSV → X,Y coordinates → zone splatter → filled grid PNG + entropy curve
+- `blank_grid.py` — generates the canonical blank grid (page 99 style)
+- `simulate.py` — core engine: 35-metric CSV → X,Y coordinates → zone splatter → filled grid PNG + entropy curve (placeholder)
 - `examples/` — CSVs for the four illustrative case studies
 - `notebooks/quick_start.ipynb` — step-by-step demo
 
@@ -18,7 +18,6 @@ The script lets anyone take raw evidence, score the 35 metrics, and produce the 
 4. Try your own polity CSV!
 
 ### Calibration Note: Governance Amplification
-
 The simulation applies a moderate amplification (Y multiplier = 2.5) to the governance/cultural metrics (second half of the 35) to reproduce the qualitative extreme Zone 9 pull described for early Bolshevik USSR in Chapter 3.1.
 
 Simple averaging dilutes this signal due to the balanced nature of the 35-metric protocol. The multiplier is explicit in `simulate.py` and open to refinement — fork the repo and adjust it to see how splatter changes.
