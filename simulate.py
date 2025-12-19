@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from scipy.spatial.distance import euclidean
 
-# 10 fixed canonical centres (X economic, Y libertarian-authoritarian)
+# 10 fixed canonical centres
 fixed_centres = np.array([
     [1.00, -1.00],  # 1 Anarcho-Cap
     [0.70, -0.60],  # 2 Classical Lib
@@ -44,38 +44,46 @@ moves = [
 
 def load_metrics(csv_path):
     df = pd.read_csv(csv_path)
-    # Expect columns: metric_name, score (-10 to +10)
-    return df['score'].values
+    return df['score'].values.astype(float)
 
 def compute_coordinates(vector):
-    distances = [euclidean(vector, centre) for centre in fixed_centres]
-    inv_dist = 1 / (np.array(distances) + 1e-8)
+    # Non-linear penalty for extremes
+    extreme = np.abs(vector) > 8
+    penalty = extreme * (np.abs(vector) - 8) ** 2 * 0.5
+    adjusted = vector + np.sign(vector) * penalty
+
+    # Weighted split: first 18 economic X, last 17 governance Y with amplification
+    X = np.mean(adjusted[:18]) / 10 * 1.2
+    Y = np.mean(adjusted[18:]) / 10 * 3.0
+
+    point_2d = np.array([X, Y])
+
+    # Extreme splatter concentration — power 10 for very sharp peak
+    distances = np.array([euclidean(point_2d, centre) for centre in fixed_centres])
+    distances = np.maximum(distances, 1e-8)
+    inv_dist = 1 / (distances ** 10)  # power 10 for very sharp peak
     weights = inv_dist / inv_dist.sum()
     coord = np.average(fixed_centres, axis=0, weights=weights)
-    return coord, weights * 100  # X,Y and % splatter
+    return coord, weights * 100
 
 def plot_filled_grid(splatter_percentages, title="Filled 15×6 Grid", output="filled_grid.png"):
     fig = plt.figure(figsize=(16, 13), dpi=300)
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
 
-    # Grid
     for i in range(8):
         ax.axvline(i, color='black', linewidth=1.5)
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
 
-    # Headers
     for col, label in enumerate(moves, start=1):
         ax.text(col + 0.5, 0.5, label, ha='center', va='center', fontsize=12.5, fontweight='bold')
 
-    # Rules
     for row, rule in enumerate(rules, start=1):
         ax.text(0.1, row + 0.5, rule, ha='left', va='center', fontsize=10.5, linespacing=1.1)
 
-    # Simple fill example — in full version we'll map splatter to cells
-    # Placeholder: fill Rule 13 Parasitism if >30%
-    if splatter_percentages[8] > 30:  # rough example for zone 9
+    # Simple fill — Rule 13 Parasitism if >30%
+    if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
         ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
 
@@ -85,7 +93,15 @@ def plot_filled_grid(splatter_percentages, title="Filled 15×6 Grid", output="fi
     ax.invert_yaxis()
 
     plt.savefig(output, dpi=300, bbox_inches='tight', facecolor='white')
-    plt.show()
+    plt.close()
+
+if __name__ == "__main__":
+    vector = load_metrics("examples/ussr_1917_1928_max_extremism.csv")
+    coord, splatter = compute_coordinates(vector)
+    print(f"1917–1928 Seeding X,Y: {coord[0]:.2f}, {coord[1]:.2f}")
+    print(f"Top zone splatter: {splatter.max():.1f}% in zone {splatter.argmax()+1}")
+
+    plot_filled_grid(splatter, title="USSR 1917–1928 Seeding")
 
 # Example usage (uncomment to test)
 # vector = load_metrics("examples/ussr.csv")
