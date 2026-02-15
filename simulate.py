@@ -93,10 +93,12 @@ def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", out
     
     fig.suptitle(title, fontsize=21, y=0.96)
     
-    # Diagnostic text overlay
-    ax.text(3.5, 15.5, f"X: {coord[0]:.2f}  Y: {coord[1]:.2f}", ha='center', va='center', fontsize=14, color='blue')
+      # Diagnostic text overlay
+    ax.text(3.5, 15.5, f"X: {coord[0]:.2f}  Y: {coord[1]:.2f}", 
+            ha='center', va='center', fontsize=14, color='blue')
     dom_zone = splatter_percentages.argmax() + 1
-    ax.text(3.5, 15.0, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", ha='center', va='center', fontsize=12, color='darkgreen')
+    ax.text(3.5, 15.0, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
+            ha='center', va='center', fontsize=12, color='darkgreen')
     
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
