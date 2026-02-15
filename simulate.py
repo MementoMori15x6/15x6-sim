@@ -71,42 +71,48 @@ def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
     
     return (X, Y), splatter_percent
 
-def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", output="filled_grid.png"):
-    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # smaller size
+def plot_filled_grid(splatter_percentages, coord, title="Eusocial Ant Colony", output="filled_grid.png"):
+    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # smaller size, still sharp
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
-    
-    # Grid lines
+
+    # Grid lines — same as blank_grid
     for i in range(8):
         ax.axvline(i, color='black', linewidth=1.5)
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
-    
-    # Move labels (top)
+
+    # Move headers (top row 0) — same positioning
     for col, label in enumerate(moves, start=1):
-        ax.text(col + 0.5, 0.5, label, ha='center', va='center', fontsize=12.5, fontweight='bold')
-    
-    # Rule labels (left)
+        ax.text(col + 0.5, 0.5, label, ha='center', va='center',
+                fontsize=12.5, fontweight='bold', linespacing=1.2)
+
+    # Rule labels (rows 1–15) — same as blank_grid
     for row, rule in enumerate(rules, start=1):
-        ax.text(0.1, row + 0.5, rule, ha='left', va='center', fontsize=8, linespacing=1.1)
-    
-    # Rule 13 warning (if parasitism proxy high)
+        ax.text(0.1, row + 0.5, rule, ha='left', va='center',
+                fontsize=10.5, linespacing=1.1)
+
+    # Rule 13 parasitism warning (if high)
     if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
-        ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
-    
-    fig.suptitle(title, fontsize=18, y=0.98)  # slightly smaller to fit
-    
-    # Diagnostic text AT TOP (low y after inversion)
-    ax.text(3.5, -1, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}", 
+        ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center',
+                fontsize=15, color='white')
+
+    # Main title — matches blank_grid style
+    fig.suptitle(title, fontsize=21, y=0.96)
+
+    # Diagnostic overlays — placed above the grid (low y after invert_yaxis)
+    ax.text(3.5, 0.8, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}",
             ha='center', va='center', fontsize=14, color='blue', fontweight='bold')
     dom_zone = splatter_percentages.argmax() + 1
-    ax.text(3.5, -2.0, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
+    ax.text(3.5, 0.3, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)",
             ha='center', va='center', fontsize=12, color='darkgreen')
-    
+
+    # Axis limits — exact match to blank_grid
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
     ax.invert_yaxis()
+
     plt.savefig(output, dpi=250, bbox_inches='tight', facecolor='white')
     plt.close()
     
