@@ -72,7 +72,7 @@ def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
     return (X, Y), splatter_percent
 
 def plot_filled_grid(splatter_percentages, coord, title="Eusocial Ant Colony", output="filled_grid.png"):
-    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # smaller size, still sharp
+    fig = plt.figure(figsize=(16, 13), dpi=250)  # smaller size, still sharp
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
 
