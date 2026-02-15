@@ -1,4 +1,4 @@
-
+%%writefile examples/influenza_molecular.csv
 metric,score
 A1 Private property rights,0
 A2 Market allocation vs planning,0
@@ -17,4 +17,21 @@ F2 Error detection & repair,0
 G1 Cheater detection & suppression,0
 G2 Modularity,0
 G3 Info storage centralisation,0
-# (Full 35 — mostly 0, replication rules high)
+H1 Cultural uniformity enforcement,0
+H2 Ideological monopoly,0
+H3 Dissent suppression,0
+I1 Family autonomy,0
+I2 Religious freedom,0
+I3 Artistic expression control,0
+J1 Scientific direction by state,0
+J2 Education indoctrination,0
+J3 Media control,0
+K1 Military allocation priority,0
+K2 International isolationism,0
+K3 External threat narrative,0
+L1 Succession mechanism,0
+L2 Leadership cult,0
+L3 Purge cycles,0
+M1 Demographic policy (natalism),0
+M2 Migration control,0
+M3 Ethnic policy (Russification),0
