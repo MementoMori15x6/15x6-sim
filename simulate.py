@@ -112,10 +112,40 @@ def plot_filled_grid(splatter_percentages, coord, title="Eusocial Ant Colony", o
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
     ax.invert_yaxis()
+    
+def estimate_row_percentages(vector):
+    # Simple mapping: high scores in certain groups → Mutualism %
+    # This is approximate; improve with better clustering later
+    row_dominance = []
+    for r in range(15):
+        if r < 5:  # replication rows ~ C metrics
+            mut = 80 + (vector[5:8].mean() / 10) * 20  # C1-C3
+        elif r < 8:  # resource/defense ~ F
+            mut = 70 + (vector[12:14].mean() / 10) * 20  # F1-F2
+        elif r == 12:  # cheater suppression ~ G
+            mut = 60 + (vector[14:17].mean() / 10) * 30  # G1-G3
+        else:
+            mut = 50 + (vector[17:].mean() / 10) * 20   # general
+        mut = min(max(mut, 0), 100)
+        row_dominance.append({'Mutualism': mut, 'Neutralism': 100 - mut})  # simple 2-move for now
+    return row_dominance
 
     plt.savefig(output, dpi=250, bbox_inches='tight', facecolor='white')
     plt.close()
-    
+        # Estimate row percentages
+    row_pcts = estimate_row_percentages(vector)  # pass vector or make global
+
+    # Fill cells with % and color (example: green for Mutualism >50%)
+    for row in range(15):
+        for col in range(6):
+            x = col + 0.5
+            y = row + 1.5
+            pct = row_pcts[row].get(moves[col].split('\n')[0], 0)  # e.g. 'Mutualism'
+            if pct > 0:
+                color = '#CCFFCC' if pct > 50 and col == 0 else 'white'  # green for Mutualism
+                ax.add_patch(plt.Rectangle((col, row+1), 1, 1, facecolor=color, alpha=0.4, zorder=0))
+                ax.text(x, y, f"{pct:.0f}%", ha='center', va='center', fontsize=9)
+                
 if __name__ == "__main__":
     vector = load_metrics("examples/eusocial_ant_colony.csv")
     coord, splatter = compute_coordinates(vector)
