@@ -71,80 +71,48 @@ def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
     
     return (X, Y), splatter_percent
 
-def plot_filled_grid(splatter_percentages, coord, title="Eusocial Ant Colony", output="filled_grid.png"):
-    fig = plt.figure(figsize=(16, 13), dpi=250)  # smaller size, still sharp
+def plot_filled_grid(splatter_percentages, coord, title="15×6 Master Grid", output="filled_grid.png"):
+    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # scaled down from 16x13
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
 
-    # Grid lines — same as blank_grid
+    # Grid lines — exact match
     for i in range(8):
         ax.axvline(i, color='black', linewidth=1.5)
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
 
-    # Move headers (top row 0) — same positioning
+    # Move headers — exact match
     for col, label in enumerate(moves, start=1):
         ax.text(col + 0.5, 0.5, label, ha='center', va='center',
                 fontsize=12.5, fontweight='bold', linespacing=1.2)
 
-    # Rule labels (rows 1–15) — same as blank_grid
+    # Rule labels — exact match
     for row, rule in enumerate(rules, start=1):
         ax.text(0.1, row + 0.5, rule, ha='left', va='center',
                 fontsize=10.5, linespacing=1.1)
 
-    # Rule 13 parasitism warning (if high)
+    # Title — exact match, scaled fontsize
+    fig.suptitle(title, fontsize=18, y=0.96)
+
+    # Compass diagnostics at top (low y after invert_yaxis, no overlap)
+    ax.text(3.5, 0.8, f"X: {coord[0]:.2f}  Y: {coord[1]:.2f}", 
+            ha='center', va='center', fontsize=12, color='blue', fontweight='bold')
+    dom_zone = splatter_percentages.argmax() + 1
+    ax.text(3.5, 0.3, f"Dominant Zone: {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
+            ha='center', va='center', fontsize=10, color='darkgreen')
+
+    # Rule 13 warning if needed
     if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
-        ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center',
-                fontsize=15, color='white')
+        ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
 
-    # Main title — matches blank_grid style
-    fig.suptitle(title, fontsize=21, y=0.96)
-
-    # Diagnostic overlays — placed above the grid (low y after invert_yaxis)
-    ax.text(3.5, 0.8, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}",
-            ha='center', va='center', fontsize=14, color='blue', fontweight='bold')
-    dom_zone = splatter_percentages.argmax() + 1
-    ax.text(3.5, 0.3, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)",
-            ha='center', va='center', fontsize=12, color='darkgreen')
-
-    # Axis limits — exact match to blank_grid
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
     ax.invert_yaxis()
-    
-def estimate_row_percentages(vector):
-    # Simple mapping: high scores in certain groups → Mutualism %
-    # This is approximate; improve with better clustering later
-    row_dominance = []
-    for r in range(15):
-        if r < 5:  # replication rows ~ C metrics
-            mut = 80 + (vector[5:8].mean() / 10) * 20  # C1-C3
-        elif r < 8:  # resource/defense ~ F
-            mut = 70 + (vector[12:14].mean() / 10) * 20  # F1-F2
-        elif r == 12:  # cheater suppression ~ G
-            mut = 60 + (vector[14:17].mean() / 10) * 30  # G1-G3
-        else:
-            mut = 50 + (vector[17:].mean() / 10) * 20   # general
-        mut = min(max(mut, 0), 100)
-        row_dominance.append({'Mutualism': mut, 'Neutralism': 100 - mut})  # simple 2-move for now
-    return row_dominance
 
     plt.savefig(output, dpi=250, bbox_inches='tight', facecolor='white')
     plt.close()
-        # Estimate row percentages
-    row_pcts = estimate_row_percentages(vector)  # pass vector or make global
-
-    # Fill cells with % and color (example: green for Mutualism >50%)
-    for row in range(15):
-        for col in range(6):
-            x = col + 0.5
-            y = row + 1.5
-            pct = row_pcts[row].get(moves[col].split('\n')[0], 0)  # e.g. 'Mutualism'
-            if pct > 0:
-                color = '#CCFFCC' if pct > 50 and col == 0 else 'white'  # green for Mutualism
-                ax.add_patch(plt.Rectangle((col, row+1), 1, 1, facecolor=color, alpha=0.4, zorder=0))
-                ax.text(x, y, f"{pct:.0f}%", ha='center', va='center', fontsize=9)
                 
 if __name__ == "__main__":
     vector = load_metrics("examples/eusocial_ant_colony.csv")
