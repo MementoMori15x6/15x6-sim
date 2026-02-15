@@ -88,7 +88,7 @@ def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", out
     
     # Rule labels (left)
     for row, rule in enumerate(rules, start=1):
-        ax.text(0.1, row + 0.5, rule, ha='left', va='center', fontsize=10.5, linespacing=1.1)
+        ax.text(0.1, row + 0.5, rule, ha='left', va='center', fontsize=8, linespacing=1.1)
     
     # Rule 13 warning (if parasitism proxy high)
     if splatter_percentages[8] > 30:
@@ -98,10 +98,10 @@ def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", out
     fig.suptitle(title, fontsize=18, y=0.98)  # slightly smaller to fit
     
     # Diagnostic text AT TOP (low y after inversion)
-    ax.text(3.5, 1.2, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}", 
+    ax.text(3.5, -1, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}", 
             ha='center', va='center', fontsize=14, color='blue', fontweight='bold')
     dom_zone = splatter_percentages.argmax() + 1
-    ax.text(3.5, 0.6, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
+    ax.text(3.5, -2.0, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
             ha='center', va='center', fontsize=12, color='darkgreen')
     
     ax.set_xlim(0, 7)
