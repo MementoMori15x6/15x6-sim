@@ -82,27 +82,27 @@ def plot_filled_grid(splatter_percentages, coord, title="Eusocial Ant Colony", o
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
 
-    # Move headers (top row 0)
+    # Move headers (top)
     for col, label in enumerate(moves, start=1):
         ax.text(col + 0.5, 0.5, label, ha='center', va='center',
-                fontsize=11, fontweight='bold', linespacing=1.1)  # smaller fontsize to reduce crowding
+                fontsize=11, fontweight='bold', linespacing=1.1)
 
-    # Rule labels (left, shifted further left, tighter spacing)
+    # Rule labels (left, shifted to prevent bleed)
     for row, rule in enumerate(rules, start=1):
         ax.text(0.05, row + 0.5, rule, ha='left', va='center',
-                fontsize=9.5, linespacing=1.0)  # reduced fontsize & spacing to prevent bleed
+                fontsize=9.5, linespacing=1.0)
 
     # Rule 13 warning
     if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
         ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
 
-    # Title
     fig.suptitle(title, fontsize=18, y=0.96)
 
-    # Diagnostics at TOP (lower y after inversion, shifted left to avoid Parasitism column)
+    # Diagnostics at top (low y, shifted left)
     ax.text(2.0, 1.0, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}",
             ha='left', va='center', fontsize=12, color='blue', fontweight='bold')
+    
     dom_zone = splatter_percentages.argmax() + 1
     ax.text(2.0, 0.5, f"Dominant Zone: {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)",
             ha='left', va='center', fontsize=10, color='darkgreen')
