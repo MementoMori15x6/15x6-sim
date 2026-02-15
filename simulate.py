@@ -34,43 +34,65 @@ moves = [
 
 def load_metrics(csv_path):
     df = pd.read_csv(csv_path)
-    return df['score'].values.astype(float)
+    # Handle both bare "A1,0" and descriptive "A1 Private property rights,0"
+    if 'score' in df.columns:
+        return df['score'].values.astype(float)
+    else:
+        # Assume second column is scores if no header named 'score'
+        return df.iloc[:, 1].values.astype(float)
 
-def compute_coordinates(vector):
-    # Non-linear penalty for extremes
+def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
+    if len(vector) != 35:
+        raise ValueError("Expected exactly 35 metric scores")
+    
+    # Optional: non-linear penalty for extreme scores (>|8|)
     extreme = np.abs(vector) > 8
     penalty = extreme * (np.abs(vector) - 8) ** 2 * 0.5
     adjusted = vector + np.sign(vector) * penalty
-
-    # Weighted split: first 18 economic X, last 17 governance Y with amplification
-    X = np.mean(adjusted[:18]) / 10 * 1.2
-    Y = np.mean(adjusted[18:]) / 10 * 3.0
-
+    
+    # Split: first 18 → X (economic/replication), last 17 → Y (governance/cultural)
+    x_raw = np.mean(adjusted[:18])
+    y_raw = np.mean(adjusted[18:])
+    
+    X = (x_raw / 10) * x_extra_weight
+    Y = (y_raw / 10) * y_multiplier
+    
     point_2d = np.array([X, Y])
-
-    # Extreme splatter concentration — power 10 for very sharp peak
+    
+    # Splatter: inverse distance^10 for sharp concentration
     distances = np.array([euclidean(point_2d, centre) for centre in fixed_centres])
-    distances = np.maximum(distances, 1e-8)
+    distances = np.maximum(distances, 1e-8)  # avoid div-by-zero
     inv_dist = 1 / (distances ** 10)
     weights = inv_dist / inv_dist.sum()
-    coord = np.average(fixed_centres, axis=0, weights=weights)
-    return coord, weights * 100
+    splatter_percent = weights * 100
+    
+    # Debug prints (comment out when happy)
+    print(f"Raw X mean (first 18): {x_raw:.3f} → scaled X: {X:.3f}")
+    print(f"Raw Y mean (last 17): {y_raw:.3f} → scaled Y: {Y:.3f}")
+    
+    return (X, Y), splatter_percent
 
 def plot_filled_grid(splatter_percentages, title="Filled 15×6 Grid", output="filled_grid.png"):
     fig = plt.figure(figsize=(16, 13), dpi=300)
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
+    
     for i in range(8):
         ax.axvline(i, color='black', linewidth=1.5)
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
+    
     for col, label in enumerate(moves, start=1):
         ax.text(col + 0.5, 0.5, label, ha='center', va='center', fontsize=12.5, fontweight='bold')
+    
     for row, rule in enumerate(rules, start=1):
         ax.text(0.1, row + 0.5, rule, ha='left', va='center', fontsize=10.5, linespacing=1.1)
+    
+    # Highlight high Rule 13 parasitism warning (Zone 9 index=8)
     if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
         ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
+    
     fig.suptitle(title, fontsize=21, y=0.96)
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
@@ -79,8 +101,11 @@ def plot_filled_grid(splatter_percentages, title="Filled 15×6 Grid", output="fi
     plt.close()
 
 if __name__ == "__main__":
-    vector = load_metrics("examples/ussr_1917_1928_max_extremism.csv")
-    coord, splatter = compute_coordinates(vector)
-    print(f"1917–1928 Seeding X,Y: {coord[0]:.2f}, {coord[1]:.2f}")
+    # Example: run on ants
+    vector = load_metrics("examples/eusocial_ant_colony.csv")
+    coord, splatter = compute_coordinates(vector)  # defaults: y_multiplier=3.0, x_extra_weight=1.2
+    
+    print(f"Ant Colony X,Y: {coord[0]:.2f}, {coord[1]:.2f}")
     print(f"Top zone splatter: {splatter.max():.1f}% in zone {splatter.argmax()+1}")
-    plot_filled_grid(splatter, title="USSR 1917–1928 Seeding")
+    
+    plot_filled_grid(splatter, title="Eusocial Ant Colony")
