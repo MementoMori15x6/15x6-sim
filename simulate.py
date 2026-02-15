@@ -71,41 +71,41 @@ def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
     
     return (X, Y), splatter_percent
 
-def plot_filled_grid(splatter_percentages, coord, title="15×6 Master Grid", output="filled_grid.png"):
-    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # scaled down from 16x13
+def plot_filled_grid(splatter_percentages, coord, title="Eusocial Ant Colony", output="filled_grid.png"):
+    fig = plt.figure(figsize=(12, 9.75), dpi=250)
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
 
-    # Grid lines — exact match
+    # Grid lines
     for i in range(8):
         ax.axvline(i, color='black', linewidth=1.5)
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
 
-    # Move headers — exact match
+    # Move headers (top row 0)
     for col, label in enumerate(moves, start=1):
         ax.text(col + 0.5, 0.5, label, ha='center', va='center',
-                fontsize=12.5, fontweight='bold', linespacing=1.2)
+                fontsize=11, fontweight='bold', linespacing=1.1)  # smaller fontsize to reduce crowding
 
-    # Rule labels — exact match
+    # Rule labels (left, shifted further left, tighter spacing)
     for row, rule in enumerate(rules, start=1):
-        ax.text(0.1, row + 0.5, rule, ha='left', va='center',
-                fontsize=10.5, linespacing=1.1)
+        ax.text(0.05, row + 0.5, rule, ha='left', va='center',
+                fontsize=9.5, linespacing=1.0)  # reduced fontsize & spacing to prevent bleed
 
-    # Title — exact match, scaled fontsize
-    fig.suptitle(title, fontsize=18, y=0.96)
-
-    # Compass diagnostics at top (low y after invert_yaxis, no overlap)
-    ax.text(3.5, 0.8, f"X: {coord[0]:.2f}  Y: {coord[1]:.2f}", 
-            ha='center', va='center', fontsize=12, color='blue', fontweight='bold')
-    dom_zone = splatter_percentages.argmax() + 1
-    ax.text(3.5, 0.3, f"Dominant Zone: {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
-            ha='center', va='center', fontsize=10, color='darkgreen')
-
-    # Rule 13 warning if needed
+    # Rule 13 warning
     if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
         ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
+
+    # Title
+    fig.suptitle(title, fontsize=18, y=0.96)
+
+    # Diagnostics at TOP (lower y after inversion, shifted left to avoid Parasitism column)
+    ax.text(2.0, 1.0, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}",
+            ha='left', va='center', fontsize=12, color='blue', fontweight='bold')
+    dom_zone = splatter_percentages.argmax() + 1
+    ax.text(2.0, 0.5, f"Dominant Zone: {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)",
+            ha='left', va='center', fontsize=10, color='darkgreen')
 
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
