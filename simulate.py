@@ -72,7 +72,7 @@ def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
     
     return (X, Y), splatter_percent
 
-def plot_filled_grid(splatter_percentages, title="Filled 15×6 Grid", output="filled_grid.png"):
+def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", output="filled_grid.png"):
     fig = plt.figure(figsize=(16, 13), dpi=300)
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
@@ -94,6 +94,10 @@ def plot_filled_grid(splatter_percentages, title="Filled 15×6 Grid", output="fi
         ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
     
     fig.suptitle(title, fontsize=21, y=0.96)
+    # Diagnostic text overlay
+ax.text(3.5, 15.5, f"X: {coord[0]:.2f}  Y: {coord[1]:.2f}", ha='center', va='center', fontsize=14, color='blue')
+dom_zone = splatter_percentages.argmax() + 1
+ax.text(3.5, 15.0, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", ha='center', va='center', fontsize=12, color='darkgreen')
     ax.set_xlim(0, 7)
     ax.set_ylim(0, 16)
     ax.invert_yaxis()
