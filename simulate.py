@@ -72,32 +72,36 @@ def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
     return (X, Y), splatter_percent
 
 def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", output="filled_grid.png"):
-    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # smaller, still sharp
+    fig = plt.figure(figsize=(12, 9.75), dpi=250)  # smaller size
     ax = fig.add_axes([0.04, 0.09, 0.92, 0.80])
     ax.axis('off')
     
+    # Grid lines
     for i in range(8):
         ax.axvline(i, color='black', linewidth=1.5)
     for i in range(17):
         ax.axhline(i, color='black', linewidth=1.5)
     
+    # Move labels (top)
     for col, label in enumerate(moves, start=1):
         ax.text(col + 0.5, 0.5, label, ha='center', va='center', fontsize=12.5, fontweight='bold')
     
+    # Rule labels (left)
     for row, rule in enumerate(rules, start=1):
         ax.text(0.1, row + 0.5, rule, ha='left', va='center', fontsize=10.5, linespacing=1.1)
     
-    if splatter_percentages[8] > 30:  # Zone 9 index=8
+    # Rule 13 warning (if parasitism proxy high)
+    if splatter_percentages[8] > 30:
         ax.add_patch(Rectangle((3, 13), 1, 1, facecolor="#E74C3C", alpha=0.92))
         ax.text(3.5, 13.5, f"{splatter_percentages[8]:.0f}%", ha='center', va='center', fontsize=15, color='white')
     
-    fig.suptitle(title, fontsize=18, y=0.98)  # slightly smaller title to fit
+    fig.suptitle(title, fontsize=18, y=0.98)  # slightly smaller to fit
     
-      # Diagnostic text at TOP (above row 1, using low y values after invert)
-    ax.text(3.5, 0.8, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}", 
+    # Diagnostic text AT TOP (low y after inversion)
+    ax.text(3.5, 1.2, f"X: {coord[0]:.2f}   Y: {coord[1]:.2f}", 
             ha='center', va='center', fontsize=14, color='blue', fontweight='bold')
     dom_zone = splatter_percentages.argmax() + 1
-    ax.text(3.5, 0.4, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
+    ax.text(3.5, 0.6, f"Dominant: Zone {dom_zone} ({splatter_percentages[dom_zone-1]:.1f}%)", 
             ha='center', va='center', fontsize=12, color='darkgreen')
     
     ax.set_xlim(0, 7)
@@ -105,7 +109,7 @@ def plot_filled_grid(splatter_percentages, coord, title="Filled 15×6 Grid", out
     ax.invert_yaxis()
     plt.savefig(output, dpi=250, bbox_inches='tight', facecolor='white')
     plt.close()
-
+    
 if __name__ == "__main__":
     vector = load_metrics("examples/eusocial_ant_colony.csv")
     coord, splatter = compute_coordinates(vector)
