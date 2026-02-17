@@ -5,7 +5,14 @@ Toy v0.1: text-first baseline output (X/Y coordinates, dominant zone, Rule-13 pa
 Quick Start in Colab:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/quick_start.ipynb)
 
-Or locally:
+Or locally: git clone https://github.com/MementoMori15x6/15x6-sim.git
+cd 15x6-sim
+pip install -r requirements.txt
+python simulate.py examples/eusocial_ant_colony.csv
+
+For nuanced scoring: prompt 2–4 LLMs with the evidence packet + protocol → average grids for convergence.
+
+See quick_start.ipynb for examples.
 
 # 15×6 Simulation Script
 
