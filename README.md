@@ -73,4 +73,25 @@ The toy simulator (`simulate.py` v0.1) is a deterministic baseline: it processes
 
 This section complements the Governance Amplification note and invites collaboration on calibration.
 
+### Raw 35-Metric CSV Input (Recommended for Accurate Diagnostics)
+
+The simulator reads a CSV with **35 columns** (one per metric from Chapter 2 compass protocol). Each row is a replicator case (or time slice); values are raw scores (e.g., 0–10 Likert-like or 0–100 normalized evidence scale).
+
+- Columns 1–17: Adaptation/structural metrics
+- Columns 18–35: Governance/cultural metrics (amplified ×2.5 by default)
+
+No row normalization required—the protocol aggregates to X/Y coordinates directly.
+
+**Template CSV Header** (use blank_35metric.csv or generate via extension of blank_grid.py):
+Metric1,Metric2,...,Metric35
+[case_name or empty],value1,value2,...,value35
+
+**How to Create Scores**
+- Use the 35-metric protocol: Map public evidence to each metric (e.g., inequality Gini → specific metric; trust polls → cultural metric).
+- For quick starts: Prompt LLMs with "Score [system] on the 35-metric compass using public sources. Output as CSV with 35 columns of 0–10 raw scores, cite 1–2 sources per metric."
+- Average 2–3 LLM runs for convergence.
+- Save as e.g., examples/united_states_west_1971-2025.csv
+
+This raw format preserves signal strength and allows precise entropy modeling—preferred for research forks. For simple 15×6 % grids (if desired), use LLM to convert raw → row-normalized percentages post-scoring.
+
 Memento mori. 🚀
