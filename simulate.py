@@ -17,19 +17,24 @@ def load_metrics(csv_path):
         return df.iloc[:, -1].astype(float).values
     raise ValueError("CSV format not recognized")
 
-def compute_coordinates(vector, y_multiplier=3.0, x_extra_weight=1.2):
+def compute_coordinates(vector, y_multiplier=6.5, x_extra_weight=1.0):
     if len(vector) != 35:
         raise ValueError("Expected 35 metrics")
     
-    extreme = np.abs(vector) > 8
-    penalty = extreme * (np.abs(vector) - 8) ** 2 * 0.5
-    adjusted = vector + np.sign(vector) * penalty
+    extreme_pos = vector > 8
+    extreme_neg = vector < -8
+    penalty_pos = extreme_pos * (vector - 8) ** 2 * 0.8
+    penalty_neg = extreme_neg * (vector + 8) ** 2 * 0.8
+    adjusted = vector + penalty_pos + penalty_neg
     
     x_raw = np.mean(adjusted[:18])
     y_raw = np.mean(adjusted[18:])
     
+    suppression_boost = (vector[14] + vector[16]) / 20 * 5.5
+    central_boost = vector[15] / 10 * 3.0
+    Y = (y_raw / 10) * y_multiplier + suppression_boost + central_boost
+    
     X = (x_raw / 10) * x_extra_weight
-    Y = (y_raw / 10) * y_multiplier
     
     point_2d = np.array([X, Y])
     
@@ -60,17 +65,17 @@ def text_summary(vector, case_name="Unknown Case"):
     print("\nRow dominance (heuristic):")
     for r in range(15):
         if r < 5:
-            pct = 80 + (vector[5:8].mean() / 10 * 15) if len(vector) > 8 else 70
-            dom = "Mutualism"
+            pct = 70 + (vector[5:8].mean() / 10 * 20) if len(vector) > 8 else 50
+            dom = "Parasitism" if vector[5:8].mean() < 0 else "Mutualism"
         elif r < 8:
-            pct = 70 + (vector[9] / 10 * 20) if len(vector) > 9 else 70
-            dom = "Mutualism"
+            pct = 70 + (vector[9] / 10 * 20) if len(vector) > 9 else 50
+            dom = "Parasitism" if vector[9] > 5 else "Mutualism"
         elif r == 12:
-            pct = 80 if g_mean < 2 else 40
-            dom = "Mutualism" if g_mean < 2 else "Parasitism"
+            pct = 80 if g_mean > 5 else 40
+            dom = "Mutualism" if g_mean > 5 else "Parasitism"
         else:
-            pct = 60
-            dom = "Neutralism"
+            pct = 70 if vector[16] > 5 else 60
+            dom = "Mutualism" if vector[16] > 5 else "Neutralism"
         pct = round(min(max(pct, 0), 100))
         print(f"  Row {r+1}: ~{pct}% {dom}")
 
