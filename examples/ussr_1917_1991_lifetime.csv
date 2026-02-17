@@ -1,37 +1,15 @@
-# USSR 1917–1991 Lifetime Average — full period (including thaw/stagnation)
-metric,score
-A1 Private property rights,-9
-A2 Market allocation vs planning,-9
-A3 Profit motive & entrepreneurship,-9
-B1 Progressive taxation & redistribution,+8
-B2 Welfare state / universal services,+7
-C1 Heredity fidelity,-5
-C2 Heritable variation,-7
-C3 Differential persistence,-6
-D1 Host exploitation (parasitism),+7
-D2 Resource competition,+5
-E1 Individual survival until replication,-4
-E2 Niche construction,+4
-F1 Boundary maintenance,+8
-F2 Error detection & repair,-8
-G1 Cheater detection & suppression,+9
-G2 Modularity,-5
-G3 Info storage centralisation,+8
-H1 Cultural uniformity enforcement,+8
-H2 Ideological monopoly,+9
-H3 Dissent suppression,+8
-I1 Family autonomy,-8
-I2 Religious freedom,-8
-I3 Artistic expression control,+8
-J1 Scientific direction by state,+7
-J2 Education indoctrination,+8
-J3 Media control,+9
-K1 Military allocation priority,+7
-K2 International isolationism,+5
-K3 External threat narrative,+8
-L1 Succession mechanism,-7
-L2 Leadership cult,+9
-L3 Purge cycles,+8
-M1 Demographic policy (natalism),+6
-M2 Migration control,+7
-M3 Ethnic policy (Russification),+5
+1,25,15,20,30,5,5
+2,20,20,25,25,5,5
+3,15,25,30,20,5,5
+4,30,10,25,25,5,5
+5,25,15,20,30,5,5
+6,40,10,15,30,3,2
+7,35,15,10,35,3,2
+8,38,12,12,33,3,2
+9,30,20,15,25,5,5
+10,25,25,20,20,5,5
+11,20,20,30,20,5,5
+12,25,15,25,25,5,5
+13,20,15,35,20,5,5   
+14,30,10,25,25,5,5
+15,35,10,15,30,5,5
