@@ -1,3 +1,12 @@
+# 15×6 Simulator – Replicator Thermodynamic Scorecard
+
+Toy v0.1: text-first baseline output (X/Y coordinates, dominant zone, Rule-13 parasitism proxy, simple row heuristic).
+
+Quick Start in Colab:
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/quick_start.ipynb)
+
+Or locally:
+
 # 15×6 Simulation Script
 
 Reproducible Python tools for the 15×6 Master Grid proposed in “The Board – Political Thermodynamics”.
