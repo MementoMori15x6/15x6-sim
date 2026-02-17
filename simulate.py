@@ -1,3 +1,4 @@
+%%writefile simulate.py
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import euclidean
@@ -21,15 +22,17 @@ def compute_coordinates(vector, y_multiplier=6.5, x_extra_weight=1.0):
     if len(vector) != 35:
         raise ValueError("Expected 35 metrics")
     
+    # Boost extremes: positives push right (exploitation), negatives push right (failure = parasitism)
     extreme_pos = vector > 8
     extreme_neg = vector < -8
     penalty_pos = extreme_pos * (vector - 8) ** 2 * 0.8
-    penalty_neg = extreme_neg * (vector + 8) ** 2 * 0.8
+    penalty_neg = extreme_neg * (vector + 8) ** 2 * 0.8  # negative → right (failure = exploitation)
     adjusted = vector + penalty_pos + penalty_neg
     
     x_raw = np.mean(adjusted[:18])
     y_raw = np.mean(adjusted[18:])
     
+    # Strong suppression boost for Y (G1 + G3)
     suppression_boost = (vector[14] + vector[16]) / 20 * 5.5
     central_boost = vector[15] / 10 * 3.0
     Y = (y_raw / 10) * y_multiplier + suppression_boost + central_boost
