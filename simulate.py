@@ -74,7 +74,6 @@ def text_summary(vector, case_name="Unknown Case"):
         pct = round(min(max(pct, 0), 100))
         print(f"  Row {r+1}: ~{pct}% {dom}")
 
-# Command line usage (optional)
 if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:
