@@ -60,7 +60,7 @@ Once you have the 35 scores:
 - **Longevity placeholder** → 100 / (1 + proxy/100) × (1 + mutualism/competition avg) → <100 years = short window
 
 **Submit your scored CSV**
-- Drop your CSV and note in the public [submissions/ folder](https://github.com/MementoMori15x6/15x6-sim/tree/main/submissions) — no PR needed.
+- Drop your CSV and note in the public [submissions/ upload_folder](https://github.com/MementoMori15x6/15x6-sim/tree/main/submissions) — no PR needed.
 - Include in your commit message: system name, time window, sources, any adjustments.
 - Curated submissions may be reviewed, cleaned, and moved to /ledger/ for the master ledger.
 
