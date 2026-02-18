@@ -3,14 +3,8 @@
 This guide is for users who want to score polities, movements, corporations, historical periods, or other replicating systems **using only large language models (LLMs)** — no coding, no Colab, no local install required.
 
 The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs are the fastest way to do this — they synthesize sources and output parseable scores.
-
-## Why LLM-first?
-- Instant: minutes per scoring run
-- Flexible: deeper insight and weighting than the deterministic toy simulator
-- Accessible: no technical setup — just paste a prompt into Grok, Claude, Gemini, etc.
-- Complementary: results can be manually interpreted or later piped to the toy for baseline curves
-- 
-## LLM Workflow for 35-Metric Scoring (Primary Method for Most Users)
+ 
+## LLM Workflow (Primary Method for Most Users)
 
 For quick polity, movement, corporation, or historical scoring, use a frontier LLM — no coding, no Colab, no local install required.
 
@@ -19,20 +13,11 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 **Recommended LLMs** (all perform well; use 2–3 for convergence)
 - **Grok** — strong on real-time evidence and thermodynamic framing
 - **Claude** — excellent detail, source citation, and caution around sensitive topics
-- **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores; has coined useful concepts like "phase-space topology for replicators" in our tests
+- **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores
 - **Gemini** — solid on data-heavy queries and cross-referencing
 
 ### Step-by-Step Prompt Template (copy-paste ready)
 
-Use this exact prompt in a new chat/thread for best results:
-
-## Step-by-Step LLM Scoring Workflow
-
-### 1. Choose an LLM
-Any frontier model works well:
-- Grok (free tier sufficient for most runs)
-- Claude (strong on evidence synthesis)
-- Gemini (good for source citation)
 - Run the same prompt on 2–3 models and average for best convergence
 
 ### 2. Use This Exact Prompt Template
