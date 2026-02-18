@@ -14,7 +14,7 @@ The project is a microscope for diagnosing health in far-from-equilibrium replic
 3. Try an example: `!python simulate.py examples/united_states_west_1971-2025.csv`
 
 ### Locally
-```bash
+
 git clone https://github.com/MementoMori15x6/15x6-sim.git
 cd 15x6-sim
 pip install -r requirements.txt
