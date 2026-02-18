@@ -45,10 +45,11 @@ Score a generic eusocial ant colony as a biological replicator (timeless window)
 This helps the model understand you're measuring thermodynamic entropy dynamics (not narratives or ideology). Once it responds cleanly, copy the prompt style back to your polity target in the same thread or a follow-up.
 
 ### 3. Run & Average
-- Run the prompt 2–3 times on the same LLM, or once on 2–3 different models.
-- Copy the 35-number rows.
+
+- Copy the 35-number rows outputs from multiple LLM sources.
 - Average them (simple mean per column, round to nearest integer).  
   Quick Colab trick (optional): paste rows into a spreadsheet → average columns → export as CSV.
+  *or just get one of the LLMs to average all inputs.
 
 ### 4. Interpret the Output
 Once you have the 35 scores:
