@@ -1,15 +1,2 @@
-1,25,15,20,30,5,5
-2,20,20,25,25,5,5
-3,15,25,30,20,5,5
-4,30,10,25,25,5,5
-5,25,15,20,30,5,5
-6,40,10,15,30,3,2
-7,35,15,10,35,3,2
-8,38,12,12,33,3,2
-9,30,20,15,25,5,5
-10,25,25,20,20,5,5
-11,20,20,30,20,5,5
-12,25,15,25,25,5,5
-13,20,15,35,20,5,5   
-14,30,10,25,25,5,5
-15,35,10,15,30,5,5
+Metric1,Metric2,Metric3,Metric4,Metric5,Metric6,Metric7,Metric8,Metric9,Metric10,Metric11,Metric12,Metric13,Metric14,Metric15,Metric16,Metric17,Metric18,Metric19,Metric20,Metric21,Metric22,Metric23,Metric24,Metric25,Metric26,Metric27,Metric28,Metric29,Metric30,Metric31,Metric32,Metric33,Metric34,Metric35
+5,6,4,5,4,4,5,4,5,6,4,4,4,4,3,3,3,4,2,3,2,2,2,2,1,1,2,1,2,2,2,1,2,2,1
