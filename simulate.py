@@ -8,14 +8,16 @@ fixed_centres = np.array([
 ])
 
 def load_metrics(csv_path):
-    df = pd.read_csv(csv_path)
-    if 'score' in df.columns:
-        return df['score'].astype(float).values
-    if len(df.columns) >= 2:
-        if not pd.api.types.is_numeric_dtype(df.iloc[:, 1]):
-            df = pd.read_csv(csv_path, skiprows=1)
-        return df.iloc[:, -1].astype(float).values
-    raise ValueError("CSV format not recognized")
+    df = pd.read_csv(csv_path)  # No skiprows - header becomes column names
+    print("Loaded df shape:", df.shape)  # optional debug - remove later if desired
+    print(df.head())                     # optional debug
+    if df.shape[0] == 0:
+        raise ValueError("No data rows found in CSV")
+    vector = df.iloc[0].values.astype(float)  # Take first (and only) data row
+    print("Extracted vector length:", len(vector))  # optional debug
+    if len(vector) != 35:
+        raise ValueError(f"Expected 35 metrics, got {len(vector)}")
+    return vector
 
 def compute_coordinates(vector, y_multiplier=6.5, x_extra_weight=1.0):
     if len(vector) != 35:
