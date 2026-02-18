@@ -27,7 +27,7 @@ Use cases
 R&D / builders: fork and extend (add noise, ML modulators, custom entropy decay)
 Community testing: generate 35-metric CSVs via LLM prompts, pipe to toy for baseline projections
 
-Known Limitations
+#Known Limitations
 
 Deterministic curves only — flat baselines or spikes; no probabilistic noise or real-world variability.
 Placeholder longevity estimate — simple heuristic (base 100 years modulated by parasitism proxy and mutualism/competition average); not empirically validated, ±20% ranges only.
@@ -48,7 +48,7 @@ Example (USA 1971–present):
 textMetric1,Metric2,Metric3,...,Metric35
 8,7,7,7,8,7,7,7,8,7,7,8,7,8,8,6,7,3,2,4,3,2,2,3,3,2,3,3,4,4,2,3,1,3,3
 ```
-Current Calibration (v1 – February 2026)
+#Current Calibration (v1 – February 2026)
 Tuned on canonical cases to expose political fragility while preserving biological persistence.
 Key parameters
 
@@ -58,12 +58,11 @@ Adaptation penalty on X: max(0, (mean(metrics 1–17) - 6.0) / 2.0)
 Rule-13 proxy: max(0, 50 - (mean(metrics 18–35) / 10 * 50))
 Longevity placeholder: 100 / (1 + proxy/100) * (1 + mutual_comp_avg), ±20% ranges
 
-Batch output example (5 canonical replicators)
+#Batch output example (5 canonical replicators)
 
-ReplicatorXYDominant ZoneRule-13 ProxyLongevity RangeEusocial Ant Colony0.490.8610 (98.8%)~45%~77–144 yearsInfluenza Molecular0.00-0.753 (72.5%)~50%~46–86 yearsModern North Korea0.00-0.753 (72.5%)~50%~46–86 yearsUSSR 1917-19910.430.5010 (78.5%)~41%~72–134 yearsUnited States West 1971-2025-0.161.729 (46.1%)~36%~88–165 years
 
-ReplicatorXYDominant ZoneRule-13 ProxyLongevity RangeEusocial Ant Colony0.490.8610 (98.8%)~45%~77–144 yearsInfluenza Molecular0.00-0.753 (72.5%)~50%~46–86 yearsModern North Korea0.00-0.753 (72.5%)~50%~46–86 yearsUSSR 1917-19910.430.5010 (78.5%)~41%~72–134 yearsUnited States West 1971-2025-0.161.729 (46.1%)~36%~88–165 years
-Interpretation keys
+
+#Interpretation keys
 
 Zone 1–4: Parasitic fringe dominant → high collapse risk
 Zone 8–10: Mutualistic/competitive core dominant → persistence / health
@@ -71,7 +70,7 @@ Rule-13 proxy >30–35%: Cheater suppression failure signal
 Longevity <100 years: Short window (collapse imminent)
 Longevity >150 years: Extended stability (with error bars)
 
-Recommended Workflows
+#Recommended Workflows
 Quick polity test (most users)
 Use an LLM (Grok, Claude, Gemini) with the 35-metric prompt guide. Average outputs, save as CSV, interpret zones/proxy/longevity manually or pipe to toy.
 Advanced / reproducible testing
@@ -80,7 +79,7 @@ Generate 35-metric CSV via LLM ensemble
 Run python simulate.py your_file.csv
 Compare to priors and submit PRs with evidence-backed refinements
 
-Contributing
+#Contributing
 
 Bug fixes, new examples, alternative weighting schemes, visualisation improvements welcome.
 Fork and experiment: add noise, ML modulators, or custom entropy decay.
