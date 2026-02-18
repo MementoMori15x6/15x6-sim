@@ -18,6 +18,40 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 
 ### Step-by-Step Prompt Template (copy-paste ready)
 
+ **Step 0: Anchor to the Canonical 15×6 Grid (Mandatory – No Exceptions)**
+```bash
+**All scoring MUST use the exact 15 base rules as defined in the December 2025 manuscript (Chapter 1 table) and codified in `blank_grid.py`.**  
+Do **not** regenerate, rephrase, expand, or invent alternative rule sets — even if the prompt seems open-ended or a different LLM previously did so. Variability in rule formulation introduces uncontrolled noise and breaks reproducibility across submissions.
+
+Use this fixed list of rows **verbatim**:
+
+1. Replication fidelity  
+2. Energy capture  
+3. Boundary maintenance  
+4. Error correction  
+5. Adaptation mechanisms  
+6. Competition protocols  
+7. Cooperation incentives  
+8. Resource allocation  
+9. Signaling integrity  
+10. Hierarchy formation  
+11. Scalability limits  
+12. Environmental coupling  
+13. Cheater detection & suppression  
+14. Dissipation pathways  
+15. Longevity extensions  
+
+**Procedure:**  
+- Load or reference `blank_grid.py` (or copy the structure from `examples/` templates) as your starting point.  
+- Apply the 35-metric compass protocol (Chapter 2) **directly** to these 15 rows.  
+- Derive interaction signs (+/+/–/0), X,Y coordinates, zone percentages, and Rule-13 parasitism proxy **only** from evidence mapped onto this canonical grid.  
+- If you previously scored a case on a variant board (from another model/session), **re-score it entirely** on this fixed grid before submitting or simulating.  
+
+This anchoring step ensures the 15×6 Master Grid remains a consistent diagnostic instrument across all contributors, models, and time. Refinements to rule wording or structure are welcome **only** via evidence-backed PRs to the repo — never ad-hoc during scoring.
+
+Proceed to Step 1 only after confirming you are working from the canonical rows above.
+```
+
 **1. Use This Exact Prompt Template** for chosen LLM
 
 Copy-paste this into a new chat/thread:
