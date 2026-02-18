@@ -58,12 +58,7 @@ Longevity placeholder: 100 / (1 + proxy/100) * (1 + mutual_comp_avg), ±20% rang
 
 Batch output example (5 canonical replicators)
 
-Replicator,X,Y,Dominant Zone,Rule-13 Proxy,Longevity Range
-Eusocial Ant Colony,0.49,0.86,10 (98.8%),~45%,~77–144 years
-Influenza Molecular,0.00,-0.75,3 (72.5%),~50%,~46–86 years
-Modern North Korea,0.00,-0.75,3 (72.5%),~50%,~46–86 years
-USSR 1917-1991,0.43,0.50,10 (78.5%),~41%,~72–134 years
-United States West 1971-2025,-0.16,1.72,9 (46.1%),~36%,~88–165 years
+ReplicatorXYDominant ZoneRule-13 ProxyLongevity RangeEusocial Ant Colony0.490.8610 (98.8%)~45%~77–144 yearsInfluenza Molecular0.00-0.753 (72.5%)~50%~46–86 yearsModern North Korea0.00-0.753 (72.5%)~50%~46–86 yearsUSSR 1917-19910.430.5010 (78.5%)~41%~72–134 yearsUnited States West 1971-2025-0.161.729 (46.1%)~36%~88–165 years
 
 ReplicatorXYDominant ZoneRule-13 ProxyLongevity RangeEusocial Ant Colony0.490.8610 (98.8%)~45%~77–144 yearsInfluenza Molecular0.00-0.753 (72.5%)~50%~46–86 yearsModern North Korea0.00-0.753 (72.5%)~50%~46–86 yearsUSSR 1917-19910.430.5010 (78.5%)~41%~72–134 yearsUnited States West 1971-2025-0.161.729 (46.1%)~36%~88–165 years
 Interpretation keys
