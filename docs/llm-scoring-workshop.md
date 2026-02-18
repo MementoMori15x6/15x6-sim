@@ -44,14 +44,14 @@ Score a generic eusocial ant colony as a biological replicator (timeless window)
 
 This helps the model understand you're measuring thermodynamic entropy dynamics (not narratives or ideology). Once it responds cleanly, copy the prompt style back to your polity target in the same thread or a follow-up.
 
-### 3. Run & Average
+**3. Run & Average**
 
 - Copy the 35-number rows outputs from multiple LLM sources.
 - Average them (simple mean per column, round to nearest integer).  
   Quick Colab trick (optional): paste rows into a spreadsheet → average columns → export as CSV.
   *or just get one of the LLMs to average all inputs.
 
-### 4. Interpret the Output
+ **4. Interpret the Output**
 Once you have the 35 scores:
 - **X** ≈ average of metrics 1–17 / 10 (adaptation axis)
 - **Y** ≈ average of metrics 18–35 / 10 × 2.5 (governance axis, amplified)
@@ -59,11 +59,10 @@ Once you have the 35 scores:
 - **Dominant zone** → rough map: low Y → Zones 1–4 (parasitic fringe), high Y → Zones 8–10 (mutualistic core)
 - **Longevity placeholder** → 100 / (1 + proxy/100) × (1 + mutualism/competition avg) → <100 years = short window
 
-### 5. Submit to Ledger (optional but encouraged)
-- Save your averaged 35 scores as CSV (add header Metric1–35).
-- Add a short note: time window, sources used, any manual adjustments.
-- Open a PR to https://github.com/MementoMori15x6/15x6-sim/tree/main/ledger with your CSV and note.
-- Community can review/test/refine.
+**Submit your scored CSV**
+- Drop your CSV and note in the public [submissions/ folder](https://github.com/MementoMori15x6/15x6-sim/tree/main/submissions) — no PR needed.
+- Include in your commit message: system name, time window, sources, any adjustments.
+- Curated submissions may be reviewed, cleaned, and moved to /ledger/ for the master ledger.
 
 This workflow is fast, evidence-based, and open to everyone. Start with a polity you know well to calibrate your intuition.
 
