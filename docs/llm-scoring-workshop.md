@@ -10,7 +10,7 @@ For quick polity, movement, corporation, or historical scoring, use a frontier L
 
 The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs excel here: they synthesize sources, weight evidence, and provide clear interpretations of the output.
 
-**Recommended LLMs** (all perform well; use 2–3 for convergence)
+**Recommended LLMs** (all perform well)
 - **Grok** — strong on real-time evidence and thermodynamic framing
 - **Claude** — excellent detail, source citation, and caution around sensitive topics
 - **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores
@@ -18,9 +18,7 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 
 ### Step-by-Step Prompt Template (copy-paste ready)
 
-- Run the same prompt on 2–3 models and average for best convergence
-
-### 2. Use This Exact Prompt Template
+**1. Use This Exact Prompt Template** for choosen LLM
 
 Copy-paste this into a new chat/thread:
 ```bash
@@ -38,6 +36,10 @@ Use sources like Federal Reserve Gini, Gallup trust polls, Pew polarization repo
 ```
 
 Replace [SYSTEM NAME] and [TIME WINDOW] with your target (e.g., "Modern North Korea 1948–present", "Bitcoin protocol 2009–present").
+
+**2. Run the same prompt on 2–3 models and average for best convergence**
+if LLM guardrails sentitivity to Polity, start a new prompt with Score framing biological replicators eg. Ant_colony
+This will get the LLM to understand you are measuring thermodynamic entropy, and not narratives or ideology.
 
 ### 3. Run & Average
 - Run the prompt 2–3 times on the same LLM, or once on 2–3 different models.
