@@ -118,3 +118,4 @@ for example in examples:
     base_name = example.split('/')[-1].replace('.csv', '').replace('_', ' ').title()
     vector = load_metrics(example)
     text_summary(vector, base_name)
+    
