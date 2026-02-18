@@ -19,7 +19,6 @@ git clone https://github.com/MementoMori15x6/15x6-sim.git
 cd 15x6-sim
 pip install -r requirements.txt
 python simulate.py examples/eusocial_ant_colony.csv
-
 Purpose & Limitations
 This toy is a minimal, deterministic scaffold for testing the 15×6 Master Grid and 35-metric compass protocol. It produces flat or spiked curves based on raw inputs — no LLM judgment, no stochastic noise, no adaptive weighting.
 Use cases
@@ -44,9 +43,8 @@ Single data row: 35 comma-separated numbers (0–10 scale, averaged from LLM ens
 No trailing commas, no strings, no extra rows
 
 Example (USA 1971–present):
-Metric1,Metric2,Metric3,...,Metric35
+textMetric1,Metric2,Metric3,...,Metric35
 8,7,7,7,8,7,7,7,8,7,7,8,7,8,8,6,7,3,2,4,3,2,2,3,3,2,3,3,4,4,2,3,1,3,3
-
 Current Calibration (v1 – February 2026)
 Tuned on canonical cases to expose political fragility while preserving biological persistence.
 Key parameters
@@ -58,12 +56,60 @@ Rule-13 proxy: max(0, 50 - (mean(metrics 18–35) / 10 * 50))
 Longevity placeholder: 100 / (1 + proxy/100) * (1 + mutual_comp_avg), ±20% ranges
 
 Batch output example (5 canonical replicators)
-Replicator,X,Y,Dominant Zone,Rule-13 Proxy,Longevity Range
-Eusocial Ant Colony,0.49,0.86,10 (98.8%),~45%,~77–144 years
-Influenza Molecular,0.00,-0.75,3 (72.5%),~50%,~46–86 years
-Modern North Korea,0.00,-0.75,3 (72.5%),~50%,~46–86 years
-USSR 1917-1991,0.43,0.50,10 (78.5%),~41%,~72–134 years
-United States West 1971-2025,-0.16,1.72,9 (46.1%),~36%,~88–165 years
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ReplicatorXYDominant ZoneRule-13 ProxyLongevity RangeEusocial Ant Colony0.490.8610 (98.8%)~45%~77–144 yearsInfluenza Molecular0.00-0.753 (72.5%)~50%~46–86 yearsModern North Korea0.00-0.753 (72.5%)~50%~46–86 yearsUSSR 1917-19910.430.5010 (78.5%)~41%~72–134 yearsUnited States West 1971-2025-0.161.729 (46.1%)~36%~88–165 years
 Interpretation keys
 
 Zone 1–4: Parasitic fringe dominant → high collapse risk
