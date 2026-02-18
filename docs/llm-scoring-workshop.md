@@ -38,8 +38,11 @@ Use sources like Federal Reserve Gini, Gallup trust polls, Pew polarization repo
 Replace [SYSTEM NAME] and [TIME WINDOW] with your target (e.g., "Modern North Korea 1948–present", "Bitcoin protocol 2009–present").
 
 **2. Run the same prompt on 2–3 models and average for best convergence**
-if LLM guardrails sentitivity to Polity, start a new prompt with Score framing biological replicators eg. Ant_colony
-This will get the LLM to understand you are measuring thermodynamic entropy, and not narratives or ideology.
+
+If the LLM shows guardrail sensitivity to polity scoring (e.g., refuses, sanitizes, or moralizes), start a new thread with a biological replicator example first:
+Score a generic eusocial ant colony as a biological replicator (timeless window). Draw from entomology sources (e.g., Hölldobler & Wilson's "The Ants"). Highlight Rows 6–8 mutualism/competition balance for foraging efficiency.
+
+This helps the model understand you're measuring thermodynamic entropy dynamics (not narratives or ideology). Once it responds cleanly, copy the prompt style back to your polity target in the same thread or a follow-up.
 
 ### 3. Run & Average
 - Run the prompt 2–3 times on the same LLM, or once on 2–3 different models.
