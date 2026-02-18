@@ -5,6 +5,7 @@ Toy v1 — deterministic baseline that processes a 35-metric raw CSV to compute 
 The project is a microscope for diagnosing health in far-from-equilibrium replicating systems (RNA → polities). The 15×6 Master Grid and 35-metric compass protocol are proposed tools for reproducibility and open testing.
 
 ## Quick Start
+For LLM-only scoring (no code required): see the [LLM Scoring Workshop Guide](docs/llm-scoring-workshop.md)
 
 ### In Colab (recommended)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/notebooks/quick_start.ipynb)
