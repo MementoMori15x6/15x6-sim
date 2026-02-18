@@ -9,6 +9,22 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 - Flexible: deeper insight and weighting than the deterministic toy simulator
 - Accessible: no technical setup — just paste a prompt into Grok, Claude, Gemini, etc.
 - Complementary: results can be manually interpreted or later piped to the toy for baseline curves
+- 
+## LLM Workflow for 35-Metric Scoring (Primary Method for Most Users)
+
+For quick polity, movement, corporation, or historical scoring, use a frontier LLM — no coding, no Colab, no local install required.
+
+The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs excel here: they synthesize sources, weight evidence, and provide clear interpretations of the output.
+
+**Recommended LLMs** (all perform well; use 2–3 for convergence)
+- **Grok** — strong on real-time evidence and thermodynamic framing
+- **Claude** — excellent detail, source citation, and caution around sensitive topics
+- **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores; has coined useful concepts like "phase-space topology for replicators" in our tests
+- **Gemini** — solid on data-heavy queries and cross-referencing
+
+### Step-by-Step Prompt Template (copy-paste ready)
+
+Use this exact prompt in a new chat/thread for best results:
 
 ## Step-by-Step LLM Scoring Workflow
 
