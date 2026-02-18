@@ -18,7 +18,7 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 
 ### Step-by-Step Prompt Template (copy-paste ready)
 
-**1. Use This Exact Prompt Template** for choosen LLM
+**1. Use This Exact Prompt Template** for chosen LLM
 
 Copy-paste this into a new chat/thread:
 ```bash
@@ -47,10 +47,10 @@ This helps the model understand you're measuring thermodynamic entropy dynamics 
 **3. Run & Average**
 
 - Copy the 35-number rows outputs from multiple LLM sources.
-- Average them (simple mean per column, round to nearest integer).  
+- Average them (simple mean per column, round to nearest integer).   
   Quick Colab trick (optional): paste rows into a spreadsheet → average columns → export as CSV.
-  *or just get one of the LLMs to average all inputs.
-
+  - If averaging manually is tedious, paste the rows into one LLM and ask: “Average these three 35-score rows into one row (mean per column, round to integer): [paste row1] [paste row2] [paste row3]”
+    
  **4. Interpret the Output**
 Once you have the 35 scores:
 - **X** ≈ average of metrics 1–17 / 10 (adaptation axis)
