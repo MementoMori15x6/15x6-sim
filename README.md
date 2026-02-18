@@ -48,7 +48,7 @@ Example (USA 1971–present):
 textMetric1,Metric2,Metric3,...,Metric35
 8,7,7,7,8,7,7,7,8,7,7,8,7,8,8,6,7,3,2,4,3,2,2,3,3,2,3,3,4,4,2,3,1,3,3
 ```
-### Current Calibration (v1 – February 2026)
+ **Current Calibration (v1 – February 2026)**
 Tuned on canonical cases to expose political fragility while preserving biological persistence.
 Key parameters
 
@@ -69,7 +69,7 @@ Longevity placeholder: 100 / (1 + proxy/100) * (1 + mutual_comp_avg), ±20% rang
 | United States West 1971-2025      | -0.16 | 1.72  | 9 (46.1%)          | ~36%          | ~88–165 years         |
 
 
-### Interpretation keys
+ **Interpretation keys**
 
 Zone 1–4: Parasitic fringe dominant → high collapse risk
 Zone 8–10: Mutualistic/competitive core dominant → persistence / health
@@ -77,7 +77,7 @@ Rule-13 proxy >30–35%: Cheater suppression failure signal
 Longevity <100 years: Short window (collapse imminent)
 Longevity >150 years: Extended stability (with error bars)
 
-### Recommended Workflows
+ **Recommended Workflows**
 Quick polity test (most users)
 Use an LLM (Grok, Claude, Gemini) with the 35-metric prompt guide. Average outputs, save as CSV, interpret zones/proxy/longevity manually or pipe to toy.
 Advanced / reproducible testing
@@ -86,7 +86,7 @@ Generate 35-metric CSV via LLM ensemble
 Run python simulate.py your_file.csv
 Compare to priors and submit PRs with evidence-backed refinements
 
-### Contributing
+  **Contributing**
 
 Bug fixes, new examples, alternative weighting schemes, visualisation improvements welcome.
 Fork and experiment: add noise, ML modulators, or custom entropy decay.
