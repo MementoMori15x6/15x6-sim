@@ -62,6 +62,18 @@ Rule-13 proxy >30–35%: Cheater suppression failure signal
 Longevity <100 years: Short window (collapse imminent)
 Longevity >150 years: Extended stability (with error bars)
 
+### Known Limitations
+
+This toy simulator is a deterministic, minimalist baseline and intentionally lacks adaptive judgment or stochastic elements. Key limitations include:
+
+- Deterministic curves only — flat baselines or spikes under perturbation; no probabilistic noise or real-world variability.
+- Placeholder longevity estimate — simple heuristic (base 100 years modulated by parasitism proxy and mutualism/competition average); not empirically validated and lacks error modeling beyond ±20% ranges.
+- Tuned on 5 canonical cases — results reflect these examples (ants, influenza, NK, USSR, USA 1971–present); performance on other replicators (corporate, crypto, molecular) is untested.
+- No built-in 35-metric scoring — users must generate raw scores via LLM prompts or manual evidence mapping.
+- Fixed centres array and heuristics are static — zone assignment and dominance logic are not adaptive and may over-anchor to Zone 10 for moderate-high adaptation.
+
+The toy is a scaffold for R&D extensions (add noise, ML weighting, custom decay). For polity-specific or nuanced scoring, LLM-driven 35-metric workflows remain the primary diagnostic tool.
+
 Recommended Workflows
 Quick polity test (most users)
 Use an LLM (Grok, Claude, Gemini) with the 35-metric prompt guide (to be added). Average outputs, save as CSV, interpret zones/proxy/longevity manually or pipe to toy.
