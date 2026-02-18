@@ -58,8 +58,15 @@ Adaptation penalty on X: max(0, (mean(metrics 1–17) - 6.0) / 2.0)
 Rule-13 proxy: max(0, 50 - (mean(metrics 18–35) / 10 * 50))
 Longevity placeholder: 100 / (1 + proxy/100) * (1 + mutual_comp_avg), ±20% ranges
 
-### Batch output example (5 canonical replicators)
+**Batch output example (5 canonical replicators)**
 
+| Replicator                        | X     | Y     | Dominant Zone      | Rule-13 Proxy | Longevity Range       |
+|-----------------------------------|-------|-------|--------------------|---------------|-----------------------|
+| Eusocial Ant Colony               | 0.49  | 0.86  | 10 (98.8%)         | ~45%          | ~77–144 years         |
+| Influenza Molecular               | 0.00  | -0.75 | 3 (72.5%)          | ~50%          | ~46–86 years          |
+| Modern North Korea                | 0.00  | -0.75 | 3 (72.5%)          | ~50%          | ~46–86 years          |
+| USSR 1917-1991                    | 0.43  | 0.50  | 10 (78.5%)         | ~41%          | ~72–134 years         |
+| United States West 1971-2025      | -0.16 | 1.72  | 9 (46.1%)          | ~36%          | ~88–165 years         |
 
 
 ### Interpretation keys
