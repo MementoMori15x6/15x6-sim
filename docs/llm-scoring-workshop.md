@@ -4,9 +4,9 @@ This guide is for users who want to score polities, movements, corporations, his
 
 The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs are the fastest way to do this — they synthesize sources and output parseable scores.
  
-## LLM Workflow (Primary Method for Most Users)
+**LLM Workflow (Primary Method for Most Users)**
 
-For quick polity, movement, corporation, or historical scoring, use a frontier LLM — no coding, no Colab, no local install required.
+For quick polity, movement, corporation, or historical scoring, use a frontier LLM
 
 The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs excel here: they synthesize sources, weight evidence, and provide clear interpretations of the output.
 
