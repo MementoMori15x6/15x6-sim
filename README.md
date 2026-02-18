@@ -18,7 +18,8 @@ The project is a microscope for diagnosing health in far-from-equilibrium replic
 git clone https://github.com/MementoMori15x6/15x6-sim.git
 cd 15x6-sim
 pip install -r requirements.txt
-python simulate.py examples/eusocial_ant_colony.csv```
+python simulate.py examples/eusocial_ant_colony.csv
+```bash
 Purpose & Limitations
 This toy is a minimal, deterministic scaffold for testing the 15×6 Master Grid and 35-metric compass protocol. It produces flat or spiked curves based on raw inputs — no LLM judgment, no stochastic noise, no adaptive weighting.
 Use cases
