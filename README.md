@@ -44,8 +44,10 @@ Single data row: 35 comma-separated numbers (0–10 scale, averaged from LLM ens
 No trailing commas, no strings, no extra rows
 
 Example (USA 1971–present):
+```bash
 textMetric1,Metric2,Metric3,...,Metric35
 8,7,7,7,8,7,7,7,8,7,7,8,7,8,8,6,7,3,2,4,3,2,2,3,3,2,3,3,4,4,2,3,1,3,3
+```
 Current Calibration (v1 – February 2026)
 Tuned on canonical cases to expose political fragility while preserving biological persistence.
 Key parameters
