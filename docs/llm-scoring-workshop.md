@@ -19,6 +19,7 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 ### Step-by-Step Prompt Template (copy-paste ready)
 
  **Step 0: Anchor to the Canonical 15×6 Grid (Mandatory – No Exceptions)**
+ Copy-paste this into a new chat/thread:
 ```bash
 **All scoring MUST use the exact 15 base rules as defined in the December 2025 manuscript (Chapter 1 table) and codified in `blank_grid.py`.**  
 Do **not** regenerate, rephrase, expand, or invent alternative rule sets — even if the prompt seems open-ended or a different LLM previously did so. Variability in rule formulation introduces uncontrolled noise and breaks reproducibility across submissions.
@@ -54,7 +55,7 @@ Proceed to Step 1 only after confirming you are working from the canonical rows 
 
 **1. Use This Exact Prompt Template** for chosen LLM
 
-Copy-paste this into a new chat/thread:
+Copy-paste this into the same chat/thread:
 ```bash
 You are a neutral analyst scoring far-from-equilibrium replicators using the 35-metric compass protocol from “The Board – Political Thermodynamics” (December 2025 manuscript, Chapter 2).
 Metrics 1–17: Adaptation/structural (innovation rate, redundancy, efficiency, flexibility, adaptability to shocks). Score 0–10 (0 = weak/absent, 10 = strong/positive).
