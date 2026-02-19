@@ -13,10 +13,10 @@ The primer prompt is measuring cyptocurrency (Bitcoin to be exact) priming them 
 
 **Recommended LLMs** (all perform well)
 
-(Primer prompt not needed)
+-(Primer prompt not needed)
 - **Grok** — strong on real-time evidence and thermodynamic framing
 
-(Primer prompt needed)
+-(Primer prompt needed)
 - **Claude** — excellent detail, source citation, and caution around sensitive topics
 - **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores
 - **Gemini** — solid on data-heavy queries and cross-referencing
