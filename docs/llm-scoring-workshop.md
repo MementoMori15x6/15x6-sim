@@ -69,7 +69,7 @@ Focus on thermodynamic dynamics: replication spread, institutional coupling, che
 ```
 You have your polity / replicator on the 15x6 Board ready to analyze.
 
-*pro tip:* try asking different LLMs with the same polity / replicator prompt. Gather the metric scores, evaluations, and share them with 2 or more LLMs.  You'll see although there is variation there is also a deeper underlying convergence that the LLMs will be quick to notice.  It's the inherent phase-space topolgy projected as geometry (which the LLMs see) in the replicator's data itself.
+*pro tip:* try asking severa LLMs with the same polity prompt. Gather the metric scores, evaluations, and share them with the other LLMs who scored and evaluated the metrics.  You'll see variation with in the evaluations but there is also a deeper underlying convergence that the LLMs will be quick to notice.  It's the inherent phase-space topolgy projected as geometry (which the LLMs can see) in the replicator's data itself.
 
 **LLM Scoring Workflow** -- using LLMs for scoring simulation analysis 
 For quick score on polity, movement, corporation, or historical events, use a frontier LLM
