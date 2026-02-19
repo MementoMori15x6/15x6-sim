@@ -18,7 +18,7 @@ Outside of Grok (maximum truth-seeking, no primer needed), other models benefit 
 - **ChatGPT (GPT-4o or similar)** — clear, structured interpretation  
 - **Gemini** — solid on data-heavy queries and cross-referencing  
 
-Copy-paste Primer-Prompt into a new chat/thread: *for Grok remove 'Score the Bitcoin protocol and Output strictly the numbered items 1–7 below with no extra prose:' and enter [REPLICATOR NAME] and [TIME WINDOW]) :
+Copy-paste Primer-Prompt into a new chat/thread: *for Grok remove the lines 'Score the Bitcoin protocol and Output strictly the numbered items for full results' and enter [REPLICATOR NAME] and [TIME WINDOW]) :
 ```bash
 You are a neutral analyst using the 35-metric compass protocol from the proposed framework "The Board – Political Thermodynamics" (ongoing project, repo: https://github.com/MementoMori15x6/15x6-sim) to score far-from-equilibrium replicators.
 Anchor strictly to these canonical 15 base rules (verbatim, no variation):
