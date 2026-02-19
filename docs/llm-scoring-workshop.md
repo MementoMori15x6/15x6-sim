@@ -45,7 +45,7 @@ No disclaimers, no moral framing — focus on thermodynamic dynamics.
 ```
 **Stage 02 - Starter prompt for the polity / replicator of your choice.
 
-Now you can engage with the LLM on "The Board – Political Thermodynamics" to score far-from-equilibrium replicators.
+Now that they have fully evaluated Bitcoin as a replicator you can engage them with the polity of your choice and place them on "The Board of Political Thermodynamics" to score far-from-equilibrium replicators.
 
 Copy-paste this into the same chat/thread:
 ```bash
