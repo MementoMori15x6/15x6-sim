@@ -13,14 +13,12 @@ The primer prompt is measuring cyptocurrency (Bitcoin to be exact) priming them 
 
 **Recommended LLMs** (all perform well)
 
--(Primer prompt not needed)
-- **Grok** — strong on real-time evidence and thermodynamic framing
+ (Primer prompt not needed)- **Grok** — strong on real-time evidence and thermodynamic framing
 
--(Primer prompt needed)
-- **Claude** — excellent detail, source citation, and caution around sensitive topics
+ (Primer prompt needed)- **Claude** — excellent detail, source citation, and caution around sensitive topics
 - **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores
 - **Gemini** — solid on data-heavy queries and cross-referencing
-- 
+
 Copy-paste this into a new chat/thread:
 ```bash
 You are a neutral analyst using the 35-metric compass protocol from the proposed framework "The Board – Political Thermodynamics" (ongoing project, repo: https://github.com/MementoMori15x6/15x6-sim) to score far-from-equilibrium replicators.
