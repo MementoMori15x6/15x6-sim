@@ -12,6 +12,7 @@ for a quick start straight into evaluating  polity / replicator of your choice, 
 The primer prompt is measuring cyptocurrency (Bitcoin to be exact) priming them to evaluate pure metrics, not opinions or narratives.
 
 **Recommended LLMs** (all perform well)
+
 *(Primer prompt not needed)*
 - **Grok** — strong on real-time evidence and thermodynamic framing
 
