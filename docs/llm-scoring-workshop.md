@@ -57,7 +57,7 @@ No disclaimers, no moral framing — focus on thermodynamic dynamics.
 
 Now that they have fully evaluated Bitcoin as a replicator you can engage them with the polity of your choice and place them on "The Board of Political Thermodynamics" to score far-from-equilibrium replicators.
 
-Copy-paste this into the same chat/thread:
+Copy-paste this into the same chat/thread and add in your Polity / replicator and time period [REPLICATOR NAME] for [TIME WINDOW]. eg. [Tyrell Corporation] for [2019 - 2029] *example is a fictional company.
 ```bash
 Great — the primer scoring aligns with the protocol.
 
