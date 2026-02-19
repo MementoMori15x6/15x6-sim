@@ -84,6 +84,32 @@ You now have your replicator placed on the 15×6 Board with a full diagnostic sn
 
 *Pro tip:* Run the same Stage 02 prompt on 2–3 LLMs. Collect the 35-score rows, average them (see below), and feed the averaged row back to one LLM with: “Recompute X/Y, zones, Rule-13 proxy, longevity, and summary from this averaged 35-score row: [paste]”. LLMs often surface underlying phase-space topology/convergence from the variation.
 
+### Stage 03 – Quick News-Style Broadcast (For Readers Who Want the Story)
+
+If you want a short, readable summary that feels like a professional news segment — clear, factual, story-driven — use this follow-up in the primed thread.
+
+Copy-paste (replace [REPLICATOR NAME] and [TIME WINDOW]):
+```bash
+Great — the primer aligns.
+Now deliver a quick news-style broadcast report on [REPLICATOR NAME] for [TIME WINDOW] using the 35-metric compass protocol and the canonical 15 base rules.
+Base the report on verifiable public sources (mention 1–2 briefly). Do not re-score or reference the Bitcoin primer — treat as independent.
+Write in the style of a concise TV or radio news segment: factual, professional, easy to follow, no heavy jargon, no moralizing or political slant.
+Output exactly this format:
+
+Lead Headline (1 punchy sentence that captures the system's current health and trajectory).
+Where It Stands (1–2 sentences): Current phase-space position (X adaptation score, Y governance score, dominant zone).
+Key Numbers (bullet points):
+Cheater suppression risk (Rule-13 proxy %)
+Estimated staying power (longevity placeholder in years)
+Cooperation-competition balance (rows 6–8 note)
+Cheater policing health (Row 13 note)
+
+The Story So Far (3–5 sentences): Explain how the system grew or spread, where energy/money was spent or wasted, and the main signs of strength or weakness — like a reporter recounting recent developments.
+Bottom Line for Everyday Readers (1 clear sentence): Is this system overall adding more stability and value than it takes away, or pulling more out than it puts back?
+
+Focus on measurable patterns: growth speed, energy costs, ability to keep bad actors in check, how it holds together when pressure changes.
+```
+
 ### Advanced Convergence: Multi-Model Averaging (For Serious Evaluations)
 
 1. Run Stage 02 on 2–3 models; collect the 35-score rows.  
