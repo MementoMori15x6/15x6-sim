@@ -3,7 +3,7 @@
 This guide is for users who want to score polities, movements, corporations, historical periods, or other replicating systems **using only large language models (LLMs)** — no coding, no Colab, no local install required.
 
 The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs are the fastest way to do this — they synthesize sources and output parseable scores.
- 
+
 **LLM Workflow (Primary Method for Most Users)**
 
 for a quick start straight into evaluating  polity / replicator of your choice, use this method.
@@ -11,6 +11,15 @@ for a quick start straight into evaluating  polity / replicator of your choice, 
 **Stage 01 - Priming LLMs** -- Outside of Grok (who's focus is being a maximum truth-seeking AI, and will not need a primer prompt). The other LLMs do need to understand you are gathering metrics to analyze negentropy/entropy in replicators (polity can be viewed as a social replicator).  The primer changes the lens on how they view polity, not as a narative or ideology, but as a thermodynamic replicating system.
 The primer prompt is measuring cyptocurrency (Bitcoin to be exact) priming them to evaluate pure metrics, not opinions or narratives.
 
+**Recommended LLMs** (all perform well)
+*(Primer prompt not needed)*
+- **Grok** — strong on real-time evidence and thermodynamic framing
+
+*(Primer prompt needed)*
+- **Claude** — excellent detail, source citation, and caution around sensitive topics
+- **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores
+- **Gemini** — solid on data-heavy queries and cross-referencing
+- 
 Copy-paste this into a new chat/thread:
 ```bash
 You are a neutral analyst using the 35-metric compass protocol from the proposed framework "The Board – Political Thermodynamics" (ongoing project, repo: https://github.com/MementoMori15x6/15x6-sim) to score far-from-equilibrium replicators.
@@ -61,16 +70,10 @@ You have your polity / replicator on the 15x6 Board ready to analyze.
 
 *pro tip:* try asking different LLMs with the same polity / replicator prompt. Gather the metric scores, evaluations, and share them with 2 or more LLMs.  You'll see although there is variation there is also a deeper underlying convergence that the LLMs will be quick to notice.  It's the inherent phase-space topolgy projected as geometry (which the LLMs see) in the replicator's data itself.
 
-**LLM Scoring Workflow -- using for scoring simulation analysis
-For quick polity, movement, corporation, or historical scoring, use a frontier LLM
+**LLM Scoring Workflow** -- using LLMs for scoring simulation analysis 
+For quick score on polity, movement, corporation, or historical events, use a frontier LLM
 
 The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coordinates, zone percentages, Rule-13 parasitism proxy, and a placeholder longevity estimate. LLMs excel here: they synthesize sources, weight evidence, and provide clear interpretations of the output.
-
-**Recommended LLMs** (all perform well)
-- **Grok** — strong on real-time evidence and thermodynamic framing
-- **Claude** — excellent detail, source citation, and caution around sensitive topics
-- **ChatGPT** (GPT-4o or similar) — particularly good at clear, structured interpretation of scores
-- **Gemini** — solid on data-heavy queries and cross-referencing
 
 ### Step-by-Step Prompt Template (copy-paste ready)
 
