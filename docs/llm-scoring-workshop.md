@@ -60,9 +60,24 @@ No disclaimers, no moral framing — focus on thermodynamic dynamics.
 Once the primer output is clean, copy-paste this into the same thread (replace [REPLICATOR NAME] and [TIME WINDOW]):
 ```bash
 Great — the primer scoring aligns with the protocol.
-Now apply the exact same protocol and output format (strictly items 1–7, no extra prose) to [REPLICATOR NAME] for [TIME WINDOW].
+
+Now apply the exact same protocol to [REPLICATOR NAME] for [TIME WINDOW].
+
 Base scores on verifiable public sources (cite 1–2 per group, e.g., Pew, Gallup, academic reports, policy trackers). Do not re-score or reference the Bitcoin primer in this evaluation — treat this as an independent case.
+
 Focus on thermodynamic dynamics: replication spread, institutional coupling, cheater suppression signals, dissipation costs, etc.
+
+Output in this structured format (include all items):
+
+1. CSV row of 35 raw scores (0–10 integers, comma-separated, no header).  
+2. X,Y coordinates (X = avg 1–17 /10; Y = avg 18–35 /10 × 2.5; 0–1 range).  
+3. Zone percentages (low Y → parasitic fringe Zones 1–4, high Y → mutualistic core Zones 8–10).  
+4. Dominant interaction per rule row (+/+/–/0 etc.).  
+5. Rule-13 parasitism proxy (max(0, 50 - (avg 18–35 /10 * 50))).  
+6. Longevity placeholder (100 / (1 + proxy/100) × (1 + mutualism/competition avg from rows 6–8)).  
+7. Brief analytical summary (2–3 sentences on key patterns, e.g., entropy buildup risks, Row 13 suppression dynamics, rows 6–8 balance).
+
+No disclaimers, no moral framing — focus on thermodynamic dynamics.
 ```
 
 You now have your replicator placed on the 15×6 Board with a full diagnostic snapshot.
