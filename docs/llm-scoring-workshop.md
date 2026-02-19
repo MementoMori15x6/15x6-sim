@@ -8,7 +8,7 @@ The 35-metric compass protocol (Chapter 2) converts public evidence into X/Y coo
 
 for a quick start straight into evaluating  polity / replicator of your choice, use this method.
 
-**Stage 01 - Priming LLMs** -- Outside of Grok (who's focus is being a maximum truth-seeking AI, and will not need a primer prompt). The other LLMs do need to understand you are gathering metrics to analyze negentropy/entropy in replicators (polity can be viewed as a social replicator).  This changes the lens on how they view polity, not as a narative or ideology, but as a thermodynamic replicating system.
+**Stage 01 - Priming LLMs** -- Outside of Grok (who's focus is being a maximum truth-seeking AI, and will not need a primer prompt). The other LLMs do need to understand you are gathering metrics to analyze negentropy/entropy in replicators (polity can be viewed as a social replicator).  The primer changes the lens on how they view polity, not as a narative or ideology, but as a thermodynamic replicating system.
 The primer prompt is measuring cyptocurrency (Bitcoin to be exact) priming them to evaluate pure metrics, not opinions or narratives.
 
 Copy-paste this into a new chat/thread:
