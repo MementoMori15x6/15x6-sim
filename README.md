@@ -95,4 +95,4 @@ PRs: evidence-based tuning or new cases (corporate, crypto protocols, etc.).
 
 This project is open for discourse, testing, and refinement. The toy is a scaffold — the real value lies in community extensions and LLM-hybrid scoring.
 Memento mori. 🚀
-[<image-card alt="Release" src="https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen" ></image-card>](https://github.com/MementoMori15x6/15x6-sim/releases/tag/v1.1-RC1)
+[![Release v1.1-RC1](https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen)](https://github.com/MementoMori15x6/15x6-sim/releases)
