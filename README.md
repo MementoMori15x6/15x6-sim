@@ -8,9 +8,9 @@ The project is a microscope for diagnosing health in far-from-equilibrium replic
 For LLM-only scoring (no code required): see the [LLM Scoring Workshop Guide](docs/llm-scoring-workshop.md)
 
 ### In Colab (recommended)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/notebooks/quick_start.ipynb)
-[![Release v1.1-RC1](https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen)](https://github.com/MementoMori15x6/15x6-sim/releases)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/notebooks/the_board_rc1_diagnostic.ipynb)
+[![Release v1.1-RC1](https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen)](https://github.com/MementoMori15x6/15x6-sim/releases)
+
 1. Open the notebook above
 2. Run cells to clone repo + install deps
 3. Try an example: `!python simulate.py examples/united_states_west_1971-2025.csv`
