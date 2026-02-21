@@ -16,7 +16,39 @@ For LLM-only scoring (no code required): see the [LLM Scoring Workshop Guide](do
 3. Try an example: `!python simulate.py examples/united_states_west_1971-2025.csv`
 
 **Resouce**: Generate blank grid: python scripts/master_blank_15x6_grid_v3.py → outputs → figures/master_blank_grid_15x6.png
-             
+
+## Default Metric Scoring Guidelines or Default LLM Scoring Format.
+
+When generating or requesting 35-metric compass scores for any polity, historical period, corporation, or replicating system:
+
+**Always output exactly as CSV** with these columns only (no extra text outside the CSV):
+
+Use the **full 35 metrics** in this exact order and grouping:
+
+- A1–A3: property, market allocation, profit motive  
+- B1–B2: redistribution, welfare  
+- C1–C3: heredity fidelity, variation, persistence  
+- D1–D2: parasitism, competition  
+- E1–E2: survival, niche construction  
+- F1–F2: boundary, error repair  
+- G1–G3: cheater detection, modularity, info storage  
+- H1–H3: cultural uniformity, ideological monopoly, dissent suppression  
+- I1–I3: family autonomy, religious freedom, artistic expression  
+- J1–J3: scientific direction, education indoctrination, media control  
+- K1–K3: military priority, isolationism, external threat narrative  
+- L1–L3: succession mechanism, leadership cult, purge cycles  
+- M1–M3: natalism, migration control, ethnic policy  
+
+**Rules for scoring**:
+- Range: -10 to +10 per metric  
+  - negative = left/collectivist/authoritarian tilt  
+  - positive = right/market/libertarian tilt  
+- Rationale: 1–2 sentences only, evidence-based (public historical/public data only), no speculation  
+- Wrap any rationale containing commas in double quotes `"..."` to ensure CSV integrity  
+- After the CSV, output nothing else unless explicitly asked  
+
+All scores are provisional and open to empirical stress-testing on the 15×6 Master Grid.
+ 
 ### Locally
 ```bash
 git clone https://github.com/MementoMori15x6/15x6-sim.git
