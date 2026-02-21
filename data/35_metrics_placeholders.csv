@@ -1,36 +1,36 @@
 Metric_ID,Category,Description,USA_2020s,PRC_2020s,Calibration_Notes
-A1,Metabolic,Resource acquisition efficiency (GDP/productivity growth proxy),+8.8,+9.4,IMF 2025 growth vs. Total Factor Productivity
-A2,Metabolic,Innovation/R&D output scale,+9.2,+8.8,Patent filings vs. commercialized tech
-A3,Metabolic,Energy density/conversion rate,+7.5,+9.0,Renewable grid transition vs. manufacturing scale
-A4,Metabolic,Raw material sourcing resilience,+8.0,+9.2,Supply chain diversity vs. state-led procurement
-A5,Metabolic,Labor force participation/adaptability,+8.5,+9.5,Demographic productivity vs. workforce mobilization
-A6,Metabolic,Technological adoption speed,+8.2,+8.6,Tech diffusion indices (World Economic Forum)
-B7,Metabolic,Distribution network efficiency,+6.0,+7.0,Logistics performance index (World Bank)
-B8,Metabolic,Wealth redistribution mechanisms,+4.5,+5.5,Gini coefficient adjustments for metabolic drag
-B9,Metabolic,Consumer access breadth,+5.8,+6.8,Retail/e-commerce penetration vs. urban/rural divide
-B10,Metabolic,Supply chain redundancy,+6.2,+6.0,Resilience to shocks (COVID-19 recovery proxies)
-B11,Metabolic,Economic inequality inversion,-3.5,-4.2,Wealth concentration as efficiency drag
-B12,Metabolic,Market allocation fluidity,+7.0,+6.5,Competition indices vs. state monopolies
-C13,Metabolic,Systemic adaptive capacity,+7.5,+6.0,Innovation response to crises (e.g., tech pivots)
-C14,Metabolic,Infrastructure scalability,+6.8,+5.5,Expansion potential vs. debt overhang
-C15,Metabolic,Environmental sustainability integration,+7.0,+5.8,ESG indices (Bloomberg)
-C16,Metabolic,Resilience to external shocks,+7.2,+6.2,Trade war/tariff impacts
-C17,Metabolic,Capital reinvestment rate,+8.0,+5.0,Corporate savings vs. state investment efficiency
-C18,Metabolic,Overall structural inversion risk,-2.5,-3.0,Systemic vulnerabilities (e.g., debt bubbles)
-H19,Governance,Rule-13: Cheater suppression (corruption),+6.4,+4.2,CPI 2025 (USA 64; PRC 43)
-H20,Governance,Transparency of information flows,+8.5,+3.0,Freedom House/Press indices vs. centralized control
-H21,Governance,Rule-13: Auditing & verification,+7.2,+5.5,Independent judiciary vs. anti-corruption drives
-H22,Governance,Contract enforcement/Rule of Law,+8.2,+6.5,World Justice Project proxies
-H23,Governance,Anti-parasitic institutional barriers,+5.0,+4.0,Lobbying regulations vs. party-state integration
-H24,Governance,Cheater detection network density,+3.5,+2.0,Whistleblower protections vs. surveillance efficacy
-K25,Governance,Strategic coordination intensity,+4.5,+9.2,Industrial policy vs. decentralized markets
-K26,Governance,Public-Private coordination efficiency,+5.0,+8.8,Cohesion between state and metabolic actors
-K27,Governance,Regulatory capture suppression (Rule-13),-3.5,-5.2,Lobbying impact vs. state-enterprise collusion
-K28,Governance,Institutional trust/legitimacy,+4.2,+6.8,Trust in government (Edelman/local proxies)
-K29,Governance,Adaptive institutional reform speed,+5.5,+4.2,Legislative gridlock vs. top-down agility
-K30,Governance,Cultural coordination/Social cohesion,+3.8,-4.0,Polarization vs. demographic/social stress
-N31,Governance,Information storage fidelity,+4.5,+3.5,Data integrity/education systems
-N32,Governance,Reproduction/persistence mechanisms,+3.8,+4.0,Demographic sustainability proxies
-N33,Governance,Boundary maintenance (cultural),+4.0,-3.0,Immigration/integration vs. internal homogeneity
-N34,Governance,Internal conflict resolution,+5.2,-4.5,Polarization indices vs. stability campaigns
-N35,Governance,Overall cultural inversion risk,-3.5,-5.0,Social fracture risks (e.g., inequality protests)
+A1,Metabolic,"Resource acquisition efficiency (GDP/productivity growth proxy)",+8.8,+9.4,"IMF 2025 growth vs. Total Factor Productivity"
+A2,Metabolic,"Innovation/R&D output scale",+9.2,+8.8,"Patent filings vs. commercialized tech"
+A3,Metabolic,"Energy density/conversion rate",+7.5,+9.0,"Renewable grid transition vs. manufacturing scale"
+A4,Metabolic,"Raw material sourcing resilience",+8.0,+9.2,"Supply chain diversity vs. state-led procurement"
+A5,Metabolic,"Labor force participation/adaptability",+8.5,+9.5,"Demographic productivity vs. workforce mobilization"
+A6,Metabolic,"Technological adoption speed",+8.2,+8.6,"Tech diffusion indices (World Economic Forum)"
+B7,Metabolic,"Distribution network efficiency",+6.0,+7.0,"Logistics performance index (World Bank)"
+B8,Metabolic,"Wealth redistribution mechanisms",+4.5,+5.5,"Gini coefficient adjustments for metabolic drag"
+B9,Metabolic,"Consumer access breadth",+5.8,+6.8,"Retail/e-commerce penetration vs. urban/rural divide"
+B10,Metabolic,"Supply chain redundancy",+6.2,+6.0,"Resilience to shocks (COVID-19 recovery proxies)"
+B11,Metabolic,"Economic inequality inversion",-3.5,-4.2,"Wealth concentration as efficiency drag"
+B12,Metabolic,"Market allocation fluidity",+7.0,+6.5,"Competition indices vs. state monopolies"
+C13,Metabolic,"Systemic adaptive capacity",+7.5,+6.0,"Innovation response to crises (e.g., tech pivots)"
+C14,Metabolic,"Infrastructure scalability",+6.8,+5.5,"Expansion potential vs. debt overhang"
+C15,Metabolic,"Environmental sustainability integration",+7.0,+5.8,"ESG indices (Bloomberg)"
+C16,Metabolic,"Resilience to external shocks",+7.2,+6.2,"Trade war/tariff impacts"
+C17,Metabolic,"Capital reinvestment rate",+8.0,+5.0,"Corporate savings vs. state investment efficiency"
+C18,Metabolic,"Overall structural inversion risk",-2.5,-3.0,"Systemic vulnerabilities (e.g., debt bubbles)"
+H19,Governance,"Rule-13: Cheater suppression (corruption)",+6.4,+4.2,"CPI 2025 (USA 64; PRC 43)"
+H20,Governance,"Transparency of information flows",+8.5,+3.0,"Freedom House/Press indices vs. centralized control"
+H21,Governance,"Rule-13: Auditing & verification",+7.2,+5.5,"Independent judiciary vs. anti-corruption drives"
+H22,Governance,"Contract enforcement/Rule of Law",+8.2,+6.5,"World Justice Project proxies"
+H23,Governance,"Anti-parasitic institutional barriers",+5.0,+4.0,"Lobbying regulations vs. party-state integration"
+H24,Governance,"Cheater detection network density",+3.5,+2.0,"Whistleblower protections vs. surveillance efficacy"
+K25,Governance,"Strategic coordination intensity",+4.5,+9.2,"Industrial policy vs. decentralized markets"
+K26,Governance,"Public-Private coordination efficiency",+5.0,+8.8,"Cohesion between state and metabolic actors"
+K27,Governance,"Regulatory capture suppression (Rule-13)",-3.5,-5.2,"Lobbying impact vs. state-enterprise collusion"
+K28,Governance,"Institutional trust/legitimacy",+4.2,+6.8,"Trust in government (Edelman/local proxies)"
+K29,Governance,"Adaptive institutional reform speed",+5.5,+4.2,"Legislative gridlock vs. top-down agility"
+K30,Governance,"Cultural coordination/Social cohesion",+3.8,-4.0,"Polarization vs. demographic/social stress"
+N31,Governance,"Information storage fidelity",+4.5,+3.5,"Data integrity/education systems"
+N32,Governance,"Reproduction/persistence mechanisms",+3.8,+4.0,"Demographic sustainability proxies"
+N33,Governance,"Boundary maintenance (cultural)",+4.0,-3.0,"Immigration/integration vs. internal homogeneity"
+N34,Governance,"Internal conflict resolution",+5.2,-4.5,"Polarization indices vs. stability campaigns"
+N35,Governance,"Overall cultural inversion risk",-3.5,-5.0,"Social fracture risks (e.g., inequality protests)"
