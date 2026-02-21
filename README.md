@@ -9,6 +9,7 @@ For LLM-only scoring (no code required): see the [LLM Scoring Workshop Guide](do
 
 ### In Colab (recommended)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/notebooks/quick_start.ipynb)
+[![Release v1.1-RC1](https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen)](https://github.com/MementoMori15x6/15x6-sim/releases)
 
 1. Open the notebook above
 2. Run cells to clone repo + install deps
@@ -95,4 +96,3 @@ PRs: evidence-based tuning or new cases (corporate, crypto protocols, etc.).
 
 This project is open for discourse, testing, and refinement. The toy is a scaffold — the real value lies in community extensions and LLM-hybrid scoring.
 Memento mori. 🚀
-[![Release v1.1-RC1](https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen)](https://github.com/MementoMori15x6/15x6-sim/releases)
