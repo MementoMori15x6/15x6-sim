@@ -10,7 +10,7 @@ For LLM-only scoring (no code required): see the [LLM Scoring Workshop Guide](do
 ### In Colab (recommended)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/notebooks/quick_start.ipynb)
 [![Release v1.1-RC1](https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen)](https://github.com/MementoMori15x6/15x6-sim/releases)
-
+[<image-card alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/MementoMori15x6/15x6-sim/blob/main/notebooks/the_board_rc1_diagnostic.ipynb)
 1. Open the notebook above
 2. Run cells to clone repo + install deps
 3. Try an example: `!python simulate.py examples/united_states_west_1971-2025.csv`
