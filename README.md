@@ -1,5 +1,5 @@
 # 15×6 Simulator – Replicator Thermodynamic Scorecard
-
+[<image-card alt="Release" src="https://img.shields.io/github/v/release/MementoMori15x6/15x6-sim?color=brightgreen" ></image-card>](https://github.com/MementoMori15x6/15x6-sim/releases/tag/v1.1-RC1)
 Toy v1 — deterministic baseline that processes a 35-metric raw CSV to compute X/Y coordinates, zone percentages, Rule-13 parasitism proxy, row dominance heuristics, and a placeholder longevity estimate.
 
 The project is a microscope for diagnosing health in far-from-equilibrium replicating systems (RNA → polities). The 15×6 Master Grid and 35-metric compass protocol are proposed tools for reproducibility and open testing.
