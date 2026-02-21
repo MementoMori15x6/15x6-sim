@@ -15,6 +15,8 @@ For LLM-only scoring (no code required): see the [LLM Scoring Workshop Guide](do
 2. Run cells to clone repo + install deps
 3. Try an example: `!python simulate.py examples/united_states_west_1971-2025.csv`
 
+**Resouce**: Generate blank grid: python scripts/master_blank_15x6_grid_v3.py → outputs → figures/master_blank_grid_15x6.png
+             
 ### Locally
 ```bash
 git clone https://github.com/MementoMori15x6/15x6-sim.git
