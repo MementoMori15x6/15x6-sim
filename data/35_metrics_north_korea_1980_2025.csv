@@ -1,36 +1,36 @@
-Metric,Description,Score,Rationale
-A1,Property rights,-9.0,Private property is heavily restricted; land and major industries are state-owned under the Juche socialist system.
-A2,Market allocation,-8.7,Central planning dominates allocation; black markets exist but are suppressed, and official allocation is state-directed.
-A3,Profit motive,-9.0,Profit-seeking is criminalized outside state channels; individual accumulation is equated with counter-revolutionary behavior.
-B1,Redistribution,-7.7,The Public Distribution System centrally allocates food and goods by political loyalty tier (songbun); elites receive disproportionate share.
-B2,Welfare,-6.0,Nominal universal services (healthcare, housing, education) are provided, but quality and access vary widely and are tied to loyalty.
-C1,Heredity fidelity,-9.3,Leadership has passed through the Kim family across three generations with near-total hereditary fidelity; songbun status is inherited.
-C2,Variation allowance,-9.0,Political and ideological variation is forbidden; deviation from Juche is punished as treason.
-C3,Persistence differential,-7.7,Loyalist families and military elites persist through generations; disloyalty leads to purge or labor camps.
-D1,Parasitism tolerance,-3.7,The regime functions as an extractive parasitic layer; internal parasitism by loyalists is tolerated, disloyalty is severely punished.
-D2,Competition intensity,-7.7,Political and economic competition is structurally eliminated; all organs are subordinated to Kim authority.
-E1,Survival until replication,-4.0,Regime has survived sanctions and isolation through repression and Chinese patronage, but population survival rates are poor.
-E2,Niche construction,-6.0,Nuclear deterrence and strategic brinkmanship create a security niche at the cost of economic vitality.
-F1,Boundary maintenance,-10.0,Borders are among the world's hardest; defection is punishable by execution or gulag.
-F2,Error repair,-7.0,Policy failures (famine, stagnation) are denied or blamed externally; internal correction is rare and punitive.
-G1,Cheater detection,-5.0,Massive surveillance and mutual monitoring enforce loyalty; cheater detection serves regime control.
-G2,Modularity,-7.0,Power is centralized; institutional modularity is suppressed.
-G3,Info storage,-6.7,State-controlled archives and propaganda preserve regime narrative; independent knowledge is restricted.
-H1,Cultural uniformity,-10.0,Juche ideology enforces near-total cultural homogeneity through education and propaganda.
-H2,Ideological monopoly,-10.0,Kimilsungism-Kimjongilism is the sole permitted ideology.
-H3,Dissent suppression,-10.0,Political dissent is met with extreme suppression via labor camps and collective punishment.
-I1,Family autonomy,-8.0,Families are subject to collective punishment for political crimes of members.
-I2,Religious freedom,-10.0,Independent religious practice is prohibited; state-controlled churches are performative.
-I3,Artistic expression,-10.0,Art serves state ideology; unauthorized production is criminal.
-J1,Scientific direction,-7.0,Science is directed toward regime-priority projects (nuclear, missiles); basic research is suppressed.
-J2,Education indoctrination,-10.0,Education centers on ideological indoctrination and loyalty to the Kim dynasty.
-J3,Media control,-10.0,All media is state-owned; foreign media possession is criminalized.
-K1,Military priority,-10.0,Songun (military-first) policy prioritizes armed forces in resource allocation.
-K2,Isolationism,-9.0,Regime maintains near-total diplomatic and economic isolation by design.
-K3,External threat narrative,-10.0,Constant emphasis on U.S. and South Korean hostility legitimizes internal repression.
-L1,Succession mechanism,-9.0,Succession operates through opaque hereditary designation with no institutional mechanism.
-L2,Leadership cult,-10.0,Kim family cult of personality is among the most extreme in history.
-L3,Purge cycles,-9.0,Frequent purges of elites to maintain control.
-M1,Natalism,-6.0,State rhetorically encourages population growth for military needs; resource shortages limit effectiveness.
-M2,Migration control,-10.0,Emigration is prohibited; internal movement is tightly regulated.
-M3,Ethnic policy,-7.0,Regime promotes ethnic homogeneity and restricts foreign integration.
+"Metric","Description","Score","Rationale"
+"A1","Property rights",-9,"Private property is heavily restricted; land and major industries are state-owned under the Juche socialist system."
+"A2","Market allocation",-8,"Central planning dominates allocation; black markets exist but are suppressed, and official allocation is state-directed."
+"A3","Profit motive",-9,"Profit-seeking is criminalized outside state channels; individual accumulation is equated with counter-revolutionary behavior."
+"B1","Redistribution",-7,"The Public Distribution System centrally allocates food and goods by political loyalty tier (songbun); elites receive disproportionate share."
+"B2","Welfare",-6,"Nominal universal services (healthcare, housing, education) are provided, but quality and access vary widely and are tied to loyalty."
+"C1","Heredity fidelity",-9,"Leadership has passed through the Kim family across three generations with near-total hereditary fidelity; songbun status is inherited."
+"C2","Variation allowance",-9,"Political and ideological variation is forbidden; deviation from Juche is punished as treason."
+"C3","Persistence differential",-8,"Loyalist families and military elites persist through generations; disloyalty leads to purge or labor camps."
+"D1","Parasitism tolerance",-4,"The regime itself functions as an extractive parasitic layer on the population; internal parasitism by non-elite actors is suppressed, but systemic top-down extraction is normalized."
+"D2","Competition intensity",-9,"Political and economic competition is structurally eliminated; all organs are subordinated to Kim authority."
+"E1","Survival until replication",-4,"Regime has survived sanctions and isolation through repression and Chinese patronage, but population survival rates during the 1990s famine were catastrophically poor."
+"E2","Niche construction",-6,"Nuclear deterrence and strategic brinkmanship create a security niche at the cost of economic and demographic vitality."
+"F1","Boundary maintenance",-10,"Borders are among the world's hardest; defection is punishable by execution or gulag."
+"F2","Error repair",-8,"Policy failures (famine, stagnation) are denied or blamed externally; internal correction is rare and punitive."
+"G1","Cheater detection",-5,"Massive surveillance and mutual monitoring enforce loyalty; cheater detection serves regime control rather than system health."
+"G2","Modularity",-7,"Power is centralized; institutional modularity is suppressed in favor of monolithic party-state-military unity."
+"G3","Info storage",-7,"State-controlled archives and propaganda preserve regime narrative; independent knowledge is restricted."
+"H1","Cultural uniformity",-10,"Juche ideology enforces near-total cultural homogeneity through education and propaganda."
+"H2","Ideological monopoly",-10,"Kimilsungism-Kimjongilism is the sole permitted ideological framework."
+"H3","Dissent suppression",-10,"Political dissent is met with extreme suppression via labor camps and collective punishment."
+"I1","Family autonomy",-9,"Families are subject to collective punishment for political crimes of members."
+"I2","Religious freedom",-10,"Independent religious practice is prohibited; state-controlled churches are performative."
+"I3","Artistic expression",-10,"Art serves state ideology; unauthorized production is criminal."
+"J1","Scientific direction",-7,"Science is directed toward regime-priority projects (nuclear, missiles); basic research is suppressed."
+"J2","Education indoctrination",-10,"Education centers on ideological indoctrination and loyalty to the Kim dynasty."
+"J3","Media control",-10,"All media is state-owned; foreign media possession is criminalized."
+"K1","Military priority",-10,"Songun (military-first) policy prioritizes armed forces in resource allocation."
+"K2","Isolationism",-9,"Regime maintains near-total diplomatic and economic isolation by design."
+"K3","External threat narrative",-10,"Constant emphasis on U.S. and South Korean hostility legitimizes internal repression."
+"L1","Succession mechanism",-9,"Succession operates through opaque hereditary designation with no institutional mechanism."
+"L2","Leadership cult",-10,"Kim family cult of personality is among the most extreme in history."
+"L3","Purge cycles",-9,"Frequent purges of elites to maintain control."
+"M1","Natalism",-6,"State rhetorically encourages population growth for military needs; resource shortages limit effectiveness."
+"M2","Migration control",-10,"Emigration is prohibited; internal movement is tightly regulated."
+"M3","Ethnic policy",-7,"Regime promotes ethnic homogeneity and restricts foreign integration."
