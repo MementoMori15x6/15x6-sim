@@ -1,0 +1,36 @@
+Metric,Description,Score,Rationale
+A1,Property rights,0,Total collective resource pool; no individual ownership.
+A2,Market allocation,0,Pheromone-gated task allocation; non-market.
+A3,Profit motive,0,Fitness maximization at colony level only.
+B1,Redistribution,10,Trophallaxis (liquid food sharing) ensures 100% distribution.
+B2,Welfare,10,Total care for brood and injured workers within the nest.
+C1,Heredity fidelity,10,Genetic clonal/relatedness via the Queen.
+C2,Variation allowance,2,Strict caste roles; minimal behavioral deviation.
+C3,Persistence differential,9,Colonies persist significantly longer than individual units.
+D1,Parasitism tolerance,1,Low; social parasites (e.g. beetles) are usually executed.
+D2,Competition intensity,-8,Zero internal competition; purely external/inter-colony.
+E1,Survival until replication,9,Mature colonies produce alates for new nest founding.
+E2,Niche construction,10,Complex architecture (mounds/tunnels) creates microclimates.
+F1,Boundary maintenance,10,Aggressive nest-mate recognition via cuticular hydrocarbons.
+F2,Error repair,8,Rapid replacement of lost workers; collective nest repair.
+G1,Cheater detection,10,Worker policing suppresses non-queen reproduction.
+G2,Modularity,9,Swarms and sub-colonies allow for high resilience.
+G3,Info storage,7,Pheromone trails and nest architecture act as external memory.
+H1,Cultural uniformity,10,100% behavioral synchronization via chemical cues.
+H2,Ideological monopoly,10,Total "Hive Mind" alignment; no dissenting sub-systems.
+H3,Dissent suppression,10,Immediate physical removal/execution of non-conforming units.
+I1,Family autonomy,0,The colony *is* the family; no nuclear sub-units.
+I2,Religious freedom,0,N/A - Biological hardcoding of "belief" (instinct).
+I3,Artistic expression,0,Purely functional architectural outputs.
+J1,Scientific direction,0,N/A - Information gathered is purely environmental/proximate.
+J2,Education indoctrination,9,Learning via trial/error and tandem running is universal.
+J3,Media control,10,Total control over signaling pathways (pheromones).
+K1,Military priority,9,Significant biomass dedicated to soldiers/defense.
+K2,Isolationism,5,Highly territorial; generally avoids non-colonial contact.
+K3,External threat narrative,8,Chemical alarm signals trigger immediate total mobilization.
+L1,Succession mechanism,10,Queen replacement or colony budding is hardcoded.
+L2,Leadership cult,0,Queen is a reproductive organ; not a "leader" in human sense.
+L3,Purge cycles,2,Minimal; mostly during queen-replacement conflicts.
+M1,Natalism,10,Primary colony function is the production of new biomass.
+M2,Migration control,10,Nest entrance is a strictly guarded checkpoint.
+M3,Ethnic policy,10,Total "nest-mate" favoritism; total foreign exclusion.
