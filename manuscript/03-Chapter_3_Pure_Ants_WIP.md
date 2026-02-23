@@ -22,9 +22,21 @@ Consensus G1 cheater detection: -9.5 → Rule-13 parasitism proxy ≈ 0.6% (biol
 
 ## 3.3 Harvest & Niche – Negative Entropy Mastery
 
-Row 1 (harvest negative entropy) is the engine of persistence. Rome harvested externally through conquest — high-metabolism, high-risk, brittle. Ants harvest internally through extreme niche construction (E2 -4.8 consensus, but high in real terms): Atta fungal gardens ventilated to 8 m depth, Formica thermoregulated mounds, pheromone trails reshaping resource landscapes over decades.
+Row 1 (harvest negative entropy) is the engine of persistence. Rome harvested externally through conquest and tribute — high-metabolism, high-risk, ultimately brittle as parasitism accumulated. Ants harvest internally through extreme, low-metabolism niche construction: Atta fungal gardens ventilated to 8 m depth, Formica thermoregulated mounds, pheromone trails reshaping resource landscapes over decades.
 
-This low-metabolism engineering prioritizes persistence over expansion. A1–A3 all -10 reflect zero markets/property/profit — resources flow via trophallaxis and collective need, maximizing entropy export without individual accumulation.
+This internal harvest prioritizes persistence over expansion. A1–A3 all -10 reflect zero markets, property, or profit motive — resources flow via trophallaxis and collective need, maximizing entropy export without individual accumulation. The lattice shows mutualism dominance in rows 1–5 (harvest basics) and 6–8 (reproduction/adaptation), with minimal bleed — the system is engineered for long-duration stability rather than rapid growth.
+
+Table 3.1 compares key harvest/niche metrics between ants and Rome, highlighting the thermodynamic contrast.
+
+**Table 3.1: Negative Entropy Harvest – Ants vs Rome Comparison**
+
+| Row | Rule                          | Ants Consensus Score | Mutualism Dominance % (approx.) | Interpretation (Ants)                          | Rome Contrast (Chapter 2)                     |
+|-----|-------------------------------|----------------------|----------------------------------|------------------------------------------------|-----------------------------------------------|
+| 1   | Harvest negative entropy      | -10                  | ~90–100%                         | Low-metabolism internal harvest (trophallaxis, collective foraging) | High-metabolism external conquest/tribute     |
+| 10  | Niche construction & colonization | -4.8             | ~52–85%                          | Persistent engineering (fungal gardens, trails, mounds) | Expansion via military colonization (high risk) |
+| 6–8 | Resource/Reproduction/Adaptation | -4 to +1         | ~63–85%                          | Mutualism core — reproduction and adaptation without conquest | Reproduction/adaptation stressed by parasitism |
+
+Unlike Rome's external entropy raids (high X but fragile Y), ants' low-metabolism strategy (internal niche engineering) allows sustained negative entropy harvest across generations. This is the second pillar of the perfect lattice: harvest efficiently, persist indefinitely.
 
 ## 3.4 The Free Y-Axis – Innate vs Institutional Governance Density
 
