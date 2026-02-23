@@ -91,9 +91,13 @@ def text_summary(vector, case_name="Unknown Case"):
 
     # Add longevity estimate
     mutual_comp_avg = np.mean(vector[[5,6,7,8,9,11,12]]) / 10
-    longevity_estimate = 100 / (1 + rule13_p / 100) * (1 + mutual_comp_avg)
-    print(f"Estimated longevity window: ~{int(longevity_estimate * 0.7)}–{int(longevity_estimate * 1.3)} years")
-
+    longevity_estimate = 120 + (vector[2] * 2) + (-vector[18] * 4)  # base + C3 persistence bonus + G1 cheater detection bonus
+    longevity_estimate = longevity_estimate / (1 + rule13_parasitism / 100)
+    longevity_low = longevity_estimate * 0.7
+    longevity_high = longevity_estimate * 1.3
+    print(f"Estimated longevity window: ~{int(longevity_low)}–{int(longevity_high)} years")
+    print(f" (Sensitivity: ±20% on parasitism would shift range to ~{int(longevity_low*0.8)}–{int(longevity_high*1.2)} years)")
+    
 # Run ants only
 try:
     csv_file = "examples/eusocial_ant_colony.csv"
