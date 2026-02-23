@@ -52,14 +52,14 @@ def compute_coordinates(vector, y_multiplier=2.5, x_extra_weight=1.0):
     
     X = (x_raw / 10) * x_extra_weight
 
-g_mean = np.mean(vector[18:])
+    g_mean = np.mean(vector[18:])
 
-if g_mean < 0:
-    rule13_parasitism = max(0, 5 + (g_mean / 10 * 5))  # low for negative/innate suppression
-else:
-    rule13_parasitism = max(0, 50 - (g_mean / 10 * 50))
+    if g_mean < 0:
+        rule13_parasitism = max(0, 5 + (g_mean / 10 * 5))  # low for negative/innate suppression
+    else:
+        rule13_parasitism = max(0, 50 - (g_mean / 10 * 50))
 
-print(f"Rule-13 parasitism proxy: ~{rule13_parasitism:.0f}%")
+    print(f"Rule-13 parasitism proxy: ~{rule13_parasitism:.0f}%")
     
     adaptation_penalty = max(0, (np.mean(vector[:18]) - 5.5) / 1.8)  # threshold 5.5, division 1.8
     X = X - adaptation_penalty
