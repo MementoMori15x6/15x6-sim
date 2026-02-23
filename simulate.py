@@ -91,6 +91,16 @@ def text_summary(vector, case_name="Unknown Case"):
 
     # Add longevity estimate
     mutual_comp_avg = np.mean(vector[[5,6,7,8,9,11,12]]) / 10
+    
+    # Use the tuned (low) Rule-13 proxy from compute_coordinates
+    # (already calculated and returned as third value in coord tuple)
+    # If not using coord tuple, recalculate here with the biology tune
+    g_mean = np.mean(vector[18:])
+    if g_mean < 0:
+        rule13_parasitism = max(0, 5 + (g_mean / 10 * 5))  # low for innate suppression
+    else:
+        rule13_parasitism = max(0, 50 - (g_mean / 10 * 50))
+    
     longevity_estimate = 120 + (vector[2] * 2) + (-vector[18] * 4)  # base + C3 persistence bonus + G1 cheater detection bonus
     longevity_estimate = longevity_estimate / (1 + rule13_parasitism / 100)
     longevity_low = longevity_estimate * 0.7
