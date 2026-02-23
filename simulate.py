@@ -51,6 +51,12 @@ def compute_coordinates(vector, y_multiplier=2.5, x_extra_weight=1.0):
     Y = Y - parasitism_penalty
     
     X = (x_raw / 10) * x_extra_weight
+
+    g_mean = np.mean(vector[18:])
+    if g_mean < 0:
+    rule13_parasitism = max(0, 5 + (g_mean / 10 * 5))  # low for negative/innate suppression
+    else:
+    rule13_parasitism = max(0, 50 - (g_mean / 10 * 50))
     
     adaptation_penalty = max(0, (np.mean(vector[:18]) - 5.5) / 1.8)  # threshold 5.5, division 1.8
     X = X - adaptation_penalty
@@ -124,4 +130,24 @@ for example in examples:
     base_name = example.split('/')[-1].replace('.csv', '').replace('_', ' ').title()
     vector = load_metrics(example)
     text_summary(vector, base_name)
+    
+# Quick 15x6 dominance heatmap (placeholder - adapt to real dominance calc later)
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Dummy dominance (replace with your real computation)
+dominance = np.zeros((15, 6))
+dominance[:, 0] = 90  # heavy mutualism in first column as placeholder
+dominance[12, 2] = 40  # parasitism in Row 13
+
+plt.figure(figsize=(12, 8))
+sns.heatmap(dominance, annot=True, fmt=".0f", cmap="YlGnBu", cbar_kws={'label': '% Dominance'})
+plt.title("Ants Consensus 15×6 Master Grid – Perfect Lattice Benchmark")
+plt.ylabel("Base Rules (1–15)")
+plt.xlabel("Mutualism | Commensalism | Parasitism | Competition | Amensalism | Neutralism")
+plt.tight_layout()
+plt.savefig("tests/outputs/ants_consensus_lattice.png", dpi=300, bbox_inches="tight")
+plt.close()
+print("Lattice grid saved: tests/outputs/ants_consensus_lattice.png")
+
     
