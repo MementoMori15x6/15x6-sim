@@ -8,14 +8,21 @@ fixed_centres = np.array([
 ])
 
 def load_metrics(csv_path):
+    print(f"Loading CSV: {csv_path}")
     df = pd.read_csv(csv_path)
-    # Fix: extract only the Score column, ignore Metric/Description/Rationale
+    print("DF shape:", df.shape)
+    print("DF columns:", df.columns.tolist())
+    print(df.head(2))
+    
     if 'Score' in df.columns:
         vector = df['Score'].astype(float).values
     else:
-        # fallback if no header or different format
-        vector = df.iloc[:, 2].astype(float).values  # third column if header missing
-    print(f"Loaded vector shape: {vector.shape}")
+        vector = df.iloc[:, 2].astype(float).values  # fallback
+    
+    print(f"Extracted {len(vector)} numeric scores")
+    if len(vector) != 35:
+        raise ValueError(f"Expected 35 scores, got {len(vector)}")
+    
     return vector
 
 def compute_coordinates(vector, y_multiplier=2.5, x_extra_weight=1.0):
