@@ -40,9 +40,15 @@ Unlike Rome's external entropy raids (high X but fragile Y), ants' low-metabolis
 
 ## 3.4 The Free Y-Axis – Innate vs Institutional Governance Density
 
-The compass Y-axis measures governance density — suppression cost. In ants, raw Y is deeply negative (uniformity H1–H3 all -10, dissent suppression -9.8). Yet the actual cost is near-zero because enforcement is innate: queen pheromones act as a permanent quorum sensor, worker policing as distributed hardware.
+The compass Y-axis measures governance density — the energetic cost of suppression and coordination. In human systems, Y is expensive: laws, courts, ideology, coercion, and propaganda are required to enforce order, and the cost rises with scale (Rome's Y-positive explosion in late Republic). Ants achieve the same (or better) suppression at near-zero cost because governance is innate — hard-wired into the biology of the superorganism.
 
-This is the "free Y-axis" — biological governance density that avoids the leaky institutional costs that doomed Rome. Humans must pay in cultural energy, ideology, and coercion to approximate even a fraction of this efficiency. Consensus Y: -2.18 (tuned).
+Consensus Y: -2.18 (tuned). This negative/low value reflects extreme uniformity (H1 -10), ideological monopoly (H2 -10), and dissent suppression (H3 -9.8) — yet the actual cost is negligible. Queen pheromones act as a permanent quorum sensor, worker policing as distributed hardware. No external enforcement layer is needed; suppression emerges from the system itself.
+
+The lattice visualizes this freedom: vertical Mutualism dominance (90–100% in column 0) is sustained across rows 1–15 because Row 13 suppression is locked in cheaply (98% Mutualism / 2% bleed, proxy 0.6%). There is no "leak" — no need for purge cycles (L3 -7.3) or leadership cults (L2 -8.8). Governance density is "free" — biology does the work without institutional overhead.
+
+In contrast, Rome's governance density became positive and explosive as suppression shifted from cultural norms to state coercion — Y costs that eventually overwhelmed entropy export. The ants baseline shows what order looks like when suppression is hardware, not software. Human systems must pay the institutional tax to approximate this efficiency — and even the best approximations (Chapter 4) remain leaky and mortal.
+
+[Cross-reference Figure 3.1: The vertical Mutualism spine is enabled by the free Y-axis — suppression is innate, not negotiated.]
 
 ## 3.5 The Benchmark – The Perfect Lattice
 
