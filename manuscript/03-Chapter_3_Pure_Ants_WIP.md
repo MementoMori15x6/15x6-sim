@@ -50,6 +50,22 @@ In contrast, Rome's governance density became positive and explosive as suppress
 
 [Cross-reference Figure 3.1: The vertical Mutualism spine is enabled by the free Y-axis — suppression is innate, not negotiated.]
 
+### Shock Fragility: Queen Death as Kill-Switch
+
+To test the lattice's resilience, we apply a queen death shock: -10 delta on L1 (succession mechanism) and L2 (leadership cult), simulating loss of the reproductive/pheromone anchor.
+
+The result is a rapid phase transition:
+
+- Row 13 fractures from 98% Mutualism / 2% bleed to 70% Mutualism / 30% Parasitism — crossing the >30% collapse risk threshold.
+- Parasitism bleed spreads to harvest rows (1–5) and functional rows (6–10), reaching 10–20% in multiple places.
+- Mutualism dominance weakens across the grid — the vertical spine splatters.
+
+This demonstrates the brittleness of biological hardware: the free Y-axis (-2.18 baseline) is only free while the queen is alive. Remove the central signal, and suppression cost explodes — the lattice collapses from perfect order to terminal entropy in a single step.
+
+In contrast, human systems like Rome exhibit slow, distributed drift toward cascade. Ants are efficient but fragile; humans are leaky but redundant. The ledger's ceiling is high, but the drop is steep when the anchor fails.
+
+[Figure 3.2: 15×6 Master Grid – Ants Baseline with Queen Death Shock]
+
 ## 3.5 The Benchmark – The Perfect Lattice
 
 The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dominance (90–100% in column 0), sharp suppression anchor at Row 13 (98% Mutualism / 2% bleed), minimal splatter elsewhere. Rule-13 proxy 0.6%, longevity window ~90–180+ years (tuned).
