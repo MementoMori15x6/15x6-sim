@@ -47,8 +47,8 @@ def compute_coordinates(vector, y_multiplier=2.5, x_extra_weight=1.0):
     Y = (y_raw / 10) * y_multiplier + suppression_boost + central_boost
    
     if Y < 2.0:
-        Y = Y * 0.6  # amplify downward pull for fragile systems
-    
+        Y = Y * 0.6
+   
     g_mean = np.mean(vector[18:])
     if g_mean < 0:
         rule13_parasitism = max(0, 5 + (g_mean / 10 * 5))  # low for negative/innate suppression
@@ -62,9 +62,9 @@ def compute_coordinates(vector, y_multiplier=2.5, x_extra_weight=1.0):
    
     adaptation_penalty = max(0, (np.mean(vector[:18]) - 5.5) / 1.8)
     X = X - adaptation_penalty
-    
+   
     if X > 0.6:
-        Y = Y * 0.8  # dampen Y for high adaptation cases
+        Y = Y * 0.8
    
     point_2d = np.array([X, Y])
    
@@ -113,22 +113,20 @@ def text_summary(vector, case_name="Unknown Case"):
     print(f"Estimated longevity window (placeholder): ~{int(longevity_low)}–{int(longevity_high)} years")
     print(f" (Sensitivity: ±20% on parasitism would shift range to ~{int(longevity_low*0.8)}–{int(longevity_high*1.2)} years)")
 
-# Add basic grid save
-def save_grid():
-    dominance = np.zeros((15, 6))
-    dominance[:, 0] = 85  # heavy mutualism placeholder
-    dominance[12, 2] = 5   # low parasitism in Row 13
-    plt.figure(figsize=(12, 8))
-    sns.heatmap(dominance, annot=True, fmt=".0f", cmap="YlGnBu", cbar_kws={'label': '% Dominance'})
-    plt.title("Ants Consensus 15×6 Master Grid – Perfect Lattice Benchmark")
-    plt.ylabel("Base Rules (1–15)")
-    plt.xlabel("Mutualism | Commensalism | Parasitism | Competition | Amensalism | Neutralism")
-    plt.tight_layout()
-    plt.savefig("tests/outputs/ants_consensus_lattice.png", dpi=300, bbox_inches="tight")
-    plt.close()
-    print("Lattice grid saved: tests/outputs/ants_consensus_lattice.png")
-
-# Run only ants for now
+# Run only ants
 vector = load_metrics("examples/eusocial_ant_colony.csv")
 text_summary(vector, "Ants Consensus Baseline")
-save_grid()
+
+# Basic grid save
+dominance = np.zeros((15, 6))
+dominance[:, 0] = 85  # heavy mutualism placeholder
+dominance[12, 2] = 5   # low parasitism in Row 13
+plt.figure(figsize=(12, 8))
+sns.heatmap(dominance, annot=True, fmt=".0f", cmap="YlGnBu", cbar_kws={'label': '% Dominance'})
+plt.title("Ants Consensus 15×6 Master Grid – Perfect Lattice Benchmark")
+plt.ylabel("Base Rules (1–15)")
+plt.xlabel("Mutualism | Commensalism | Parasitism | Competition | Amensalism | Neutralism")
+plt.tight_layout()
+plt.savefig("tests/outputs/ants_consensus_lattice.png", dpi=300, bbox_inches="tight")
+plt.close()
+print("Lattice grid saved: tests/outputs/ants_consensus_lattice.png")
