@@ -1,6 +1,6 @@
 # Chapter 3: The Superorganism Baseline – Ants as Thermodynamic Ceiling
 
-Replicating systems persist by exporting entropy faster than they accumulate it. Chapter 2 traced Rome's cascade: mutualism eroded, Rule-13 parasitism crossed 30%, governance density exploded, and the system collapsed. To diagnose what genuine health looks like, we need a control group — a replicator that achieves near-perfect efficiency without institutional overhead.
+Replicating systems persist by exporting entropy faster than they accumulate it. Chapter 2 traced Rome's cascade: mutualism eroded, Rule-13 parasitism crossed 30%, governance density exploded, and the system collapsed. To diagnose genuine health, we need a control group — a replicator that achieves near-perfect efficiency without institutional overhead.
 
 The stable mature eusocial ant colony (Formicinae and Atta species) is that control group. In this superorganism, reproduction is queen-monopolized, workers are sterile, and high relatedness (haplodiploidy, r ≈ 0.75 among sisters) aligns every action with colony fitness. Coordination emerges from chemical and behavioral hardware, not negotiated institutions.
 
@@ -12,7 +12,7 @@ Eusocial ants are not collections of individuals; they are superorganisms where 
 
 This structure sets the physical limit: individual sacrifice maximizes system longevity. No human polity has matched this baseline without paying steep institutional costs.
 
-[Placeholder: Figure 3.1 – 15×6 Master Grid – Ants Consensus Baseline (Perfect Lattice). See repo /figures/ for PNG.]
+[Figure 3.1: 15×6 Master Grid – Ants Consensus Baseline (Perfect Lattice). See repo /figures/ for PNG.]
 
 ## 3.2 Suppression Hardware – The Low-Cost Rule 13 Miracle
 
@@ -25,8 +25,6 @@ Consensus G1 cheater detection: -9.5 → Rule-13 parasitism proxy ≈ 0.6% (biol
 Row 1 (harvest negative entropy) is the engine of persistence. Rome harvested externally through conquest and tribute — high-metabolism, high-risk, ultimately brittle as parasitism accumulated. Ants harvest internally through extreme, low-metabolism niche construction: Atta fungal gardens ventilated to 8 m depth, Formica thermoregulated mounds, pheromone trails reshaping resource landscapes over decades.
 
 This internal harvest prioritizes persistence over expansion. A1–A3 all -10 reflect zero markets, property, or profit motive — resources flow via trophallaxis and collective need, maximizing entropy export without individual accumulation. The lattice shows mutualism dominance in rows 1–5 (harvest basics) and 6–8 (reproduction/adaptation), with minimal bleed — the system is engineered for long-duration stability rather than rapid growth.
-
-Table 3.1 compares key harvest/niche metrics between ants and Rome, highlighting the thermodynamic contrast.
 
 **Table 3.1: Negative Entropy Harvest – Ants vs Rome Comparison**
 
@@ -68,11 +66,10 @@ In contrast, human systems like Rome exhibit slow, distributed drift toward casc
 
 ## 3.5 The Benchmark – The Perfect Lattice
 
-The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dominance (90–100% in column 0), sharp suppression anchor at Row 13 (98% Mutualism / 2% bleed), minimal splatter elsewhere. Rule-13 proxy 0.6%, longevity window ~90–180+ years (tuned).
+The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dominance (90–100% in column 0), sharp suppression anchor at Row 13 (98% Mutualism / 2% bleed), minimal splatter elsewhere. Rule-13 proxy 0.6%, longevity window ~97–180 years (tuned).
 
 This lattice is not an accident; it is the thermodynamic ideal. Every human system that follows adds splatter — and every added percentage point of parasitism or governance cost shortens the window.
 
 ![Figure 3.1: The Perfect Lattice (Ant Baseline)](figures/fig_3_1_ants_consensus_baseline_perfect_lattice.png)
 
 From this ceiling we descend into the noisy, high-entropy world of human replication — beginning with Venice's attempt to engineer an "artificial lattice" through institutional pheromones (Chapter 4).
-
