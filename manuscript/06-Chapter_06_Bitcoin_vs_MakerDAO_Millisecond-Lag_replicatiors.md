@@ -74,6 +74,36 @@ Right: MakerDAO (Rule-13 parasitism proxy ≈ 25–35%, stressed splatter with ~
 Generated from consensus median 35-metric scores via matplotlib/seaborn (script: scripts/ch06_bitcoin_makerdao_heatmap_rc3.py).  
 Rule 13 highlighted in red. Provisional values; to be refined with full simulate.py outputs and shock scenarios.
 
-[Banked extension: brief note on meme swarms as pure foraging (high X, no Rule-13 filter → entropy plunge).]
+### 6.4 The Entropy Plunge: Meme Swarms as Pure Metabolic Flares
 
-[Future test: Expand shock library in simulate.py to include millisecond-lag effects (e.g., flash-loan Δ on G1).]
+To complete the diagnostic spectrum, we consider meme swarms (e.g., viral tokens like Dogecoin 2013–2021 surges, WSB/GameStop 2021 short squeeze, or AI-accelerated pump-and-dump cycles on Solana/Telegram 2024–2025). These represent the opposite extreme: near-infinite X-axis adaptive vitality (hyper-rapid variation, niche construction via attention foraging) with effectively zero Rule-13 suppression.
+
+**Provisional Compass Read**  
+- X ≈ +9 to +10 (explosive short-term metabolism: viral spread, speculative inflows, instant niche creation)  
+- Y ≈ 0 to -2 (minimal governance density; no centralized suppression, only social momentum)  
+- Rule-13 parasitism proxy ≈ 80–100% (no structural cheater detection; pumpers extract value via exit liquidity, rug pulls, or attention evaporation)
+
+**15×6 Lattice Signature**  
+The provisional dominance matrix would show a brief "flash mutualism" spike in rows 6–7 (resource acquisition & reproductive success via viral pheromones), followed by near-instantaneous collapse into 90–100% Amensalism (0/–) and Neutralism (0/0) as the attention trail evaporates. No boundary (F1) or error repair (F2) persists; the swarm exports zero net entropy because it never builds a stable replicator nest.
+
+**Thermodynamic Conclusion**  
+Meme swarms are not superorganisms but metabolic flares — high-velocity foraging without the Rule-13 hinge to convert transient signals into persistent structure. They demonstrate that extreme adaptive vitality without suppression leads to immediate entropy plunge: infinite variation bandwidth, zero fidelity, zero longevity. Unlike Bitcoin (suppression at fidelity cost) or MakerDAO (variation at fracture risk), meme swarms achieve neither — they are the thermodynamic null case.
+
+This control reinforces the chapter's central question:  
+**Can we engineer replicators that stay cheat-resistant without becoming rigid and stagnant?**  
+Hardware fidelity (Bitcoin) buys cheat-resistance at the price of rigidity. Governance flexibility (MakerDAO) buys adaptability at the price of capture risk. Pure foraging (meme swarms) buys neither — only a brief, brilliant flare before collapse.
+
+### Chapter 06 Conclusion & Forward Teaser
+
+We have now mapped three points on the lag-fidelity spectrum:
+
+- Bitcoin solves Rule-13 via energy-hardware: physics-layer enforcement delivers near-biological suppression at the cost of low variation bandwidth.  
+- DAOs attempt the same via algorithmic-software: millisecond governance preserves high adaptive vitality but inherits capture fractures reminiscent of late paper-ware empires.  
+- Meme swarms represent the null case: infinite foraging speed, zero suppression → metabolic flare followed by entropy plunge.
+
+This spectrum leaves us with the final scaling challenge of human replicators: the nation-state. Does a global superpower function as a high-fidelity ant colony capable of exporting the entropy of hundreds of millions of agents, or is it a scaled-up VOC approaching a Rule-13 fracture that no software patch can repair?
+
+The United States — a 250-year-old democratic republic managing 330 million participants — becomes the live diagnostic subject for the next chapter. Can its governance density sustain adaptive economic vitality without crossing the 30% parasitism threshold that has felled every prior large-scale replicator? Or are we witnessing the early stages of a thermodynamic trap no constitution can rewrite?
+
+[Transition to Ch. 07: United States 1971–present – Stressed Mutualism Drift]
+
