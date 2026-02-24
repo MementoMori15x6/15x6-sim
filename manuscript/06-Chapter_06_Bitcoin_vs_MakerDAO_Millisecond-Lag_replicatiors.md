@@ -1,4 +1,5 @@
-# Chapter 06 – Millisecond-Lag Replicators: From Wetware & Paper-Ware to Algorithmic Hardware
+# 06 - Chapter 06 Bitcoin vs MakerDAO - Millisecond-Lag replicatior
+(Ch06 draft v1.1: Interpretation section expanded with mechanics, pivot, physics-vs-plutocracy thesis, and central question)
 
 The VOC collapse (Chapter 05) diagnosed a classic entropy-lag fracture: six-month signal delays across vast oceans allowed parasitism to accumulate unchecked in Rule-13 rows, culminating in boundary failure and shortened longevity. Digital replicators eliminate that lag—consensus and enforcement occur in milliseconds, promising light-speed resolution of cheater dynamics. Yet speed alone does not guarantee thermodynamic health; secondary fractures can persist in governance and heredity rows.
 
