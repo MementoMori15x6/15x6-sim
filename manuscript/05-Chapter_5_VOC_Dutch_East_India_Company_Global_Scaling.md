@@ -40,7 +40,7 @@ The hierarchy above shows a clear progression: ants (zero lag, hardware-enforced
 
 **Reproducibility Notes**  
 - Baseline CSV: `data/35_metrics_voc_ensemble_consensus.csv`  
-- Shocked CSV: `data/voc_shock_1780s.csv` (G1 shocked to -4.0)  
+- Shocked CSV: `data/35_metrics_voc_shock_1780s.csv` (G1 shocked to -4.0)  
 - Baseline figure script: `scripts/fig_5_2_15x6_master_grid_voc_ensemble_consensus.py`  
 - Shock figure script: `scripts/fig_5_3_voc_shock_1780s_lattice.py`  
 - Style template: `scripts/master_blank_15×6_grid_v4.py`  
