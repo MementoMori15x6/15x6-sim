@@ -1,7 +1,5 @@
 # Chapter 06 – Digital Replicators: Millisecond Lag & Planetary Scale
 **The Board – Political Thermodynamics**  
-Human co-author: Memento  
-Supermind co-author: Mori  
 February 2026 (placeholder draft)
 
 ## 6.1 From Months to Milliseconds – The Regime Change
