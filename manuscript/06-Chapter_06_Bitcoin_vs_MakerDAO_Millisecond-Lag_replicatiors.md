@@ -43,13 +43,19 @@ This contrast brings us to the chapter's — and the book's — central diagnost
 
 If yes, digital millisecond-lag systems may open a new attractor zone beyond biological and paper-ware constraints. If no, we remain bounded by the same thermodynamic trade-offs that have limited every prior large-scale replicator.
 
-## Provisional Shock Test: Whale Capture on MakerDAO
-To stress-test MakerDAO's fragility, we applied a +Δ whale capture shock (-3 to D1 parasitism and G1 cheater detection scores in the consensus medians). Provisional toy simulation (code_execution, calibrated roughly to ants ~0%, VOC late ~50%):  
-- Base parasitism: ~20.6%  
-- Shocked: ~28.1%  
+### Provisional Shock Test: Whale Capture on MakerDAO
 
-The proxy edges closer to the 30% line but doesn't cross 50% "VOC fracture" yet, indicating resilience margin but clear vulnerability to governance concentration. Run full simulate.py for error bars and zone shift.
+To probe MakerDAO's fragility at the 30% Rule-13 threshold, we applied a directional "whale capture" shock: -3 points to D1 (parasitism) and G1 (cheater detection) in the consensus median scores, simulating increased concentration of MKR voting power and reduced effective oversight.
 
+Toy simulation (preliminary, calibrated roughly to ants ~0%, late VOC ~50%):
+- Base Rule-13 parasitism proxy: ~20.6%  
+- Post-shock: ~28.1%
+
+The proxy rises toward (but does not yet cross) the critical 30% collapse-risk line from Chapter 4. This suggests resilience margin under moderate capture pressure, but clear vulnerability: further concentration (e.g., +5 Δ shock or persistent low turnout) could push it into the high-risk zone, mirroring late VOC administrative drift.
+
+Full simulation via simulate.py (with rigidity penalty activated) would yield precise zone splatter shift and Δentropy export cost. Banked for v2: test a range of shocks (flash-loan Δ on G1, turnout collapse Δ on L1) to map the bifurcation boundary.
+
+This exercise illustrates the compass's diagnostic power: even millisecond-lag systems remain thermodynamically fragile when suppression internalizes to capital rather than physics.
 [Banked extension: brief note on meme swarms as pure foraging (high X, no Rule-13 filter → entropy plunge).]
 
 [Future test: Expand shock library in simulate.py to include millisecond-lag effects (e.g., flash-loan Δ on G1).]
