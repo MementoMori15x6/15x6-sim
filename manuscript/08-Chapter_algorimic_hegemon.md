@@ -23,3 +23,13 @@ Open question for community testing: Would AI-augmented detection (e.g., oracle-
 Memento mori. 🚀
 
 **Caption:** Baseline Row 13 shows balanced mutualism (~7) and competition (~8) keeping parasitism (~4) in check (21.1% intensity). Post-capture shock flips it — parasitism dominates at ~20 intensity (71.4% of row), mutualism collapses to 0, highlighting suppression failure under concentration.
+### 8.4 AI-Hegemon Variant Test (on Ethereum base)
+
+Variant: G1 boosted to 9.5 (AI-augmented cheater detection)  
+Baseline: Rule-13 proxy 19.0% (under 20% target), longevity 743 ±371 years  
+Post-shock (-10 delta on D1/G1): proxy 50.0%, longevity 458 ±229 years  
+Row 13 parasitism: 18.6% → 71.4%
+
+<image-card alt="AI-Hegemon Variant Row 13 Shock" src="figures/placeholder_fig_8_4_aihegemon_row13_shock.png" ></image-card>
+
+AI detection lowers baseline parasitism but fails to prevent shock-induced spike. Suggests need for multi-metric mitigation (detection + extraction reduction + sink distribution) to escape trap.
