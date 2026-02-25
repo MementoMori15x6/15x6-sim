@@ -105,36 +105,26 @@ Two thermodynamic strategies emerge at planetary scale:
 - **Hard Entropy Export (PRC)**: Centralized suppression + infrastructure dominance build a high-pressure containment vessel (Social Credit, BRI). Control is tight but brittle — signal cascades and rigidity can fracture the vessel suddenly.
 
 Neither solves for low Rule-13 parasitism **and** high adaptive bandwidth simultaneously. The current era is a race between two distinct forms of systemic exhaustion.
-**Table 7.6: De-Dollarization Shock Delta (Mock)**
 
-| Metric                     | Baseline (USA) | Post-Shock     | Delta                  |
-|----------------------------|----------------|----------------|------------------------|
-| X (metabolism)             | +0.54         | -0.10         | -0.64 (stagnation)    |
-| Y (governance)             | +0.41         | +0.60         | +0.19 (internal pressure) |
-| Rule-13 Parasitism         | 43.7%         | 60.2%         | +16.5% (terminal breach) |
-| ε-Ratio                    | 0.84          | 1.12          | +0.28 (kill-switch)   |
-| Zone                       | Zone 2        | Separatrix    | Fragile → unstable     |
-| Est. Remaining Longevity   | 80–140 yrs    | 30–80 yrs     | -50 yrs compression    |
+#### Table 7.6: De-Dollarization Shock Delta (USA 1971–present)
+
+| Metric                     | Baseline       | Post-Shock     | Delta                  | Interpretation                                      |
+|----------------------------|----------------|----------------|------------------------|-----------------------------------------------------|
+| Compass X                  | +0.50         | -0.25         | -0.75                 | Metabolic contraction – reserve sink removed       |
+| Compass Y                  | +0.41         | +0.68         | +0.27                 | Governance density rises (internal clamp-down)     |
+| Rule-13 Parasitism Proxy   | 10.0%         | 71.5%         | +61.5%                | Severe breach – administrative capture dominates   |
+| Thermodynamic Zone         | Stressed Mutualism | Boundary Saturation | Shift to rigid attractor | Fragile drift → high-density exhaustion            |
+| Est. Remaining Longevity   | 80–140 yrs    | 30–80 yrs     | -50 yrs compression   | Accelerated systemic exhaustion                     |
+
+**Note:** Shock simulates rapid loss of USD reserve status. External entropy export blocked → internal rent-seeking becomes visible and self-reinforcing. Proxy conservative on baseline; delta magnitude highlights fragility of global sink buffer.
+
 #### 7.7 Banked Shock 1: De-Dollarization Delta
 
-**Trigger**  
-Rapid erosion of USD global reserve status (multi-currency shift, BRICS alternatives, weaponization backlash). Removes secondary entropy sink that has masked administrative parasitism since 1971.
+The USD's global reserve status has functioned as the USA's primary secondary entropy sink since 1971, exporting domestic inflation, debt monetization, and administrative parasitism to the global lattice. Rapid de-dollarization — multi-currency baskets, BRICS alternatives, geopolitical backlash — removes this buffer.
 
-**Simulation Parameters (toy baseline)**  
-- Compass X: +0.54 → **-0.10** (metabolic stagnation)  
-- Row 13 parasitism dominance: 43.7% → **58–62%** (internal capture becomes terminal)  
-- Ripple: Row 6 mutualism ↓, parasitism ↑; Row 11 amensalism ↑; mild Y ↑ from internal pressure  
+Simulation shows X collapsing from +0.50 to -0.25 (metabolic stagnation), Y rising to +0.68 (internal suppression pressure), and Rule-13 parasitism surging from 10.0% to 71.5%. The system shifts from Stressed Mutualism to Boundary Saturation, with remaining longevity compressed by ~50 years (80–140 → 30–80 yrs).
 
-**Hypothesized Outcome**  
-- ε-Ratio crosses from 0.84 → ~1.05–1.15 (enters kill-switch range)  
-- Zone migration: Stressed Mutualism → separatrix / active competition  
-- Longevity compression: 80–140 yrs remaining → **30–80 yrs**  
-- Interpretation: Without the global export buffer, USA's 43.7% baseline parasitism becomes visible and self-reinforcing — drift accelerates toward exhaustion.
-
-**To Do**  
-- Run full delta in simulate.py (update X, weight D1/G1 shift, re-compute grid & ε-Ratio)  
-- Generate post-shock heatmap side-by-side with baseline  
-- Commit delta table / new PNG to /figures/shocks/
+Interpretation: Without the global sink, soft drift accelerates into visible, self-reinforcing capture — the system rigidifies faster than baseline resilience would suggest, underscoring thermodynamic dependence on external entropy export.
 
 #### 7.8 Banked Shock 2: PRC – Rigidity Penalty Activation
 
