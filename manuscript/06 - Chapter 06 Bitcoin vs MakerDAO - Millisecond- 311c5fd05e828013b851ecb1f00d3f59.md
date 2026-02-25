@@ -33,7 +33,7 @@ Rule-13 parasitism proxy:
 
 **Figure 6.1: Provisional 15×6 dominance heatmap – Bitcoin vs MakerDAO**
 
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/figure_6_1_provisional_15%C3%976_dominance_heatmap%E2%80%93bitcoin_vs_makerdao.png)
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_6_1_provisional_15%C3%976_dominance_heatmap%E2%80%93bitcoin_vs_makerdao.png)
 
 *Figure 6.1: Bitcoin vs MakerDAO*  Comparative scorecard showing interaction dominance (%) across the 15 base rules and 6 evolutionary moves.  Left: Bitcoin (Rule-13 parasitism proxy ≈ 8–12%, sharp mutualism/competition core).  Right: MakerDAO (Rule-13 parasitism proxy ≈ 25–35%, stressed splatter with ~30% parasitism dominance in cheater detection row).  Generated from consensus median 35-metric scores via matplotlib/seaborn (script: scripts/ch06_bitcoin_makerdao_heatmap_rc3.py).  Rule 13 highlighted in red. Provisional values; to be refined with full simulate.py outputs and shock scenarios.
 
