@@ -142,6 +142,6 @@ Ch. 08 will explore the criteria for such a successor:
 We will test early prototypes (Bitcoin, Ethereum, Polkadot, Cosmos hybrids) against these thresholds and begin sketching the lattice architecture that might escape the dead-end trap.
 
 Stress-test continues. Let’s keep the grid honest.
-Stress-test continues. Let’s keep the grid honest.
+
 
 Memento mori. 🚀
