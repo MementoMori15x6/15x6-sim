@@ -106,14 +106,26 @@ Two thermodynamic strategies emerge at planetary scale:
 
 Neither solves for low Rule-13 parasitism **and** high adaptive bandwidth simultaneously. The current era is a race between two distinct forms of systemic exhaustion.
 
-#### 7.7 Banked Shock 1: USA – De-Dollarization Delta
+#### 7.7 Banked Shock 1: De-Dollarization Delta
 
-**Logic** — USD reserve status functions as a secondary entropy sink (Pillar 3). Loss removes the ability to export domestic inflation and administrative rent-seeking.
+**Trigger**  
+Rapid erosion of USD global reserve status (multi-currency shift, BRICS alternatives, weaponization backlash). Removes secondary entropy sink that has masked administrative parasitism since 1971.
 
-**Proposed simulation tweaks** (to be run in simulate.py):  
-- X: drop from +0.54 → -0.10 (metabolic stagnation)  
-- Row 13 parasitism: spike from 43.7% → ~58% (buffers vanish, internal capture becomes visible/terminal)  
-- Expected outcome: accelerated drift toward separatrix zone, shortened longevity window
+**Simulation Parameters (toy baseline)**  
+- Compass X: +0.54 → **-0.10** (metabolic stagnation)  
+- Row 13 parasitism dominance: 43.7% → **58–62%** (internal capture becomes terminal)  
+- Ripple: Row 6 mutualism ↓, parasitism ↑; Row 11 amensalism ↑; mild Y ↑ from internal pressure  
+
+**Hypothesized Outcome**  
+- ε-Ratio crosses from 0.84 → ~1.05–1.15 (enters kill-switch range)  
+- Zone migration: Stressed Mutualism → separatrix / active competition  
+- Longevity compression: 80–140 yrs remaining → **30–80 yrs**  
+- Interpretation: Without the global export buffer, USA's 43.7% baseline parasitism becomes visible and self-reinforcing — drift accelerates toward exhaustion.
+
+**To Do**  
+- Run full delta in simulate.py (update X, weight D1/G1 shift, re-compute grid & ε-Ratio)  
+- Generate post-shock heatmap side-by-side with baseline  
+- Commit delta table / new PNG to /figures/shocks/
 
 #### 7.8 Banked Shock 2: PRC – Rigidity Penalty Activation
 
