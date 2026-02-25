@@ -105,7 +105,16 @@ Two thermodynamic strategies emerge at planetary scale:
 - **Hard Entropy Export (PRC)**: Centralized suppression + infrastructure dominance build a high-pressure containment vessel (Social Credit, BRI). Control is tight but brittle — signal cascades and rigidity can fracture the vessel suddenly.
 
 Neither solves for low Rule-13 parasitism **and** high adaptive bandwidth simultaneously. The current era is a race between two distinct forms of systemic exhaustion.
+**Table 7.6: De-Dollarization Shock Delta (Mock)**
 
+| Metric                     | Baseline (USA) | Post-Shock     | Delta                  |
+|----------------------------|----------------|----------------|------------------------|
+| X (metabolism)             | +0.54         | -0.10         | -0.64 (stagnation)    |
+| Y (governance)             | +0.41         | +0.60         | +0.19 (internal pressure) |
+| Rule-13 Parasitism         | 43.7%         | 60.2%         | +16.5% (terminal breach) |
+| ε-Ratio                    | 0.84          | 1.12          | +0.28 (kill-switch)   |
+| Zone                       | Zone 2        | Separatrix    | Fragile → unstable     |
+| Est. Remaining Longevity   | 80–140 yrs    | 30–80 yrs     | -50 yrs compression    |
 #### 7.7 Banked Shock 1: De-Dollarization Delta
 
 **Trigger**  
