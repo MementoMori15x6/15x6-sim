@@ -125,6 +125,7 @@ The USD's global reserve status has functioned as the USA's primary secondary en
 Simulation shows X collapsing from +0.50 to -0.25 (metabolic stagnation), Y rising to +0.68 (internal suppression pressure), and Rule-13 parasitism surging from 10.0% to 71.5%. The system shifts from Stressed Mutualism to Boundary Saturation, with remaining longevity compressed by ~50 years (80–140 → 30–80 yrs).
 
 Interpretation: Without the global sink, soft drift accelerates into visible, self-reinforcing capture — the system rigidifies faster than baseline resilience would suggest, underscoring thermodynamic dependence on external entropy export.
+... remaining longevity compressed by ~50 years (80–140 → 30–80 yrs; high-probability dissolution range, mirroring the VOC's final 30-year jagged descent after Rule-13 fracture, cf. Chapter 05).
 
 #### 7.8 Banked Shock 2: PRC – Rigidity Penalty Activation
 
