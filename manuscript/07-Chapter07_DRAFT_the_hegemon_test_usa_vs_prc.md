@@ -2,44 +2,43 @@
 **Working Manuscript – December 2025**  
 Co-authors: Memento & Mori
 
-## WIP.md – Current Status & Chapter 07 Draft
+## WIP.md – Current Status & Chapter 07 Draft (updated)
 
 **Repo:** https://github.com/MementoMori15x6/15x6-sim  
 **Current focus:** Chapter 07 – The Hegemon Test (USA vs. PRC)
 
-### Manuscript Progress Overview
+### Manuscript Progress Overview (Feb 2026)
 
-- Chapter 01: Base Rules (15) & Interaction Moves (6) – Locked (Dec 2025 canon)  
-- Chapter 02: 35-Metric Compass Protocol – Locked (toy version)  
-- Chapter 03–05: Lower-scale replicators (RNA, cells, firms, protocols) – In progress  
-- Chapter 06: Lag-fidelity spectrum (Bitcoin, MakerDAO, meme swarms) – Draft complete  
-- **Chapter 07: The Hegemon Test (USA vs. PRC)** – Active drafting (this file)  
-- Chapter 08+: Scaling limits, engineered replicators, open questions – Outline only
+- Ch. 01–02: Base Rules, Moves, 35-Metric Compass – Locked  
+- Ch. 03–05: Lower-scale replicators – In progress  
+- Ch. 06: Lag-fidelity spectrum (Bitcoin, MakerDAO, meme swarms) – Draft complete  
+- **Ch. 07: Hegemon Test (USA vs. PRC)** – Draft v2 (this file)  
+- Ch. 08+: Scaling limits, engineered successors – Outline stage
 
 ### Chapter 07 – The Hegemon Test: USA vs. PRC as Planetary-Scale Replicators
 
 #### 7.1 Scope & Central Question
-Nation-states represent the current historical maximum in scale for replicating systems: planetary agent counts, global resource coupling, informational/energetic flows across continents.  
-The USA (post-1971 Nixon Shock / dollar-reserve era) and PRC (post-1978 Reform & Opening era) serve as live, high-fidelity hegemon experiments.
+Nation-states are the current apex of far-from-equilibrium replicating systems: planetary agent counts, global energetic coupling, informational flows spanning continents.  
+USA (post-1971 dollar-reserve era) and PRC (post-1978 Reform & Opening era) function as high-fidelity, high-metabolism hegemons — each exporting entropy at unprecedented scale while attempting to suppress internal cheaters and external rivals.
 
-**Core diagnostic question:**  
-Can a replicator achieve planetary hegemony while maintaining Rule-13 parasitism <30% **and** preserving adaptive economic variation — or is the thermodynamic tension between cheat-resistance and rigidity inevitable at this scale?
+**Core question at this scale:**  
+Can a replicator reach planetary hegemony while keeping Rule-13 parasitism <30% **and** preserving high adaptive variation bandwidth — or is the thermodynamic tension between cheat-resistance and rigidity unavoidable?
 
 #### 7.2 Compass Positions (Consensus Medians)
 
 **USA (1971–present)**  
-- X (economic metabolism): ≈ +0.54 (mild positive/market-leaning)  
-- Y (governance density): ≈ +0.41 (low suppression, libertarian-leaning by hegemon standards)  
-- Zone: moderate open-market/resilient drift  
-- Key buffers: dollar-reserve entropy sink, federal modularity, innovation bandwidth  
-- Key drag: administrative rent-seeking, weak cheater detection asymmetry
+- X ≈ +0.54 (mild positive economic metabolism)  
+- Y ≈ +0.41 (low governance suppression density)  
+- Zone: Stressed Mutualism (open-market/resilient drift)  
+- Buffers: dollar-reserve entropy sink, federal modularity, innovation bandwidth  
+- Drag: administrative rent-seeking, asymmetric/weak cheater detection
 
 **PRC (1978–present)**  
-- X: ≈ +0.21 (weaker, state-directed metabolism)  
-- Y: ≈ -1.9 (high suppression density)  
-- Zone: rigid-suppressive attractor (Boundary Saturation)  
-- Key buffers: hardware-enforced Rule-13 (surveillance, Social Credit, CCDI), niche construction (BRI/infra)  
-- Key drag: extreme governance cost, low variation bandwidth, rigidity penalty risk
+- X ≈ +0.21 (weaker, state-directed metabolism)  
+- Y ≈ -1.9 (high suppression density)  
+- Zone: Boundary Saturation (rigid-suppressive attractor)  
+- Buffers: hardware-enforced Rule-13 (surveillance, Social Credit, CCDI), niche construction (BRI/infra)  
+- Drag: extreme governance cost, low variation bandwidth, rigidity penalty risk
 
 #### 7.3 Rule-13 Parasitism Proxy
 
@@ -48,9 +47,8 @@ Proxy: D1 parasitism inversion weighted against G1 detection strength, normalize
 - USA: ~43.7% parasitism dominance  
 - PRC: ~54.4% parasitism dominance  
 
-**Both exceed provisional >30% collapse-risk threshold.**  
-- USA: soft drift (lobbying, revolving door, regulatory capture) masked by metabolic buffers  
-- PRC: hard structural extraction (SOE subsidies, elite guanxi) mitigated by top-down suppression at high cost
+**Both exceed the provisional >30% collapse-risk threshold.**  
+This is the memento mori moment: the current era is not a contest between a healthy hegemon and a sick one, but a race between two different forms of systemic exhaustion.
 
 #### 7.4 15×6 Master Grid Dominance Heatmaps
 
@@ -61,39 +59,58 @@ Proxy: D1 parasitism inversion weighted against G1 detection strength, normalize
 
 Highlights:  
 - Metabolic rows (1–10): USA stronger mutualism/competition balance (~55–57% mutualism in many); PRC commensalism/parasitism mix with niche strength  
-- Governance rows (11–15): USA retains modularity/error-repair; PRC heavy parasitism/amensalism from suppression dominance  
-- Row 13 (KEY): USA 43.7% parasitism (some competition suppression); PRC 54.4% (suppression dominates, high cost)
+- Governance-influenced rows (11–15): USA retains modularity/error-repair; PRC heavy parasitism/amensalism pull from suppression dominance  
+- Row 13 (KEY): USA 43.7% parasitism (competition helping suppress), PRC 54.4% (suppression dominates at high cost)
 
 #### 7.5 Longevity Windows & Bifurcation Proximity
 
 **Estimates** (from baseline, ± model-variance error bars):  
 - USA: 80–140 years remaining (~150–220 years total)  
-  → Buffered by variation bandwidth and freedoms; parasitism drift needs monitoring  
+  → Buffered by variation bandwidth and freedoms; parasitism drift accumulates slowly  
 - PRC: 40–90 years remaining (~110–160 years total)  
-  → Exceptional post-1978 persistence; extreme Y + low C2 places it nearer rigidity-induced plunge
+  → Exceptional post-1978 persistence; extreme Y + low C2 places it closer to rigidity-induced plunge
 
-**Banked shocks for simulation:**  
-- USA: de-dollarization delta → X drop + parasitism spike  
-- PRC: BRI access loss or Taiwan conflict → rigidity penalty activation, boundary saturation acceleration
+#### 7.6 The Hegemon Fork – Soft vs. Hard Entropy Export
 
-#### 7.6 The Hegemon Fork – Preliminary Conclusions
+Two thermodynamic strategies emerge at planetary scale:  
 
-Two paths to planetary replication emerge:  
-- **Soft entropy export** (USA): market vitality + modularity buffers drift, but Rule-13 weakness accumulates  
-- **Hard entropy export** (PRC): centralized suppression + infrastructure dominance achieves control, but at rigidity/entropy cost  
+- **Soft Entropy Export (USA)**: Market vitality + institutional modularity allow entropy to swirl outward (dollar sink, lobbying leakage buffered by innovation/resilience). Drift is gradual but persistent.  
+- **Hard Entropy Export (PRC)**: Centralized suppression + infrastructure dominance build a high-pressure containment vessel (Social Credit, BRI). Control is tight but brittle — signal cascades and rigidity can fracture the vessel suddenly.
 
-Neither currently satisfies low Rule-13 parasitism **and** high adaptive bandwidth simultaneously.  
-The thermodynamic tension at hegemon scale appears acute — open question for engineered successors.
+Neither solves for low Rule-13 parasitism **and** high adaptive bandwidth simultaneously. The current era is a race between two distinct forms of systemic exhaustion.
+
+#### 7.7 Banked Shock 1: USA – De-Dollarization Delta
+
+**Logic** — USD reserve status functions as a secondary entropy sink (Pillar 3). Loss removes the ability to export domestic inflation and administrative rent-seeking.
+
+**Proposed simulation tweaks** (to be run in simulate.py):  
+- X: drop from +0.54 → -0.10 (metabolic stagnation)  
+- Row 13 parasitism: spike from 43.7% → ~58% (buffers vanish, internal capture becomes visible/terminal)  
+- Expected outcome: accelerated drift toward separatrix zone, shortened longevity window
+
+#### 7.8 Banked Shock 2: PRC – Rigidity Penalty Activation
+
+**Logic** — High-Y systems risk "signal cascades": suppression becomes so efficient that error-repair signals are ignored until fracture (C2 failure).
+
+**Proposed simulation tweaks**:  
+- Y: deepen from -1.9 → -2.5 (emergency consolidation)  
+- Row 4 (Differential Persistence): increase Amensalism (0/–) to ~40% (rigidity penalty: survival mechanisms begin destroying own productive agents)  
+- Expected outcome: faster boundary saturation, elevated collapse risk under external shock
+
+#### 7.9 Forward Teaser – Toward Chapter 08
+
+If neither hegemon can solve the parasitism–adaptability tension, the ledger must ask:  
+Is the planetary replicator itself a dead-end configuration?  
+Or is a hybrid Digital-State Replicator — an **Algorithmic Hegemon** — the only thermodynamically viable successor?
 
 #### Next Steps / Open Tasks
 
-- [ ] Insert final heatmap PNG & commit to /figures/  
-- [ ] Activate banked rigidity penalty → re-run PRC Y (expect deeper negative pull)  
-- [ ] Draft shock scenarios (de-dollarization, BRI disruption) in simulate.py  
-- [ ] Add comparative table: X/Y, parasitism %, longevity, zone  
+- [ ] Commit final heatmap PNG to /figures/  
+- [ ] Run de-dollarization & rigidity-penalty shocks in simulate.py → add delta tables/heatmaps  
+- [ ] Draft comparative table (X/Y, parasitism %, longevity, zone, shock outcomes)  
 - [ ] Expand 7.6 with entropy-export math or variation-bandwidth discussion  
-- [ ] Community call-for-review note (once repo public?)  
+- [ ] Outline Ch. 08: Algorithmic Hegemon hypothesis & successor criteria  
 
-Let’s keep stress-testing.
+Stress-test continues. Let’s keep the grid honest.
 
 Memento mori. 🚀
