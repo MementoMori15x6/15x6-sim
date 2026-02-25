@@ -69,6 +69,33 @@ Highlights:
   → Buffered by variation bandwidth and freedoms; parasitism drift accumulates slowly  
 - PRC: 40–90 years remaining (~110–160 years total)  
   → Exceptional post-1978 persistence; extreme Y + low C2 places it closer to rigidity-induced plunge
+  #### Table 7.5: Hegemon Scalar Scoreboard (Pre-Shock Baseline)
+
+| Metric                          | USA (The "Soft" Hegemon)      | PRC (The "Hard" Hegemon)      | Diagnostic Significance                                                                 |
+|---------------------------------|-------------------------------|-------------------------------|------------------------------------------------------------------------------------------|
+| **Compass (X, Y)**              | (+0.54, +0.41)               | (+0.21, -1.90)               | USA: Market-modular drift. PRC: Rigid-suppressive saturation.                           |
+| **Rule-13 Parasitism**          | **43.7%**                    | **54.4%**                    | Both breach >30% Collapse Threshold. PRC deeper in fracture zone.                       |
+| **ε-Ratio (P/M)**               | 0.84                         | **1.22**                     | PRC crossed 1.1 Kill-Switch; USA in "Stressed Buffer" mode.                             |
+| **Entropy Export Mechanism**    | Global Reserve (USD) / Innovation | State Infrastructure (BRI) / Surveillance | USA exports via financial flows; PRC via physical & digital boundaries.                 |
+| **Variation Bandwidth (C2)**    | High (8.2)                   | Low (3.1)                    | USA prioritizes adaptation; PRC prioritizes persistence (at rigidity cost).             |
+| **Est. Longevity (Remaining)**  | 80–140 Years                 | 40–90 Years                  | USA buffered by flexibility; PRC restricted by high governance tax.                     |
+| **Thermodynamic Zone**          | Zone 2: Balanced/Fragile     | Zone 1: High-Density Attractor | USA is a "cloud" replicator; PRC is a "crystal" replicator.                             |
+
+**Notes**  
+ε-Ratio = Parasitism dominance in Row 13 / (average Mutualism + Competition dominance across metabolic rows 1–10). Provisional kill-switch >1.1.
+
+#### Diagnostic Analysis for 7.5
+
+1. **The ε-Ratio Crisis**  
+   PRC's 1.22 indicates suppression and parasitism management now consume more energy than new metabolic value is generated. The system is "running hot" and survives primarily through massive infrastructure niche construction.
+
+2. **The Variation/Rigidity Gap**  
+   C2 contrast (8.2 vs 3.1) drives the longevity delta. USA's modularity absorbs shocks by lattice reconfiguration; PRC's rigid lattice cannot bend — fracture tends to be global when it occurs.
+
+3. **The Reserve Currency Buffer**  
+   USA's 43.7% Rule-13 parasitism would be terminal for most historical replicators (cf. late VOC ~47%). Dollar hegemony allows entropy export (debt, administrative bloat) to the global lattice — de-dollarization removes this secondary sink.
+
+Next: Activating the Shocks in simulate.py
 
 #### 7.6 The Hegemon Fork – Soft vs. Hard Entropy Export
 
