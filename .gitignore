@@ -7,3 +7,8 @@ __pycache__/
 *.jpg
 *.jpeg
 *.gif
+
+# Allow manuscript figures
+!figures/*.png
+!figures/*.jpg
+!figures/*.pdf
