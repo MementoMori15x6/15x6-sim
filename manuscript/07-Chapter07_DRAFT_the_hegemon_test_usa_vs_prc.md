@@ -69,24 +69,38 @@ Two thermodynamic strategies emerge at planetary scale:
 
 Neither solves for low Rule-13 parasitism **and** high adaptive bandwidth simultaneously. The current era is a race between two distinct forms of systemic exhaustion.
 
-#### 7.6 Banked Shock 1: De-Dollarization Delta (USA)
-**Fig. 7.2** USA Baseline vs De-Dollarization Shock – 15×6 Master Grid  
-Shock removes USD reserve entropy sink → metabolic rows darken, Rule-13 saturates parasitism/competition dominance (71.5%), governance rows pull toward suppression/amensalism.  
-[PNG](figures/usa_baseline_vs_dedollarization_shock.png)
+#### 7.6 The Hegemon Fork – Soft vs. Hard Entropy Export
 
-**Table 7.6: De-Dollarization Shock Delta (USA 1971–present)**
+Two thermodynamic strategies emerge at planetary scale:
 
-| Metric                     | Baseline       | Post-Shock     | Delta                  | Interpretation                                      |
-|----------------------------|----------------|----------------|------------------------|-----------------------------------------------------|
-| Compass X                  | +0.50         | -0.25         | -0.75                 | Metabolic contraction – reserve sink removed       |
-| Compass Y                  | +0.41         | +0.68         | +0.27                 | Governance density rises (internal clamp-down)     |
-| Rule-13 Parasitism Proxy   | 10.0%         | 71.5%         | +61.5%                | Severe breach – administrative capture dominates   |
-| Thermodynamic Zone         | Stressed Mutualism | Boundary Saturation | Shift to rigid attractor | Fragile drift → high-density exhaustion            |
-| Est. Remaining Longevity   | 80–140 yrs    | 30–80 yrs     | -50 yrs compression   | Accelerated systemic exhaustion                     |
+- **Soft Entropy Export (USA)**: Market vitality + institutional modularity allow entropy to swirl outward (dollar sink, lobbying leakage buffered by innovation/resilience). Drift is gradual but persistent.  
+- **Hard Entropy Export (PRC)**: Centralized suppression + infrastructure dominance build a high-pressure containment vessel (Social Credit, BRI). Control is tight but brittle — signal cascades and rigidity can fracture the vessel suddenly.
 
-**Note:** Shock simulates rapid loss of USD reserve status. External entropy export blocked → internal rent-seeking becomes visible and self-reinforcing. Proxy conservative on baseline; delta magnitude highlights fragility of global sink buffer.
+Neither solves for low Rule-13 parasitism **and** high adaptive bandwidth simultaneously. The current era is a race between two distinct forms of systemic exhaustion.
 
-Interpretation: Without the global sink, soft drift accelerates into visible, self-reinforcing capture — the system rigidifies faster than baseline resilience would suggest, underscoring thermodynamic dependence on external entropy export.
+**7.6.1 Entropy Export in Practice**
+
+Entropy export is the mechanism by which a replicator dumps internal disorder (heat, waste, parasitism, coordination cost) into the environment to sustain far-from-equilibrium order.
+
+- **USA – Soft Export via Dollar Sink**  
+  The USD reserve status creates a **global financial lattice** that absorbs US domestic entropy (inflation, debt issuance, administrative rent-seeking) through foreign demand for dollar-denominated assets. This acts as a **secondary entropy sink** (Pillar 3):  
+  - Export channels: Treasury bonds, petrodollar recycling, SWIFT dominance  
+  - Masking effect: Rule-13 parasitism remains below visible thresholds (~10–43.7%) because the sink absorbs leakage  
+  - Fragility: De-dollarization shock removes the sink → parasitism saturates (71.5%), zone flips to Boundary Saturation
+
+- **PRC – Hard Export via Infrastructure & Surveillance Lattice**  
+  The BRI + digital control stack (Social Credit, Great Firewall, CCDI) creates a **high-pressure containment vessel** that exports entropy internally (suppression cost) and externally (infrastructure debt traps, supply-chain dominance):  
+  - Export channels: physical infra (ports, rails), digital standards, capital outflows  
+  - Masking effect: Rule-13 parasitism is hardware-enforced low-visibility (elite extraction contained by purges) but at massive governance cost (Y ≈ -1.9)  
+  - Fragility: Rigidity shock amplifies suppression cost → Y deepens, C2 variation chokes, longevity compresses without dramatic parasitism flare
+
+**7.6.2 The Dead-End Trap**
+
+At planetary scale, the replicator must export entropy at global scale while suppressing internal cheaters. The two strategies trade off differently:  
+- Soft → high variation bandwidth but accumulating drift (Rule-13 rises slowly)  
+- Hard → low drift but collapsing variation bandwidth (Y plunges, C2 chokes)  
+
+**ε-Ratio** (parasitism dominance / metabolic mutualism+competition average; bracketed as a tolerance/robustness scalar) already exceeds 1.1 in PRC baseline and crosses under USA shock. Neither maintains Rule-13 <30% **and** C2 >5–6 indefinitely at this agent density and energetic coupling. The planetary replicator configuration itself becomes the thermodynamic trap.
 
 #### 7.7 Banked Shock 2: Rigidity Collapse Delta (PRC)
 **Fig. 7.3** PRC Baseline vs Rigidity Collapse Shock – 15×6 Master Grid  
@@ -112,13 +126,22 @@ If neither hegemon can solve the parasitism–adaptability tension, the ledger m
 Is the planetary replicator itself a dead-end configuration?  
 Or is a hybrid Digital-State Replicator — an **Algorithmic Hegemon** — the only thermodynamically viable successor?
 
-#### Next Steps / Open Tasks
-- [x] Commit final heatmaps to /figures/  
-- [x] Run de-dollarization & rigidity-penalty shocks → delta tables/heatmaps locked  
-- [ ] Draft comparative shock summary (if needed)  
-- [ ] Expand 7.6 with entropy-export math or variation-bandwidth discussion  
-- [ ] Outline Ch. 08: Algorithmic Hegemon hypothesis & successor criteria  
+#### 7.9 Forward Teaser – Toward Chapter 08
 
+If neither hegemon can solve the parasitism–adaptability tension, the ledger must ask:  
+Is the planetary replicator itself a dead-end configuration?
+
+Or is a hybrid Digital-State Replicator — an **Algorithmic Hegemon** — the only thermodynamically viable successor?
+
+Ch. 08 will explore the criteria for such a successor:  
+- Rule-13 parasitism target <20% (robust cheater detection without high suppression cost)  
+- High variation bandwidth (C2 >7) preserved under stress  
+- Low rigidity penalty (Y near 0 or mildly positive)  
+- Distributed entropy sinks (not reliant on single global channel)  
+
+We will test early prototypes (Bitcoin, Ethereum, Polkadot, Cosmos hybrids) against these thresholds and begin sketching the lattice architecture that might escape the dead-end trap.
+
+Stress-test continues. Let’s keep the grid honest.
 Stress-test continues. Let’s keep the grid honest.
 
 Memento mori. 🚀
