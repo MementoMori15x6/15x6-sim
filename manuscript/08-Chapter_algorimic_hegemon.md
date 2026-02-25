@@ -12,15 +12,50 @@ Ethereum functions as a synthetic social organism attempting to outsource Rule-1
 - Rule-13 proxy jumps to 50.0%
 - Longevity window compresses to 458 years ± 229
 - Row 13 parasitism intensity: 21.1% → 71.4%
+## 8.3 Proto-Test Comparison: Ethereum vs Polkadot vs AI-Hegemon Variant
 
-[Insert your Notion-exported or manually placed figure here]
+All three run on the same 35-metric consensus baseline + institutional capture shock (whale concentration).
+
+**Ethereum Baseline**  
+- Rule-13 proxy: 24.0%  
+- Longevity: 697 ± 348 years  
+- Row 13 par intensity: 21.1%  
+
+**Ethereum Shock**  
+- Proxy: 50.0%  
+- Longevity: 458 ± 229 years  
+- Row 13 par: 71.4%  
+
+[placeholder_fig_8_1_ethereum_row13_shock.png]
+
+**Polkadot Baseline**  
+- Rule-13 proxy: 25.0%  
+- Longevity: 700 ± 350 years  
+- Row 13 par: 33.3%  
+
+**Polkadot Shock**  
+- Proxy: 50.0%  
+- Longevity: 467 ± 233 years  
+- Row 13 par: 71.4%  
+
+[placeholder_fig_8_3_polkadot_row13_shock.png]
+
+**AI-Hegemon Variant** (Ethereum base + G1=9.5, shock delta -10)  
+- Baseline proxy: 19.0% (clears <20% target)  
+- Baseline longevity: 743 ± 371 years  
+- Baseline Row 13 par: 18.6%  
+
+- Post-shock proxy: 50.0%  
+- Post-shock longevity: 458 ± 229 years  
+- Post-shock Row 13 par: 71.4%  
+
+[placeholder_fig_8_4_aihegemon_row13_shock.png]
 
 **Diagnostic Reading**  
-Baseline shows balanced mutualism (~7) and competition (~8) in Row 13, keeping parasitism contained. The shock overwhelms detection (G1 collapses), allowing parasitism to dominate the row (71.4% intensity). This mirrors the >30% Rule-13 threshold correlated with reduced longevity in planetary baselines (Ch. 07). Ethereum preserves variation bandwidth (C2 = 8) under normal conditions, but suppression costs spike under concentration stress — a digital echo of the dead-end trap between soft drift and hard brittleness.
+Both pure digital replicators (Ethereum single-chain, Polkadot lattice) hit >30% proxy and Row 13 par dominance under modest capture stress — same thermodynamic trap as planetary hegemon baselines (Ch. 07).  
+AI detection boost lowers baseline proxy to 19.0% and Row 13 par to 18.6%, but shock still overwhelms (50% proxy, 71.4% par). Longevity compresses identically.  
+Single-axis fix (better cheater detection) improves normal-state health but not resilience. Suggests need for compound mitigation (detection + extraction reduction + fractal sinks) to keep post-shock proxy <30% and Row 13 par <35%.
 
-Open question for community testing: Would AI-augmented detection (e.g., oracle-based anomaly flagging) keep post-shock proxy <30% and longevity >500 years? Fork `simulate.py` and test variants.
-
-Memento mori. 🚀
 
 **Caption:** Baseline Row 13 shows balanced mutualism (~7) and competition (~8) keeping parasitism (~4) in check (21.1% intensity). Post-capture shock flips it — parasitism dominates at ~20 intensity (71.4% of row), mutualism collapses to 0, highlighting suppression failure under concentration.
 ### 8.4 AI-Hegemon Variant Test (on Ethereum base)
