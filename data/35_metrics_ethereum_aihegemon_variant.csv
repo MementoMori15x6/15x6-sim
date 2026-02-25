@@ -1,0 +1,36 @@
+Metric,Description,Score,Rationale
+A1,Property,10.0,Strong cryptographic self-custody via private keys/smart contracts; ~300M unique addresses per Glassnode/Etherscan 2026 data.
+A2,Market allocation,8.0,Dynamic gas auctions (EIP-1559) + MEV markets allocate blockspace via price signals.
+A3,Profit motive,9.0,Staking rewards (~3% APR) + MEV incentivize validators/developers; high participation.
+B1,Redistribution,-1.0,EIP-1559 burns create diffuse deflationary redistribution; minimal targeted mechanisms.
+B2,Welfare,0.0,No protocol welfare; discretionary EF grants/ecosystem support only.
+C1,Heredity fidelity,9.0,Consensus ensures deterministic state replication; upgrades introduce controlled changes.
+C2,Variation,8.0,EIPs/L2s enable frequent evolution; consensus coordination required.
+C3,Persistence,9.0,Near-continuous uptime since 2015; robust against historical shocks.
+D1,Parasitism,-2.0,MEV extraction + Lido ~23-24% staking dominance per Dune/beaconcha.in 2026 act as value drain; slashing mitigates partially.
+D2,Competition,8.0,Intense rivalry among validators/L2s/DeFi protocols; permissionless entry.
+E1,Survival,8.0,PoS resilience + client diversity withstand regulatory/contagion shocks.
+E2,Niche construction,9.0,DeFi/NFT/DAO ecosystem creates vast programmable niches; high TVL.
+F1,Boundary,8.0,Permissionless with strict rule enforcement; bridge vulnerabilities noted.
+F2,Error repair,7.0,EIPs/forks/slashing address bugs; social consensus as fallback.
+G1,Cheater detection,9.5,Slashing for equivocation/double-signing; some MEV vectors partially undetected. (AI-augmented: oracle-based anomaly flagging + automated multi-validator consensus)
+G2,Modularity,9.0,Layered execution/consensus/DA + L2s enable independent scaling.
+G3,Info storage,9.0,Immutable distributed ledger replicated across thousands of nodes.
+H1,Cultural uniformity,3.0,Diverse community with some alignment pressure around roadmap.
+H2,Ideological monopoly,2.0,Vitalik/EF roadmap influential; pluralistic but directional framing.
+H3,Dissent suppression,4.0,Open debates/forks allow exit; occasional social marginalization.
+I1,Family autonomy,9.0,High self-custody/wallet sovereignty; no identity constraints.
+I2,Religious freedom,10.0,Protocol neutral/indifferent to beliefs or identity.
+I3,Artistic expression,9.0,NFTs/dApps enable unrestricted creative deployment.
+J1,Scientific direction,7.0,Decentralized research via ethresear.ch + EF grants.
+J2,Education indoctrination,5.0,Voluntary but advocacy-leaning community resources.
+J3,Media control,6.0,Decentralized channels; core narratives hold influence.
+K1,Military priority,4.0,Economic security focus; no coercive/military apparatus.
+K2,Isolationism,3.0,Strong interoperability/cross-chain emphasis.
+K3,External threat narrative,5.0,Centralization/regulation narratives drive community action.
+L1,Succession mechanism,8.0,EIP/consensus-driven upgrades; no single point control.
+L2,Leadership cult,-1.0,Vitalik influence noted but informal/decentralized; no formal hierarchy.
+L3,Purge cycles,6.0,No violent purges; slashing/forks serve as exits or corrections.
+M1,Natalism,2.0,Staking incentives growth-oriented; deflationary burns counterbalance.
+M2,Migration control,9.0,Permissionless entry/exit; no geographic/protocol barriers.
+M3,Ethnic policy,10.0,Fully neutral/pseudonymous; no identity-based discrimination.
