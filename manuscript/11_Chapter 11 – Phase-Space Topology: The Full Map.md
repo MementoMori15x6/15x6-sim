@@ -78,6 +78,25 @@ The attractor catalog is not exhaustive — new variants may occupy intermediate
 
 The full map is now visible: a finite set of thermodynamic basins, connected by navigable vectors, bounded by rigidity walls and parasitism sinkholes.
 
+## 11.5 Future Horizon: Toward a Phase-Space Topology Scanner
+
+The current compass projects replicators into 2D (X, Y) with ensemble clouds and Row 13 profiles. The natural next layer is a phase-space topology scanner that extrudes these geometries along a third axis — for example, cumulative hazard H(t) from survival fits, or entropy export rate.
+
+In this future view, each replicator would appear as a complex 3D form:
+- Ant colonies: compact, smooth ellipsoids (high symmetry, low entropy loss)
+- Late VOC/PRC: deep, funneling sinkholes (event horizon at ~30% proxy)
+- Competition-dominant systems: braided toroids or chaotic attractors (cyclic high-variance orbits)
+- Merger events: increased surface complexity (fractal-like sub-structures from added nodes/edges)
+
+Vector fields would trace shock trajectories: arrows from baseline points, length scaled by longevity compression, divergence/curl indicating turbulence or laminar stability. Universal shapes could emerge — high C2 variation always forming helical twists, regardless of scale — letting us compare RNA toroids to Polkadot braids to state lattices.
+
+This is not yet implemented. It requires higher-dimensional ensemble fitting (e.g., PCA or t-SNE reduction to 3D), VTK export from simulate.py, and interactive visualization tools (Paraview, Plotly 3D). But the seeds are already in the repo: ensemble_runner, hazard fits, shock sweeps, and graph complexity stubs.
+
+When built, the scanner would let us ask: which geometries are universally stable? Which forms resist capture? The board would no longer be flat — it would become a full observatory of thermodynamic possibility.
+
+The map is drawn, but never final.
+
+Memento mori. 🚀
 The board is complete — but never closed.
 
 Memento mori. 🚀
