@@ -1,30 +1,26 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
 
-## 9.1 Deterministic v1 → Stochastic v2
+## 9.1 From Deterministic v1 to Stochastic v2
 
-v1 compass: single-point scores, deterministic shocks, point longevity estimate.
+The original 35-metric compass (v1) was deterministic: fixed scores s_j from public evidence, fixed shocks, fixed longevity extrapolations. It revealed recurring patterns — Rule-13 parasitism >30% as collapse signal, balanced mutualism/competition in rows 6–8 & 13–14 as health indicator — but treated replicators as static snapshots.
 
-v2 introduces ensemble realism: Gaussian noise σ = 0.05–0.10 applied independently to each metric across n=100 runs per replicator. For each realization i:
-
-$$
-X_i = \frac{1}{18} \sum_{j=1}^{18} (s_j + \mathcal{N}(0,\sigma)) \times 1.2, \quad Y_i = \frac{1}{17} \sum_{j=19}^{35} (s_j + \mathcal{N}(0,\sigma)) \times 3.0
-$$
-
-with non-linear penalty applied pre-average:
+v2 introduces stochastic realism. Real systems drift: small metric fluctuations (±5–10%) arise from environmental noise, measurement uncertainty, or hidden variables. We model this by adding Gaussian noise ε_j ~ N(0, σ) to each metric score across ensemble runs (n=100 per replicator):
 
 $$
-p(s) = s - \mathrm{sign}(s) \cdot \max(0, |s|-8)^2 \cdot 0.5
+s_{j,i} = s_j + \epsilon_{j,i}, \quad \epsilon_{j,i} \sim \mathcal{N}(0, \sigma), \quad \sigma = 0.05-0.10
 $$
 
-Outputs: distribution of (X_i, Y_i), Rule-13 proxy_i, longevity_i, Row 13 par intensity_i.
+Then recompute compass coordinates, Rule-13 proxy, longevity estimate, and Row 13 intensity for each realization i.
 
-Test cases:
-- Ant colonies: tight longevity distribution, low proxy variance (high stability).
-- Late VOC: wide longevity spread, frequent proxy >30% realizations (fragility).
+Early test cases illustrate the shift:
+- Ant colonies (low intrinsic variance): noise barely perturbs mutualism-dominant grid; longevity distributions remain tight (high stability).
+- Late VOC (high internal variance): noise amplifies parasitism spikes in Row 13; longevity distributions widen dramatically (fragility signal).
+
+The microscope now sees probability clouds around attractors, not just point estimates.
 
 ## 9.2 Bifurcation Analyzer
 
-Sweep metric m ∈ {D1, G1, C2, H2, …} over range [s_m × (1-r), s_m × (1+r)], r=0.2, steps=20.
+Small metric changes can push a replicator across phase boundaries — from mutualism ellipsoid to parasitism sinkhole. The bifurcation scanner sweeps selected metrics m ∈ {D1, G1, C2, H2, …} over range [s_m (1-r), s_m (1+r)], r=0.2, steps=20.
 
 For each value m_k:
 - Recompute ensemble (n=100) with fixed m_k + noise on others
@@ -32,73 +28,107 @@ For each value m_k:
 
 Tipping threshold: first m_k where fraction >0.5.
 
-Clausius-Clapeyron analogy: replicator phase transition when metabolic pressure (parasitism load) exceeds governance temperature (suppression capacity):
+This mirrors a Clausius-Clapeyron-like phase transition: just as physical matter changes state under pressure and temperature, social replicators bifurcate when **metabolic pressure** (parasitism load) exceeds available **governance temperature** (suppression capacity). In the compass, we replace P/V with Parasitism/Variation. A system flips into a parasitism sinkhole when accumulated Rule-13 debt (latent entropy) exceeds metabolic output available to suppress it.
 
-$$
-\frac{dP}{dT} = \frac{\Delta S}{\Delta V} \quad \Leftrightarrow \quad \frac{d(\text{Proxy})}{d(\text{G1})} = \frac{\text{Rule-13 latent entropy}}{\text{Suppression bandwidth}}
-$$
+Example thresholds (preliminary):
+- Venice late: +5% rigidity (H1–H3) → bifurcation into high-Y trap
+- USA modern: -8% cheater detection (G1) → proxy crosses 30% in <10% drift
 
-Preliminary thresholds:
-- Venice late: +5% H1–H3 rigidity → proxy >30% in >50% runs
-- USA modern: -8% G1 → proxy crosses 30% in <10% drift
+The analyzer turns the tool from snapshot diagnostic to early-warning system — identifying leverage points before fracture.
 
-## 9.3 Survival Modeling & Ensemble Statistics
+## 9.3 The Mathematical Engine: Longevity Fits & Ensemble Statistics
 
-For each ensemble (n=100 noisy durations t_i):
+To quantify the probability clouds, we fit two survival models to ensemble durations (n=100 noisy runs per replicator). Model choice itself becomes a secondary diagnostic.
 
-### 9.3.1 Weibull Hazard (Adaptive Resilience)
+### 9.3.1 Weibull Model — Adaptive Resilience
+The Weibull distribution is flexible and ideal for systems with modular aging or infant mortality. Its hazard function is:
 
 $$
 h(t) = \frac{k}{\lambda} \left( \frac{t}{\lambda} \right)^{k-1}, \quad k>0, \lambda>0
 $$
 
-- k < 1: decreasing hazard (learning/infant mortality)
-- k = 1: exponential (memoryless)
-- k > 1: increasing hazard (aging)
+Survival function:
 
-Fit via maximum likelihood (`scipy.stats.weibull_min`). Report:
-- Median longevity t_{50} + 95% CI
-- k (vitality coefficient)
-- P(t > 500 y)
+$$
+S(t) = e^{-\left( t / \lambda \right)^k}
+$$
 
-### 9.3.2 Gompertz Hazard (Rigid Fragility)
+Cumulative hazard:
+
+$$
+H(t) = \left( t / \lambda \right)^k
+$$
+
+- **Shape parameter k** — the "Vitality Coefficient"
+  - k < 1: decreasing hazard ("learning" phase, infant mortality)
+  - k = 1: constant hazard (memoryless, exponential decay)
+  - k > 1: increasing hazard (aging)
+
+Ant colonies typically show high k (~3–4) with slow acceleration — strong aging resistance. Ethereum baseline shows k ≈ 2.1 — structured but accelerating decay of initial "founding entropy."
+
+### 9.3.2 Gompertz Model — Rigid Fragility
+For high governance-density systems (late VOC, PRC), Gompertz often fits better. It captures exponential acceleration of failure as rigidity blocks adaptation:
 
 $$
 h(t) = a e^{bt}, \quad a>0, b>0
 $$
 
-- b = rigidity penalty (exponential hazard growth)
-- Fit via `lifelines.GompertzFitter`
+Survival function:
+
+$$
+S(t) = e^{a/b (1 - e^{bt})}
+$$
+
+Cumulative hazard:
+
+$$
+H(t) = \frac{a}{b} (e^{bt} - 1)
+$$
+
+- **Growth parameter b** — the "Rigidity Penalty"
+  - In late VOC, b spikes once Rule-13 parasitism crosses 30%, causing hazard to double every 15–20 years until lattice fracture.
+
+Fit via maximum likelihood (`scipy.stats` or `lifelines`). For each ensemble:
+- Median longevity + 95% CI
+- Hazard rate curve
+- P(survive >500 years)
 
 Preliminary fits:
-- Ant colonies: Weibull k ≈ 3.2, t_{50} high, P(t>500y) >95%
-- Late VOC: Gompertz b large, hazard doubles ~15–20y, P(t>500y) <20%
-- Ethereum baseline: Weibull k ≈ 2.1, t_{50} ≈700y, wide CI from stake noise
+- Ant colonies: Weibull k ≈ 3.2, P(survive 500y) >95%
+- Late VOC: Gompertz dominant, hazard accelerates sharply, P(survive 500y) <20%
+- Ethereum baseline: Weibull k ≈ 2.1, median ~700y, wide CI from stake-concentration noise
+
+The tool now quantifies decay curves — probabilistic health trajectories, not point guesses.
 
 ## 9.4 Sensitivity Matrix & Community Extension
 
-Sensitivity matrix: sweep ±20% on each metric individually, measure normalized impact on median longevity, proxy, Row 13 par intensity.
+Not all metrics are equally important. The Sensitivity Matrix quantifies impact: for each metric m, sweep ±20% and measure normalized delta in median longevity (t_{50}), proxy, Row 13 par intensity:
 
-Example (USA 1971 model, preliminary):
+$$
+s_m = \frac{ \Delta o / \Delta m }{ \max(\Delta o / \Delta m) } , \quad o \in \{ t_{50}, \text{proxy}, \text{Row 13 par} \}
+$$
 
-| Metric | Δ Longevity | Δ Proxy | Δ Row 13 par | Sensitivity Rank |
-|--------|-------------|---------|--------------|------------------|
-| G1     | –0.45       | +0.80   | +0.65        | 1 (high)         |
-| D1     | –0.32       | +0.55   | +0.70        | 2                |
-| C2     | +0.28       | –0.40   | –0.35        | 3                |
-| A2     | +0.08       | –0.10   | –0.12        | 10 (low)         |
+Example (preliminary on USA 1971 model):
 
-Repo components:
-- `run_ensemble(csv_path, n=100, noise_std=0.1)`
-- `fit_survival(durations, model='weibull' or 'gompertz')`
-- `sweep_metric(metric, range_pct=20, steps=20)`
-- `sensitivity_matrix(metrics_list)`
+| Metric | Δ t_{50} | Δ Proxy | Δ Row 13 par | Sensitivity Rank |
+|--------|----------|---------|--------------|------------------|
+| G1     | –0.45    | +0.80   | +0.65        | 1 (high)         |
+| D1     | –0.32    | +0.55   | +0.70        | 2                |
+| C2     | +0.28    | –0.40   | –0.35        | 3                |
+| A2     | +0.08    | –0.10   | –0.12        | 10 (low)         |
 
-Open for extension:
-- Scale-aware noise (RNA σ≈0.02, polities σ≈0.12)
-- Automated critical-point detection
-- Bayesian priors from historical longevity data
+v2 is still early: noise model simple (Gaussian), fits preliminary, bifurcation sweeps manual. The repo (`simulate.py`) now includes:
 
-The tool is no longer a static lens — it is now a probabilistic observer of living replicators.
+- Ensemble runner (`run_ensemble(replicator_csv, n=100, noise_std=0.1)`)
+- Weibull/Gompertz fit stubs (using `scipy.stats` and `lifelines`)
+- Bifurcation scanner (`sweep_metric(metric, range_pct=20, steps=20)`)
+- Sensitivity matrix generator
+
+Open for refinement:
+- Scale-specific noise profiles (RNA low, polities high)
+- Automated tipping-point detection
+- Bayesian longevity priors from historical data
+
+The microscope is evolving — from static lens to dynamic, probabilistic observer.
 
 Memento mori. 🚀
