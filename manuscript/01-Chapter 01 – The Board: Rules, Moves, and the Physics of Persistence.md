@@ -5,7 +5,7 @@
 
 Every organization—from a single strand of RNA to the sprawling bureaucracy of a global hegemon—is an entropy pump. It harvests order from chaos to maintain its internal lattice. But every pump has a hinge where failure begins.
 
-To this day, we still attribute rises and falls to luck, great leaders, or vague cycles, but patterns across scales reveal something deeper: a universal physics of persistence. This chapter lays out the Board, a 15×6 Master Grid. Not as a passive observer of collapse, but as a navigational tool to diagnose health, predict trajectories, and steer toward longevity. We've stress-tested it on canonical cases (RNA replicators, ant colonies, Venice Republic, VOC, modern polities, crypto protocols, algorithmic variants) and the signals repeat. The Board is physical, the rules hold, and the compass is ready to help us navigate.
+To this day, we still attribute rises and falls to luck, great leaders, or vague cycles, but patterns across scales reveal something deeper: a universal physics of persistence. This chapter lays out the Board, (a 15×6 Master Grid) not as a passive observer of collapse, but as a navigational tool to diagnose health, predict trajectories, and steer toward longevity. We've stress-tested it on canonical cases (RNA replicators, ant colonies, Venice Republic, VOC, modern polities, crypto protocols, algorithmic variants) and the signals repeat. The Board is physical, the rules hold, and the compass is ready to help us navigate.
 
 ![Entropy Lab Teaser](figures/fig_1_0_entropy_lab_teaser.png)  
 *Placeholder opener: Entropy as alchemical lab — harvesting order from disorder. (Artistic reference; data figs below are code-generated.)*
