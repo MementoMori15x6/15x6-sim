@@ -68,13 +68,20 @@ Preliminary fits:
 
 The tool now quantifies decay curves — probabilistic health trajectories, not point guesses.
 
-## 9.4 Open Questions & Community Extension
+## 9.4 Sensitivity Matrix & Community Extension
+
+Not all metrics are equally important. The Sensitivity Matrix quantifies impact: sweep ±20% on each metric individually, measure delta in longevity / proxy / Row 13 par intensity, and rank leverage.
+
+Example (preliminary on USA 1971 model):
+- G1 (Detection): sensitivity 0.8 (huge impact — small drop collapses proxy)
+- A2 (Energy Acquisition): sensitivity 0.1 (low impact — dollar sink absorbs cost)
 
 v2 is still early: noise model simple (Gaussian), fits preliminary, bifurcation sweeps manual. The repo (`simulate.py`) now includes:
 
 - Ensemble runner (`run_ensemble(replicator_csv, n=100, noise_std=0.1)`)
 - Weibull/Gompertz fit stubs (using `scipy.stats` and `lifelines`)
 - Bifurcation scanner (`sweep_metric(metric, range_pct=20, steps=20)`)
+- Sensitivity matrix generator
 
 Open for refinement:
 - Scale-specific noise profiles (RNA low, polities high)
