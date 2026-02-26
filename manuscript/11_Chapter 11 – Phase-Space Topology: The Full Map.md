@@ -8,6 +8,9 @@ Chapter 11 steps back to map the entire phase space. Every replicator — RNA, a
 
 We propose an attractor catalog as the "periodic table" of replicators: a finite set of thermodynamic basins defined by X (economic metabolism), Y (governance density), and grid interaction balance.
 
+![Figure 11.1: Phase-Space Attractor Catalog](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_1_attractor_catalog.png)  
+**Caption:** Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by Rule-13 proxy (%). Canonical attractors shown as shaded basins. Ethereum, Polkadot, and AI-hegemon variant occupy distinct regions, with drift visible toward parasitism/rigidity under noise.
+
 ## 11.2 The Ten Canonical Attractors
 
 The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attractor types, identified from ensemble runs across scales:
@@ -58,19 +61,27 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
    Longevity: centuries but gradual decline.
 
 10. **Bifurcation Ridge** (transition zone)  
-   Unstable saddle: small perturbations determine sinkhole vs ellipsoid.  
-   Example: USA 1971–present edge.  
-   Longevity: high variance, 50/50 collapse risk.
+    Unstable saddle: small perturbations determine sinkhole vs ellipsoid.  
+    Example: USA 1971–present edge.  
+    Longevity: high variance, 50/50 collapse risk.
+
+![Figure 11.2: Row 13 Interaction Profiles by Canonical Attractor](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_2_row13_profiles.png)  
+**Caption:** Average move intensities in Row 13 for each attractor. Mutualism/competition balance defines stable cores; parasitism dominance defines sinkholes.
 
 ## 11.3 Merger Dynamics & Graph Complexity
 
 Replicators can merge or absorb others, creating new topologies. We model this via graph complexity:
-- Nodes = sub-replicators (e.g., parachains, L2s)
+- Nodes = sub-replicators (e.g., relay + parachains)
 - Edges = interaction moves (mutualism, parasitism, etc.)
 - Complexity = Shannon entropy of edge types + connectivity
 
-Example: Polkadot merger (relay + parachains) increases complexity, distributing sinks and buffering shocks.  
-Late VOC merger (trade empire + colonies) increased parasitism edges, lowering complexity and accelerating sinkhole pull.
+Mergers increase complexity, distributing sinks and buffering shocks.
+
+![Figure 11.3: Merger Dynamics – Graph Complexity](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_merger_dynamics.png)  
+**Caption:** Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
+
+![Figure 11.5: Complexity Surface – Merger Resilience Illustration](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_5_complexity_surface.png)  
+**Caption:** Illustrative 3D surface of graph complexity across the compass plane (X, Y). Complexity peaks in hybrid lattice bands (resilience zone) and dips toward parasitism/rigidity traps. Real replicators plotted as points on the surface.
 
 ## 11.4 The Periodic Table of Replicators
 
@@ -95,8 +106,5 @@ This is not yet implemented. It requires higher-dimensional ensemble fitting (e.
 When built, the scanner would let us ask: which geometries are universally stable? Which forms resist capture? The board would no longer be flat — it would become a full observatory of thermodynamic possibility.
 
 The map is drawn, but never final.
-
-Memento mori. 🚀
-The board is complete — but never closed.
 
 Memento mori. 🚀
