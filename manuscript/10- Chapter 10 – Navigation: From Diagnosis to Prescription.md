@@ -31,7 +31,9 @@ We propose three primary vectors, each with associated metric adjustments and st
    Key actions: boost C2 (variation), E2 (niche construction), G2 (modularity)  
    Example delta: +2 on C2, +1 on E2/G2  
    Stress test: rigidity shock (+10–15% on H1–H3)  
-   Success: C2 remains >7, rigidity scalar <0.3
+   Success: C2 remains >7, rigidity scalar <0.3*
+
+   *Footnote: A rigidity scalar of 1.0 is the "Gompertz Point" — where failure becomes an exponential certainty (hazard rate doubles over short intervals).
 
 3. **Sink Diversification Vector**  
    Target: ≥3 independent entropy export channels, ε-Ratio <1.0  
@@ -64,7 +66,11 @@ We apply the vectors retrospectively to historical cases — not to rewrite hist
 
 These are illustrative — not predictive. They demonstrate that the compass can be turned into a navigation instrument: identify high-sensitivity metrics (G1, C2, D2) and test counterfactual adjustments.
 
-## 10.4 Open Questions & Community Navigation
+## 10.4 Hard Truth: The Art of Trade-Offs
+
+Navigation toward a healthy vector often requires sacrificing a cherished metric. To increase C2 (Variation), one must often accept a temporary drop in F1 (Boundary Integrity). Navigation is the art of choosing your trade-offs before the thermodynamics choose them for you.
+
+## 10.5 Open Questions & Community Navigation
 
 The vectors are testable hypotheses, not solutions. The repo (`simulate.py`) now includes:
 - Vector applicator (`apply_vector(replicator_csv, vector_name, deltas)`)
