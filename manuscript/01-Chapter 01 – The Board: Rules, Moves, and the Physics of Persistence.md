@@ -7,9 +7,6 @@ Every organization—from a single strand of RNA to the sprawling bureaucracy of
 
 To this day, we still attribute rises and falls to luck, great leaders, or vague cycles, but patterns across scales reveal something deeper: a universal physics of persistence. This chapter lays out the Board, (a 15×6 Master Grid) not as a passive observer of collapse, but as a navigational tool to diagnose health, predict trajectories, and steer toward longevity. We've stress-tested it on canonical cases (RNA replicators, ant colonies, the historical Venice Republic, the Dutch East India Company(VOC) , modern polities, crypto protocols, algorithmic variants) and the signals repeat. The Board is physical, the rules hold, and the compass is ready to help us navigate.
 
-![Entropy Lab Teaser](figures/fig_1_0_entropy_lab_teaser.png)  
-*Placeholder opener: Entropy as alchemical lab — harvesting order from disorder. (Artistic reference; data figs below are code-generated.)*
-
 ## 1.1 Why Existing Theories Miss the Substrate
 
 Liberalism, Marxism, realism, constructivism—they start at the human level, treating biology and physics as footnotes. They describe symptoms (inequality, revolution, hegemony) but rarely predict collapse or prescribe fixes. Major 20th-century theories missed the Soviet implosion, East-Asian fertility crashes, and current Western rigidity cascades.
