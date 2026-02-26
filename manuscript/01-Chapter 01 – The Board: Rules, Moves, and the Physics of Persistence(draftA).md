@@ -1,7 +1,7 @@
 # Chapter 01 – The Board: Rules, Moves, and the Physics of Persistence
 
-> “The game is played whether we understand the rules or not.”  
-> —Mori
+> “The game is played whether we understand the rules or not...”  
+> —Memento
 
 Every organization—from a single strand of RNA to the sprawling bureaucracy of a global hegemon—is an entropy pump. It harvests order from chaos to maintain its internal lattice. But every pump has a hinge where failure begins.
 
@@ -9,7 +9,7 @@ To this day, we still attribute rises and falls to luck, great leaders, or vague
 
 ## 1.1 Why Existing Theories Miss the Substrate
 
-Liberalism, Marxism, realism, constructivism,they understandably start at the human level, while treating biology and physics as footnotes (but the mechanisms of replicating systems run deeper). They describe symptoms (inequality, revolution, hegemony) but rarely predict collapse or prescribe fixes. Major 20th-century theories missed the Soviet implosion, East-Asian fertility crashes, and current Western rigidity cascades.
+Liberalism, Marxism, Realism, Constructivism, they understandably begin at the human level. Biology and physics appear only as distant footnotes, yet the mechanisms governing replicating systems run deeper than culture or ideology. These theories describe symptoms—inequality, revolution, hegemony, but have struggled to predict systemic collapse or engineer stable outcomes. Most failed to anticipate the implosion of the Soviet Union, the fertility crashes across East Asia, or the mounting rigidity now visible in parts of the West.
 
 The substrate is replicators in physics. Life—and politics—is the subset of chemical systems that export entropy faster than the Second Law imports it. Add imperfect replication, heredity, and differential persistence in a finite world, and blind Darwinian evolution follows. Genes, memes, firms, nations play the same game: more copies tomorrow than rivals. To persist, they follow fifteen base rules, derivable from first principles and empirically robust across tested scales.
 
