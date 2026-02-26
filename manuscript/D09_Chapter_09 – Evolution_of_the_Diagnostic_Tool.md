@@ -1,7 +1,7 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
-![Figure 9.1: Stochastic Drift – Ant Colonies vs Late VOC](figures/fig_9_1_stochastic_drift.png)
+![Figure 9.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_1_stochastic_drift.png)
 
-![Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz](figures/fig_9_2_hazard_comparison.png)
+![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png)
 ## 9.1 From Deterministic v1 to Stochastic v2
 
 The original 35-metric compass (v1) was deterministic: fixed scores from public evidence, fixed shocks, fixed longevity extrapolations. It revealed recurring patterns — Rule-13 parasitism >30% as collapse signal, balanced mutualism/competition in rows 6–8 & 13–14 as health indicator — but treated replicators as static snapshots.
