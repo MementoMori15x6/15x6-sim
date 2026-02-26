@@ -17,7 +17,7 @@ Early test cases illustrate the shift:
 - Late VOC (high internal variance): noise amplifies parasitism spikes in Row 13; longevity distributions widen dramatically (fragility signal).
 
 **Figure 9.1: Stochastic Drift – Ant Colonies vs Late VOC**  
-![Figure 9.1: Stochastic Drift – Ant Colonies vs Late VOC](figures/fig_9_1_stochastic_drift.png)  
+![Figure 9.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_1_stochastic_drift.png)
 **Caption:** Ensemble scatter on compass plane (n=100): ants (tight cluster in high-mutualism zone), late VOC (wide smear toward parasitism sinkhole).
 
 The microscope now sees probability clouds around attractors, not just point estimates.
@@ -63,7 +63,7 @@ $$
 Ant colonies typically show high k (~3–4) with slow acceleration — strong aging resistance. Ethereum baseline shows k ≈ 2.1 — structured but accelerating decay of initial "founding entropy."
 
 **Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz**  
-![Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz](figures/fig_9_2_hazard_comparison.png)  
+![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png) 
 **Caption:** Hazard rate h(t) for ant colonies (Weibull k ≈ 3.2, gradual) vs. late VOC (Gompertz b large, rapid acceleration after Rule-13 threshold crossing).
 
 ### 9.3.2 Gompertz Model — Rigid Fragility
