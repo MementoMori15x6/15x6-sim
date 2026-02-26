@@ -130,3 +130,4 @@ PRs: evidence-based tuning or new cases (corporate, crypto protocols, etc.).
 
 This project is open for discourse, testing, and refinement. The toy is a scaffold — the real value lies in community extensions and LLM-hybrid scoring.
 Memento mori. 🚀
+
