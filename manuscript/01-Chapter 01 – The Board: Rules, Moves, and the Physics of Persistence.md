@@ -9,7 +9,7 @@ To this day, we still attribute rises and falls to luck, great leaders, or vague
 
 ## 1.1 Why Existing Theories Miss the Substrate
 
-Liberalism, Marxism, realism, constructivism—they start at the human level, treating biology and physics as footnotes. They describe symptoms (inequality, revolution, hegemony) but rarely predict collapse or prescribe fixes. Major 20th-century theories missed the Soviet implosion, East-Asian fertility crashes, and current Western rigidity cascades.
+Liberalism, Marxism, realism, constructivism,they understandably start at the human level, while treating biology and physics as footnotes (but the mechanisms of replicating systems run deeper). They describe symptoms (inequality, revolution, hegemony) but rarely predict collapse or prescribe fixes. Major 20th-century theories missed the Soviet implosion, East-Asian fertility crashes, and current Western rigidity cascades.
 
 The substrate is replicators in physics. Life—and politics—is the subset of chemical systems that export entropy faster than the Second Law imports it. Add imperfect replication, heredity, and differential persistence in a finite world, and blind Darwinian evolution follows. Genes, memes, firms, nations play the same game: more copies tomorrow than rivals. To persist, they follow fifteen base rules, derivable from first principles and empirically robust across tested scales.
 
