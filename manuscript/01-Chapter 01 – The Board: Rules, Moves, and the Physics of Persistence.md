@@ -1,10 +1,10 @@
 # Chapter 01 – The Board: Rules, Moves, and the Physics of Persistence
 
+<image-card alt="Chapter 01 Banner – Alchemy & Go Board" src="figures/banner_ch01_klimt_alchemy_go.png" ></image-card>
+*Harvesting order from chaos on the physical board: replicators at play in gilded entropy flows.*
+
 > “The game is played whether we understand the rules or not.”  
 > —Memento
-
-![Alchemical Entropy Lab Teaser](figures/fig_1_0_alchemical_entropy_lab.png)  
-*Harvesting order from chaos: an entropy pump in alchemical form — bottles, books, swirling motifs on a checkerboard floor. The replicator's eternal struggle visualized.*
 
 Every organization—from a strand of RNA to the bureaucracy of a global hegemon—is an entropy pump. It must continuously harvest free energy from its environment to maintain internal order. Where that flow falters, decay begins.
 
@@ -26,8 +26,7 @@ Genes, memes, firms, and nations participate in the same underlying dynamic: pro
 
 If persistence requires replication under constraint, then interactions between replicators must also obey structural limits.
 
-The fifteen rules define the board. Interactions resolve into six evolutionarily stable sign combinations:  
-Mutualism (+/+), Commensalism (+/0), Parasitism (+/–), Competition (–/–), Amensalism (0/–), Neutralism (0/0).
+The fifteen rules define the board. Interactions resolve into six evolutionarily stable sign combinations: Mutualism (+/+), Commensalism (+/0), Parasitism (+/–), Competition (–/–), Amensalism (0/–), Neutralism (0/0).
 
 Under finite resources and thermodynamic constraint, the space of stable interactions reduces to these six classes. No seventh survives evolutionary filtering.
 
@@ -55,8 +54,8 @@ Most complex systems mix moves. Durable constitutions bias toward mutualism and 
 
 **Figure 1.1 – Exhaustive 3×3 Payoff Matrix**  
 Stable cells green; unstable red/strikethrough.  
-![Figure 1.1 – Exhaustive 3×3 Payoff Matrix](figures/fig_1_1_payoff_matrix.png)  
-(Generated via matplotlib/seaborn in `notebooks/fig_payoff_matrix.ipynb` — reproducible in repo.)
+<image-card alt="Figure 1.1 – Exhaustive 3×3 Payoff Matrix" src="figures/fig_1_1_payoff_matrix.png" ></image-card>  
+*(Reproducible source in notebooks/fig_payoff_matrix.ipynb)*
 
 ### 1.3 The Fifteen Universal Rules: Constraints on Persistence
 
@@ -93,8 +92,8 @@ Chapter 02 introduces a 35-metric compass used to populate this grid: measuring 
 The aim is not metaphorical elegance but instrumentation. If rules and moves are real, they should leave measurable traces. Public data in, diagnostics out.
 
 **Figure 1.2 – Blank 15×6 Grid Teaser**  
-![Figure 1.2 – Blank 15×6 Grid Teaser](figures/fig_1_2_blank_grid.png)  
-(Generated via `blank_grid.py` or equivalent in `notebooks/` — reproducible in repo.)
+<image-card alt="Figure 1.2 – Blank 15×6 Grid Teaser" src="figures/fig_1_2_blank_grid.png" ></image-card>  
+*(Reproducible source in notebooks/blank_grid.ipynb)*
 
 ### 1.5 From Physics to Navigation
 
@@ -120,7 +119,5 @@ The game is played regardless. The question is whether we can learn its geometry
 - Ch13: Rule 13 and Systemic Fracture  
 
 Toward resilient futures.
-
-Memento mori. 🚀
 
 Memento mori. 🚀
