@@ -80,9 +80,6 @@ Mergers increase complexity, distributing sinks and buffering shocks.
 ![Figure 11.3: Merger Dynamics – Graph Complexity](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_merger_dynamics.png)  
 **Caption:** Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
 
-![Figure 11.5: Complexity Surface – Merger Resilience Illustration](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_5_complexity_surface.png)  
-**Caption:** Illustrative 3D surface of graph complexity across the compass plane (X, Y). Complexity peaks in hybrid lattice bands (resilience zone) and dips toward parasitism/rigidity traps. Real replicators plotted as points on the surface.
-
 ## 11.4 The Periodic Table of Replicators
 
 The attractor catalog is not exhaustive — new variants may occupy intermediate zones or create hybrid basins. The Appendix (Ch. 12) maps every tested replicator onto this topology, with ensemble clouds and shock trajectories.
@@ -98,7 +95,10 @@ In this future view, each replicator would appear as a complex 3D form:
 - Late VOC/PRC: deep, funneling sinkholes (event horizon at ~30% proxy)
 - Competition-dominant systems: braided toroids or chaotic attractors (cyclic high-variance orbits)
 - Merger events: increased surface complexity (fractal-like sub-structures from added nodes/edges)
-
+- 
+![Figure 11.5: Complexity Surface – Merger Resilience Illustration](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_5_complexity_surface.png)  
+**Caption:** Illustrative 3D surface of graph complexity across the compass plane (X, Y). Complexity peaks in hybrid lattice bands (resilience zone) and dips toward parasitism/rigidity traps. Real replicators plotted as points on the surface.
+  
 Vector fields would trace shock trajectories: arrows from baseline points, length scaled by longevity compression, divergence/curl indicating turbulence or laminar stability. Universal shapes could emerge — high C2 variation always forming helical twists, regardless of scale — letting us compare RNA toroids to Polkadot braids to state lattices.
 
 This is not yet implemented. It requires higher-dimensional ensemble fitting (e.g., PCA or t-SNE reduction to 3D), VTK export from simulate.py, and interactive visualization tools (Paraview, Plotly 3D). But the seeds are already in the repo: ensemble_runner, hazard fits, shock sweeps, and graph complexity stubs.
