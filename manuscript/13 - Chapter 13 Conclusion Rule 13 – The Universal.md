@@ -52,14 +52,12 @@ The grid has tracked the moves that delay or accelerate arrival.
 
 The board is still open.
 
-**Rule 13 Hooks** (pick one, or use them all over time)
 
-- Rule 13: Expect failure when empty.
-- Rule 13: Cheaters always win when detection sleeps.
-- Rule 13: Suppression is the only entropy export channel that matters.
-- Rule 13: Every lattice fractures at the same hinge.
-- Rule 13: Parasitism is physics, not morality.
-- Rule 13: The proxy never lies.
-- Rule 13: When Row 13 tips, the system follows.
+**Critical Rule 13: >30 % Parasitism → Potential Collapse Risk** 
 
+The board is still open. Test it. Refine it. Extend the ledger.
+
+
+
+Toward resilient futures.  
 Memento mori. 🚀
