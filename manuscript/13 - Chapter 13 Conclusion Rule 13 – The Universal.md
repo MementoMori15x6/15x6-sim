@@ -50,14 +50,11 @@ The compass has mapped it.
 
 The grid has tracked the moves that delay or accelerate arrival.
 
-The board is still open.
+The board is still open.  Test it. Refine it. Extend the ledger.
 
+Never Forget:
 
 **Critical Rule 13: >30 % Parasitism → Potential Collapse Risk** 
-
-The board is still open. Test it. Refine it. Extend the ledger.
-
-
 
 Toward resilient futures.  
 Memento mori. 🚀
