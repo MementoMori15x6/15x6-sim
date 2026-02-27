@@ -1,6 +1,6 @@
 # 00 – Introduction: Measuring Replicating Systems
 
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch00_archimedesDesign8.png)
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch00_archimedesDesign5.png)
 
 Memento & Mori | 2026
 
