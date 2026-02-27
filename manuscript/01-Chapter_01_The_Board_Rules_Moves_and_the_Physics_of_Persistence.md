@@ -10,15 +10,15 @@ Every organization—from a strand of RNA to the bureaucracy of a global hegemon
 
 Rises and collapses are still commonly attributed to luck, great leaders, or historical cycles. Yet patterns across scales suggest something more structural: a physics of persistence that precedes ideology. This chapter introduces the Board—a 15×6 master grid—not as a metaphor, but as a navigational framework. It formalizes the constraints that govern durable systems and tests whether those constraints repeat across scales.
 
-The framework has been stress-tested across diverse cases: RNA replicators, ant colonies, the Republic of Venice, the Dutch East India Company (VOC), modern polities, and cryptographic protocols. The signals recur. If persistence obeys common constraints, then diagnosis—and perhaps foresight—may be possible before collapse renders the lesson obvious.
+The framework has been stress-tested across diverse cases: RNA replicators, ant colonies, the Republic of Venice, the Dutch East India Company (VOC), modern polities, and cryptographic protocols. The signals recur. If persistence obeys common constraints, then diagnosis and perhaps foresight may be possible before collapse renders the lesson obvious.
 
 ## 1.1 Why Existing Theories Miss the Substrate
 
 Liberalism, Marxism, Realism, and Constructivism understandably begin at the human level. Their units of analysis are actors, classes, institutions, and norms. Biology and physics appear only distantly, if at all. Yet the mechanisms governing replicating systems operate beneath culture and ideology.
 
-These theories often describe symptoms—inequality, revolution, hegemony—but have struggled to consistently predict systemic collapse or engineer durable stability. Few anticipated the implosion of the Soviet Union. Demographic theory underestimated the speed and depth of fertility collapse across parts of East Asia. Contemporary institutional rigidities in parts of the West remain poorly modeled by standard frameworks.
+These theories often describe symptoms—inequality, revolution, hegemony, but have struggled to consistently predict systemic collapse or engineer durable stability. Few anticipated the implosion of the Soviet Union. Demographic theory underestimated the speed and depth of fertility collapse across parts of East Asia. Contemporary institutional rigidities in parts of the West remain poorly modeled by standard frameworks.
 
-The deeper substrate is replication under thermodynamic constraint. Life—and by extension politics—is an emergent subset of chemical systems that maintain local order by exporting entropy to their environment, consistent with the Second Law of Thermodynamics. Add imperfect replication, heredity, and differential persistence under finite resources, and Darwinian evolution follows inevitably.
+The deeper substrate is replication under thermodynamic constraint. Life and by extension politics—is an emergent subset of chemical systems that maintain local order by exporting entropy to their environment, consistent with the Second Law of Thermodynamics. Add imperfect replication, heredity, and differential persistence under finite resources, and Darwinian evolution follows inevitably.
 
 Genes, memes, firms, and nations participate in the same underlying dynamic: producing more viable copies tomorrow than their rivals. To persist across time, such systems converge on a constrained set of structural rules. The remainder of this chapter outlines those constraints and examines whether they are derivable from first principles and observable across scales.
 
