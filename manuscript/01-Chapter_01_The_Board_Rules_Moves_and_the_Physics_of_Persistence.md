@@ -1,6 +1,7 @@
 # 01 - Chapter 01: The Board: Rules, Moves, and the Physics of Persistence
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch01_alchemy_theme.png)
+Memento & Mori | 2026
 
 > “The game is played whether we understand the rules or not, and to see the board we stand upon is to navigate with intention rather than impulse.”
 ~Memento
