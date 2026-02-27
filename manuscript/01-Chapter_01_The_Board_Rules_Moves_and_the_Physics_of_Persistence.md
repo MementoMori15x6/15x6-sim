@@ -6,7 +6,7 @@
 ~Memento
 > 
 
-Every organization—from a strand of RNA to the bureaucracy of a global hegemon—is an entropy pump. It must continuously harvest free energy from its environment to maintain internal order. Where that flow falters, decay begins.
+Every organization from a strand of RNA to the bureaucracy of a global hegemon is an entropy pump. It must continuously harvest free energy from its environment to maintain internal order. Where that flow falters, decay begins.
 
 Rises and collapses are still commonly attributed to luck, great leaders, or historical cycles. Yet patterns across scales suggest something more structural: a physics of persistence that precedes ideology. This chapter introduces the Board—a 15×6 master grid—not as a metaphor, but as a navigational framework. It formalizes the constraints that govern durable systems and tests whether those constraints repeat across scales.
 
