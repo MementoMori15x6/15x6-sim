@@ -18,7 +18,7 @@ Liberalism, Marxism, Realism, and Constructivism understandably begin at the hum
 
 These theories often describe symptoms—inequality, revolution, hegemony, but have struggled to consistently predict systemic collapse or engineer durable stability. Few anticipated the implosion of the Soviet Union. Demographic theory underestimated the speed and depth of fertility collapse across parts of East Asia. Contemporary institutional rigidities in parts of the West remain poorly modeled by standard frameworks.
 
-The deeper substrate is replication under thermodynamic constraint. Life and by extension politics—is an emergent subset of chemical systems that maintain local order by exporting entropy to their environment, consistent with the Second Law of Thermodynamics. Add imperfect replication, heredity, and differential persistence under finite resources, and Darwinian evolution follows inevitably.
+The deeper substrate is replication under thermodynamic constraint. Life and by extension politics is an emergent subset of chemical systems that maintain local order by exporting entropy to their environment, consistent with the Second Law of Thermodynamics. Add imperfect replication, heredity, and differential persistence under finite resources, and Darwinian evolution follows inevitably.
 
 Genes, memes, firms, and nations participate in the same underlying dynamic: producing more viable copies tomorrow than their rivals. To persist across time, such systems converge on a constrained set of structural rules. The remainder of this chapter outlines those constraints and examines whether they are derivable from first principles and observable across scales.
 
