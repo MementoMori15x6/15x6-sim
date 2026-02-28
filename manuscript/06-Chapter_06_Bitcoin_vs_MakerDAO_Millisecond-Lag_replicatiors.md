@@ -1,4 +1,5 @@
 # 06 - Chapter 06 Bitcoin vs MakerDAO - Millisecond-Lag replicatior
+Memento & Mori | 2026
 
 The VOC collapse (Chapter 05) diagnosed a classic entropy-lag fracture: six-month signal delays across vast oceans allowed parasitism to accumulate unchecked in Rule-13 rows, culminating in boundary failure and shortened longevity. Digital replicators eliminate that lag—consensus and enforcement occur in milliseconds, promising light-speed resolution of cheater dynamics. Yet speed alone does not guarantee thermodynamic health; secondary fractures can persist in governance and heredity rows.
 
