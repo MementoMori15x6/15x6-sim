@@ -1,5 +1,5 @@
 # Chapter 11 – Phase-Space Topology: The Full Map
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 ## 11.1 From Diagnostic Points to Attractor Catalog
 
