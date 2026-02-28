@@ -1,4 +1,5 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
+Memento & Mori | 2026
 
 ## 9.1 From Deterministic v1 to Stochastic v2
 
@@ -127,4 +128,4 @@ Open for refinement:
 
 The microscope is evolving — from static lens to dynamic, probabilistic observer.
 
-Memento mori. 🚀
+
