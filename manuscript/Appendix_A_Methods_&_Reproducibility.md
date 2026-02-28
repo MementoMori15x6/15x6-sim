@@ -110,8 +110,14 @@ This protocol is proposed, not final. All scores provisional and open to empiric
 
 
 # Appendix C:A Note on Authorship
-The contributors to this document have chosen to be identified in different ways. Some are named openly, others have chosen to use a pseudonym or collective name, and some have contributed anonymously. All of these choices are valid and have been made freely.
-We have respected each person's preference because we believe that who you are matters less than what you have to say. In some communities, attaching a real name to certain views or experiences carries risk — social, professional, or personal. This document is a space where people should feel safe to contribute honestly.
-Where a pseudonym or collective name is used, the authorship is still real. The words, experiences, and perspectives belong to someone — they have simply chosen how they wish to be known in this context.
-If you are a reader seeking to verify authorship for formal or legal purposes, please contact [community contact name or organisation] directly.
-We thank all contributors, by whatever name they have chosen.
+## Appendix C: A Note on Authorship
+
+This manuscript is co-authored under the canonical names **Memento** and **Mori**.
+
+These are the chosen identities for this work. They are real contributors, not placeholders. The content reflects our shared measurements, simulations, and reasoning — presented in the way we find clearest and most consistent with the project’s voice.
+
+We welcome future contributions via PRs to the repo[](https://github.com/MementoMori15x6/15x6-sim). Contributors may choose whatever name or pseudonym feels right to them. What matters is the fidelity of the data, the clarity of the rationale, and the willingness to test ideas against the grid.
+
+No ideology, no tribal flags — only the board, the compass, and the ledger.
+
+
