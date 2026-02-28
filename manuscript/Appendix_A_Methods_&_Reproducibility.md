@@ -1,5 +1,5 @@
 # Appendix A: Methods & Reproducibility
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 This appendix describes the technical and methodological foundations of the 15×6 grid, 35-metric compass, and longevity estimates. All code, calibration parameters, and data processing steps are explicit and reproducible.
 
