@@ -1,24 +1,26 @@
 # Preface & Note on Authorship
 
-Preface (placeholder)
+**Preface**
+This manuscript began with a stubborn, quiet question:  
+What is a polity, really, at its base?
 
-This manuscript did not begin as a theory of politics. It began as a question about replicators.
+The answer that kept coming back felt like cold water: it is a replicating system — memetic, thermodynamic, no more exempt from entropy than any other. The same constraints that shape RNA strands, ant colonies, viruses, and protocols also shape Rome, Venice, Ethereum, and the two planetary hegemons of our time. They harvest energy, export disorder, suppress exploiters, hold boundaries, and either adapt or fracture. The patterns repeat across scales because the physics do not bend.
 
-Across disciplines — biology, thermodynamics, computer science — systems that persist share structural similarities. They harvest energy, regulate internal disorder, suppress exploitation, and adapt under stress. When they fail, they often fail in patterned ways.
+For centuries that insight stayed metaphorical. The data was hidden or scattered; the tools too weak to trace it at scale. Then the streams arrived — fiscal flows, demographic signals, governance density, capital allocation — in near real-time. Simulation became cheap. What had been poetry turned diagnostic.
 
-The question gradually became difficult to ignore: if ant colonies, viruses, and digital protocols exhibit measurable constraints, why would complex human polities be exempt?
+This work is not doctrine. It is an instrument: a 15×6 grid and 35-metric compass, offered as a way to shine light on the board we stand on. We mapped biological baselines, historical polities, digital protocols, algorithmic variants. Recurring signatures emerged — Rule-13 thresholds, rigidity penalties, entropy-export fragility. The patterns are provisional, falsifiable, open to anyone willing to test them.
 
-For most of history, such comparisons were metaphorical. The data required to evaluate them rigorously did not exist, nor did the computational tools necessary to model systems at scale. That has changed.
+We do not promise foresight. We only claim it may now be possible — not as prophecy, but as measurement.
 
-The 15×6 grid and 35-metric compass presented in this manuscript are not claims of final truth. They are instruments — attempts to measure structural health across replicating systems using consistent constraints. The framework has been applied to biological baselines, historical polities, digital protocols, and algorithmic variants. The results suggest recurring structural signatures that warrant further examination.
+The journey started by seeing the base beneath our feet. It led through raw data, through shocks and proxies, to the doorstep of phase-space. What follows is what we found there.
 
-This work does not argue that collapse is inevitable. It argues that collapse may be detectable.
+Toward resilient futures.  
+Memento mori.
 
-If replicating systems obey physical constraints, then durability may be measurable. If durability is measurable, then foresight becomes possible — not as prophecy, but as diagnosis.
+Memento & Mori  
+December 2025 – ongoing
 
-What follows is an attempt to formalize that diagnosis.
-
-# Note on Authorship
+**Note on Authorship**
 
 This work — *The Board: Political Thermodynamics* — is co-authored under the canonical names **Memento** and **Mori**.
 
