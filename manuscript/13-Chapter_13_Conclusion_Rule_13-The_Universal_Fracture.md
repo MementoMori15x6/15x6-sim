@@ -2,7 +2,7 @@
 
 ![Rule 13: The Universal Fracture – The hinge where every replicator fails](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch13_universal_fracture_v2_centered.png)
 <!-- Banner: text-to-image generated illustration for chapter header (decorative, non-scientific) -->
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 > “In the end, we will not be judged by the stories we told about power,
 > 
