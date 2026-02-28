@@ -1,5 +1,5 @@
 # 05 - Chapter 05 – VOC The Dutch East India Company - Global Scaling
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 ## 5.1 Global Reach and the Limits of Fidelity
 
