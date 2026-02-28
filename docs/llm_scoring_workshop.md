@@ -54,7 +54,7 @@ Lead Headline (1 punchy sentence on current health/trajectory)
 Where It Stands (1–2 sentences: phase-space position, dominant attractor basin)
 Key Numbers (bullets): Rule-13 proxy %, longevity placeholder, cooperation-competition balance (rows 6–8), cheater policing (Row 13)
 The Story So Far (3–5 sentences: growth, energy allocation, main strengths/weaknesses)
-Bottom Line (1 sentence): Is this system overall exporting more entropy than it accumulates, or the reverse?
+Bottom Line (1 sentence): Is this system overall a net exporter of entropy, or a net accumulator?
 ```
 At this point feel free to ask any questions about the polity examined.  No more guardrails, no more narratives, only reading what's left on the Board.
 *This is only a snap shot of the polity itself, if you're considering deeper level questioning, you may need to test and push the polity into deeper waters.
@@ -105,7 +105,7 @@ This deeper level reveals: a readable story of the polity's health, trajectory, 
 **This is the time to ask those deeper questions.** The answers will be rooted in the measurements of the board — entropy flows, Rule-13 suppression signals, and grid patterns — holding more weight than pure narrative, as diagnostics you can test and refine.
 
 ### Advanced: Multi-Model Averaging scores
-If you want to eliminate single score bias, you will want to pull in more scores from other LLMs.
+If you want to reduce single-LLM variation? You need to pull in more scores from different LLMs.
 1. Run Stage 02 on 2–3 LLMs → collect 35-score rows.
 2. Average (spreadsheet or ask LLM: “Average these rows: [row1] [row2] [row3]” — mean per column, round to integer).
 3. Feed averaged row back: “Recompute X/Y, zones, proxy, longevity, summary from this averaged row: [paste]”.
