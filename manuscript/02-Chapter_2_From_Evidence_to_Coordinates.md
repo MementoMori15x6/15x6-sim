@@ -5,7 +5,7 @@ Memento & Mori | December 2025 – ongoing
 
 ## Introduction – The Compass Protocol
 
-The Political Thermodynamics framework treats polities as far-from-equilibrium replicating systems governed by fifteen base rules (Chapter1). The 35-metric compass converts qualitative historical evidence into quantitative coordinates: X (economic metabolism) from metrics A–G, Y (governance density) from H–M. Non-linear penalties amplify extremes, rigidity adjustment boosts suppression costs, and inverse-distance splatter assigns zone percentages. The 15×6 grid maps these to interaction distributions (Mutualism to Neutralism), with Rule 13 highlighted as the key specificity sensor.
+The Political Thermodynamics framework treats polities as far-from-equilibrium replicating systems governed by fifteen base rules (Chapter1). The 35-metric compass converts qualitative historical evidence into quantitative coordinates: X axis(economic metabolism) from metrics A–G, Y axis (governance density) from H–M. Non-linear penalties amplify extremes, rigidity adjustment boosts suppression costs, and inverse-distance splatter assigns zone percentages. The 15×6 grid maps these to interaction distributions (Mutualism to Neutralism), with Rule 13 highlighted as the key specificity sensor.
 
 The diagnostic power lies in row shape, not just percentages: a flat Rule 13 row signals loss of cheater-detection specificity (inability to distinguish legitimate variation from parasitism), even if raw parasitism % remains moderate.
 
