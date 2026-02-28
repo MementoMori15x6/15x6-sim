@@ -36,4 +36,3 @@ Columns:
 
 The ledger is a living table — not complete, never final.
 
-Memento mori. 🚀
