@@ -1,4 +1,5 @@
 # Chapter 12 – Appendix: Master 15×6 Comparative Grid
+Memento & Mori | 2026
 
 This appendix compiles every replicator tested across the project into a single comparative grid. All values are from the 35-metric compass protocol (Ch. 2), stochastic v2 ensembles (Ch. 9), and standardized capture shocks (Ch. 8 & 10).
 
