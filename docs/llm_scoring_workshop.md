@@ -57,8 +57,53 @@ The Story So Far (3–5 sentences: growth, energy allocation, main strengths/wea
 Bottom Line (1 sentence): Is this system overall exporting more entropy than it accumulates, or the reverse?
 ```
 At this point feel free to ask any questions about the polity examined.  No more guardrails, no more narratives, only reading what's left on the Board.
+*This is only a snap shot of the polity itself, if you're considering deeper level questioning, you may need to test and push the polity in deeper waters.
 
-### Advanced: Multi-Model Averaging
+### Advanced: Deeper Dive Follow-Ups (LLM-Only, No Code Needed)
+After getting your baseline snapshot from Stage 02, use these prompts one at a time in the same LLM chat to zoom in further on the polity. Each level builds on the previous output, revealing more about entropy risks, suppression dynamics, and persistence potential.
+**Level 1: Shock Simulation (tests resilience)**
+This deeper level reveals: how a modest stress (e.g., institutional capture) pushes the polity's Rule-13 proxy toward the >30% kill-switch, showing potential entropy flood and longevity compression.
+```bash
+Using the scores from the previous [REPLICATOR] evaluation:  
+Simulate a modest shock (+10–15% delta on D1 parasitism and G1 cheater detection metrics).  
+Recompute the Rule-13 proxy, longevity placeholder, and zone percentages post-shock.  
+Focus on whether it crosses the >30% kill-switch threshold (suppression failure, entropy flood, longevity compression).  
+Output exactly:  
+Post-shock CSV row of 35 scores  
+Post-shock X,Y  
+Post-shock zone percentages  
+Post-shock Rule-13 proxy  
+Post-shock longevity placeholder  
+Post-shock brief analytical summary (2–3 sentences: entropy risks, attractor shifts, Row 13 suppression changes)
+```
+**Level 2: Attractor Basin Analysis (maps fringe vs. core)**
+This deeper level reveals: proximity to the three main attractors (parasitic fringe, mutualistic core, competition edge) and how variation bandwidth (C2) buffers or amplifies risks like suppression failure.
+```bash
+Using the baseline scores from [REPLICATOR]:  
+Zoom in on the three main attractors: parasitic fringe (low Y, high parasitism), mutualistic core (balanced X/Y, strong cooperation), competition-driven edge (high competition rows 6–8).  
+Analyze proximity and entropy flow: how does variation bandwidth (C2 score) buffer or amplify fringe risks?  
+Output exactly:  
+Attractor proximity % (parasitic fringe, mutualistic core, competition edge; sum to 100%)  
+Variation bandwidth note (C2 score impact on suppression)  
+Brief analytical summary (2–3 sentences: attractor dominance, entropy export paths, rigidity risks)
+```
+**Level 3: Broadcast Summary (narrative wrap-up)**
+This deeper level reveals: a readable story of the polity's health, trajectory, and entropy balance, integrating baseline or post-shock insights for everyday intuition.
+```bash
+Using the results from the previous levels on [REPLICATOR] for [TIME WINDOW]:  
+Deliver a concise news-style broadcast report.  
+Factual, professional, no jargon, no slant.  
+Output exactly:  
+Lead Headline (1 punchy sentence on current health/trajectory)  
+Where It Stands (1–2 sentences: phase-space position, dominant attractor basin)  
+Key Numbers (bullets): Rule-13 proxy %, longevity placeholder, cooperation-competition balance (rows 6–8), cheater policing (Row 13)  
+The Story So Far (3–5 sentences: growth, energy allocation, main strengths/weaknesses)  
+Bottom Line (1 sentence): Is this system overall exporting more entropy than it accumulates, or the reverse?
+```
+This is the time to ask those deeper questions.  Prehaps the answers to them have landed on the Board to read.
+
+### Advanced: Multi-Model Averaging scores
+If you want to eliminate single score bias, you will want to pull in more scores from other LLMs.
 1. Run Stage 02 on 2–3 LLMs → collect 35-score rows.
 2. Average (spreadsheet or ask LLM: “Average these rows: [row1] [row2] [row3]” — mean per column, round to integer).
 3. Feed averaged row back: “Recompute X/Y, zones, proxy, longevity, summary from this averaged row: [paste]”.
