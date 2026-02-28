@@ -1,8 +1,5 @@
 # 05 - Chapter 05 – VOC The Dutch East India Company - Global Scaling
-
-**The Board – Political Thermodynamics**
-
-February 2026
+Memento & Mori | 2026
 
 ## 5.1 Global Reach and the Limits of Fidelity
 
