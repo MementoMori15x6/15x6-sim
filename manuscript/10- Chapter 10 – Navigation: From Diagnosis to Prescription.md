@@ -1,6 +1,10 @@
 # Chapter 10 – Navigation: From Diagnosis to Prescription
 
 ## 10.1 The Pivot to Goal-Oriented Vectors
+### Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy
+![Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_1_measurement_pipeline.png)
+
+<!-- Reproducible matplotlib schematic showing evidence → compass → X,Y → grid → Rule 13 hinge -->
 
 Chapters 1–8 built and validated the diagnostic tool: the 15×6 grid, 35-metric compass, stochastic ensembles, and survival fits. Chapter 9 evolved it into a probabilistic observer capable of detecting noise, tipping points, and decay curves.
 
@@ -41,6 +45,10 @@ We propose three primary vectors, each with associated metric adjustments and st
    Example: fractal L2/sub-chain structures (Polkadot-like)  
    Stress test: single-sink failure (e.g., dollar analog collapse)  
    Success: entropy delta remains negative, longevity compression <20%
+### Figure 10.2: Ensemble Proxy Trajectories – Stable vs. Shock-Induced Collapse
+![Figure 10.2: Ensemble Proxy Trajectories – Stable vs. Shock-Induced Collapse](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_2_ensemble_trajectories.png)
+
+<!-- Synthetic traces demonstrating >30% threshold as hinge for acceleration -->
 
 ## 10.3 Historical What-If Shocks
 
@@ -65,6 +73,11 @@ We apply the vectors retrospectively to historical cases — not to rewrite hist
   Result: proxy remained <25%, longevity extended decades
 
 These are illustrative — not predictive. They demonstrate that the compass can be turned into a navigation instrument: identify high-sensitivity metrics (G1, C2, D2) and test counterfactual adjustments.
+
+### Figure 10.3: Rigidity Penalty Surface – Governance Cost Amplification
+![Figure 10.3: Rigidity Penalty Surface – Governance Cost Amplification](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_3_rigidity_surface.png)
+
+<!-- Heatmap of rigidity scalar; low-rigidity corner preferred for persistence -->
 
 ## 10.4 Hard Truth: The Art of Trade-Offs
 
