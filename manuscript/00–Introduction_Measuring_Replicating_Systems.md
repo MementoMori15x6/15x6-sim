@@ -2,7 +2,7 @@
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch00_archimedesDesign5.png)
 
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 > “Eyes wide open as Archimedes places the crown into the bath—watching not the gold, but the water line.”
 > 
