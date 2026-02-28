@@ -1,4 +1,5 @@
 # Appendix A: Methods & Reproducibility
+Memento & Mori | 2026
 
 This appendix details the scoring protocol, data processing, and simulation workflow used in Chapter 2. All steps are designed for reproducibility and open testing.
 
