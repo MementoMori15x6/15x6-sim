@@ -97,4 +97,4 @@ Open for extension:
 
 The microscope now has direction — from diagnosis to prescription, from autopsy to course correction.
 
-Memento mori. 🚀
+
