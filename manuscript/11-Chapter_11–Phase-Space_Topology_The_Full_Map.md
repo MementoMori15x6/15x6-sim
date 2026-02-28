@@ -1,5 +1,5 @@
 # Chapter 11 – Phase-Space Topology: The Full Map
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch11_phase-space03.png)
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch11_phase-space02.png)
 Memento & Mori | December 2025 – ongoing
 
 ## 11.1 From Diagnostic Points to Attractor Catalog
