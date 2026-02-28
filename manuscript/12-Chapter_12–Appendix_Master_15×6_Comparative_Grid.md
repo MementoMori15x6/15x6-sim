@@ -1,5 +1,5 @@
 # Chapter 12: Appendix – Master 15×6 Comparative Grid (Living Ledger)
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 This is the extensible master ledger: scored replicators with baseline/shock proxies, longevity windows, Row-13 jumps, attractor zone splatter %, and key diagnostics.
 
