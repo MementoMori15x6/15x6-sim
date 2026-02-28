@@ -107,4 +107,3 @@ When built, the scanner would let us ask: which geometries are universally stabl
 
 The map is drawn, but never final.
 
-Memento mori. 🚀
