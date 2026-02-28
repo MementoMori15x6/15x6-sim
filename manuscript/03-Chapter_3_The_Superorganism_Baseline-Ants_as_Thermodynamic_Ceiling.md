@@ -1,4 +1,5 @@
 # 03 - Chapter 3: The Superorganism Baseline – Ants as Thermodynamic Ceiling
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch03_ants_in_jungle03.png)
 Memento & Mori | December 2025 – ongoing
 
 Replicating systems persist by exporting entropy faster than they accumulate it. Chapter 2 traced Rome's cascade: mutualism eroded, Rule-13 parasitism crossed 30%, governance density exploded, and the system collapsed. To diagnose genuine health, we need a biological control group — a replicator that achieves near-perfect efficiency with suppression hard-wired as hardware, not software.
