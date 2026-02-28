@@ -100,7 +100,8 @@ Key Numbers (bullets): Rule-13 proxy %, longevity placeholder, cooperation-compe
 The Story So Far (3–5 sentences: growth, energy allocation, main strengths/weaknesses)  
 Bottom Line (1 sentence): Is this system overall exporting more entropy than it accumulates, or the reverse?
 ```
-This is the time to ask those deeper questions.  Prehaps the answers to them have landed on the Board to read.
+This deeper level reveals: a readable story of the polity's health, trajectory, and entropy balance, integrating baseline or post-shock insights for everyday intuition.
+**This is the time to ask those deeper questions.** The answers will be rooted in the measurements of the board — entropy flows, Rule-13 suppression signals, and grid patterns — holding more weight than pure narrative, as diagnostics you can test and refine.
 
 ### Advanced: Multi-Model Averaging scores
 If you want to eliminate single score bias, you will want to pull in more scores from other LLMs.
