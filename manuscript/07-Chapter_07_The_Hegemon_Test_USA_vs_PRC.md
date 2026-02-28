@@ -1,4 +1,5 @@
 # 07 - Chapter 07 – The Hegemon Test: USA vs. PRC as Planetary-Scale Replicators
+Memento & Mori | 2026
 
 ### 7.1 Scope & Central Question
 
@@ -189,4 +190,3 @@ We will test early prototypes (Bitcoin, Ethereum, Polkadot, Cosmos hybrids) agai
 
 Stress-test continues. Let’s keep the grid honest.
 
-Memento mori. 🚀
