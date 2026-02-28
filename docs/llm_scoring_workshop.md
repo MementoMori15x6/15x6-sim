@@ -61,6 +61,7 @@ At this point feel free to ask any questions about the polity examined.  No more
 
 ### Advanced: Deeper Dive Follow-Ups (LLM-Only, No Code Needed)
 After getting your baseline snapshot from Stage 02, use these prompts one at a time in the same LLM chat to zoom in further on the polity. Each level builds on the previous output, revealing more about entropy risks, suppression dynamics, and persistence potential.
+
 **Level 1: Shock Simulation (tests resilience)**
 This deeper level reveals: how a modest stress (e.g., institutional capture) pushes the polity's Rule-13 proxy toward the >30% kill-switch, showing potential entropy flood and longevity compression.
 ```bash
