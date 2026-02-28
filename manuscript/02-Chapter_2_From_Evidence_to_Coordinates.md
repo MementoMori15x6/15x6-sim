@@ -1,4 +1,5 @@
 # 02 - Chapter 2: From Evidence to Coordinates
+Memento & Mori | 2026
 
 The 35-Metric Compass and 15×6 Grid as a Diagnostic Lens for Political Thermodynamics
 
