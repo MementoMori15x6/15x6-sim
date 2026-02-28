@@ -56,6 +56,7 @@ Key Numbers (bullets): Rule-13 proxy %, longevity placeholder, cooperation-compe
 The Story So Far (3–5 sentences: growth, energy allocation, main strengths/weaknesses)
 Bottom Line (1 sentence): Is this system overall exporting more entropy than it accumulates, or the reverse?
 ```
+At this point feel free to ask any questions about the polity examined.  No more guardrails, no more narratives, only reading what's left on the Board.
 
 ### Advanced: Multi-Model Averaging
 1. Run Stage 02 on 2–3 LLMs → collect 35-score rows.
