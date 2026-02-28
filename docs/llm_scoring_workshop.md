@@ -57,7 +57,7 @@ The Story So Far (3–5 sentences: growth, energy allocation, main strengths/wea
 Bottom Line (1 sentence): Is this system overall exporting more entropy than it accumulates, or the reverse?
 ```
 At this point feel free to ask any questions about the polity examined.  No more guardrails, no more narratives, only reading what's left on the Board.
-*This is only a snap shot of the polity itself, if you're considering deeper level questioning, you may need to test and push the polity in deeper waters.
+*This is only a snap shot of the polity itself, if you're considering deeper level questioning, you may need to test and push the polity into deeper waters.
 
 ### Advanced: Deeper Dive Follow-Ups (LLM-Only, No Code Needed)
 After getting your baseline snapshot from Stage 02, use these prompts one at a time in the same LLM chat to zoom in further on the polity. Each level builds on the previous output, revealing more about entropy risks, suppression dynamics, and persistence potential.
