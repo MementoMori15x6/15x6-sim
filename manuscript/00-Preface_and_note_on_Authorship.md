@@ -1,6 +1,7 @@
 # Preface & Note on Authorship
 
 **Preface**
+
 This manuscript began with a stubborn, quiet question:  
 What is a polity, really, at its base?
 
