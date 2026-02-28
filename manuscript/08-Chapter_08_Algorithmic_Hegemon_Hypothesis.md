@@ -1,5 +1,5 @@
 # 08 - Chapter 08: Algorithmic Hegemon Hypothesis
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 ## 8.1 The Dead-End Trap at Planetary Scale
 
