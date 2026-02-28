@@ -127,4 +127,3 @@ The game is played regardless. The question is whether we can learn its geometry
 
 Toward resilient futures.
 
-Memento mori. 🚀
