@@ -1,4 +1,5 @@
 # 04 - Chapter 4: Artificial Pheromones – Venice as Engineered Approximation
+Memento & Mori | 2026
 
 Venice (697–1797) sustained ~1100 years of institutional continuity through deliberate engineering of distributed, low-noise cheater-suppression and metabolic-harvesting signals — an isomorphic approximation of the pheromone systems that stabilize ant colonies at biological scale.
 
