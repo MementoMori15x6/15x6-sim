@@ -1,5 +1,5 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 ## 9.1 From Deterministic v1 to Stochastic v2
 
