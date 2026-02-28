@@ -1,4 +1,5 @@
 # 05 - Chapter 05 – VOC The Dutch East India Company - Global Scaling
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch05_VOC_battle04.png)
 Memento & Mori | December 2025 – ongoing
 
 ## 5.1 Global Reach and the Limits of Fidelity
