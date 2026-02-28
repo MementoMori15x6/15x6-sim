@@ -1,4 +1,5 @@
 # 02 - Chapter 2: From Evidence to Coordinates
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banner_ch02_Roman_road07)
 Memento & Mori | December 2025 – ongoing
 
 **The 35-Metric Compass and 15×6 Grid as a Diagnostic Lens for Political Thermodynamics**
