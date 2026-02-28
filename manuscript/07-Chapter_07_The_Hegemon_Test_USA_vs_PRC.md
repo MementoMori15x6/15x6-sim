@@ -1,5 +1,5 @@
 # 07 - Chapter 07 – The Hegemon Test: USA vs. PRC as Planetary-Scale Replicators
-Memento & Mori | 2026
+Memento & Mori | December 2025 – ongoing
 
 ### 7.1 Scope & Central Question
 
