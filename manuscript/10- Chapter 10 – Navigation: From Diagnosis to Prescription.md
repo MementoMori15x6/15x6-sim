@@ -1,10 +1,6 @@
 # Chapter 10 – Navigation: From Diagnosis to Prescription
 
 ## 10.1 The Pivot to Goal-Oriented Vectors
-### Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy
-![Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_1_measurement_pipeline.png)
-
-<!-- Reproducible matplotlib schematic showing evidence → compass → X,Y → grid → Rule 13 hinge -->
 
 Chapters 1–8 built and validated the diagnostic tool: the 15×6 grid, 35-metric compass, stochastic ensembles, and survival fits. Chapter 9 evolved it into a probabilistic observer capable of detecting noise, tipping points, and decay curves.
 
@@ -18,6 +14,11 @@ Core goals (derived from successor criteria):
 - Extend longevity window toward centuries (≥500 years ±50%)
 
 These are not ideological prescriptions — they are thermodynamic targets, measurable on the compass and grid.
+
+### Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy
+![Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_1_measurement_pipeline.png)
+
+<!-- Reproducible matplotlib schematic showing evidence → compass → X,Y → grid → Rule 13 hinge -->
 
 ## 10.2 Defining Navigation Vectors
 
