@@ -3,6 +3,9 @@
 # The Board  
 Political Thermodynamics
 
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_Cover_02.png)
+
+
 **A diagnostic framework for far-from-equilibrium replicating systems**  
 15×6 grid • 35-metric compass • Rule-13 hinge
 
