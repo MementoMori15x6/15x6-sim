@@ -1,4 +1,6 @@
 # Chapter 10 – Navigation: From Diagnosis to Prescription
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch10_navigation.png)
+
 Memento & Mori | December 2025 – ongoing
 
 ## 10.1 The Pivot to Goal-Oriented Vectors
