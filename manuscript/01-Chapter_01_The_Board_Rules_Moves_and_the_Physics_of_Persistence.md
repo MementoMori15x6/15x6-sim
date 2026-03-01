@@ -60,7 +60,7 @@ Most complex systems mix moves. Durable constitutions bias toward mutualism and 
 
 [](https://www.notion.so)
 
-*(Reproducible source in notebooks/fig_payoff_matrix.ipynb)*
+*(Source: scripts/fig_1_1_payoff_matrix_updated.py)*
 
 ### 1.3 The Fifteen Universal Rules: Constraints on Persistence
 
