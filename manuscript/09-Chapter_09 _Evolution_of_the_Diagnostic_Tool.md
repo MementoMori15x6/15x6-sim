@@ -1,4 +1,6 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch09_diagnotic_evolution.png)
+
 Memento & Mori | December 2025 – ongoing
 
 ## 9.1 From Deterministic v1 to Stochastic v2
