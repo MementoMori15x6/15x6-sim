@@ -1,4 +1,6 @@
 # 08 - Chapter 08: Algorithmic Hegemon Hypothesis
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch08_AI_hegemon.png)
+
 Memento & Mori | December 2025 – ongoing
 
 ## 8.1 The Dead-End Trap at Planetary Scale
