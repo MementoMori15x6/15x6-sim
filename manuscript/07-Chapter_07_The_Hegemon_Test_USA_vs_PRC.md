@@ -1,4 +1,6 @@
 # 07 - Chapter 07 – The Hegemon Test: USA vs. PRC as Planetary-Scale Replicators
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch07_USA_vs_PRC01.png)
+
 Memento & Mori | December 2025 – ongoing
 
 ### 7.1 Scope & Central Question
