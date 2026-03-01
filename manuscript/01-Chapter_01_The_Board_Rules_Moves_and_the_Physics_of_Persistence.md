@@ -100,7 +100,7 @@ The aim is not metaphorical elegance but instrumentation. If rules and moves are
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_1_2_master_blank_15%C3%976_grid_v4.png)
 
-*(Reproducible source in notebooks/blank_grid.ipynb)*
+*(Reproducible source in notebooks/master_blank_15x6_grid_v4.ipynb)*
 
 ### 1.5 From Physics to Navigation
 
