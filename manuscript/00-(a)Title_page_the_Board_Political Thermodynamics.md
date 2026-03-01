@@ -3,7 +3,7 @@
 # The Board  
 Political Thermodynamics
 
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_Cover_02.png)
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_Cover_03.png)
 
 
 **A diagnostic framework for far-from-equilibrium replicating systems**  
