@@ -1,7 +1,7 @@
 <div align="center">
 
 # The Board  
-Political Thermodynamics
+**Political Thermodynamics**
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_Cover_03.png)
 
