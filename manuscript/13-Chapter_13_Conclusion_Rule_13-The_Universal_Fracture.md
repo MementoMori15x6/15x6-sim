@@ -56,5 +56,8 @@ Never Forget:
 
 **Critical Rule 13: >30 % Parasitism → Potential Collapse Risk** 
 
+Ongoing Case Studies  
+This manuscript is a snapshot, but the ledger is living. We continue scoring new and evolving replicators — from historical contrasts (North/South Koreas, Soviet Union) to real-time stresses (Iran's current regime under external shocks). Each case tests the grid's diagnostic power and refines the compass. Follow updates, new rows, and community PRs on X (@MementoMori15x6 or repo-linked threads) — expect a new case study roughly every fortnight. Fork simulate.py or submit your own scores; the board remains open.
+
 Toward resilient futures.  
 Memento mori. 🚀
