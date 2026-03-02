@@ -4,7 +4,7 @@
 
 Memento & Mori | December 2025 – ongoing
 
-> “Eyes wide open as Archimedes places the crown into the bath—watching not the gold, but the water line.”
+> “Eyes wide open as Archimedes places the crown into the basin—watching not the gold, but the water line.”
 > 
 
 Politics has always been a game of displacement. Every move made by a replicator—from a startup to a superpower—displaces energy and information similar to a rising water line.
