@@ -60,7 +60,7 @@ Most complex systems mix moves. Durable constitutions bias toward mutualism and 
 
 [](https://www.notion.so)
 
-*(Generated via Python script in the project repo: github.com/MementoMori15x6/15x6-sim/blob/main/scripts/fig_1_1_payoff_matrix_updated.py. Outputs saved to figures/ for embedding.)*
+*(Source: github.com/MementoMori15x6/15x6-sim/blob/main/scripts/fig_1_1_payoff_matrix_updated.py)*
 
 ### 1.3 The Fifteen Universal Rules: Constraints on Persistence
 
@@ -100,7 +100,7 @@ The aim is not metaphorical elegance but instrumentation. If rules and moves are
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_1_2_master_blank_15%C3%976_grid_v4.png)
 
-*(Blank template generated in the project repo: github.com/MementoMori15x6/15x6-sim/blob/main/notebooks/master_blank_15x6_grid_v4.ipynb. See repo for full reproducible code and variants.)*
+*(Source: github.com/MementoMori15x6/15x6-sim/blob/main/notebooks/master_blank_15x6_grid_v4.ipynb)*
 
 ### 1.5 From Physics to Navigation
 
