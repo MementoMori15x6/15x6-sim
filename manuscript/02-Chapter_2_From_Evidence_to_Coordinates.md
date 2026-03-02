@@ -120,22 +120,6 @@ Implications extend beyond Rome. The compass offers a falsifiable lens for other
 
 ## Synthesis & Implications
 
-The Roman case demonstrates the diagnostic power of the 35-metric compass and 15×6 grid: from qualitative evidence to quantitative coordinates, it consistently reveals universal thermodynamic signatures across three distinct phases.
-
-**Figure 2.5: Roman Life-Cycle – Full Thermodynamic Arc (133 BCE – 300 CE)**
-
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_5_roman_life_cycle.png)
-
-Combined drift plot illustrates the full Roman arc: late Republic separatrix plunge (export 7.8 → ~1.1), Principate reset jump at 27 BCE (export rebound to ~7.2, parasitism crash to ~4.4%), and Third Century anarchy cascade (export decay to ~2.0–2.5 by ~270–300 CE). The ~200–250 year plateau reflects hierarchical cooling; the Aurelian floor (~2.0–2.5 export) enables re-crystallization into the Dominate rather than total thermodynamic death.
-
-The late Republic illustrates **separatrix fragility**: a high-metabolism system (X ≈ 0.42) trapped in a fragile equilibrium (Y ≈ 0.21), where external conquest niches (Rule 10) provide an entropy buffer that delays collapse for decades despite creeping internal coordination failure. The diagnostic signal is the **flat Rule 13 row** (~18–20% parasitism): cheater detection loses specificity, becoming unable to distinguish legitimate variation from factional cannibalization, even as raw parasitism remains moderate.
-
-The Principate reset exemplifies **crystallization**: a reorganization that trades variation bandwidth (lower C2/I1–I3 scores) for hierarchical stability (sharpened Rule 13 mutualism/hierarchy dominance, parasitism crushed to ~4.4%). Export rebounds (~7.2) and governance density jumps (Y ≈ 0.51), moving the system into Stressed Mutualism and buying centuries of relative equilibrium.
-
-The forward drift into the Third Century crisis shows the cycle restarting: gradual entropy accumulation erodes suppression specificity, military parasitism surges post-235 CE (legionary pay-rise shocks fueling cannibalization), and export decays to a low but positive floor (~2.0–2.5) by ~270–300 CE. This **Aurelian floor**—Boundary Saturation rather than total thermodynamic death—explains why the empire did not vanish but re-freezes into the more rigid Dominate lattice under Diocletian.
-
-## Synthesis & Implications
-
 The Roman arc on the 15×6 board moves us beyond familiar historical narratives — ambitious generals, corrupt senates, wise emperors — into measurable thermodynamic dynamics of a replicating system. The 35-metric compass and grid consistently reveal three universal signatures that transcend Rome's specific stories:
 
 **Figure 2.5: Roman Life-Cycle – Full Thermodynamic Arc (133 BCE – 300 CE)**
