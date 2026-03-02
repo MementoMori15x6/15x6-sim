@@ -82,7 +82,8 @@ In contrast, human systems like Rome exhibit slow, distributed drift toward casc
 !
 
 Post-shock grid: **Rule 13 fractures to 70% Mutualism / 30% Parasitism** (crossing >30% collapse threshold; baseline was 98%/2%). Bleed spreads to harvest rows (1–5) and functional rows (6–10) at 10–20%. Demonstrates brittleness of biological hardware when the central pheromone/reproductive anchor fails — suppression cost explodes from near-zero to terminal.  
-[Source 35-metric scores: Ants Queen Death Shock (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_ants_queen_death_shock.csv)
+[Source 35-metric scores: Ants Queen Death Shock (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_ants_queen_death_shock.csv)  
+[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_3_4_ants_queen_death_shock_lattice.png)
 
 ## 3.5 The Benchmark – The Perfect Lattice
 
