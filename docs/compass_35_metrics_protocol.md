@@ -75,6 +75,17 @@ M3: Ethnic / identity policy framing
 All parameters explicit in `simulate.py`. See notebooks/ for ensemble examples, shocks, and CSV outputs.
 
 Mapping to 15×6 Master Grid: Metrics primarily load into specific rows (e.g., G1–G3 → Row 13 cheater detection; full cross-mapping in 15x6_master_grid.md).
+## Blank CSV Template for Scoring
+Start with this clean blank template (all scores at 0.0, ready for your evidence-based fills):
+
+[Download/View blank template: 35_metrics_blank_template.csv](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_blank_template.csv)
+
+- **Columns**: Metric (A1 etc.), Description (short label), Score (-10 to +10), Rationale (1–2 sentences evidence).
+- Fill Scores and Rationales from public sources.
+- Average per axis → run through `simulate.py` for X,Y point, splatter %, entropy export ratio, etc.
+- For a filled example (USA/PRC comparison), see: [35_metrics_placeholders.csv](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_placeholders.csv)
+
+Future ledger entries and case studies will use this format.
 
 Scores provisional — encourage community stress-testing and PRs for ledger entries.
 
