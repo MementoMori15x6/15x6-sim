@@ -1,7 +1,6 @@
 # Contributing to The Board – Political Thermodynamics
 
-Thank you for considering a contribution. This project is intentionally open and minimalist: a microscope, not a cathedral.
-
+Thank you for considering a contribution. This project is intentionally open and minimalist: a microscope, for diagnosis.
 ## Ways to Contribute
 
 1. **Re-score a system**  
