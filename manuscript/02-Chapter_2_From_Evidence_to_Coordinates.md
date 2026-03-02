@@ -45,11 +45,10 @@ This chapter applies the compass to three Roman phases, demonstrating how it rev
 
 The late Republic is a textbook high-metabolism separatrix state: conquest niches (Rule 10) export massive negative entropy, buffering internal decay until coordination failure cascades.
 
-**Figure 2.1: Late Roman Republic 15×6 Heatmap**
-
+**Figure 2.1: Late Roman Republic 15×6 Heatmap**  
 ![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_1_late_republic_heatmap.png)
 
-Consensus heatmap of the late Republic (133–27 BCE) reveals a classic separatrix splatter: high variance across interaction moves, with Rule 13 row flat at ~18–20% parasitism (diagnostic of lost cheater-detection specificity — inability to distinguish legitimate variation from factional cannibalization). Export rows (1, 6, 10) remain strong (~35–43% mutualism/competition), but governance erosion flattens the grid overall. Entropy export ratio ≈ 7.82.
+Consensus heatmap of the late Republic (133–27 BCE) reveals a classic separatrix splatter: high variance across interaction moves, with **Rule 13 row flat at ~18.3 % across all moves (parasitism only 8.6 %)** — diagnostic of lost cheater-detection specificity (inability to distinguish legitimate variation from factional cannibalization). Export rows (1, 6, 10) remain strong (~35–43% mutualism/competition), but governance erosion flattens the grid overall. Entropy export ratio ≈ 7.82.
 
 **Figure 2.2: Republic Drift Curve**
 
@@ -69,11 +68,10 @@ Cumulative drift simulation from 133 BCE onward shows the high-metabolism parado
 
 The Principate is a thermodynamic reorganization: Augustus and the adoptive emperors traded republican variation for centralized hierarchy, suppressing parasitism and rebounding export.
 
-**Figure 2.3: Early Principate 15×6 Heatmap (Consensus Reset)**
-
+**Figure 2.3: Early Principate 15×6 Heatmap (Consensus Reset)**  
 ![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_3_principate_heatmap.png)
 
-Consensus grid for the Principate (27 BCE – ~180 CE) shows hierarchical cooling: Rule 13 row sharply skewed toward mutualism/hierarchy (19.1% each), with parasitism crushed to ~4.4%. Export rows (10–11) dominate (~40–44% mutualism/competition), reflecting reopened outward dissipation. Variation penalty (C2/I1–I3 lower) trades degrees of freedom for Y-density gains. Entropy export ratio ≈ 7.16.
+Consensus grid for the Principate (27 BCE – ~180 CE) shows hierarchical cooling: **Rule 13 row sharply skewed toward mutualism/hierarchy dominance (both ~19.1 %), parasitism crushed to ~4.4 %**. Export rows (10–11) dominate (~40–44% mutualism/competition), reflecting reopened outward dissipation. Variation penalty (C2/I1–I3 lower) trades degrees of freedom for Y-density gains. Entropy export ratio ≈ 7.16.
 
 **Table 2.2: Key Metric Deltas – Principate Reset**
 
