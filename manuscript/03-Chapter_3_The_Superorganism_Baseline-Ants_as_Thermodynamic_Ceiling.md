@@ -90,6 +90,5 @@ The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dom
 
 This lattice is not an accident; it is the thermodynamic ideal. Every human system that follows adds splatter — and every added percentage point of parasitism or governance cost shortens the window.
 
-[Figure 3.1: The Perfect Lattice (Ant Baseline](https://www.notion.so/figures/fig_3_1_ants_consensus_baseline_perfect_lattice.png))
-
+[Figure 3.1: The Perfect Lattice (Ant Baseline]![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_3_1_%20ants_consensus_baseline_perfect_lattice.png)
 From this ceiling we descend into the noisy, high-entropy world of human replication — beginning with Venice's attempt to engineer an "artificial lattice" through institutional pheromones (Chapter 4).
