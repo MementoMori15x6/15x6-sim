@@ -133,3 +133,22 @@ The late Republic illustrates **separatrix fragility**: a high-metabolism system
 The Principate reset exemplifies **crystallization**: a reorganization that trades variation bandwidth (lower C2/I1–I3 scores) for hierarchical stability (sharpened Rule 13 mutualism/hierarchy dominance, parasitism crushed to ~4.4%). Export rebounds (~7.2) and governance density jumps (Y ≈ 0.51), moving the system into Stressed Mutualism and buying centuries of relative equilibrium.
 
 The forward drift into the Third Century crisis shows the cycle restarting: gradual entropy accumulation erodes suppression specificity, military parasitism surges post-235 CE (legionary pay-rise shocks fueling cannibalization), and export decays to a low but positive floor (~2.0–2.5) by ~270–300 CE. This **Aurelian floor**—Boundary Saturation rather than total thermodynamic death—explains why the empire did not vanish but re-freezes into the more rigid Dominate lattice under Diocletian.
+
+## Synthesis & Implications
+
+The Roman arc on the 15×6 board moves us beyond familiar historical narratives — ambitious generals, corrupt senates, wise emperors — into measurable thermodynamic dynamics of a replicating system. The 35-metric compass and grid consistently reveal three universal signatures that transcend Rome's specific stories:
+
+**Figure 2.5: Roman Life-Cycle – Full Thermodynamic Arc (133 BCE – 300 CE)**
+
+![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_5_roman_life_cycle.png)
+
+1. **Separatrix fragility in high-metabolism states**  
+   The late Republic (133–27 BCE) is a classic separatrix crisis: conquest-driven Rule 10 niches export massive negative entropy (ratio ~7.8), delaying collapse despite internal leaks. Yet the diagnostic is not raw parasitism volume — it is the **flat Rule 13 row** (~18 % across moves, parasitism only ~8.6 %). Cheater detection loses specificity, unable to distinguish legitimate variation from factional cannibalization, even as external buffers hold. This explains why coordination failure cascaded only after expansion slowed.
+
+2. **Crystallization resets via variation suppression**  
+   The Principate (27 BCE–~180 CE) is a thermodynamic reorganization: Augustus and the adoptive emperors traded degrees of freedom (lower C2/I1–I3 scores) for hierarchical cooling. Rule 13 sharpens toward mutualism/hierarchy dominance (parasitism crushed to ~4.4 %), entropy export rebounds (~7.2), and governance density rises (Y ≈ 0.51). The board shows this as **Stressed Mutualism** — not just "good leadership," but a deliberate cost-benefit trade that restored cheater-suppression specificity and bought 200–250 years of persistence.
+
+3. **Persistent entropy cycles and boundary saturation floors**  
+   Forward drift into the Third Century crisis restarts the cycle: military shocks erode suppression mechanisms, parasitism surges in Rows 6/12, and export decays to ~2.0–2.5 by ~270–300 CE. This **Aurelian floor** — boundary saturation rather than total thermodynamic death — enables re-crystallization into the more rigid Dominate lattice. The board quantifies why empires rarely annihilate: residual heat and Rule 11 maintenance provide just enough dissipation for reorganization.
+
+Placing Rome on the board thus reveals a deeper pattern: ancient polities obey the same fifteen rules and entropy-export imperatives as RNA replicators, eusocial colonies, or modern states. The familiar events are surface symptoms; the underlying dynamics are universal — separatrix plunges masked by buffers, crystallization trades, and cycles that restart when Rule 13 specificity erodes. By quantifying these, the compass offers a falsifiable, reproducible diagnostic lens applicable to Han China, Byzantine transitions, or any replicating system facing analogous pressures. Future ledger entries can test these signatures across scales and refine the kill-switch thresholds.
