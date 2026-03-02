@@ -1,2 +1,2 @@
-For quick non-coding exploration: Use the structured LLM prompt template (in llm_scoring_workshop.md) → feed to ChatGPT/Claude/Grok/etc. → average 3–5 runs → paste into blank CSV template → run through our public Colab simulator (link).
+For quick non-coding exploration: Use the structured LLM prompt template (in **llm_scoring_workshop.md**) → feed to ChatGPT/Claude/Grok/etc. → average 3–5 runs → paste into blank CSV template → run through our public Colab simulator (link).
 Expect slightly more extreme positions and lower entropy export ratios than manual scoring — this reflects real-world source biases, not model error. For purest thermodynamic signal, try manual evidence review.
