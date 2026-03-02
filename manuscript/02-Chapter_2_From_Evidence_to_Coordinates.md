@@ -32,9 +32,12 @@ The entropy export ratio (mean mutualism % / mean parasitism %) serves as a life
 - L1–L3: Succession mechanism, leadership cult, purge cycles
 - M1–M3: Natalism, migration control, ethnic policy
 
-For the complete 35-metric list, scoring guidelines, rationale discipline, and master 15×6 grid mapping, see Appendix A or the interactive reference: [15×6 Master Grid & Metric Mapping](https://github.com/MementoMori15x6/15x6-sim/blob/main/docs/15x6_master_grid.md).
+For the complete 35-metric list (exact labels, descriptions, -10/+10 anchors), scoring guidelines, rationale discipline, prompt templates, consensus ensemble method, X/Y formulas, entropy export ratio, and mapping to the 15×6 grid, see:  
+- [Compass 35-Metric Protocol](https://github.com/MementoMori15x6/15x6-sim/blob/main/docs/compass_35_metrics_protocol.md) (primary reference)  
+- Appendix A (compiled protocol in manuscript)  
+- Chapter 12 Appendix: Living Ledger (for filled examples once populated)  
 
-Scoring is done via public historical consensus, guided by a structured prompt given to multiple LLMs. Scores are averaged to produce consensus CSVs (see Appendix A for full protocol, prompt template, and ensemble method). All calculations, grids, and drift simulations are reproducible via `simulate.py` in the repo.
+Scoring uses public historical consensus via structured prompts averaged across multiple LLMs. Full calculations, grids, and drift simulations reproducible via `simulate.py`.
 
 This chapter applies the compass to three Roman phases, demonstrating how it reveals universal signatures: separatrix fragility, crystallization resets, and variation-longevity trade-offs.
 
