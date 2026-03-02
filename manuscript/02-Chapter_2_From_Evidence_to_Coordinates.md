@@ -49,7 +49,7 @@ The late Republic is a textbook high-metabolism separatrix state: conquest niche
 ![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_1_late_republic_heatmap.png)
 
 Consensus heatmap of the late Republic (133–27 BCE) reveals a classic separatrix splatter: high variance across interaction moves, with **Rule 13 row flat at ~18.3 % across all moves (parasitism only 8.6 %)** — diagnostic of lost cheater-detection specificity (inability to distinguish legitimate variation from factional cannibalization). Export rows (1, 6, 10) remain strong (~35–43% mutualism/competition), but governance erosion flattens the grid overall. Entropy export ratio ≈ 7.82.
-[Source 35-metric scores roman_republic_133_27_bce(CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_roman_republic_133_27_bce.csv)
+[Source 35-metric scores roman_republic_133_27_bce (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_roman_republic_133_27_bce.csv)
 
 **Figure 2.2: Republic Drift Curve**
 
@@ -73,7 +73,7 @@ The Principate is a thermodynamic reorganization: Augustus and the adoptive empe
 ![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_3_principate_heatmap.png)
 
 Consensus grid for the Principate (27 BCE – ~180 CE) shows hierarchical cooling: **Rule 13 row sharply skewed toward mutualism/hierarchy dominance (both ~19.1 %), parasitism crushed to ~4.4 %**. Export rows (10–11) dominate (~40–44% mutualism/competition), reflecting reopened outward dissipation. Variation penalty (C2/I1–I3 lower) trades degrees of freedom for Y-density gains. Entropy export ratio ≈ 7.16.
-[Source 35-metric scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_agustus_baseline.csv)
+[Source 35-metric scores agustus_baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_agustus_baseline.csv)
 
 **Table 2.2: Key Metric Deltas – Principate Reset**
 
