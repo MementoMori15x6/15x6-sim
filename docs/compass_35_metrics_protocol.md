@@ -69,8 +69,8 @@ M3: Ethnic / identity policy framing
 - **Splatter %**: Inverse distance to 10 canonical attractor centers, power-law **10, normalized to 100%  
 - **Non-linear penalty**: For |score| > 8, quadratic amplification ( (|score| - 8)² × 0.5 ) in sign direction  
 - **Entropy export ratio** (life-support monitor): mean mutualism % / mean parasitism % across grid  
-  → Well >1.0: net-positive dissipation outward (healthy)  
-  → Sustained drift toward or below ~1.0–1.1: potential thermodynamic kill-switch (friction ≥ harvesting)  
+  → Well >1.0: net-positive dissipation outward (healthy, computed from filled 15×6 grid dominance %)  
+  → Sustained drift toward or below ~1.0–1.1: potential thermodynamic kill-switch (friction ≥ harvesting)
 
 All parameters explicit in `simulate.py`. See notebooks/ for ensemble examples, shocks, and CSV outputs.
 
