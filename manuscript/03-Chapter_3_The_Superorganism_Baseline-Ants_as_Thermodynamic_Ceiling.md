@@ -16,11 +16,11 @@ Eusocial ants are not collections of individuals; they are superorganisms where 
 
 This structure sets the physical limit: individual sacrifice maximizes system longevity. No human polity has matched this baseline without paying steep institutional costs.
 
-**Figure 3.1: 15×6 Master Grid – Ants Consensus Baseline (Perfect Lattice)**
-
+**Figure 3.1: 15×6 Master Grid – Ants Consensus Baseline (Perfect Lattice)**  
 ![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_3_1_%20ants_consensus_baseline_perfect_lattice.png)
 
-Vertical Mutualism dominance (90–100% in column 0) with sharp Rule-13 suppression anchor (98% Mutualism / 2% bleed). Proxy 0.6%, Y -2.18 (innate/free governance). See repo /figures/ for PNG.
+Vertical Mutualism dominance (90–100% in column 0) with sharp Rule-13 suppression anchor (**98% Mutualism / 2% parasitism bleed**, proxy 0.6%). Y ≈ -2.18 (innate/free governance density). The vertical spine of Mutualism reflects hardware suppression at near-zero institutional cost — the thermodynamic ceiling for persistence.  
+[Source 35-metric scores: Ants Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_eusocial_ant_colony.csv)
 
 ## 3.2 Suppression Hardware – The Low-Cost Rule 13 Miracle
 
