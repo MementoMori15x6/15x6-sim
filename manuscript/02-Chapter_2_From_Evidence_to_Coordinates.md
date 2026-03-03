@@ -39,8 +39,7 @@ For the complete 35-metric list (exact labels, descriptions, -10/+10 anchors), s
 
 Scoring uses public historical consensus via structured prompts averaged across multiple LLMs. Full calculations, grids, and drift simulations reproducible via `simulate.py`.
 
-This chapter applies the compass to three Roman phases, demonstrating how it reveals universal signatures: separatrix fragility, crystallization resets, and variation-longevity trade-offs.
-
+Some key rules and specific mechanics to note:
 ## Rule 13 Mechanics – The Universal Hinge of Suppression
 Rule 13 (Cheater Detection & Suppression) is the ledger's critical hinge: the system's ability to distinguish legitimate variation from parasitic exploitation. In the 15×6 grid, it appears as the interaction profile across six moves — sharp dominance in one or two columns signals high-fidelity suppression; flat or parasitism-heavy profiles indicate lost specificity and rising internal friction.
 
@@ -52,8 +51,10 @@ Suppression mechanics vary by replicator scale:
 
 A flat or parasitism-dominant Row 13 (>30%) is the universal warning: **potential collapse risk** — cheater detection loses bandwidth, internal friction rises, and entropy export erodes. Full mechanics emerge from grid simulations; future ledger entries can test suppression levers across scales.
 
-## Kill-Switch Bifurcation (ε ≈ 1.1)
-The kill-switch threshold (ε ≈ 1.1) is the empirical bifurcation point observed in phase-space ensembles: the entropy-export ratio where mean mutualism dominance across the 15×6 grid can no longer outpace parasitism-driven internal friction. Above ~1.1 the system exports more negative entropy than it accumulates internally — persistence is possible, even under stress. At or below ~1.1, friction equals or exceeds harvesting capacity; suppression costs (Rule 13 enforcement, governance density) consume the entire surplus, triggering irreversible cascade (coordination failure, factional cannibalization, terminal descent). Full attractor-well bifurcation and four primary basins are detailed in Chapter 11.
+## Kill-Switch Bifurcation (ε ≈ 1.1) 
+The kill-switch threshold (ε ≈ 1.1) is the empirical bifurcation point observed in phase-space ensembles: the entropy-export ratio where mean mutualism dominance across the 15×6 grid can no longer outpace parasitism-driven internal friction. Above ~1.1 the system exports more negative entropy than it accumulates internally — persistence is possible, even under stress. At or below ~1.1, friction equals or exceeds harvesting capacity; suppression costs (Rule 13 enforcement, governance density) consume the entire surplus, triggering irreversible cascade (coordination failure, factional cannibalization, terminal descent). Full attractor-well bifurcation and four primary basins are detailed specifically in **Chapter 11.3**
+
+This chapter applies the compass to three Roman phases, demonstrating how it reveals universal signatures: separatrix fragility, crystallization resets, and variation-longevity trade-offs.
 
 ## Case Study 1: Late Roman Republic (133–27 BCE) – Separatrix Crisis
 
