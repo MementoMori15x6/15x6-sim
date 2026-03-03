@@ -74,19 +74,17 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
 
 Ensemble simulations show replicators settling into or migrating between four dominant dynamic basins (gravity wells). These wells are not separate from the ten canonical attractors (Fig 11.1); they are interpretive groupings of the attractors' long-run behavior and trajectory stability.
 
+## 11.3 The Four Primary Attractor Wells & Kill-Switch Bifurcation
+
+Ensemble simulations show replicators settling into or migrating between four dominant dynamic basins (gravity wells). These wells are interpretive groupings of the ten canonical attractors’ long-run behavior (see Fig 11.1 for raw clouds and points).
+
 **Figure 11.3: Four Primary Attractor Wells & Kill-Switch Bifurcation**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_four_attractor_wells_clean.png)
-Phase-space map showing the four dominant basins: Stressed Mutualism (green), Hierarchical Cooling (blue), Boundary Saturation (gold), and Parasitism-dominated Terminal Descent (red). The dashed red line at ε ≈ 1.1 marks the bifurcation threshold where the parasitism well becomes dominant (internal friction ≥ harvesting capacity, triggering irreversible cascade).
+Phase-space map showing the four dominant basins: Stressed Mutualism (green), Hierarchical Cooling (blue), Boundary Saturation (gold), and Parasitism-dominated Terminal Descent (red). The dashed red line at ε ≈ 1.1 marks the bifurcation threshold where the parasitism well becomes dominant.
 
-The entropy-export ratio ε ≈ 1.1 is the empirical kill-switch threshold:  
-- Above ~1.1 → net export exceeds friction → trajectories stay in one of the first three wells (persistence possible).  
-- At or below ~1.1 → parasitism well dominates → suppression costs consume the surplus → terminal descent.
-
-This bifurcation emerged from stochastic grid iterations (see notebooks/attractor_ensemble.py) and serves as the diagnostic used throughout the ledger. Full topology and vector fields are still in development.
-
-1. **Stressed Mutualism** — high entropy export with moderate suppression cost (broad, shallow basin; resilient under shocks)
-2. **Hierarchical Cooling** — variation bandwidth traded for sharpened Rule-13 suppression (deep, stable well; longevity extended via rigidity)
-3. **Boundary Saturation** — low but positive export floor enabling re-crystallization (narrow ledge; escape possible via external reset)
+1. **Stressed Mutualism** — high entropy export with moderate suppression cost (broad, shallow basin; resilient under shocks)  
+2. **Hierarchical Cooling** — variation bandwidth traded for sharpened Rule-13 suppression (deep, stable well; longevity extended via rigidity)  
+3. **Boundary Saturation** — low but positive export floor enabling re-crystallization (narrow ledge; escape possible via external reset)  
 4. **Parasitism-dominated Terminal Descent** — internal friction equals or exceeds harvesting capacity (sinkhole; irreversible cascade)
 
 The entropy-export ratio ε ≈ 1.1 acts as the empirical bifurcation threshold: above ~1.1, trajectories remain trapped in one of the first three wells (net export > internal friction); at or below ~1.1, the parasitism well becomes dominant — suppression costs consume the entire surplus, triggering irreversible cascade into terminal descent. This threshold emerged from iterating the 15×6 grid across stochastic ensembles (see notebooks/attractor_ensemble.py) and serves as the kill-switch diagnostic used throughout the ledger. Full phase-space topology and vector fields are still in development.
