@@ -113,5 +113,3 @@ Venice, by contrast, sustains a high, remarkably flat plateau across centuries. 
 Rule 13 is not merely cheater detection; it is the system’s signal-to-noise fidelity in far-from-equilibrium operation. Venice treated it as core hardware — engineering high-velocity suppression (Pillar 1), constant decay to prevent stagnation (Pillar 2), and adaptive harvesting that outsources entropy while importing variation information (Pillar 3) — mirroring the low-cost efficiency ants achieve biologically. The price: a metabolic tax in perpetual institutional churn and constrained individual/family power gradients. Rome deferred that tax and paid instead with existence.
 
 This engineered oligarchy marks a human-scale peak in approximating biological superorganism stability. Chapter 5 scales the lens further: when the replicator is no longer a compact city-state but a global corporate-industrial complex, how do pheromone analogs — detection, refresh, foraging — evolve under vastly expanded metabolic reach and coordination bandwidth? Or do new failure modes emerge at that scale?
-
-Memento mori. 🚀
