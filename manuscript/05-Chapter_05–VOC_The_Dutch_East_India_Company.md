@@ -37,7 +37,7 @@ Compass coordinates: X = 0.25 (modest positive economic metabolism, buoyed by pr
 
 Contrast with the ant baseline (near-100% mutualism, Rule-13 ~98%): biological superorganisms achieve near-perfect fidelity through innate hardware. VOC trades fidelity for reach, sustaining higher parasitism through continuous external recruitment — but the fractures show the buffer is finite.
 
-**Shock Test: 1780s Fourth Anglo-Dutch War Simulation**
+## 5.3 Shock Test: 1780s Fourth Anglo-Dutch War Simulation
 
 **Figure 5.3: 15×6 Master Grid – VOC Shock Test (1780s Fourth Anglo-Dutch War Simulation)**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_5_3_voc_shock_1780s_lattice.png)
