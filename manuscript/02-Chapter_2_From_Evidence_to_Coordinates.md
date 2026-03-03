@@ -32,14 +32,28 @@ The entropy export ratio (mean mutualism % / mean parasitism %) serves as a life
 - L1–L3: Succession mechanism, leadership cult, purge cycles
 - M1–M3: Natalism, migration control, ethnic policy
 
-For the complete 35-metric list (exact labels, descriptions, -10/+10 anchors), scoring guidelines, rationale discipline, prompt templates, consensus ensemble method, X/Y formulas, entropy export ratio, and mapping to the 15×6 grid, see:  
-- [Compass 35-Metric Protocol](https://github.com/MementoMori15x6/15x6-sim/blob/main/docs/compass_35_metrics_protocol.md) (primary reference)  
-- Appendix A (compiled protocol in manuscript)  
-- Chapter 12 Appendix: Living Ledger (for filled examples once populated)  
+For the complete 35-metric list (exact labels, descriptions, -10/+10 anchors), scoring guidelines, rationale discipline, prompt templates, consensus ensemble method, X/Y formulas, entropy export ratio, and mapping to the 15×6 grid, see:
+- [Compass 35-Metric Protocol](https://github.com/MementoMori15x6/15x6-sim/blob/main/docs/compass_35_metrics_protocol.md) (primary reference)
+- Appendix A (compiled protocol in manuscript)
+- Chapter 12 Appendix: Living Ledger (for filled examples once populated)
 
 Scoring uses public historical consensus via structured prompts averaged across multiple LLMs. Full calculations, grids, and drift simulations reproducible via `simulate.py`.
 
 This chapter applies the compass to three Roman phases, demonstrating how it reveals universal signatures: separatrix fragility, crystallization resets, and variation-longevity trade-offs.
+
+## Rule 13 Mechanics – The Universal Hinge of Suppression
+Rule 13 (Cheater Detection & Suppression) is the ledger's critical hinge: the system's ability to distinguish legitimate variation from parasitic exploitation. In the 15×6 grid, it appears as the interaction profile across six moves — sharp dominance in one or two columns signals high-fidelity suppression; flat or parasitism-heavy profiles indicate lost specificity and rising internal friction.
+
+Suppression mechanics vary by replicator scale:
+- **Biological hardware** (ants baseline): pheromones and policing are innate — near-zero cost, 98% mutualism dominance, 2% bleed. Fidelity is automatic, not negotiated.
+- **Institutional software** (Venice): Council of Ten + bocche di leone create high-velocity, low-lag detection with decay (short terms, false-accusation penalties). Cost is higher (Y density) but keeps parasitism ~5–12.5%.
+- **Global lag** (VOC): six-month Amsterdam–Batavia round-trips decay signals — Rule 13 flattens to 50.5%/49.5% (proxy 47.1%). External recruitment buffers leaks, but wartime shocks widen to 40%/60% — suppression cost explodes.
+- **Digital-native** (Chapter 6 preview): millisecond coordination potentially sharpens Rule 13 (on-chain transparency, cryptoeconomic incentives), but new attack surfaces (algorithmic exploitation, meme swarms) may relocate the fracture.
+
+A flat or parasitism-dominant Row 13 (>30%) is the universal warning: cheater detection loses bandwidth, internal friction rises, and entropy export erodes. Full mechanics emerge from grid ensembles (notebooks/attractor_ensemble.py); future ledger entries can test suppression levers across scales.
+
+## Kill-Switch Bifurcation (ε ≈ 1.1)
+The kill-switch threshold (ε ≈ 1.1) is the empirical bifurcation point observed in phase-space ensembles: the entropy-export ratio where mean mutualism dominance across the 15×6 grid can no longer outpace parasitism-driven internal friction. Above ~1.1 the system exports more negative entropy than it accumulates internally — persistence is possible, even under stress. At or below ~1.1, friction equals or exceeds harvesting capacity; suppression costs (Rule 13 enforcement, governance density) consume the entire surplus, triggering irreversible cascade (coordination failure, factional cannibalization, terminal descent). Full attractor-well bifurcation and four primary basins are detailed in Chapter 11.
 
 ## Case Study 1: Late Roman Republic (133–27 BCE) – Separatrix Crisis
 
