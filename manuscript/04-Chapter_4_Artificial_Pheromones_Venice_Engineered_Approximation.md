@@ -6,7 +6,7 @@ Memento & Mori | December 2025 – ongoing
 
 **Figure 4.1: 15×6 Master Grid – Venice Republic Mutualism Baseline**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
-Y = -0.819 | Overall parasitism proxy 12.5%. **Rule 13 dominance: 45% mutualism, 40% competition, 5% parasitism** — low Rule-13 parasitism correlates with extended longevity (~1100 years).  
+Consensus grid reveals a high-mutualism lattice: ~70–80% dominance in harvest/reproduction rows, reflecting engineered entropy export via trade monopolies and naval boundaries. Rule 13 shows balanced suppression (45% mutualism, 40% competition, 5% parasitism) — low parasitism proxy (~12.5%) correlates with exceptional longevity (~1100 years). Governance density remains low (Y = -0.819), sustained by institutional rotation and detection mechanisms rather than rigid centralization.  
 [Source 35-metric scores: Venice Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_1_15x6_master_grid_mutualism_baseline.png)
 
@@ -51,7 +51,7 @@ The **Serrata pivot (1297)** marks the key Ledger moment: hereditary closure of 
 
 **Figure 4.2: Serrata Pivot Diagnostic (Pre- vs Post-1297) – RC1**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_2_serrata_pivot_diagnostic_pre_1297.png)
-Pre-Serrata (drift): **Rule 13 parasitism 43.5%** (unstable splatter). Post-Serrata (recovery): **parasitism drops to 5.0%, mutualism rises to 78.0%** — engineered institutional pheromones (Pillars 1 & 2) restore suppression specificity.  
+Pre-Serrata (drift) grid shows unstable splatter: Rule 13 parasitism at 43.5% (high internal leakage from factional capture and weak suppression). Post-Serrata (recovery) restores fidelity: parasitism collapses to 5.0%, mutualism surges to 78.0% — engineered institutional pheromones (Council detection + office rotation) sharpen cheater suppression and prevent stagnation. The pivot trades some variation bandwidth for long-term lattice stability.  
 [Source pre-Serrata drift scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_pre_serrata_drift.csv)  
 [Source post-Serrata recovery / consensus scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_2_serrata_pivot_diagnostic_pre_1297.png)
