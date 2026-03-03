@@ -2,7 +2,7 @@
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch04_Venice_canals03.png)
 Memento & Mori | December 2025 – ongoing
 
-Venice (697–1797) sustained ~1100 years of institutional continuity through deliberate engineering of distributed, low-noise cheater-suppression and metabolic-harvesting signals — an isomorphic approximation of the pheromone systems that stabilize ant colonies at biological scale.
+**Venice (697–1797)** sustained ~1100 years of institutional continuity through deliberate engineering of distributed, low-noise cheater-suppression and metabolic-harvesting signals — an isomorphic approximation of the pheromone systems that stabilize ant colonies at biological scale.
 
 **Figure 4.1: 15×6 Master Grid – Venice Republic Mutualism Baseline**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
