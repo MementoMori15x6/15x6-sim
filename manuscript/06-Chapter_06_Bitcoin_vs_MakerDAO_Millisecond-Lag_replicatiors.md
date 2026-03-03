@@ -18,9 +18,9 @@ We test two canonical cases through the 35-metric compass protocol and 15×6 Mas
 
 ## Consensus Compass Scores (Median of 4 LLMs)
 
-[https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_bitcoin_consensus.csv](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_bitcoin_consensus.csv)
+[Source 35-metric scores: Bitcoin Consensus (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_bitcoin_consensus.csv)
 
-[https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_makerdao_consensus.csv](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_makerdao_consensus.csv)
+[Source 35-metric scores: MakerDAO Consensus (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_makerdao_consensus.csv)
 
 Post-penalty coordinates (toy version from [simulate.py](http://simulate.py/)):
 
