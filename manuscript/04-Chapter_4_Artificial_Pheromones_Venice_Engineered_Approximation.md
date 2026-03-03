@@ -1,24 +1,18 @@
 # 04 - Chapter 4: Artificial Pheromones – Venice as Engineered Approximation
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch04_Venice_canals03.png)
+!
 Memento & Mori | December 2025 – ongoing
 
 Venice (697–1797) sustained ~1100 years of institutional continuity through deliberate engineering of distributed, low-noise cheater-suppression and metabolic-harvesting signals — an isomorphic approximation of the pheromone systems that stabilize ant colonies at biological scale.
 
 **Figure 4.1: 15×6 Master Grid – Venice Republic Mutualism Baseline**  
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
-
+!
 Y = -0.819 | Overall parasitism proxy 12.5%. **Rule 13 dominance: 45% mutualism, 40% competition, 5% parasitism** — low Rule-13 parasitism correlates with extended longevity (~1100 years).  
 [Source 35-metric scores: Venice Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
 
-This chapter dissects the Venetian system into three engineered "pheromone" layers:
-1. Institutional cheater detection (Council of Ten and bocche di leone) — high-velocity suppression of parasitic noise.
-2. Institutional volatility (office rotation, sorte, short terms) — decay function preventing signal stagnation and capture.
-3. Foraging infrastructure (muda convoys, Stato da Mar nodes, Arsenal sink) — adaptive niche construction exporting environmental entropy while importing nutrients and information.
+This chapter dissects the Venetian system into three engineered "pheromone" layers.
 
-Together these mechanisms evaded the High-Y Entropy Trap, maintaining low Rule-13 parasitism proxy (~12.5%) and a super-stable export ratio until the Atlantic Opening exceeded the system's pheromone range.
-
-## Pillar 1: Institutional Cheater Detection – Council of Ten as Artificial Pheromones
+## 4.1 Pillar 1: Institutional Cheater Detection – Council of Ten as Artificial Pheromones
 In ant colonies, pheromones provide low-cost, distributed cheater detection: a worker detects a mismatch (lazy forager, intruder) and lays a volatile trail; the colony requires reinforcement from multiple sources before full response (attack, expulsion). Weak or unconfirmed trails decay quickly, preserving signal-to-noise ratio without central belief or exhaustive truth-seeking.
 
 Venice engineered an isomorphic layer via the **Council of Ten** (est. 1310 post-Tiepolo conspiracy) and **bocche di leone** — public stone "lion's mouths" for written denunciations of treason, corruption, or threats.
@@ -42,7 +36,7 @@ Crucially, the suppression signal itself incorporated decay: members served one-
 
 This engineered approximation evaded the High-Y Entropy Trap: Venice paid in bureaucracy what ants get biologically, yielding ~1100 years of stability.
 
-## Pillar 2: Institutional Volatility – Office Rotation as Pheromone Refresh
+## 4.2 Pillar 2: Institutional Volatility – Office Rotation as Pheromone Refresh
 Ant colonies avoid lock-in on stale pheromone trails through constant renewal: active workers overlay fresh signals, decaying old ones rapidly. This prevents parasitic exploitation (dominant individual monopolizing paths) and maintains adaptive flexibility without central reset.
 
 Venice scaled this dynamically via engineered **institutional volatility** — short, non-renewable terms, rotation, and stochastic elements across offices, ensuring no power node stagnated into a parasitic stronghold.
@@ -56,11 +50,10 @@ Core refresh mechanisms:
 The **Serrata pivot (1297)** marks the key Ledger moment: hereditary closure of the Great Council created a fixed patrician lattice (trading metabolic variation C2 for signal fidelity and stability), but Venice compensated by intensifying internal rotation and stochasticity in office-filling — fewer eligible families, but they must circulate faster to sustain flow.
 
 **Figure 4.2: Serrata Pivot Diagnostic (Pre- vs Post-1297) – RC1**  
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_2_serrata_pivot_diagnostic_pre_1297.png)
-
+!
 Pre-Serrata (drift): **Rule 13 parasitism 43.5%** (unstable splatter). Post-Serrata (recovery): **parasitism drops to 5.0%, mutualism rises to 78.0%** — engineered institutional pheromones (Pillars 1 & 2) restore suppression specificity.  
 [Source pre-Serrata drift scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_pre_serrata_drift.csv)  
-[Source post-Serrata recovery scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
+[Source post-Serrata recovery / consensus scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_2_serrata_pivot_diagnostic_pre_1297.png)
 
 | Aspect | Ant Colony Pheromone Renewal (Innate) | Venetian Office Rotation (Engineered) |
@@ -73,7 +66,7 @@ Pre-Serrata (drift): **Rule 13 parasitism 43.5%** (unstable splatter). Post-Serr
 
 The result: Venice paid in governance churn (metabolic tax) to evade long-term elite parasitism (D1 low negative) and rigidity paradox. This refresh complemented Pillar 1's detection, keeping Rule-13 proxy modest and enabling ~1100 years without Roman-style calcification or purge cycles.
 
-## Pillar 3: Foraging Pheromones – Trade Networks as Living Infrastructure
+## 4.3 Pillar 3: Foraging Pheromones – Trade Networks as Living Infrastructure
 Ant foragers lay volatile pheromone trails to direct colony energy flow: a successful source reinforces the trail; depletion or high risk (predators, distance) leads to decay and abandonment. No ego-driven holding — the system shifts to new niches, harvesting external resources with minimal internal cost.
 
 Venice engineered an isomorphic metabolism via **muda convoys**, **Stato da Mar outposts**, and **fondachi depots** — state-regulated "trails" and nodes optimizing arbitrage without territorial overcommitment.
@@ -101,8 +94,7 @@ This sets up the sobering finale: even this engineered machine met its match whe
 ## Chapter Conclusion: The Thermodynamic Ledger of Venice
 
 **Figure 4.3: Comparative Stability States – Institutional Pheromones vs Conquest Metabolism**  
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_3_entropy_export_curves.png)
-
+!
 Proxy entropy-export ratio (ε) stylized from historical patterns. Venice sustains high plateau in Stability Zone (~1.6–1.75) via engineered pheromones; Rome descends jaggedly into Unstable Zone after conquest highs collapse under parasitism accumulation. Kill-switch threshold ε = 1.1. Generated via reproducible matplotlib in `fig_4_3_entropy_export_curves.ipynb`.  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_3_entropy_export_curves.png)
 
