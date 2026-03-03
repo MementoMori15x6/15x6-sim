@@ -91,9 +91,9 @@ For each ensemble:
 - P(survive >500 years)
 
 Preliminary fits:
-- Ant colonies: Weibull k ≈ 3.2, P(survive 500y) >95%
-- Late VOC: Gompertz dominant, hazard accelerates sharply, P(survive 500y) <20%
-- Ethereum baseline: Weibull k ≈ 2.1, median ~700y, wide CI from stake-concentration noise
+- Ant colonies: Weibull k ≈ 3.2, λ large (characteristic life >>1000 years), P(survive 500 y) >95%
+- Late VOC: Gompertz dominant with large b, characteristic life much shorter once rigidity penalty activates, P(survive 500 y) <20%
+- Ethereum baseline: Weibull k ≈ 2.1, median longevity ≈700 years (toy proxy from ensemble), wide CI from stake-concentration noise
 
 The tool now quantifies decay curves — probabilistic health trajectories, not point guesses.
 
