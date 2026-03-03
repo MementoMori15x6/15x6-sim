@@ -86,7 +86,7 @@ Post-shock grid: **Rule 13 fractures to 70% Mutualism / 30% Parasitism** (crossi
 
 ## 3.5 The Benchmark – The Perfect Lattice
 
-The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dominance (90–100% in column 0), sharp suppression anchor at Row 13 (98% Mutualism / 2% bleed), minimal splatter elsewhere. Rule-13 proxy 0.6%, longevity window ~97–180 years (tuned).
+The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dominance (90–100% in column 0), sharp suppression anchor at Row 13 (98% Mutualism / 2% bleed), minimal splatter elsewhere. Rule-13 proxy 0.6%, longevity window ~97–180 years (tuned) — roughly equivalent to 1,000–2,000 human years if scaled by metabolic rate and generation turnover.
 
 This lattice is not an accident; it is the thermodynamic ideal. Every human system that follows adds splatter — and every added percentage point of parasitism or governance cost shortens the window.
 
