@@ -88,6 +88,13 @@ While Rome’s parasitism was geographic (frontier tax farming), the VOC’s oce
 
 To escape the trap, a replicator must not only detect cheaters (AI-G1) but also distribute metabolic waste (entropy) across multiple independent sub-lattices (**Fractal Sinks**) so no single capture vector can trigger total failure.
 
+Concrete designs already emerging include:
+- Polkadot’s parachain model — each parachain exports entropy to its own economic zone while sharing security with the relay chain.
+- Cosmos zones linked by IBC bridges — independent sovereign chains with their own validators and gas tokens.
+- Sovereign rollups and app-specific chains — each with its own execution environment and validator set.
+
+These create multiple independent entropy sinks: if one sub-lattice is captured, others continue exporting. 
+
 ### Open for Community Testing
 Fork `simulate.py` in the repo to test variants:
 - Double-boost detection + extraction reduction (G1 + D1 mitigation)
