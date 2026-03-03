@@ -70,7 +70,18 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
 ![Figure 11.2: Row 13 Interaction Profiles by Canonical Attractor](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_2_row13_profiles.png)  
 **Caption:** Average move intensities in Row 13 for each attractor. Mutualism/competition balance defines stable cores; parasitism dominance defines sinkholes.
 
-## 11.3 Merger Dynamics & Graph Complexity
+## 11.3 The Four Primary Attractor Wells & Kill-Switch Bifurcation
+
+While the ten canonical attractors define the fixed centers for splatter % calculation, ensemble simulations reveal four dominant dynamic basins (gravity wells) that replicators tend to settle into or migrate between over time:
+
+1. **Stressed Mutualism** — high entropy export with moderate suppression cost (broad, shallow basin; resilient under shocks)
+2. **Hierarchical Cooling** — variation bandwidth traded for sharpened Rule-13 suppression (deep, stable well; longevity extended via rigidity)
+3. **Boundary Saturation** — low but positive export floor enabling re-crystallization (narrow ledge; escape possible via external reset)
+4. **Parasitism-dominated Terminal Descent** — internal friction equals or exceeds harvesting capacity (sinkhole; irreversible cascade)
+
+The entropy-export ratio ε ≈ 1.1 acts as the empirical bifurcation threshold: above ~1.1, trajectories remain trapped in one of the first three wells (net export > internal friction); at or below ~1.1, the parasitism well becomes dominant — suppression costs consume the entire surplus, triggering irreversible cascade into terminal descent. This threshold emerged from iterating the 15×6 grid across stochastic ensembles (see notebooks/attractor_ensemble.py) and serves as the kill-switch diagnostic used throughout the ledger. Full phase-space topology and vector fields are still in development.
+
+## 11.4 Merger Dynamics & Graph Complexity
 
 Replicators can merge or absorb others, creating new topologies. We model this via graph complexity:
 - Nodes = sub-replicators (e.g., relay + parachains)
@@ -82,13 +93,13 @@ Mergers increase complexity, distributing sinks and buffering shocks.
 ![Figure 11.3: Merger Dynamics – Graph Complexity](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_merger_dynamics.png)  
 **Caption:** Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
 
-## 11.4 The Periodic Table of Replicators
+## 11.5 The Periodic Table of Replicators
 
 The attractor catalog is not exhaustive — new variants may occupy intermediate zones or create hybrid basins. The Appendix (Ch. 12) maps every tested replicator onto this topology, with ensemble clouds and shock trajectories.
 
 The full map is now visible: a finite set of thermodynamic basins, connected by navigable vectors, bounded by rigidity walls and parasitism sinkholes.
 
-## 11.5 Future Horizon: Toward a Phase-Space Topology Scanner
+## 11.6 Future Horizon: Toward a Phase-Space Topology Scanner
 
 The current compass projects replicators into 2D (X, Y) with ensemble clouds and Row 13 profiles. The natural next layer is a phase-space topology scanner that extrudes these geometries along a third axis — for example, cumulative hazard H(t) from survival fits, or entropy export rate.
 
