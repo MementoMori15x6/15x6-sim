@@ -57,7 +57,7 @@ Survival function:
 $$
 S(t) = e^{-\left( t / \lambda \right)^k}
 $$
-
+Units: λ (scale parameter) is expressed in years — the characteristic life at which ~63.2% of the population has "failed" under Weibull assumptions. For polity-scale replicators, this provides a natural timescale (decades to centuries); for faster-evolving systems (e.g., algorithmic replicators), λ may require logarithmic scaling or separate calibration in future iterations.
 - **Shape parameter k** — the "Vitality Coefficient"
   - k < 1: decreasing hazard ("learning" phase, infant mortality)
   - k = 1: constant hazard (memoryless, exponential decay)
@@ -115,7 +115,7 @@ Example (preliminary on USA 1971 model):
 | A2     | +0.08    | –0.10   | –0.12        | 10 (low)         |
 
 **Note on non-linear coupling**  
-In high-Y rigid systems (PRC, late Rome), metrics are often coupled: a drop in G1 (detection) may trigger compensatory rise in H2 (ideological monopoly), creating positive feedback that accelerates bifurcation and amplifies the rigidity penalty b.
+In high-Y rigid systems (e.g., late Rome, PRC), metrics are often coupled: a degradation in G1 (cheater detection) frequently correlates with compensatory increases in H2–H3 (ideological monopoly / dissent suppression) as the system attempts to maintain control. Future ensemble runs could incorporate a covariance matrix Σ for selected metric pairs (e.g., cov(G1, H2) < 0), allowing realistic correlated perturbations during stochastic sweeps. This would better capture positive-feedback loops that accelerate bifurcation once Rule-13 debt accumulates beyond suppression capacity. Prototype support for correlated noise can be added to `run_ensemble()` via NumPy `multivariate_normal`; open to community PRs for empirical covariance estimates from historical cases.
 
 v2 is still early: noise model simple (Gaussian), fits preliminary, bifurcation sweeps manual. The repo (`simulate.py`) now includes:
 - Ensemble runner (`run_ensemble(replicator_csv, n=100, noise_std=0.1)`)
