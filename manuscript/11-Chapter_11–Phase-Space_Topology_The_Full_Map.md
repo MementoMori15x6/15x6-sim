@@ -74,6 +74,12 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
 
 While the ten canonical attractors define the fixed centers for splatter % calculation, ensemble simulations reveal four dominant dynamic basins (gravity wells) that replicators tend to settle into or migrate between over time:
 
+**Figure 11.3: Four Primary Attractor Wells & Kill-Switch Bifurcation**
+
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_four_attractor_wells_clean.png)
+
+Illustrative phase-space map showing the four dominant dynamic basins (gravity wells) that replicators tend to settle into or migrate between in ensemble simulations: Stressed Mutualism (green), Hierarchical Cooling (blue), Boundary Saturation (gold), and Parasitism-dominated Terminal Descent (red). The dashed red line at ε ≈ 1.1 marks the bifurcation threshold where the parasitism well becomes dominant (internal friction ≥ harvesting capacity, triggering irreversible cascade). These four wells are interpretive groupings of the 10 canonical attractors’ long-run behavior (see Fig 11.1 for raw clouds and points); they show where trajectories stabilize or collapse.
+
 1. **Stressed Mutualism** — high entropy export with moderate suppression cost (broad, shallow basin; resilient under shocks)
 2. **Hierarchical Cooling** — variation bandwidth traded for sharpened Rule-13 suppression (deep, stable well; longevity extended via rigidity)
 3. **Boundary Saturation** — low but positive export floor enabling re-crystallization (narrow ledge; escape possible via external reset)
