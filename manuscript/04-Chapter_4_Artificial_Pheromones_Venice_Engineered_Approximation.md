@@ -8,7 +8,7 @@ Venice (697–1797) sustained ~1100 years of institutional continuity through de
 !
 Y = -0.819 | Overall parasitism proxy 12.5%. **Rule 13 dominance: 45% mutualism, 40% competition, 5% parasitism** — low Rule-13 parasitism correlates with extended longevity (~1100 years).  
 [Source 35-metric scores: Venice Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
-[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
+[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_1_15x6_master_grid_mutualism_baseline.png)
 
 This chapter dissects the Venetian system into three engineered "pheromone" layers.
 
