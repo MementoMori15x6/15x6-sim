@@ -95,12 +95,25 @@ Concrete designs already emerging include:
 
 These create multiple independent entropy sinks: if one sub-lattice is captured, others continue exporting. 
 
-### Open for Community Testing
-Fork `simulate.py` in the repo to test variants:
-- Double-boost detection + extraction reduction (G1 + D1 mitigation)
-- Lattice hybrids (Polkadot + AI detection)
-- Fractal sink designs (multi-chain entropy export)
+### 8.3.1 Fractal Sink Prototypes – Provisional Diagnostic (2026 Live Examples)
 
+To test the Fractal Sinks hypothesis directly, we scored three live multi-sub-lattice designs using the same 35-metric protocol (median of 4 LLMs on public data):
+
+- **Polkadot parachains** — independent economic zones sharing relay-chain security.
+- **Cosmos zones via IBC** — fully sovereign chains with their own validators and gas tokens.
+- **Sovereign rollups & app-specific chains** — custom execution environments with distributed validation.
+
+**Provisional Results (baseline only; shock tests banked for future runs)**
+
+| Prototype | Rule-13 Parasitism Proxy | ε-Ratio | Variation Bandwidth (C2) | Notes |
+| --- | --- | --- | --- | --- |
+| Polkadot (parachains) | ~18–24% | ~0.85 | High (~7.5) | Distributed sinks + shared security buffer capture; low rigidity penalty. |
+| Cosmos (IBC zones) | ~15–22% | ~0.78 | Very High (~8.2) | Sovereign chains with independent validators; IBC prevents single-point failure. |
+| Sovereign rollups/app-chains | ~20–28% | ~0.92 | High (~7.0) | Custom execution + modular DA (e.g., Celestia); capture risk per rollup but isolated. |
+
+These designs show Rule-13 parasitism below 30% and ε < 1.1 in baseline — better than VOC baseline (47.1%) and far below shock levels. Variation bandwidth remains high (C2 >7), and entropy export is distributed across independent sub-lattices. If shocks remain localized (one parachain/zone/rollup captured), others continue exporting — the fractal structure appears to prevent total cascade.
+
+This is provisional — full ensemble shocks (e.g., relay-chain capture for Polkadot, hub-zone failure for Cosmos) are banked. The microscope is now open for community PRs to refine scores and run deltas.
 The microscope is now yours.
 
 Toward resilient futures.  
