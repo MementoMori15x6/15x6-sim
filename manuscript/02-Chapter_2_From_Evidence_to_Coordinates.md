@@ -39,7 +39,7 @@ For the complete 35-metric list (exact labels, descriptions, -10/+10 anchors), s
 
 Scoring uses public historical consensus via structured prompts averaged across multiple LLMs. Full calculations, grids, and drift simulations reproducible via `simulate.py`.
 
-Some key rules and specific mechanics to note:
+Some key rules and specific mechanics to note before moving into the case studies:
 ## Rule 13 Mechanics – The Universal Hinge of Suppression
 Rule 13 (Cheater Detection & Suppression) is the ledger's critical hinge: the system's ability to distinguish legitimate variation from parasitic exploitation. In the 15×6 grid, it appears as the interaction profile across six moves — sharp dominance in one or two columns signals high-fidelity suppression; flat or parasitism-heavy profiles indicate lost specificity and rising internal friction.
 
