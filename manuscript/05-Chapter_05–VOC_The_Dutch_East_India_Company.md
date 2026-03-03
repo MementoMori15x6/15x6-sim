@@ -48,7 +48,7 @@ Increasing Rule-13 parasitism to 60.0% simulates wartime metabolic overload (nav
 
 Simulating wartime metabolic overload (naval defeats, territorial losses, debt spike) by increasing Rule-13 parasitism to 60.0% widens the primary fracture: Row 13 at 40.0% mutualism vs 60.0% parasitism (ε-ratio = 1.5, crossing the 1.1 kill-switch threshold). Y deepens to -1.50 (desperate suppression mode), zone migrates toward high-density attractors, and longevity compresses sharply (Fig 5.3). The grid shows transition from "fractured but surviving" to "fractured and terminal": external threats amplify internal leaks until suppression costs exceed viability, accelerating dissolution (1799 bankruptcy).
 
-**Comparative Performance Table**
+**Table 5.3: Comparative Performance Across Replicator Scales**
 
 | Replicator | X (Metabolism) | Y (Suppression) | Rule-13 Parasitism | ε-Ratio | Stability Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -58,6 +58,8 @@ Simulating wartime metabolic overload (naval defeats, territorial losses, debt s
 | VOC (1780s Shock) | 0.25 | -1.50 | 60.0% | 1.50 | Kill-switch crossed; terminal descent |
 
 The VOC arc — baseline fracture to shocked kill-switch — marks the thermodynamic ceiling of pre-digital replicators. Oceanic distances created unavoidable entropy lag: six-month round-trip signaling decayed Rule-13 fidelity, forcing the system to tolerate ~47–60% parasitism in its critical suppression hinge. External recruitment buffers (capital, labor, colonies) delayed collapse, but could not eliminate the compounding leak. When war overloaded metabolism, the ε-ratio crossed 1.5, suppression costs overwhelmed export capacity, and the system entered terminal descent.
+
+The kill-switch threshold (ε ≈ 1.1) is the point where mean mutualism dominance can no longer outpace parasitism-driven friction (see Ch 2 and Ch 11.3 for bifurcation details). In the baseline VOC lattice, ε is already marginal (proxy 0.98), with Rule-13 parasitism at 47.1% — well above the >30% warning. The 1780s shock simulation pushes ε to 1.5 and Rule 13 to 60.0%, crossing the threshold decisively: suppression costs consume the entire entropy surplus, and the system enters terminal descent. Unlike the sharp, hardware-level collapse in the ant queen-death shock (instant 30% parasitism flip), VOC's failure is slower and distributed — oceanic lag and scale amplify internal leaks until external buffers fail.
 
 This fragility is not unique to the VOC; it is structural to any replicator whose coordination bandwidth is limited by physical distance and human-scale signaling. Biological superorganisms (ants) solve lag with chemical hardware; small-scale polities (Venice) solve it with overlapping councils and short physical loops. Global corporate replicators like VOC are forced to live with the lag — and pay the metabolic price.
 
