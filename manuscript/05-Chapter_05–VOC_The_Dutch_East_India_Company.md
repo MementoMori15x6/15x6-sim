@@ -23,14 +23,12 @@ The VOC fused joint-stock capital, quasi-sovereign powers, and global trade into
 
 Yet two fractures emerge:
 
-**Figure 5.2: 15×6 Master Grid – VOC Ensemble Consensus (Baseline)**
-
+**Figure 5.2: 15×6 Master Grid – VOC Ensemble Consensus (Baseline)**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_5_2_15x6_master_grid_voc_ensemble_consensus.png)
-X = 0.25, Y = -1.00, Rule-13 parasitism proxy 47.1% (exceeds >30% collapse threshold). **Row 13: 50.5% mutualism vs 49.5% parasitism**; secondary fracture in Row 3 (36.8% parasitism). Longevity estimate ~111–207 years.  
-[Source 35-metric scores: VOC Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_voc_ensemble_consensus.csv)  
-[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_5_2_15x6_master_grid_voc_ensemble_consensus.png)
-*Figure 5.2: 15×6 Master Grid – VOC Ensemble Consensus (Baseline)*
+
 The VOC projects ~95% mutualism dominance across most base rules, reflecting efficient entropy export via spice monopolies, naval boundaries, and information storage. Two thermodynamic scars appear: Row 13 (Cheater Detection & Suppression) at 50.5% mutualism vs 49.5% parasitism (Rule-13 proxy 47.1%, exceeding the >30% collapse threshold), and Row 3 (Heredity Fidelity) at 63.2% mutualism vs 36.8% parasitism (secondary leakage from administrative corruption). Compass: X = 0.25, Y = -1.00, Zone 2. Longevity estimate: ~111–207 years. Red border and note highlight Rule 13 as critical hinge.
+
+[Source 35-metric scores: VOC Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_voc_ensemble_consensus.csv)
 
 - **Primary thermodynamic scar – Row 13 (Cheater Detection & Suppression)**
     
@@ -47,14 +45,13 @@ Contrast with the ant baseline (near-100% mutualism, Rule-13 ~98%): biological s
 
 **Shock Test: 1780s Fourth Anglo-Dutch War Simulation**
 
-**Figure 5.3: 15×6 Master Grid – VOC Shock Test (1780s Fourth Anglo-Dutch War Simulation)**
-
+**Figure 5.3: 15×6 Master Grid – VOC Shock Test (1780s Fourth Anglo-Dutch War Simulation)**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_5_3_voc_shock_1780s_lattice.png)
-Rule-13 parasitism increased to 60.0% (ε-ratio = 1.5, crossing 1.1 kill-switch). **Row 13: 40.0% mutualism vs 60.0% parasitism**; Y deepens to -1.50 (desperate suppression mode). Lattice transitions from fractured to terminal.  
-[Source shocked 35-metric scores: VOC 1780s Shock (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_voc_shock_1780s.csv)  
-[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_5_3_voc_shock_1780s_lattice.png)
-*Figure 5.3: 15×6 Master Grid – VOC Shock Test (1780s Fourth Anglo-Dutch War Simulation)*
+
 Increasing Rule-13 parasitism to 60.0% simulates wartime metabolic overload (naval defeats, debt spike, administrative breakdown). Row 13 widens to 40.0% mutualism vs 60.0% parasitism (ε-ratio = 1.5, crossing the 1.1 kill-switch threshold). Y deepens to -1.50 (desperate suppression mode), zone migrates toward high-density attractors, longevity compresses. The lattice shows external threats amplifying internal leaks until suppression costs exceed viability. Row 3 fracture remains visible (secondary heredity leakage). Red border and note emphasize Rule 13 as the terminal hinge.
+
+[Source shocked 35-metric scores: VOC 1780s Shock (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_voc_shock_1780s.csv)  
+[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_5_3_voc_shock_1780s_lattice.png)
 
 Simulating wartime metabolic overload (naval defeats, territorial losses, debt spike) by increasing Rule-13 parasitism to 60.0% widens the primary fracture: Row 13 at 40.0% mutualism vs 60.0% parasitism (ε-ratio = 1.5, crossing the 1.1 kill-switch threshold). Y deepens to -1.50 (desperate suppression mode), zone migrates toward high-density attractors, and longevity compresses sharply (Fig 5.3). The grid shows transition from "fractured but surviving" to "fractured and terminal": external threats amplify internal leaks until suppression costs exceed viability, accelerating dissolution (1799 bankruptcy).
 
