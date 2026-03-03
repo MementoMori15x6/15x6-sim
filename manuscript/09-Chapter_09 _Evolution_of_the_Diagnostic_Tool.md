@@ -67,7 +67,7 @@ Ant colonies typically show high k (~3–4) with slow acceleration — strong ag
 
 **Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz**  
 ![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png) 
-**Caption:** Hazard rate h(t) for ant colonies (Weibull k ≈ 3.2, gradual) vs. late VOC (Gompertz b large, rapid acceleration after Rule-13 threshold crossing).
+**Caption:** Hazard rate h(t) comparison: ant colonies (Weibull k ≈ 3.2, gradual increase reflecting adaptive resilience) vs. late VOC (Gompertz with large b, rapid exponential acceleration after Rule-13 threshold crossing).
 
 ### 9.3.2 Gompertz Model — Rigid Fragility
 For high governance-density systems (late VOC, PRC), Gompertz often fits better. It captures exponential acceleration of failure as rigidity blocks adaptation:
@@ -77,13 +77,12 @@ h(t) = a e^{bt}
 $$
 
 Survival function:
-
-$$
-S(t) = e^{a/b (1 - e^{bt})}
-$$
+$$    
+S(t) = \exp\left( \frac{a}{b} (1 - e^{bt}) \right)
+    $$
 
 - **Growth parameter b** — the "Rigidity Penalty"
-  - In late VOC, b spikes once Rule-13 parasitism crosses 30%, causing hazard to double every 15–20 years until lattice fracture.
+  - In late VOC, b spikes once Rule-13 parasitism crosses 30%, causing hazard to double every ~ln(2)/b years (15–20 years in example fits) until lattice fracture.
 
 For each ensemble:
 - Median longevity + 95% CI
@@ -122,6 +121,7 @@ v2 is still early: noise model simple (Gaussian), fits preliminary, bifurcation 
 - Weibull/Gompertz fit stubs (using `scipy.stats` and `lifelines`)
 - Bifurcation scanner (`sweep_metric(metric, range_pct=20, steps=20)`)
 - Sensitivity matrix generator
+- The repo (`simulate.py` and prototype extensions) now includes / plans:
 
 Open for refinement:
 - Scale-specific noise profiles (RNA low, polities high)
