@@ -5,10 +5,11 @@ Memento & Mori | December 2025 – ongoing
 Venice (697–1797) sustained ~1100 years of institutional continuity through deliberate engineering of distributed, low-noise cheater-suppression and metabolic-harvesting signals — an isomorphic approximation of the pheromone systems that stabilize ant colonies at biological scale.
 
 **Figure 4.1: 15×6 Master Grid – Venice Republic Mutualism Baseline**  
-!
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
+
 Y = -0.819 | Overall parasitism proxy 12.5%. **Rule 13 dominance: 45% mutualism, 40% competition, 5% parasitism** — low Rule-13 parasitism correlates with extended longevity (~1100 years).  
-[Source 35-metric scores: Venice Mutualism Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697_1797.csv)  
-[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_1_15x6_master_grid_mutualism_baseline.png)
+[Source 35-metric scores: Venice Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
+[View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_1_15%C3%976_master_grid%E2%80%93mutualism_baseline.png)
 
 This chapter dissects the Venetian system into three engineered "pheromone" layers:
 1. Institutional cheater detection (Council of Ten and bocche di leone) — high-velocity suppression of parasitic noise.
@@ -55,9 +56,11 @@ Core refresh mechanisms:
 The **Serrata pivot (1297)** marks the key Ledger moment: hereditary closure of the Great Council created a fixed patrician lattice (trading metabolic variation C2 for signal fidelity and stability), but Venice compensated by intensifying internal rotation and stochasticity in office-filling — fewer eligible families, but they must circulate faster to sustain flow.
 
 **Figure 4.2: Serrata Pivot Diagnostic (Pre- vs Post-1297) – RC1**  
-!
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_2_serrata_pivot_diagnostic_pre_1297.png)
+
 Pre-Serrata (drift): **Rule 13 parasitism 43.5%** (unstable splatter). Post-Serrata (recovery): **parasitism drops to 5.0%, mutualism rises to 78.0%** — engineered institutional pheromones (Pillars 1 & 2) restore suppression specificity.  
-[Source pre/post 35-metric scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_serrata_pre_post.csv)  
+[Source pre-Serrata drift scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_pre_serrata_drift.csv)  
+[Source post-Serrata recovery scores (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_venice_republic_697-1797_v2_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_2_serrata_pivot_diagnostic_pre_1297.png)
 
 | Aspect | Ant Colony Pheromone Renewal (Innate) | Venetian Office Rotation (Engineered) |
@@ -98,7 +101,8 @@ This sets up the sobering finale: even this engineered machine met its match whe
 ## Chapter Conclusion: The Thermodynamic Ledger of Venice
 
 **Figure 4.3: Comparative Stability States – Institutional Pheromones vs Conquest Metabolism**  
-!
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_4_3_entropy_export_curves.png)
+
 Proxy entropy-export ratio (ε) stylized from historical patterns. Venice sustains high plateau in Stability Zone (~1.6–1.75) via engineered pheromones; Rome descends jaggedly into Unstable Zone after conquest highs collapse under parasitism accumulation. Kill-switch threshold ε = 1.1. Generated via reproducible matplotlib in `fig_4_3_entropy_export_curves.ipynb`.  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/blob/main/figures/fig_4_3_entropy_export_curves.png)
 
