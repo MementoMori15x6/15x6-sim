@@ -39,7 +39,7 @@ Enumerating the 3×3 sign combinations (+, 0, –) yields nine logical possibili
 
 - ++ Mutualism: reciprocal gain, stabilized by shared defense mechanisms
 - +0 Commensalism: one benefits, the other unaffected, stable under boundary integrity
-- +– Parasitism: exploitation persists until countermeasures evolve
+- +– Exploitationism: exploitation persists until countermeasures evolve
 - –– Competition: mutual harm under scarcity, driving adaptive escalation
 - 0– Amensalism: incidental harm without direct benefit
 - 00 Neutralism: non-overlapping niches or negligible interaction
