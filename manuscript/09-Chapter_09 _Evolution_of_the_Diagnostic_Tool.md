@@ -1,5 +1,5 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch09_diagnostic_evolution.png)
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch09_diagnotic_evolution.png)
 Memento & Mori | December 2025 – ongoing
 
 ## 9.1 From Deterministic v1 to Stochastic v2
@@ -117,7 +117,7 @@ Units: λ (scale parameter) is expressed in years — the characteristic life at
 Ant colonies typically show high k (~3–4 ±0.4) with slow acceleration — strong aging resistance. Ethereum baseline shows k ≈ 2.1 — structured but accelerating decay of initial "founding entropy."
 
 **Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz**  
-![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png)  
+![Figure 9.4](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_4_hazard_comparison.png)
 **Caption:** Hazard rate h(t) comparison: ant colonies (Weibull k ≈ 3.2 ±0.4, gradual increase reflecting adaptive resilience) vs. late VOC (Gompertz with large b, rapid exponential acceleration after Rule-13 threshold crossing).
 
 ### 9.4.2 Gompertz Model — Rigid Fragility
