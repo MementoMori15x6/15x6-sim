@@ -37,6 +37,7 @@ Left: USA – Stressed Mutualism (balanced mutualism/competition in metabolic ro
 Right: PRC – Boundary Saturation (suppression/amensalism dominance in governance rows, higher Rule-13 parasitism).  
 Critical Rule 13: >30 % parasitism → potential collapse risk.  
 *Note: Compass positions and 15×6 grid derived from consensus medians; calibrated against the CRL (Chapter 9 / Appendix A), including locked anchors for reference systems such as Late VOC 1780–1785.*
+
 [Source 35-metric scores: USA Consensus (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_usa_1971-present_consensus.csv)  
 [Source 35-metric scores: PRC Consensus (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_prc_1978-present_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_3_usa_vs_prc_rc1_heatmap.png)
