@@ -30,6 +30,7 @@ If persistence requires replication under constraint, then interactions between 
 The fifteen rules define the board. Interactions resolve into six evolutionarily stable sign combinations: Mutualism (+/+), Commensalism (+/0), Exploitationism (+/–), Competition (–/–), Amensalism (0/–), Neutralism (0/0).
 
 Under finite resources and thermodynamic constraint, the space of stable interactions reduces to these six classes. No seventh survives evolutionary filtering.
+*Footnote: The (+/–) move is formally termed **Exploitationism** in this framework to emphasise systemic extractive replication across scales (biological to digital), encompassing both parasitism and predation.*
 
 ### Why Only Six?
 
