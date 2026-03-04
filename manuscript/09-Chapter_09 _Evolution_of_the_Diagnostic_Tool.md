@@ -181,5 +181,3 @@ Open for refinement:
 - Bayesian longevity priors from historical data  
 
 The diagnostic tool is no longer a static microscope — it is a dynamic, probabilistic observer, continuously refined through evidence, ensemble testing, and open collaboration.
-
-Memento mori. 🚀
