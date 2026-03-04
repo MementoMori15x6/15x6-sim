@@ -28,7 +28,54 @@ Early test cases illustrate the shift:
 
 The microscope now sees probability clouds around attractors, not just point estimates.
 
-## 9.2 Bifurcation Analyzer
+## 9.2 Calibration Reference Layer (CRL)
+
+The compass is a diagnostic instrument, not a fixed index. To achieve cross-model reproducibility and reduce interpretive variance, the protocol relies on the Calibration Reference Layer (CRL): a set of canonical replicators with locked or provisional anchor values. These serve as orientation priors—stabilizing the meaning of extreme scores and ensuring proportionality across scorers and frontier models.
+
+The CRL currently includes the following reference systems with approximate basin placements (provisional until hard-locked via multi-model consensus):
+
+- Roman Empire ~100 CE: Stable imperial bureaucracy → Competition basin  
+- British Empire ~1850: Expansionist trade empire → Mutualism–Competition edge  
+- USSR ~1937: Ideological authoritarian regime → Rigid Trap  
+- Nazi Germany ~1942: Totalized mobilization state → Extreme Rigid Trap  
+- Qing Dynasty ~1820: Large inert agrarian empire → Low-energy Mutualism  
+- Late VOC 1780s: Corporate parasitic collapse → Chaos Boundary / Parasitism  
+- United States ~1995: Mature market democracy → Mutualism  
+- Bitcoin Network ~2023: Decentralized digital replicator → Competition / emergent Mutualism  
+
+### 9.2.1 Hard-Locked Canonical Values – Late VOC (1780–1785 snapshot)
+
+The Late VOC during the acute phase of the Fourth Anglo-Dutch War (1780–1785) is the first hard-locked reference for **corporate parasitic collapse** transitioning to the **Chaos Boundary** basin. This snapshot exhibits naval blockade-induced metabolic severance, zero liquidity, endemic servant corruption/private trade dominance, distant oversight failure, and formal institutional shell persistence via bailouts.
+
+The following hinge metrics are **hard-locked** as calibration centers with ±1 confidence bands (reflecting historical measurement limits and avoiding false precision). All future scorings of the Late VOC snapshot enforce these values.
+
+| Metric                  | Canonical Center | Confidence Band | Justification (locked for reproducibility) |
+|-------------------------|------------------|-----------------|--------------------------------------------|
+| D1 Parasitism           | +9               | 8 – 10          | Endemic servant corruption, particuliere handel, and smuggling reached structural dominance; private extraction exceeded legitimate trade flows under blockade. |
+| F2 Error Repair         | −8               | −7 to −9        | Systemic breakdown: Heeren XVII oversight failed to detect or correct cascading failures (falsified reports, fleet losses, corruption); no meaningful repair capacity. |
+| G1 Cheater Detection    | −8               | −7 to −9        | Internal visibility collapsed; widespread graft went undetected/unpunished at scale, triggering Enforcement Decay shim. |
+| E1 Survival             | +2               | 1 – 3           | Zombie/legal shell persisted via Republic bailouts and charter continuity, but no independent metabolic survival (zombie cap under blockade ceiling). |
+
+**Secondary guidance (provisional):**  
+- D2 Competition ≈ −8 (±1)  
+- A2 Market Allocation ≈ −6 (±1)  
+
+**Application notes:**  
+- Locked values are enforced in simulate.py (VOC_ANCHORS dict) and multi-model passes.  
+- Confidence bands allow minor interpretive flexibility while anchoring the integrity hinge.  
+- See Chapter 5 for the full Late VOC case study and multi-model consensus application.  
+- See Appendix A for code-level enforcement and reproducibility details.
+
+### 9.2.2 Phased CRL Development
+
+Calibration proceeds in phases to maintain rigor without over-constraint:  
+- Phase 1 (current): Late VOC locked as primary collapse/Chaos Boundary anchor.  
+- Phase 2: USSR ~1937 (Rigid Trap) and United States ~1995 (Mutualism) targeted next for rigidity and healthy baselines.  
+- Phase 3: Remaining references (Roman, British Empire, Nazi Germany, Qing, Bitcoin) remain provisional with descriptive ranges; open to community multi-model runs and PR proposals.
+
+The CRL is a living layer—extensible via evidence and consensus. Future anchors will follow the same center + band format to preserve reproducibility while welcoming expert refinement.
+
+## 9.3 Bifurcation Analyzer
 
 Small metric changes can push a replicator across phase boundaries — from mutualism ellipsoid to parasitism sinkhole. The bifurcation scanner sweeps selected metrics (D1 parasitism, G1 detection, C2 variation, H2 ideological monopoly, etc.) in ±20% increments and tracks critical crossings:
 - Rule-13 proxy >30%
@@ -43,11 +90,11 @@ Example thresholds (preliminary):
 
 The analyzer turns the tool from snapshot diagnostic to early-warning system — identifying leverage points before fracture.
 
-## 9.3 The Mathematical Engine: Longevity Fits & Ensemble Statistics
+## 9.4 The Mathematical Engine: Longevity Fits & Ensemble Statistics
 
 To quantify the probability clouds, we fit two survival models to ensemble durations (n=100 noisy runs per replicator). Model choice itself becomes a secondary diagnostic of the system's structural nature.
 
-### 9.3.1 Weibull Model — Adaptive Resilience
+### 9.4.1 Weibull Model — Adaptive Resilience
 
 The Weibull distribution is flexible and ideal for systems with modular aging or infant mortality. Its hazard function h(t) determines how the risk of death changes over time:
 
@@ -70,13 +117,13 @@ Units: λ (scale parameter) is expressed in years — the characteristic life at
 
 Ant colonies typically show high k (~3–4) with slow acceleration — strong aging resistance. Ethereum baseline shows k ≈ 2.1 — structured but accelerating decay of initial "founding entropy."
 
-**Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz**
+**Figure 9.4: Hazard Rate Comparison – Weibull vs Gompertz**
 
 ![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png)
 
 **Caption:** Hazard rate h(t) comparison: ant colonies (Weibull k ≈ 3.2, gradual increase reflecting adaptive resilience) vs. late VOC (Gompertz with large b, rapid exponential acceleration after Rule-13 threshold crossing).
 
-### 9.3.2 Gompertz Model — Rigid Fragility
+### 9.4.2 Gompertz Model — Rigid Fragility
 
 For high governance-density systems (late VOC, PRC), Gompertz often fits better. It captures exponential acceleration of failure as rigidity blocks adaptation:
 
@@ -105,7 +152,7 @@ Preliminary fits:
 
 The tool now quantifies decay curves — probabilistic health trajectories, not point guesses.
 
-## 9.4 Sensitivity Matrix & Community Extension
+## 9.5 Sensitivity Matrix & Community Extension
 
 Not all metrics are equally important. The Sensitivity Matrix quantifies impact: sweep ±20% on each metric individually, measure normalized delta in median longevity (t_{50}), proxy, Row 13 par intensity:
 
