@@ -57,6 +57,7 @@ Most complex systems mix moves. Durable constitutions bias toward mutualism and 
 **Figure 1.1 – Exhaustive 3×3 Payoff Matrix**
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_1_1_payoff_matrix_updated.png)
+*Terminology note: In this framework the (+/–) interaction is formally termed **Exploitationism** to emphasise systemic extractive replication across all scales (biological, social, digital). The classic ecological label “Parasitism” is retained in legacy figure labels and older outputs for continuity during the v1.7 transition.*
 
 [](https://www.notion.so)
 
