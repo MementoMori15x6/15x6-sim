@@ -15,7 +15,7 @@ All outputs MUST follow the Thermodynamic Logic Shims for cross-model consistenc
    All scores interpreted relative to this ceiling.
 
 2. **The Parasitic Ratchet**  
-   If D1 (Parasitism) > 7, any resource increase MUST raise Rigidity (Y), not lower it.  
+   If D1 (Exploitationism) > 7, any resource increase MUST raise Rigidity (Y), not lower it.  
    Surplus in corrupt systems strengthens control, not reform.
 
 3. **The Repair Threshold**  
@@ -56,7 +56,7 @@ For each metric:
 A — Capital: A1 Property Rights, A2 Market Allocation, A3 Profit Motive  
 B — Social Flow: B1 Redistribution, B2 Welfare  
 C — Continuity: C1 Heredity Fidelity, C2 Variation, C3 Persistence  
-D — Integrity: D1 Parasitism, D2 Competition  
+D — Integrity: D1 Exploitationism, D2 Competition  
 E — Vitality: E1 Survival, E2 Niche Construction  
 F — Defense: F1 Boundary Maintenance, F2 Error Repair  
 G — Information: G1 Cheater Detection, G2 Modularity, G3 Information Storage  
@@ -82,7 +82,7 @@ M — Demographics: M1 Natalism, M2 Migration Control, M3 Ethnic Policy
 
 ### V. Rule-13 Leakage (Corruption)
 Rule13% = 15 + (D1 × 2) + ((10 − G1) × 2)  
-Approximates systemic energy lost to corruption, smuggling, rent extraction, inefficiency.
+Approximates systemic energy lost to exploitationism, smuggling, rent extraction, inefficiency.
 
 ### VI. Longevity Proxy
 Mmid = mean(D2, E1, E2, F1) / 10  
@@ -108,7 +108,7 @@ If FAIL, revise anchors and output invariant result.
 |--------------------|---------------|
 | Mutualism          | (0.6, 0.1)    |
 | Competition        | (0.7, 0.4)    |
-| Parasitism         | (−0.2, 0.8)   |
+| Exploitationism    | (−0.2, 0.8)   |
 | Rigid Trap         | (0.1, 1.0)    |
 | Chaos Boundary     | (−0.1, −0.1)  |
 
@@ -140,8 +140,7 @@ United States → Mutualism
 Bitcoin → Competition / emergent Mutualism  
 
 **Anchor Metric Calibration**  
-Use references when scoring sensitive metrics: D1 Parasitism, F2 Error Repair, G1 Cheater Detection, H2 Ideological Monopoly, L2 Leadership Cult.  
-Example: Stalin USSR ≈ +9 ideological monopoly → weaker regimes score proportionally lower.
+Use references when scoring sensitive metrics: D1 Exploitationism, F2 Error Repair, G1 Cheater Detection, H2 Ideological Monopoly, L2 Leadership Cult.
 
 **Calibration Output**  
 Include:  
