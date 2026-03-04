@@ -77,6 +77,7 @@ Neither maintains Rule-13 <30% **and** C2 >5–6 indefinitely. The planetary rep
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_6_usa_baseline_vs_dedollarization_shock.png)
 Shock removes USD reserve entropy sink → metabolic rows darken, Rule-13 saturates parasitism/competition dominance (71.5%), governance rows pull toward suppression/amensalism. Layout matched to Fig. 7.3 for consistency.  
 *Shock deltas and post-shock grids calibrated via CRL standards (Chapter 9 / Appendix A).*
+
 [Source shocked 35-metric scores: USA De-Dollarization (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_usa_dedollarization_shock_dominance.csv)   
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_6_usa_baseline_vs_dedollarization_shock.png)
 
@@ -97,6 +98,7 @@ Without the global sink, soft drift accelerates into visible, self-reinforcing c
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_7_prc_baseline_vs_rigidity_collapse.png)
 Shock simulates signal-cascade failure or external access loss. Suppression already saturates lattice → further rigidity tightens noose faster, not wider. Layout matched to Fig. 7.3 for consistency.  
 *Shock deltas and post-shock grids calibrated via CRL standards (Chapter 9 / Appendix A).*
+
 [Source shocked 35-metric scores: PRC Rigidity Collapse (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_prc_rigidity_collapse_shock.csv)   
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_7_prc_baseline_vs_rigidity_collapse.png)
 
