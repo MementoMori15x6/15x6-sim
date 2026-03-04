@@ -1,27 +1,23 @@
 # Chapter 10 – Navigation: From Diagnosis to Prescription
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch10_navigation.png)
-
 Memento & Mori | December 2025 – ongoing
 
 ## 10.1 The Pivot to Goal-Oriented Vectors
 
-Chapters 1–8 built and validated the diagnostic tool: the 15×6 grid, 35-metric compass, stochastic ensembles, and survival fits. Chapter 9 evolved it into a probabilistic observer capable of detecting noise, tipping points, and decay curves.
-
-Chapter 10 turns the microscope outward — from "what is happening" to "what can we do about it." We define goal-oriented vectors: explicit, testable directions for steering replicators toward healthier phase-space regions.
+Chapters 1–8 built and validated the diagnostic tool: the 15×6 grid, 35-metric compass, stochastic ensembles, and survival fits (Chapter 9). Chapter 10 turns the microscope outward—from "what is happening" to "what can we do about it." We define goal-oriented vectors: explicit, testable directions for steering replicators toward healthier phase-space regions.
 
 Core goals (derived from successor criteria):
-- Suppress Rule-13 parasitism proxy below 20–25% (baseline and post-shock)
-- Maximize variation bandwidth (C2 >7) while preserving boundary integrity (F1)
-- Minimize rigidity penalty (keep adjusted Y near 0 or mildly positive)
-- Distribute entropy sinks (≥3 independent channels, ε-Ratio <1.0 long-term)
-- Extend longevity window toward centuries (≥500 years ±50%)
+- Suppress Rule-13 parasitism proxy below 20–25% (baseline and post-shock)  
+- Maximize variation bandwidth (C2 >7) while preserving boundary integrity (F1)  
+- Minimize rigidity penalty (keep adjusted Y near 0 or mildly positive)  
+- Distribute entropy sinks (≥3 independent channels, ε-Ratio <1.0 long-term)  
+- Extend longevity window toward centuries (≥500 years ±50%)  
 
-These are not ideological prescriptions — they are thermodynamic targets, measurable on the compass and grid.
+These are not ideological prescriptions—they are thermodynamic targets, measurable on the compass and grid.
 
-### Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy
-![Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_1_measurement_pipeline.png)
-
-<!-- Reproducible matplotlib schematic showing evidence → compass → X,Y → grid → Rule 13 hinge -->
+**Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy**  
+![Figure 10.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_1_measurement_pipeline.png)  
+**Caption:** Reproducible matplotlib schematic showing public evidence → 35-metric compass → X,Y coordinates → 15×6 grid → Rule-13 hinge → longevity proxy. Code available in repo/figures/fig_10_1_measurement_pipeline.py
 
 ## 10.2 Defining Navigation Vectors
 
@@ -39,9 +35,7 @@ We propose three primary vectors, each with associated metric adjustments and st
    Key actions: boost C2 (variation), E2 (niche construction), G2 (modularity)  
    Example delta: +2 on C2, +1 on E2/G2  
    Stress test: rigidity shock (+10–15% on H1–H3)  
-   Success: C2 remains >7, rigidity scalar <0.3*
-
-   *Footnote: A rigidity scalar of 1.0 is the "Gompertz Point" — where failure becomes an exponential certainty (hazard rate doubles over short intervals).
+   Success: C2 remains >7, rigidity scalar <0.3
 
 3. **Sink Diversification Vector**  
    Target: ≥3 independent entropy export channels, ε-Ratio <1.0  
@@ -49,14 +43,16 @@ We propose three primary vectors, each with associated metric adjustments and st
    Example: fractal L2/sub-chain structures (Polkadot-like)  
    Stress test: single-sink failure (e.g., dollar analog collapse)  
    Success: entropy delta remains negative, longevity compression <20%
-### Figure 10.2: Ensemble Proxy Trajectories – Stable vs. Shock-Induced Collapse
-![Figure 10.2: Ensemble Proxy Trajectories – Stable vs. Shock-Induced Collapse](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_2_ensemble_trajectories.png)
 
-<!-- Synthetic traces demonstrating >30% threshold as hinge for acceleration -->
+Success across vectors is defined by post-shock stability: Rule-13 proxy remains <30%, variation bandwidth (C2) holds >7, and rigidity scalar stays <0.3 (below Gompertz acceleration threshold).
+
+**Figure 10.2: Ensemble Proxy Trajectories – Stable vs. Shock-Induced Collapse**  
+![Figure 10.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_2_ensemble_trajectories.png)  
+**Caption:** Synthetic ensemble traces demonstrating >30% Rule-13 threshold as the hinge for hazard acceleration. Stable trajectories (low parasitism) remain flat; shock-induced crossings trigger exponential decay.
 
 ## 10.3 Historical What-If Shocks
 
-We apply the vectors retrospectively to historical cases — not to rewrite history, but to test if targeted metric shifts could have altered trajectories.
+We apply the vectors retrospectively to historical cases—not to rewrite history, but to test if targeted metric shifts could have altered trajectories.*  
 
 - **Venice Republic (late rigidity)**  
   Vector: Variation Amplification + Sink Diversification  
@@ -68,7 +64,7 @@ We apply the vectors retrospectively to historical cases — not to rewrite hist
   Vector: Parasitism Suppression  
   Hypothetical: +3 G1 (stronger institutional cheater detection), +2 D2 (competition in governance)  
   Simulated shock: capture concentration (D1/G1 delta -12)  
-  Result: proxy held ~22–28% post-shock, longevity compression reduced by ~25%
+  Result: proxy held ~22–28% (conservative post-shock), longevity compression reduced by ~25%
 
 - **USSR/NK (cheater suppression failure)**  
   Vector: Early Parasitism Suppression  
@@ -76,12 +72,11 @@ We apply the vectors retrospectively to historical cases — not to rewrite hist
   Simulated shock: internal drift (+10% D1)  
   Result: proxy remained <25%, longevity extended decades
 
-These are illustrative — not predictive. They demonstrate that the compass can be turned into a navigation instrument: identify high-sensitivity metrics (G1, C2, D2) and test counterfactual adjustments.
+*These are illustrative counterfactuals only—applied as delta shocks on baseline consensus scores (see Ch 9 ensembles). They demonstrate sensitivity, not historical inevitability.
 
-### Figure 10.3: Rigidity Penalty Surface – Governance Cost Amplification
-![Figure 10.3: Rigidity Penalty Surface – Governance Cost Amplification](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_3_rigidity_surface.png)
-
-<!-- Heatmap of rigidity scalar; low-rigidity corner preferred for persistence -->
+**Figure 10.3: Rigidity Penalty Surface – Governance Cost Amplification**  
+![Figure 10.3](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_3_rigidity_surface.png)  
+**Caption:** Heatmap of rigidity scalar (Y-adjusted amplification) across governance density and variation suppression. Low-rigidity corner (near Y=0, high C2/I-rows) preferred for long-term persistence. Generated via simulate.py rigidity surface sweep.
 
 ## 10.4 Hard Truth: The Art of Trade-Offs
 
@@ -90,14 +85,14 @@ Navigation toward a healthy vector often requires sacrificing a cherished metric
 ## 10.5 Open Questions & Community Navigation
 
 The vectors are testable hypotheses, not solutions. The repo (`simulate.py`) now includes:
-- Vector applicator (`apply_vector(replicator_csv, vector_name, deltas)`)
-- What-if shock runner (`run_whatif(replicator_csv, vector_deltas, shock_delta)`)
+- Vector applicator (`apply_vector(replicator_csv, vector_name, deltas)`)  
+- What-if shock runner (`run_whatif(replicator_csv, vector_deltas, shock_delta)`)  
 
 Open for extension:
-- New vectors (e.g., Sink Diversification via fractal L2s)
-- Historical case libraries (add Ming Dynasty, Dutch Golden Age, etc.)
-- Goal-optimization loops (gradient-like search for metric deltas that maximize longevity)
+- New vectors (e.g., Sink Diversification via fractal L2s)  
+- Historical case libraries (add Ming Dynasty, Dutch Golden Age, etc.)  
+- Goal-optimization loops (gradient-like search for metric deltas that maximize longevity)  
 
-The microscope now has direction — from diagnosis to prescription, from autopsy to course correction.
+The microscope now has direction—from diagnosis to prescription, from autopsy to course correction—always open to empirical stress-testing on the grid by any interested community.
 
-
+Memento mori. 🚀
