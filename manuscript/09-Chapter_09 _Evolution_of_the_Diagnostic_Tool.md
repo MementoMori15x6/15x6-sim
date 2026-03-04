@@ -1,7 +1,5 @@
 # Chapter 09 – Evolution of the Diagnostic Tool
-
-![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch09_diagnotic_evolution.png)
-
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch09_diagnostic_evolution.png)
 Memento & Mori | December 2025 – ongoing
 
 ## 9.1 From Deterministic v1 to Stochastic v2
@@ -14,17 +12,17 @@ $$
 s_{j,i} = s_j + \epsilon_{j,i}, \quad \epsilon_{j,i} \sim \mathcal{N}(0, \sigma), \quad \sigma \in [0.05, 0.10]
 $$
 
+(σ expressed as fraction of full -10 to +10 scoring range, corresponding to ~±0.5 to ±1 point uncertainty per metric.)
+
 Recompute compass coordinates, Rule-13 proxy, longevity estimate, and Row 13 intensity for each realization i.
 
 Early test cases illustrate the shift:
 - Ant colonies (low intrinsic variance): noise barely perturbs mutualism-dominant grid; longevity distributions remain tight (high stability).
 - Late VOC (high internal variance): noise amplifies parasitism spikes in Row 13; longevity distributions widen dramatically (fragility signal).
 
-**Figure 9.1: Stochastic Drift – Ant Colonies vs Late VOC**
-
-![Figure 9.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_1_stochastic_drift.png)
-
-**Caption:** Ensemble scatter on compass plane (n=100): ants (tight cluster in high-mutualism zone), late VOC (wide smear toward parasitism sinkhole).
+**Figure 9.1: Stochastic Drift – Ant Colonies vs Late VOC**  
+![Figure 9.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_1_stochastic_drift.png)  
+**Caption:** Ensemble scatter on compass plane (n=100): ants (tight cluster in high-mutualism zone), late VOC (wide smear toward parasitism/Chaos Boundary sinkhole).
 
 The microscope now sees probability clouds around attractors, not just point estimates.
 
@@ -56,11 +54,12 @@ The following hinge metrics are **hard-locked** as calibration centers with ±1 
 | G1 Cheater Detection    | −8               | −7 to −9        | Internal visibility collapsed; widespread graft went undetected/unpunished at scale, triggering Enforcement Decay shim. |
 | E1 Survival             | +2               | 1 – 3           | Zombie/legal shell persisted via Republic bailouts and charter continuity, but no independent metabolic survival (zombie cap under blockade ceiling). |
 
-**Secondary guidance (provisional):**  
+**Secondary guidance (provisional):**
 - D2 Competition ≈ −8 (±1)  
 - A2 Market Allocation ≈ −6 (±1)  
 
 **Application notes:**  
+- These locked hinge values (D1, F2, G1, E1) stabilize Rule-13 leakage calculations and Enforcement Decay/Ratchet shims across all ensemble runs and future scorings.  
 - Locked values are enforced in simulate.py (VOC_ANCHORS dict) and multi-model passes.  
 - Confidence bands allow minor interpretive flexibility while anchoring the integrity hinge.  
 - See Chapter 5 for the full Late VOC case study and multi-model consensus application.  
@@ -78,21 +77,21 @@ The CRL is a living layer—extensible via evidence and consensus. Future anchor
 ## 9.3 Bifurcation Analyzer
 
 Small metric changes can push a replicator across phase boundaries — from mutualism ellipsoid to parasitism sinkhole. The bifurcation scanner sweeps selected metrics (D1 parasitism, G1 detection, C2 variation, H2 ideological monopoly, etc.) in ±20% increments and tracks critical crossings:
-- Rule-13 proxy >30%
-- Row 13 parasitism intensity >40%
-- Longevity drops below 500 years
+- Rule-13 proxy >30%  
+- Row 13 parasitism intensity >40%  
+- Longevity drops below 500 years  
 
-This mirrors a Clausius-Clapeyron-like phase transition: just as physical matter changes state under pressure and temperature, social replicators bifurcate when **metabolic pressure** (parasitism load) exceeds available **governance temperature** (suppression capacity). In the compass, we replace P/V with Parasitism/Variation. A system flips into a parasitism sinkhole when accumulated Rule-13 debt (latent entropy) exceeds metabolic output available to suppress it.
+This mirrors a Clausius-Clapeyron-like phase transition: just as physical matter changes state under pressure and temperature, social replicators bifurcate when **metabolic pressure** (parasitism load) exceeds available **governance temperature** (suppression capacity and cost). In the compass, we replace P/V with Parasitism/Variation. A system flips into a parasitism sinkhole when accumulated Rule-13 debt (latent entropy) exceeds metabolic output available to suppress it.
 
 Example thresholds (preliminary):
-- Venice late: +5% rigidity (H1–H3) → bifurcation into high-Y trap
-- USA modern: -8% cheater detection (G1) → proxy crosses 30% in <10% drift
+- Late Venice: +5% rigidity (H1–H3) → bifurcation into high-Y trap  
+- USA modern: -8% cheater detection (G1) → proxy crosses 30% in <10% drift  
 
-The analyzer turns the tool from snapshot diagnostic to early-warning system — identifying leverage points before fracture.
+Bifurcation sweeps currently treat metrics independently; future iterations will incorporate correlated perturbations (see 9.5 note on covariance). The analyzer turns the tool from snapshot diagnostic to early-warning system — identifying leverage points before fracture.
 
 ## 9.4 The Mathematical Engine: Longevity Fits & Ensemble Statistics
 
-To quantify the probability clouds, we fit two survival models to ensemble durations (n=100 noisy runs per replicator). Model choice itself becomes a secondary diagnostic of the system's structural nature.
+To quantify the probability clouds, we fit two survival models to ensemble durations (n=100 noisy runs per replicator). Model choice (Weibull vs. Gompertz) is determined by AIC/BIC fit on ensemble data; high-governance-density systems favor Gompertz due to accelerating hazard from rigidity penalties.
 
 ### 9.4.1 Weibull Model — Adaptive Resilience
 
@@ -110,18 +109,16 @@ $$
 
 Units: λ (scale parameter) is expressed in years — the characteristic life at which ~63.2% of the population has "failed" under Weibull assumptions. For polity-scale replicators, this provides a natural timescale (decades to centuries); for faster-evolving systems (e.g., algorithmic replicators), λ may require logarithmic scaling or separate calibration in future iterations.
 
-- **Shape parameter k** — the "Vitality Coefficient"
-  - k < 1: decreasing hazard ("learning" phase, infant mortality)
-  - k = 1: constant hazard (memoryless, exponential decay)
-  - k > 1: increasing hazard (aging)
+- **Shape parameter k** — the "Vitality Coefficient"  
+  - k < 1: decreasing hazard ("learning" phase, infant mortality)  
+  - k = 1: constant hazard (memoryless, exponential decay)  
+  - k > 1: increasing hazard (aging)  
 
-Ant colonies typically show high k (~3–4) with slow acceleration — strong aging resistance. Ethereum baseline shows k ≈ 2.1 — structured but accelerating decay of initial "founding entropy."
+Ant colonies typically show high k (~3–4 ±0.4) with slow acceleration — strong aging resistance. Ethereum baseline shows k ≈ 2.1 — structured but accelerating decay of initial "founding entropy."
 
-**Figure 9.4: Hazard Rate Comparison – Weibull vs Gompertz**
-
-![Figure 9.4](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_4_hazard_comparison.png)
-
-**Caption:** Hazard rate h(t) comparison: ant colonies (Weibull k ≈ 3.2, gradual increase reflecting adaptive resilience) vs. late VOC (Gompertz with large b, rapid exponential acceleration after Rule-13 threshold crossing).
+**Figure 9.2: Hazard Rate Comparison – Weibull vs Gompertz**  
+![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png)  
+**Caption:** Hazard rate h(t) comparison: ant colonies (Weibull k ≈ 3.2 ±0.4, gradual increase reflecting adaptive resilience) vs. late VOC (Gompertz with large b, rapid exponential acceleration after Rule-13 threshold crossing).
 
 ### 9.4.2 Gompertz Model — Rigid Fragility
 
@@ -137,18 +134,18 @@ $$
 S(t) = \exp\left( \frac{a}{b} (1 - e^{bt}) \right)
 $$
 
-- **Growth parameter b** — the "Rigidity Penalty"
+- **Growth parameter b** — the "Rigidity Penalty"  
   - In late VOC, b spikes once Rule-13 parasitism crosses 30%, causing hazard to double every ~ln(2)/b years (15–20 years in example fits) until lattice fracture.
 
 For each ensemble:
-- Median longevity + 95% CI
-- Hazard rate curve
-- P(survive >500 years)
+- Median longevity + 95% CI  
+- Hazard rate curve  
+- P(survive >500 years)  
 
 Preliminary fits:
-- Ant colonies: Weibull k ≈ 3.2, λ large (characteristic life >>1000 years), P(survive 500 y) >95%
-- Late VOC: Gompertz dominant with large b, characteristic life much shorter once rigidity penalty activates, P(survive 500 y) <20%
-- Ethereum baseline: Weibull k ≈ 2.1, median longevity ≈700 years (toy proxy from ensemble), wide CI from stake-concentration noise
+- Ant colonies: Weibull k ≈ 3.2 (±0.4), λ large (>>1000 years), P(survive 500 y) >95%  
+- Late VOC: Gompertz dominant with large b, characteristic life much shorter once rigidity penalty activates, P(survive 500 y) <20%  
+- Ethereum baseline: Weibull k ≈ 2.1, median longevity ≈700 years (toy proxy from ensemble), wide CI from stake-concentration noise  
 
 The tool now quantifies decay curves — probabilistic health trajectories, not point guesses.
 
@@ -170,17 +167,19 @@ Example (preliminary on USA 1971 model):
 | A2     | +0.08    | –0.10   | –0.12        | 10 (low)         |
 
 **Note on non-linear coupling**  
-In high-Y rigid systems (e.g., late Rome, PRC), metrics are often coupled: a degradation in G1 (cheater detection) frequently correlates with compensatory increases in H2–H3 (ideological monopoly / dissent suppression) as the system attempts to maintain control. Future ensemble runs could incorporate a covariance matrix Σ for selected metric pairs (e.g., cov(G1, H2) < 0), allowing realistic correlated perturbations during stochastic sweeps. This would better capture positive-feedback loops that accelerate bifurcation once Rule-13 debt accumulates beyond suppression capacity. Prototype support for correlated noise can be added to `run_ensemble()` via NumPy `multivariate_normal`; open to community PRs for empirical covariance estimates from historical cases.
+In high-Y rigid systems (e.g., late Rome, PRC), metrics are often coupled: a degradation in G1 (cheater detection) frequently correlates with compensatory increases in H2–H3 (ideological monopoly / dissent suppression) as the system attempts to maintain control. Future ensemble runs could incorporate a covariance matrix Σ for selected metric pairs (e.g., cov(G1, H2) < 0), allowing realistic correlated perturbations during stochastic sweeps. This would better capture positive-feedback loops that accelerate bifurcation once Rule-13 debt accumulates beyond suppression capacity. Prototype support for correlated noise can be added to `run_ensemble()` via NumPy `multivariate_normal`; **open to community PRs for empirical covariance estimates from historical cases**.
 
 v2 is still early: noise model simple (Gaussian), fits preliminary, bifurcation sweeps manual. The repo (`simulate.py` and prototype extensions) now includes / plans:
-- Ensemble runner (`run_ensemble(replicator_csv, n=100, noise_std=0.1)`)
-- Weibull/Gompertz fit stubs (using `scipy.stats` and `lifelines`)
-- Bifurcation scanner (`sweep_metric(metric, range_pct=20, steps=20)`)
-- Sensitivity matrix generator
+- Ensemble runner (`run_ensemble(replicator_csv, n=100, noise_std=0.1)`)  
+- Weibull/Gompertz fit stubs (using `scipy.stats` and `lifelines`)  
+- Bifurcation scanner (`sweep_metric(metric, range_pct=20, steps=20)`)  
+- Sensitivity matrix generator  
 
 Open for refinement:
-- Scale-specific noise profiles (RNA low, polities high)
-- Automated tipping-point detection
-- Bayesian longevity priors from historical data
+- Scale-specific noise profiles (RNA low, polities high)  
+- Automated tipping-point detection  
+- Bayesian longevity priors from historical data  
 
-The microscope is evolving — from static lens to dynamic, probabilistic observer.
+The diagnostic tool is no longer a static microscope — it is a dynamic, probabilistic observer, continuously refined through evidence, ensemble testing, and open collaboration.
+
+Memento mori. 🚀
