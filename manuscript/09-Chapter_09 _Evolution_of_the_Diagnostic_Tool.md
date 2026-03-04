@@ -119,7 +119,7 @@ Ant colonies typically show high k (~3–4) with slow acceleration — strong ag
 
 **Figure 9.4: Hazard Rate Comparison – Weibull vs Gompertz**
 
-![Figure 9.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_2_hazard_comparison.png)
+![Figure 9.4](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_4_hazard_comparison.png)
 
 **Caption:** Hazard rate h(t) comparison: ant colonies (Weibull k ≈ 3.2, gradual increase reflecting adaptive resilience) vs. late VOC (Gompertz with large b, rapid exponential acceleration after Rule-13 threshold crossing).
 
