@@ -1,5 +1,5 @@
 # 13 - Chapter 13: Conclusion: Rule 13 – The Universal Fracture
-![Rule 13: The Universal Fracture – The hinge where every replicator fails](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch13_rule13_fracture.png)
+![Rule 13: The Universal Fracture – The hinge where every replicator fails](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch13_universal_fracture_v2_centered.png)
 
 Memento & Mori | December 2025 – ongoing
 
