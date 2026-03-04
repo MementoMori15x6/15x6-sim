@@ -25,6 +25,9 @@ The 35-metric compass positions each hegemon in phase space:
 - Buffers: hardware-enforced Rule-13 (surveillance, Social Credit, CCDI), niche construction (BRI/infra)  
 - Drag: extreme governance cost, low variation bandwidth, rigidity penalty risk
 
+**Calibration note**  
+All compass coordinates (X, Y), zone classifications, Rule-13 proxies, 15×6 grids, and shock deltas presented in this chapter are derived from multi-model consensus medians using the current 35-metric protocol (Chapter 2). Scoring proportionality is anchored to the Calibration Reference Layer (CRL), including hard-locked hinge values for reference systems such as Late VOC 1780–1785. The CRL is defined in Chapter 9 (Evolution of the Diagnostic Tool) and Appendix A (Methods & Reproducibility). See those sections for the full CRL reference list, canonical anchor centers, confidence bands, and enforcement details.
+
 ## 7.3 Baseline 15×6 Master Grid Diagnostic
 The 15×6 Master Grid reveals the underlying interaction dominance:
 
@@ -33,6 +36,7 @@ The 15×6 Master Grid reveals the underlying interaction dominance:
 Left: USA – Stressed Mutualism (balanced mutualism/competition in metabolic rows, moderate Rule-13 parasitism).  
 Right: PRC – Boundary Saturation (suppression/amensalism dominance in governance rows, higher Rule-13 parasitism).  
 Critical Rule 13: >30 % parasitism → potential collapse risk.  
+*Note: Compass positions and 15×6 grid derived from consensus medians; calibrated against the CRL (Chapter 9 / Appendix A), including locked anchors for reference systems such as Late VOC 1780–1785.*
 [Source 35-metric scores: USA Consensus (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_usa_1971-present_consensus.csv)  
 [Source 35-metric scores: PRC Consensus (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_prc_1978-present_consensus.csv)  
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_3_usa_vs_prc_rc1_heatmap.png)
@@ -51,7 +55,7 @@ Metabolic rows (1–10) show USA with stronger mutualism/competition balance (~5
 | **Variation Bandwidth (C2)** | High (~8.2) | Low (~3.1) | USA prioritizes adaptation; PRC prioritizes persistence (at rigidity cost). |
 | **Est. Longevity (Remaining)** | 80–140 Years | 40–90 Years | USA buffered by flexibility; PRC restricted by high governance tax. |
 | **Thermodynamic Zone** | Zone 2: Balanced/Fragile | Zone 1: High-Density Attractor | USA is a "cloud" replicator; PRC is a "crystal" replicator. |
-
+*Calibration reference: Values computed using current protocol with CRL anchors (see Chapter 9 / Appendix A).*
 **Notes**  
 ε-Ratio = Parasitism dominance in Row 13 / (average Mutualism + Competition dominance across metabolic rows 1–10). Provisional kill-switch >1.1.  
 Rule-13 proxy conservative on baseline (actual consensus median ~43% for USA); delta magnitude remains the key signal.
@@ -71,6 +75,7 @@ Neither maintains Rule-13 <30% **and** C2 >5–6 indefinitely. The planetary rep
 **Figure 7.6: USA Baseline vs De-Dollarization Shock – 15×6 Master Grid**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_6_usa_baseline_vs_dedollarization_shock.png)
 Shock removes USD reserve entropy sink → metabolic rows darken, Rule-13 saturates parasitism/competition dominance (71.5%), governance rows pull toward suppression/amensalism. Layout matched to Fig. 7.3 for consistency.  
+*Shock deltas and post-shock grids calibrated via CRL standards (Chapter 9 / Appendix A).*
 [Source shocked 35-metric scores: USA De-Dollarization (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_usa_dedollarization_shock_dominance.csv)   
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_6_usa_baseline_vs_dedollarization_shock.png)
 
@@ -90,6 +95,7 @@ Without the global sink, soft drift accelerates into visible, self-reinforcing c
 **Figure 7.7: PRC Baseline vs Rigidity Collapse Shock – 15×6 Master Grid**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_7_prc_baseline_vs_rigidity_collapse.png)
 Shock simulates signal-cascade failure or external access loss. Suppression already saturates lattice → further rigidity tightens noose faster, not wider. Layout matched to Fig. 7.3 for consistency.  
+*Shock deltas and post-shock grids calibrated via CRL standards (Chapter 9 / Appendix A).*
 [Source shocked 35-metric scores: PRC Rigidity Collapse (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_prc_rigidity_collapse_shock.csv)   
 [View full figure (PNG)](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_7_prc_baseline_vs_rigidity_collapse.png)
 
