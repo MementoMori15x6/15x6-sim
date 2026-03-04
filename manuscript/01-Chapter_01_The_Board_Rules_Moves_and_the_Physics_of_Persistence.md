@@ -27,7 +27,7 @@ Genes, memes, firms, and nations participate in the same underlying dynamic: pro
 
 If persistence requires replication under constraint, then interactions between replicators must also obey structural limits.
 
-The fifteen rules define the board. Interactions resolve into six evolutionarily stable sign combinations: Mutualism (+/+), Commensalism (+/0), Parasitism (+/–), Competition (–/–), Amensalism (0/–), Neutralism (0/0).
+The fifteen rules define the board. Interactions resolve into six evolutionarily stable sign combinations: Mutualism (+/+), Commensalism (+/0), Exploitationism (+/–), Competition (–/–), Amensalism (0/–), Neutralism (0/0).
 
 Under finite resources and thermodynamic constraint, the space of stable interactions reduces to these six classes. No seventh survives evolutionary filtering.
 
