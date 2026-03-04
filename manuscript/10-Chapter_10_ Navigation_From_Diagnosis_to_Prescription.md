@@ -94,5 +94,3 @@ Open for extension:
 - Goal-optimization loops (gradient-like search for metric deltas that maximize longevity)  
 
 The microscope now has direction—from diagnosis to prescription, from autopsy to course correction—always open to empirical stress-testing on the grid by any interested community.
-
-Memento mori. 🚀
