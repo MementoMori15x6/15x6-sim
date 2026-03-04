@@ -10,10 +10,11 @@ import numpy as np
 import argparse
 import sys
 
-# CRL hard anchors - Late VOC 1780–1785 (canonical corporate parasitic collapse / Chaos Boundary reference)
-# Locked as of v1.7 patch (December 2025 baseline)
-# Centers are canonical values from multi-model consensus (7 runs); ±1 bands reflect historical measurement limits
-# Enforced in all VOC scorings and ensemble runs to stabilize Rule-13 hinge and shims
+# === CRL HARD ANCHORS & CONSTANTS ===
+# Calibration Reference Layer (CRL) – hard-locked values from manuscript Chapter 9
+# Late VOC 1780–1785: canonical corporate parasitic collapse / Chaos Boundary
+# Centers from 7-run multi-model consensus; ±1 bands reflect historical limits
+# Enforced in VOC scorings to stabilize Rule-13 hinge and shims
 
 VOC_ANCHORS = {
     'D1_Parasitism': {
@@ -40,7 +41,7 @@ VOC_ANCHORS = {
         'band_high': 3,
         'note': 'Zombie/legal shell via bailouts; no independent metabolic survival (zombie cap applied)'
     },
-    # Provisional secondaries (guidance only; not yet hard-enforced)
+    # Provisional secondaries (guidance only – not yet hard-enforced)
     'D2_Competition': {
         'center': -8,
         'band_low': -9,
@@ -55,6 +56,27 @@ VOC_ANCHORS = {
     }
 }
 
+# Rule-13 proxy function (v1.7 baseline – D1-dominant, aligned with consensus)
+def compute_parasitism_proxy(scores):
+    """
+    Rule-13 leakage proxy: systemic energy lost to parasitism/rent/corruption.
+    Tuned to ~64.8% on canonical Late VOC hinge (D1=9, G1=-8) after 7-run consensus (~62% mean).
+    D1 is primary driver; G1 penalty disabled for simplicity and alignment (can re-enable lightly later).
+    Metric indices (0-based):
+    - d1 = scores[9]   # D1 Parasitism
+    - g1 = scores[15]  # G1 Cheater Detection
+    """
+    d1 = scores[9]   # Parasitism (+ = high leakage)
+
+    # Primary driver: parasitism load (positive D1 contributes positively)
+    base_from_d1 = max(0, d1 * 7.2)           # 9 * 7.2 = 64.8 → target alignment
+
+    # Optional light detection penalty (disabled by default)
+    detection_penalty = max(0, (5 - scores[15]) * 0.0)  # 0.0 = disabled; try 0.8 for +10.4 if desired
+
+    total = base_from_d1 + detection_penalty
+    return round(max(10, min(100, total)), 1)  # floor at 10%, cap at 100% for safety
+    
 # Usage example in scoring/ensemble functions:
 # if replicator == 'late_voc_1780_1785':
 #     enforce_anchors(VOC_ANCHORS, metric_scores)
