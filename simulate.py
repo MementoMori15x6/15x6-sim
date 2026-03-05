@@ -57,7 +57,7 @@ VOC_ANCHORS = {
 }
 
 # USSR ~1937 – canonical ideological authoritarian / Rigid Trap reference
-# Centers from 4-run consensus (Claude x2, Grok 4, Gemini 3 Flash); ±1 bands
+# Centers from 6-run consensus (Claude x2, Grok x2, Gemini x2); ±1 bands
 USSR_ANCHORS = {
     'H2_Ideological_Monopoly': {
         'center': 9,
