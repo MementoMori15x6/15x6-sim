@@ -56,8 +56,7 @@ VOC_ANCHORS = {
     }
 }
 
-# USSR ~1937 – canonical ideological authoritarian / Rigid Trap reference
-# Centers from 6-run consensus (Claude x2, Grok x2, Gemini x2); ±1 bands
+# Correct USSR_ANCHORS dict (Phase 2 consensus)
 USSR_ANCHORS = {
     'H2_Ideological_Monopoly': {
         'center': 9,
@@ -90,6 +89,9 @@ USSR_ANCHORS = {
         'note': 'Denunciation weaponized; NKVD quotas incentivize false positives over genuine detection'
     }
 }
+
+print("USSR_ANCHORS loaded successfully (dict with", len(USSR_ANCHORS), "entries)")
+print(USSR_ANCHORS.keys())  # Should print the keys
 
 # Rule-13 proxy function (v1.7 baseline – D1-dominant, aligned with consensus)
 def compute_parasitism_proxy(scores):
