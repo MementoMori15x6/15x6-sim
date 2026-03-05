@@ -62,15 +62,14 @@ This chapter applies the compass to three Roman phases, demonstrating how it rev
 The late Republic is a textbook high-metabolism separatrix state: conquest niches (Rule 10) export massive negative entropy, buffering internal decay until coordination failure cascades.
 
 **Figure 2.1: Late Roman Republic 15×6 Heatmap**  
-![](https://raw.github.com/MementoMori15x6/15x6-sim/main/figures/fig_2_1_late_republic_heatmap.png)
-
+![Figure 2.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_2_1_late_republic_heatmap.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Consensus heatmap of the late Republic (133–27 BCE) reveals a classic separatrix splatter: high variance across interaction moves, with **Rule 13 row flat at ~18.3 % across all moves (exploitationism only 8.6 %)** — diagnostic of lost cheater-detection specificity (inability to distinguish legitimate variation from factional cannibalization). Export rows (1, 6, 10) remain strong (~35–43% mutualism/competition), but governance erosion flattens the grid overall. Entropy export ratio ≈ 7.82.
 [Source 35-metric scores Roman Republic 133 27 bce (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_roman_republic_133_27_bce.csv)
 
 **Figure 2.2: Republic Drift Curve**
-
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_2_republic_drift_curve.png)
-
+![Figure 2.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_2_2_republic_drift_curve.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Cumulative drift simulation from 133 BCE onward shows the high-metabolism paradox: expansion buffer (200–100 BCE — massive negative entropy from Rule 10 niches) delays the kill-switch crossing despite rising exploitationism. Export starts at ~7.8, plateaus, then plunges to ~1.1 by ~27 BCE as coordination failure cascades. Rule-13 exploitationism climbs steadily to ~20%, signaling specificity loss.
 
 **Table 2.1: Key Metric Deltas – Republic Crisis Phase**
@@ -86,8 +85,8 @@ Cumulative drift simulation from 133 BCE onward shows the high-metabolism parado
 The Principate is a thermodynamic reorganization: Augustus and the adoptive emperors traded republican variation for centralized hierarchy, suppressing exploitationism and rebounding export.
 
 **Figure 2.3: Early Principate 15×6 Heatmap (Consensus Reset)**  
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_3_principate_heatmap.png)
-
+![Figure 2.3](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_2_3_principate_heatmap.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Consensus grid for the Principate (27 BCE – ~180 CE) shows hierarchical cooling: **Rule 13 row sharply skewed toward mutualism/hierarchy dominance (both ~19.1 %), exploitationism crushed to ~4.4 %**. Export rows (10–11) dominate (~40–44% mutualism/competition), reflecting reopened outward dissipation. Variation penalty (C2/I1–I3 lower) trades degrees of freedom for Y-density gains. Entropy export ratio ≈ 7.16.
 [Source 35-metric scores Agustus baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_agustus_baseline.csv)
 
@@ -107,9 +106,8 @@ Consensus grid for the Principate (27 BCE – ~180 CE) shows hierarchical coolin
 Starting from the Principate baseline, forward simulation tests longevity: gradual creep + shocks reveal a ~200-year plateau before acceleration.
 
 **Figure 2.4: Principate Forward Drift – Stability → Third Century Anarchy Cascade**
-
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_4_principate_drift.png)
-
+![Figure 2.4](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_2_4_principate_drift.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Forward simulation from Principate baseline reveals ~200-year stability plateau (~7.2 → ~5.5 by ~150–200 CE) before anarchy acceleration post-235 CE (legionary pay-rise shocks fuel cannibalization surge). Export decays to ~2.0–2.5 by ~270–300 CE as Rule-13 exploitationism surges >20%, demonstrating the entropy cycle restarting under renewed suppression-cost pressure.
 
 **Table 2.3: Key Metric Deltas – Anarchy Cascade**
@@ -139,9 +137,8 @@ Implications extend beyond Rome. The compass offers a falsifiable lens for other
 The Roman arc on the 15×6 board moves us beyond familiar historical narratives — ambitious generals, corrupt senates, wise emperors — into measurable thermodynamic dynamics of a replicating system. The 35-metric compass and grid consistently reveal three universal signatures that transcend Rome's specific stories:
 
 **Figure 2.5: Roman Life-Cycle – Full Thermodynamic Arc (133 BCE – 300 CE)**
-
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_5_roman_life_cycle.png)
-
+![Figure 2.5](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_2_5_roman_life_cycle.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 1. **Separatrix fragility in high-metabolism states**  
    The late Republic (133–27 BCE) is a classic separatrix crisis: conquest-driven Rule 10 niches export massive negative entropy (ratio ~7.8), delaying collapse despite internal leaks. Yet the diagnostic is not raw exploitationism volume — it is the **flat Rule 13 row** (~18 % across moves, exploitationism only ~8.6 %). Cheater detection loses specificity, unable to distinguish legitimate variation from factional cannibalization, even as external buffers hold. This explains why coordination failure cascaded only after expansion slowed.
 
