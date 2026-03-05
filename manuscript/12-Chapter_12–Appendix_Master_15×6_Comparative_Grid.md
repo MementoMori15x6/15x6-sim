@@ -21,6 +21,7 @@ The ledger is living — updated via community PRs, new shocks, refined anchors,
 | Polkadot lattice (2026)             | 25.0%                 | 50.0%                   | 700 ± 350                  | 467 ± 233                    | 33.3%                       | 71.4%                         | Relay-chain vulnerability | Parachain modularity buffer | Polkadot whitepaper, on-chain metrics |
 | AI-Hegemon Variant (G1=9.5)         | 19.0%                 | 50.0%                   | 743 ± 371                  | 458 ± 229                    | 18.6%                       | 71.4%                         | Tactical detection gain, structural shock fatal | Simulated from Ethereum base + G1 boost | Simulated delta |
 
+*All scores use CRL anchors (Ch 9) and simulate.py v1.7 proxy tuning. Full CSVs and code in repo/data/ and repo/simulate.py.*
 (Add your rows here — PR format: replicator name, baseline/post-shock metrics, longevity windows, notes, sources, CSV evidence)
 
 ### Successor Criteria Reminder (from Ch. 08)
