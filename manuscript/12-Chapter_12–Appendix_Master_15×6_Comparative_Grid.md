@@ -7,17 +7,17 @@ The ledger is living — updated via community PRs, new shocks, refined anchors,
 
 ### Scoring & Update Protocol
 - Use 35-metric compass → 15×6 grid mapping (simulate.py)
-- Report: Rule-13 parasitism %, longevity estimate (Weibull/Gompertz), rigidity penalty, ε-ratio
-- Shock: +10–15% delta on D1 parasitism / G1 detection (or custom)
+- Report: Rule-13 exploitationism %, longevity estimate (Weibull/Gompertz), rigidity penalty, ε-ratio
+- Shock: +10–15% delta on D1 exploitationism / G1 detection (or custom)
 - PR format: replicator name, baseline/post-shock metrics, longevity windows, notes, sources, CSV evidence
 - Calibration: Use CRL anchors (Ch 9 / simulate.py) for reproducibility
 
 ### Master Ledger Table (Starter – Consensus Rows)
 
-| Replicator                          | Baseline Rule-13 Proxy | Post-Shock Rule-13 Proxy | Baseline Longevity (years) | Post-Shock Longevity (years) | Baseline Row-13 Parasitism % | Post-Shock Row-13 Parasitism % | Attractor Zone / Splatter % | Notes / Calibration | Sources / PR Link |
+| Replicator                          | Baseline Rule-13 Proxy | Post-Shock Rule-13 Proxy | Baseline Longevity (years) | Post-Shock Longevity (years) | Baseline Row-13 Exploitationism % | Post-Shock Row-13 Exploitationism % | Attractor Zone / Splatter % | Notes / Calibration | Sources / PR Link |
 |-------------------------------------|------------------------|--------------------------|-----------------------------|-------------------------------|------------------------------|--------------------------------|-----------------------------|---------------------|-------------------|
-| **Late VOC (1780–1785)**            | 64.8%                 | — (acute collapse baseline) | ~60–160 (central ~1790–1800) | —                            | 62.1% (mean)                | —                              | Parasitism → Chaos Boundary drift | CRL hard-locked hinge (D1=9, G1=-8, F2=-8, E1=2); proxy tuned to 7-run consensus | Ch 5 case study; 7-run consensus CSV |
-| Ethereum L1 (2026)                  | 24.0%                 | 50.0%                   | 697 ± 348                  | 458 ± 229                    | 21.1%                       | 71.4%                         | Heavy Competition/Parasitism post-shock | Stake concentration vulnerability | Public blockchain data, EIP governance records |
+| **Late VOC (1780–1785)**            | 64.8%                 | — (acute collapse baseline) | ~60–160 (central ~1790–1800) | —                            | 62.1% (mean)                | —                              | Exploitationism → Chaos Boundary drift | CRL hard-locked hinge (D1=9, G1=-8, F2=-8, E1=2); proxy tuned to 7-run consensus | Ch 5 case study; 7-run consensus CSV |
+| Ethereum L1 (2026)                  | 24.0%                 | 50.0%                   | 697 ± 348                  | 458 ± 229                    | 21.1%                       | 71.4%                         | Heavy Competition/Exploitationism post-shock | Stake concentration vulnerability | Public blockchain data, EIP governance records |
 | Polkadot lattice (2026)             | 25.0%                 | 50.0%                   | 700 ± 350                  | 467 ± 233                    | 33.3%                       | 71.4%                         | Relay-chain vulnerability | Parachain modularity buffer | Polkadot whitepaper, on-chain metrics |
 | AI-Hegemon Variant (G1=9.5)         | 19.0%                 | 50.0%                   | 743 ± 371                  | 458 ± 229                    | 18.6%                       | 71.4%                         | Tactical detection gain, structural shock fatal | Simulated from Ethereum base + G1 boost | Simulated delta |
 
