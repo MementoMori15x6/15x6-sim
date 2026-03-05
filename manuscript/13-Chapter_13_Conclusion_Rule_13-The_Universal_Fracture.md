@@ -14,7 +14,7 @@ RNA strands lose fidelity when cheaters proliferate.
 Ant colonies drift when detection fails.  
 Venice rigidifies, VOC shareholders lag, Rome’s frontiers drain, USA and PRC concentrate power — and the proxy crosses 30%.  
 Ethereum and Polkadot — digital, algorithmic, decentralized — still hit 50% under capture stress.  
-Even the AI-hegemon variant, with G1 boosted to 9.5, collapses to the same Row 13 parasitism dominance (71.4%).
+Even the AI-hegemon variant, with G1 boosted to 9.5, collapses to the same Row 13 exploitationism dominance (71.4%).
 
 Rule 13 is not a bug.  
 It is the law.
@@ -36,7 +36,7 @@ The grid has tracked the moves that delay or accelerate arrival.
 The board is still open. Test it. Refine it. Extend the ledger.
 
 **Never Forget:**  
-**Critical Rule 13: >30 % Parasitism → Potential Collapse Risk**
+**Critical Rule 13: >30 % Exploitationism → Potential Collapse Risk**
 
 **Ongoing Case Studies**  
 This manuscript is a snapshot, but the ledger is living. We continue scoring new and evolving replicators — from historical contrasts (North/South Koreas, Soviet Union) to real-time stresses (Iran's current regime under external shocks). Each case tests the grid's diagnostic power and refines the compass. Follow updates, new rows, and community PRs on the repo[](https://github.com/MementoMori15x6/15x6-sim) or X (@MementoMori15x6). Expect a new case study roughly every fortnight. Fork simulate.py or submit your own scores — the board remains open.
