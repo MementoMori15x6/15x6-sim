@@ -99,8 +99,8 @@ The aim is not metaphorical elegance but instrumentation. If rules and moves are
 **Figure 1.2 – Blank 15×6 Grid Teaser**
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_1_2_master_blank_15%C3%976_grid_v4.png)
-*Terminology note: In this framework the (+/–) interaction is formally termed **Exploitationism** to emphasise systemic extractive replication across all scales (biological, social, digital). The classic ecological label “Parasitism” is retained in legacy figure labels and older outputs for continuity during the v1.7 transition.*
-
+[existing caption text…]
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 *(Source: github.com/MementoMori15x6/15x6-sim/blob/main/notebooks/master_blank_15x6_grid_v4.ipynb)*
 
 ### 1.5 From Physics to Navigation
