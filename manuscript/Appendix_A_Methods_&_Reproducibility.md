@@ -22,7 +22,7 @@ This appendix describes the technical and methodological foundations of the 15×
 - Error bars: ±50% (reflecting parametric uncertainty and shock variability)
 
 ### Shock Simulation
-- Delta application: +10–15% on targeted metrics (e.g., D1 parasitism, G1 detection)
+- Delta application: +10–15% on targeted metrics (e.g., D1 exploitationism, G1 detection)
 - Re-compute: grid, compass coords, Row-13 %, longevity window
 - All parameters explicit in simulate.py (open to PR refinement)
 
