@@ -4,7 +4,7 @@ Memento & Mori | December 2025 – ongoing
 
 ## 9.1 From Deterministic v1 to Stochastic v2
 
-The original 35-metric compass (v1) was deterministic: fixed scores from public evidence, fixed shocks, fixed longevity extrapolations. It revealed recurring patterns — Rule-13 parasitism >30% as collapse signal, balanced mutualism/competition in rows 6–8 & 13–14 as health indicator — but treated replicators as static snapshots.
+The original 35-metric compass (v1) was deterministic: fixed scores from public evidence, fixed shocks, fixed longevity extrapolations. It revealed recurring patterns — Rule-13 exploitationism >30% as collapse signal, balanced mutualism/competition in rows 6–8 & 13–14 as health indicator — but treated replicators as static snapshots.
 
 v2 introduces stochastic realism. Real systems drift: small metric fluctuations (±5–10%) arise from environmental noise, measurement uncertainty, or hidden variables. We model this by adding Gaussian noise ε_j ~ N(0, σ) to each metric score across ensemble runs (n=100 per replicator):
 
@@ -18,11 +18,11 @@ Recompute compass coordinates, Rule-13 proxy, longevity estimate, and Row 13 int
 
 Early test cases illustrate the shift:
 - Ant colonies (low intrinsic variance): noise barely perturbs mutualism-dominant grid; longevity distributions remain tight (high stability).
-- Late VOC (high internal variance): noise amplifies parasitism spikes in Row 13; longevity distributions widen dramatically (fragility signal).
+- Late VOC (high internal variance): noise amplifies exploitationism spikes in Row 13; longevity distributions widen dramatically (fragility signal).
 
 **Figure 9.1: Stochastic Drift – Ant Colonies vs Late VOC**  
 ![Figure 9.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_9_1_stochastic_drift.png)  
-**Caption:** Ensemble scatter on compass plane (n=100): ants (tight cluster in high-mutualism zone), late VOC (wide smear toward parasitism/Chaos Boundary sinkhole).
+**Caption:** Ensemble scatter on compass plane (n=100): ants (tight cluster in high-mutualism zone), late VOC (wide smear toward exploitationism/Chaos Boundary sinkhole).
 
 The microscope now sees probability clouds around attractors, not just point estimates.
 
@@ -37,19 +37,19 @@ The CRL currently includes the following reference systems with approximate basi
 - USSR ~1937: Ideological authoritarian regime → Rigid Trap  
 - Nazi Germany ~1942: Totalized mobilization state → Extreme Rigid Trap  
 - Qing Dynasty ~1820: Large inert agrarian empire → Low-energy Mutualism  
-- Late VOC 1780s: Corporate parasitic collapse → Chaos Boundary / Parasitism  
+- Late VOC 1780s: Corporate exploitative collapse → Chaos Boundary / Exploitationism  
 - United States ~1995: Mature market democracy → Mutualism  
 - Bitcoin Network ~2023: Decentralized digital replicator → Competition / emergent Mutualism  
 
 ### 9.2.1 Hard-Locked Canonical Values – Late VOC (1780–1785 snapshot)
 
-The Late VOC during the acute phase of the Fourth Anglo-Dutch War (1780–1785) is the first hard-locked reference for **corporate parasitic collapse** transitioning to the **Chaos Boundary** basin. This snapshot exhibits naval blockade-induced metabolic severance, zero liquidity, endemic servant corruption/private trade dominance, distant oversight failure, and formal institutional shell persistence via bailouts.
+The Late VOC during the acute phase of the Fourth Anglo-Dutch War (1780–1785) is the first hard-locked reference for **corporate exploitative collapse** transitioning to the **Chaos Boundary** basin. This snapshot exhibits naval blockade-induced metabolic severance, zero liquidity, endemic servant corruption/private trade dominance, distant oversight failure, and formal institutional shell persistence via bailouts.
 
 The following hinge metrics are **hard-locked** as calibration centers with ±1 confidence bands (reflecting historical measurement limits and avoiding false precision). All future scorings of the Late VOC snapshot enforce these values.
 
 | Metric                  | Canonical Center | Confidence Band | Justification (locked for reproducibility) |
 |-------------------------|------------------|-----------------|--------------------------------------------|
-| D1 Parasitism           | +9               | 8 – 10          | Endemic servant corruption, particuliere handel, and smuggling reached structural dominance; private extraction exceeded legitimate trade flows under blockade. |
+| D1 Exploitationism           | +9               | 8 – 10          | Endemic servant corruption, particuliere handel, and smuggling reached structural dominance; private extraction exceeded legitimate trade flows under blockade. |
 | F2 Error Repair         | −8               | −7 to −9        | Systemic breakdown: Heeren XVII oversight failed to detect or correct cascading failures (falsified reports, fleet losses, corruption); no meaningful repair capacity. |
 | G1 Cheater Detection    | −8               | −7 to −9        | Internal visibility collapsed; widespread graft went undetected/unpunished at scale, triggering Enforcement Decay shim. |
 | E1 Survival             | +2               | 1 – 3           | Zombie/legal shell persisted via Republic bailouts and charter continuity, but no independent metabolic survival (zombie cap under blockade ceiling). |
@@ -76,12 +76,12 @@ The CRL is a living layer—extensible via evidence and consensus. Future anchor
 
 ## 9.3 Bifurcation Analyzer
 
-Small metric changes can push a replicator across phase boundaries — from mutualism ellipsoid to parasitism sinkhole. The bifurcation scanner sweeps selected metrics (D1 parasitism, G1 detection, C2 variation, H2 ideological monopoly, etc.) in ±20% increments and tracks critical crossings:
+Small metric changes can push a replicator across phase boundaries — from mutualism ellipsoid to exploitationism sinkhole. The bifurcation scanner sweeps selected metrics (D1 exploitationism, G1 detection, C2 variation, H2 ideological monopoly, etc.) in ±20% increments and tracks critical crossings:
 - Rule-13 proxy >30%  
-- Row 13 parasitism intensity >40%  
+- Row 13 exploitationism intensity >40%  
 - Longevity drops below 500 years  
 
-This mirrors a Clausius-Clapeyron-like phase transition: just as physical matter changes state under pressure and temperature, social replicators bifurcate when **metabolic pressure** (parasitism load) exceeds available **governance temperature** (suppression capacity and cost). In the compass, we replace P/V with Parasitism/Variation. A system flips into a parasitism sinkhole when accumulated Rule-13 debt (latent entropy) exceeds metabolic output available to suppress it.
+This mirrors a Clausius-Clapeyron-like phase transition: just as physical matter changes state under pressure and temperature, social replicators bifurcate when **metabolic pressure** (exploitationism load) exceeds available **governance temperature** (suppression capacity and cost). In the compass, we replace P/V with Exploitationism/Variation. A system flips into a exploitationism sinkhole when accumulated Rule-13 debt (latent entropy) exceeds metabolic output available to suppress it.
 
 Example thresholds (preliminary):
 - Late Venice: +5% rigidity (H1–H3) → bifurcation into high-Y trap  
@@ -135,7 +135,7 @@ S(t) = \exp\left( \frac{a}{b} (1 - e^{bt}) \right)
 $$
 
 - **Growth parameter b** — the "Rigidity Penalty"  
-  - In late VOC, b spikes once Rule-13 parasitism crosses 30%, causing hazard to double every ~ln(2)/b years (15–20 years in example fits) until lattice fracture.
+  - In late VOC, b spikes once Rule-13 exploitationism crosses 30%, causing hazard to double every ~ln(2)/b years (15–20 years in example fits) until lattice fracture.
 
 For each ensemble:
 - Median longevity + 95% CI  
