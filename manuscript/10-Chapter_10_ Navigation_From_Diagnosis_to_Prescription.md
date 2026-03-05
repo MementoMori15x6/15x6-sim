@@ -7,7 +7,7 @@ Memento & Mori | December 2025 – ongoing
 Chapters 1–8 built and validated the diagnostic tool: the 15×6 grid, 35-metric compass, stochastic ensembles, and survival fits (Chapter 9). Chapter 10 turns the microscope outward—from "what is happening" to "what can we do about it." We define goal-oriented vectors: explicit, testable directions for steering replicators toward healthier phase-space regions.
 
 Core goals (derived from successor criteria):
-- Suppress Rule-13 parasitism proxy below 20–25% (baseline and post-shock)  
+- Suppress Rule-13 exploitationism proxy below 20–25% (baseline and post-shock)  
 - Maximize variation bandwidth (C2 >7) while preserving boundary integrity (F1)  
 - Minimize rigidity penalty (keep adjusted Y near 0 or mildly positive)  
 - Distribute entropy sinks (≥3 independent channels, ε-Ratio <1.0 long-term)  
@@ -17,13 +17,14 @@ These are not ideological prescriptions—they are thermodynamic targets, measur
 
 **Figure 10.1: Measurement Pipeline – From Raw Evidence to Longevity Proxy**  
 ![Figure 10.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_1_measurement_pipeline.png)  
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 **Caption:** Reproducible matplotlib schematic showing public evidence → 35-metric compass → X,Y coordinates → 15×6 grid → Rule-13 hinge → longevity proxy. Code available in repo/figures/fig_10_1_measurement_pipeline.py
 
 ## 10.2 Defining Navigation Vectors
 
 We propose three primary vectors, each with associated metric adjustments and stress-test checks:
 
-1. **Parasitism Suppression Vector**  
+1. **Exploitationism Suppression Vector**  
    Target: Rule-13 proxy <20% baseline, <30% post-shock  
    Key actions: boost G1 (cheater detection) and D2 (competition)  
    Example delta: +2 to +3 on G1, +1 to +2 on D2  
@@ -48,7 +49,8 @@ Success across vectors is defined by post-shock stability: Rule-13 proxy remains
 
 **Figure 10.2: Ensemble Proxy Trajectories – Stable vs. Shock-Induced Collapse**  
 ![Figure 10.2](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_10_2_ensemble_trajectories.png)  
-**Caption:** Synthetic ensemble traces demonstrating >30% Rule-13 threshold as the hinge for hazard acceleration. Stable trajectories (low parasitism) remain flat; shock-induced crossings trigger exponential decay.
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
+**Caption:** Synthetic ensemble traces demonstrating >30% Rule-13 threshold as the hinge for hazard acceleration. Stable trajectories (low exploitationism) remain flat; shock-induced crossings trigger exponential decay.
 
 ## 10.3 Historical What-If Shocks
 
@@ -61,13 +63,13 @@ We apply the vectors retrospectively to historical cases—not to rewrite histor
   Result: C2 preserved >7, rigidity scalar reduced, longevity extension ~100–150 years
 
 - **USA (1971–present elite capture)**  
-  Vector: Parasitism Suppression  
+  Vector: Exploitationism Suppression  
   Hypothetical: +3 G1 (stronger institutional cheater detection), +2 D2 (competition in governance)  
   Simulated shock: capture concentration (D1/G1 delta -12)  
   Result: proxy held ~22–28% (conservative post-shock), longevity compression reduced by ~25%
 
 - **USSR/NK (cheater suppression failure)**  
-  Vector: Early Parasitism Suppression  
+  Vector: Early Exploitationism Suppression  
   Hypothetical: +4 G1 pre-1980s (robust internal detection), -2 H2 (less ideological monopoly)  
   Simulated shock: internal drift (+10% D1)  
   Result: proxy remained <25%, longevity extended decades
