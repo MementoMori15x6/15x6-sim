@@ -52,9 +52,9 @@ Across scales, the grammar repeats:
 
 - Molecular: viral parasitism; polymerase cooperation
 - Organismal: mycorrhizal mutualism; canopy competition
-- Institutional: trade mutualism; extractive parasitism; geopolitical competition
+- Institutional: trade mutualism; extractive exploitationism; geopolitical competition
 
-Most complex systems mix moves. Durable constitutions bias toward mutualism and regulated competition while suppressing unchecked parasitism. Where parasitism outpaces detection, cooperative equilibria degrade toward system-wide competition.
+Most complex systems mix moves. Durable constitutions bias toward mutualism and regulated competition while suppressing unchecked exploitationism. Where exploitationism outpaces detection, cooperative equilibria degrade toward system-wide competition.
 
 **Figure 1.1 – Exhaustive 3×3 Payoff Matrix**
 
@@ -82,7 +82,7 @@ These rules are not moral prescriptions. They are physical and evolutionary cons
 | 10 | Niche construction & colonization | If you don’t take them, someone else will | Expansion into adjacent possibility space (ε-ratio gains) |
 | 11 | Boundary maintenance | No membrane/identity → dissipation | Identity coherence (F1) |
 | 12 | Error detection & repair | Unrepaired errors → error catastrophe | Decay rates and modular repair capacity |
-| 13 | Cheater detection & suppression | Without immune system, mutualism collapses to parasitism | Parasitic load thresholds and fracture risk (>30% = collapse signal) |
+| 13 | Cheater detection & suppression | Without immune system, mutualism collapses to exploitationism | Parasitic load thresholds and fracture risk (>30% = collapse signal) |
 | 14 | Hierarchical / modular organization | Flat systems cannot scale | Governance density vs. scale (Y-axis) |
 | 15 | Information storage separated from execution | Somatic suicide is the norm; germline (or constitution) survives | Reset capacity and longevity curves |
 
