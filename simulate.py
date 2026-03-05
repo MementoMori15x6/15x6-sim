@@ -12,12 +12,11 @@ import sys
 
 # === CRL HARD ANCHORS & CONSTANTS ===
 # Calibration Reference Layer (CRL) – hard-locked values from manuscript Chapter 9
+
 # Late VOC 1780–1785: canonical corporate parasitic collapse / Chaos Boundary
 # Centers from 7-run multi-model consensus; ±1 bands reflect historical limits
-# Enforced in VOC scorings to stabilize Rule-13 hinge and shims
-
 VOC_ANCHORS = {
-    'D1_Parasitism': {
+    'D1_Exploitationism': {
         'center': 9,
         'band_low': 8,
         'band_high': 10,
@@ -56,7 +55,8 @@ VOC_ANCHORS = {
     }
 }
 
-# Correct USSR_ANCHORS dict (Phase 2 consensus)
+# USSR ~1937 – canonical ideological authoritarian / Rigid Trap reference
+# Centers from 6-run consensus (Claude x2, Grok x2, Gemini x2); ±1 bands
 USSR_ANCHORS = {
     'H2_Ideological_Monopoly': {
         'center': 9,
