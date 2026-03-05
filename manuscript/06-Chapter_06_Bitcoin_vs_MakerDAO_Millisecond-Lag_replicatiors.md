@@ -3,7 +3,7 @@
 
 Memento & Mori | December 2025 – ongoing
 
-The VOC collapse (Chapter 05) diagnosed a classic entropy-lag fracture: six-month signal delays across vast oceans allowed parasitism to accumulate unchecked in Rule-13 rows, culminating in boundary failure and shortened longevity. Digital replicators eliminate that lag—consensus and enforcement occur in milliseconds, promising light-speed resolution of cheater dynamics. Yet speed alone does not guarantee thermodynamic health; secondary fractures can persist in governance and heredity rows.
+The VOC collapse (Chapter 05) diagnosed a classic entropy-lag fracture: six-month signal delays across vast oceans allowed exploitationism to accumulate unchecked in Rule-13 rows, culminating in boundary failure and shortened longevity. Digital replicators eliminate that lag—consensus and enforcement occur in milliseconds, promising light-speed resolution of cheater dynamics. Yet speed alone does not guarantee thermodynamic health; secondary fractures can persist in governance and heredity rows.
 
 We test two canonical cases through the 35-metric compass protocol and 15×6 Master Grid, calibrated on public protocol data and governance records:
 
@@ -27,10 +27,10 @@ Post-penalty coordinates (toy version from [simulate.py](http://simulate.py/)):
 - Bitcoin: X ≈ +8.4, Y ≈ +2.1 (high metabolism, mild libertarian governance)
 - MakerDAO: X ≈ +5.8, Y ≈ +1.2 (solid metabolism, mild governance density with plutocratic tilt)
 
-Rule-13 parasitism proxy:
+Rule-13 exploitationism proxy:
 
 - Bitcoin: ~8–12% (near ants-grade suppression via physics layer)
-- MakerDAO: ~25–35% (stressed; governance vectors elevate parasitism, operating at the exact threshold of potential collapse risk per Chapter 4 warning)
+- MakerDAO: ~25–35% (stressed; governance vectors elevate exploitationism, operating at the exact threshold of potential collapse risk per Chapter 4 warning)
 
 ## 15×6 Master Grid – Provisional Dominance (%)
 
@@ -38,34 +38,34 @@ Rule-13 parasitism proxy:
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_6_1_provisional_15%C3%976_dominance_heatmap%E2%80%93bitcoin_vs_makerdao.png)
 
-*Figure 6.1: Bitcoin vs MakerDAO*  Comparative scorecard showing interaction dominance (%) across the 15 base rules and 6 evolutionary moves.  Left: Bitcoin (Rule-13 parasitism proxy ≈ 8–12%, sharp mutualism/competition core).  Right: MakerDAO (Rule-13 parasitism proxy ≈ 25–35%, stressed splatter with ~30% parasitism dominance in cheater detection row).  Generated from consensus median 35-metric scores via matplotlib/seaborn (script: scripts/ch06_bitcoin_makerdao_heatmap_rc3.py).  Rule 13 highlighted in red. Provisional values; to be refined with full simulate.py outputs and shock scenarios.
+*Figure 6.1: Bitcoin vs MakerDAO*  Comparative scorecard showing interaction dominance (%) across the 15 base rules and 6 evolutionary moves.  Left: Bitcoin (Rule-13 exploitationism proxy ≈ 8–12%, sharp mutualism/competition core).  Right: MakerDAO (Rule-13 exploitationism proxy ≈ 25–35%, stressed splatter with ~30% exploitationism dominance in cheater detection row).  Generated from consensus median 35-metric scores via matplotlib/seaborn (script: scripts/ch06_bitcoin_makerdao_heatmap_rc3.py).  Rule 13 highlighted in red. Provisional values; to be refined with full simulate.py outputs and shock scenarios.
 
 ## Interpretation & Thermodynamic Implications
 
 **Interpretation & Thermodynamic Implications**
 
-The compass places Bitcoin and MakerDAO in distinct regions of phase space. Bitcoin (X ≈ +8.4, Y ≈ +2.1) achieves near-biological Rule-13 fidelity (~8–12% parasitism proxy) by externalizing suppression to thermodynamics (PoW energy cost) — mirroring ant worker policing. The heatmap shows sharp mutualism/competition dominance across rows 6–8 and 13–14, enabling open-ended persistence but at the cost of constrained variation bandwidth (C2 ≈ 5).
+The compass places Bitcoin and MakerDAO in distinct regions of phase space. Bitcoin (X ≈ +8.4, Y ≈ +2.1) achieves near-biological Rule-13 fidelity (~8–12% exploitationism proxy) by externalizing suppression to thermodynamics (PoW energy cost) — mirroring ant worker policing. The heatmap shows sharp mutualism/competition dominance across rows 6–8 and 13–14, enabling open-ended persistence but at the cost of constrained variation bandwidth (C2 ≈ 5).
 
-MakerDAO (X ≈ +5.8, Y ≈ +1.2) operates at the collapse-risk threshold (~25–35% parasitism proxy). Governance-layer holes (token concentration, flash-loan vectors, low turnout) elevate Rule-13 parasitism to ~30%, mirroring late VOC administrative leakage.
+MakerDAO (X ≈ +5.8, Y ≈ +1.2) operates at the collapse-risk threshold (~25–35% exploitationism proxy). Governance-layer holes (token concentration, flash-loan vectors, low turnout) elevate Rule-13 exploitationism to ~30%, mirroring late VOC administrative leakage.
 
 This "physics vs. plutocracy" contrast explains the dynamics: Bitcoin offloads suppression to energy (low internal cost, high fidelity); MakerDAO internalizes it to capital (high adaptability, capture risk). Meme swarms represent the null case: extreme X vitality with zero Rule-13 suppression → immediate entropy plunge.
 
 The chapter — and the book's — central diagnostic question remains:  
-**Can we engineer replicators that stay cheat-resistant (low Rule-13 parasitism) without becoming rigid and stagnant (without losing adaptive economic vitality)?**
+**Can we engineer replicators that stay cheat-resistant (low Rule-13 exploitationism) without becoming rigid and stagnant (without losing adaptive economic vitality)?**
 
 If yes, digital millisecond-lag systems may open a new attractor zone beyond biological and paper-ware constraints. If no, we remain bounded by the same thermodynamic trade-offs that have limited every prior large-scale replicator.
 
 ### 6.3 Provisional Shock Test: Whale Capture on MakerDAO
 
-To probe the structural integrity of the "Digital VOC" at its ~30% Rule-13 parasitism threshold, we simulate a Whale Capture event. This scenario models a governance crisis in which token concentration (e.g., persistent low turnout + large-holder dominance) allows a minority interest to override the protocol's consensus pheromones, mimicking the administrative parasitism that ultimately fractured the late VOC.
+To probe the structural integrity of the "Digital VOC" at its ~30% Rule-13 exploitationism threshold, we simulate a Whale Capture event. This scenario models a governance crisis in which token concentration (e.g., persistent low turnout + large-holder dominance) allows a minority interest to override the protocol's consensus pheromones, mimicking the administrative exploitationism that ultimately fractured the late VOC.
 
 **Simulation Parameters**
 
-We apply a directional shock: increase Rule-13 parasitism dominance from ~30% to 52% in the dominance matrix (reflecting effective hijack of cheater detection via flash-loan vectors or plutocratic voting blocks). This is implemented as a +Δ in parasitism cell of Row 13 while compressing mutualism and competition accordingly.
+We apply a directional shock: increase Rule-13 exploitationism dominance from ~30% to 52% in the dominance matrix (reflecting effective hijack of cheater detection via flash-loan vectors or plutocratic voting blocks). This is implemented as a +Δ in exploitationism cell of Row 13 while compressing mutualism and competition accordingly.
 
 **Key Results**
 
-- **Rule-13 Fracture**: Row 13 shifts to 38% Mutualism vs. 52% Parasitism. This crosses the 50% "VOC Fracture" line — the point where internal friction begins to outpace metabolic returns, historically correlated with accelerated longevity collapse in anchors like late VOC and USSR.
+- **Rule-13 Fracture**: Row 13 shifts to 38% Mutualism vs. 52% Exploitationism. This crosses the 50% "VOC Fracture" line — the point where internal friction begins to outpace metabolic returns, historically correlated with accelerated longevity collapse in anchors like late VOC and USSR.
 - **Entropy-Export Ratio (ε) Plunge**: The proxy ε-ratio drops below the 1.1 kill-switch threshold, placing MakerDAO on a "Jagged Descent" trajectory similar to 1780s VOC or late Rome.
 - **Compass Drift**: Y-axis coordinate deepens from +1.2 to -0.8, signaling a forced shift from "Libertarian Software" governance to "Emergency Suppression" mode as the protocol attempts to claw back control from the capturing entity.
 
@@ -74,7 +74,7 @@ We apply a directional shock: increase Rule-13 parasitism dominance from ~30% to
 | Metric | Bitcoin (Ant Ceiling) | MakerDAO (Baseline) | MakerDAO (Whale Shock) |
 | --- | --- | --- | --- |
 | Enforcement Layer | Physics (Energy) | Governance (Capital) | Governance (Captured) |
-| Rule-13 Parasitism Proxy | ~8% | ~30% | 52% |
+| Rule-13 Exploitationism Proxy | ~8% | ~30% | 52% |
 | Lattice State | Stable / Rigid | Fragile / Flexible | Terminal Fracture |
 
 The shock confirms Chapter 06's central thesis: millisecond-lag does not inherently solve the Reach vs. Fidelity paradox. Digital speed allows MakerDAO to adapt its niche faster than paper-ware empires like the VOC, but when governance "pheromones" (tokens) are tradable and concentratable, the cheater-detection layer remains vulnerable to the same metabolic leakage. Bitcoin sidesteps this by making suppression a thermodynamic cost that cannot be voted away — but at the price of low-variation metabolism that confines it to a narrow environmental niche.
@@ -89,7 +89,7 @@ To complete the diagnostic spectrum, we consider meme swarms (e.g., viral tokens
 
 - X ≈ +9 to +10 (explosive short-term metabolism: viral spread, speculative inflows, instant niche creation)
 - Y ≈ 0 to -2 (minimal governance density; no centralized suppression, only social momentum)
-- Rule-13 parasitism proxy ≈ 80–100% (no structural cheater detection; pumpers extract value via exit liquidity, rug pulls, or attention evaporation)
+- Rule-13 exploitationism proxy ≈ 80–100% (no structural cheater detection; pumpers extract value via exit liquidity, rug pulls, or attention evaporation)
 
 **15×6 Lattice Signature**
 
@@ -115,10 +115,10 @@ We have now mapped three points on the lag-fidelity spectrum:
 
 This spectrum leaves us with the final scaling challenge of human replicators: the nation-state. Does a global superpower function as a high-fidelity ant colony capable of exporting the entropy of hundreds of millions of agents, or is it a scaled-up VOC approaching a Rule-13 fracture that no software patch can repair?
 
-The United States — a 250-year-old democratic republic managing 330 million participants — becomes the live diagnostic subject for the next chapter. Can its governance density sustain adaptive economic vitality without crossing the 30% parasitism threshold that has felled every prior large-scale replicator? Or are we witnessing the early stages of a thermodynamic trap no constitution can rewrite?
+The United States — a 250-year-old democratic republic managing 330 million participants — becomes the live diagnostic subject for the next chapter. Can its governance density sustain adaptive economic vitality without crossing the 30% exploitationism threshold that has felled every prior large-scale replicator? Or are we witnessing the early stages of a thermodynamic trap no constitution can rewrite?
 
 ### Transition to Chapter 07 – The Hegemon Test
 
-Chapter 06 shows that digital replicators can achieve low lag and high fidelity in narrow niches (Bitcoin ~8–12% parasitism, MakerDAO ~25–35%), but meme swarms collapse to zero Rule-13 and pure entropy plunge. The grid rewards fidelity and cheater suppression at small-to-medium scales, but the question remains: can these dynamics hold at planetary agent count and global energetic coupling?
+Chapter 06 shows that digital replicators can achieve low lag and high fidelity in narrow niches (Bitcoin ~8–12% exploitationism, MakerDAO ~25–35%), but meme swarms collapse to zero Rule-13 and pure entropy plunge. The grid rewards fidelity and cheater suppression at small-to-medium scales, but the question remains: can these dynamics hold at planetary agent count and global energetic coupling?
 
 Chapter 07 scales the diagnostic to the current historical apex: nation-state hegemons. The United States (post-1971 dollar-reserve era) and the People's Republic of China (post-1978 Reform & Opening era) operate as high-metabolism, high-fidelity systems exporting entropy at unprecedented volume. We apply the 35-metric compass and 15×6 grid to map their baseline positions, Rule-13 health, and stress-test responses to core shocks (de-dollarization for USA, rigidity cascade for PRC). The fork is clear: soft export via market vitality vs hard containment via suppression/infrastructure. Both already exceed the >30% provisional collapse threshold in baseline or under modest stress — the planetary replicator appears trapped between drift and brittleness.
