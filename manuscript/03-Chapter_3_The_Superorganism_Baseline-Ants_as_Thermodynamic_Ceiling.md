@@ -2,7 +2,7 @@
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch03_ants_in_jungle03.png)
 Memento & Mori | December 2025 – ongoing
 
-Replicating systems persist by exporting entropy faster than they accumulate it. Chapter 2 traced Rome's cascade: mutualism eroded, Rule-13 parasitism crossed 30%, governance density exploded, and the system collapsed. To diagnose genuine health, we need a biological control group — a replicator that achieves near-perfect efficiency with suppression hard-wired as hardware, not software.
+Replicating systems persist by exporting entropy faster than they accumulate it. Chapter 2 traced Rome's cascade: mutualism eroded, Rule-13 exploitationism crossed 30%, governance density exploded, and the system collapsed. To diagnose genuine health, we need a biological control group — a replicator that achieves near-perfect efficiency with suppression hard-wired as hardware, not software.
 
 The stable mature eusocial ant colony (Formicinae and Atta species) is that control group. In this superorganism, reproduction is queen-monopolized, workers are sterile, and high relatedness (haplodiploidy, r ≈ 0.75 among sisters) aligns every action with colony fitness. Coordination emerges from chemical and behavioral hardware, not negotiated institutions.
 
@@ -17,20 +17,20 @@ Eusocial ants are not collections of individuals; they are superorganisms where 
 This structure sets the physical limit: individual sacrifice maximizes system longevity. No human polity has matched this baseline without paying steep institutional costs.
 
 **Figure 3.1: 15×6 Master Grid – Ants Consensus Baseline (Perfect Lattice)**  
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_3_1_%20ants_consensus_baseline_perfect_lattice.png)
+![Figure 3.1](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_3_1_%20ants_consensus_baseline_perfect_lattice.png)
 
-Vertical Mutualism dominance (90–100% in column 0) with sharp Rule-13 suppression anchor (**98% Mutualism / 2% parasitism bleed**, proxy 0.6%). Y ≈ -2.18 (innate/free governance density). The vertical spine of Mutualism reflects hardware suppression at near-zero institutional cost — the thermodynamic ceiling for persistence.  
+Vertical Mutualism dominance (90–100% in column 0) with sharp Rule-13 suppression anchor (**98% Mutualism / 2% exploitationism bleed**, proxy 0.6%). Y ≈ -2.18 (innate/free governance density). The vertical spine of Mutualism reflects hardware suppression at near-zero institutional cost — the thermodynamic ceiling for persistence.  
 [Source 35-metric scores: Ants Consensus Baseline (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_eusocial_ant_colony.csv)
 
 ## 3.2 Suppression Hardware – The Low-Cost Rule 13 Miracle
 
-Rule 13 (cheater detection & suppression) is the ledger's critical row. In human systems it is software — expensive and leaky (Rome >30% parasitism). In ants it is hardware: queen pheromones suppress worker ovaries, cuticular hydrocarbons detect non-nestmates, worker policing destroys unauthorized eggs with >95% efficiency.
+Rule 13 (cheater detection & suppression) is the ledger's critical row. In human systems it is software — expensive and leaky (Rome >30% exploitationism). In ants it is hardware: queen pheromones suppress worker ovaries, cuticular hydrocarbons detect non-nestmates, worker policing destroys unauthorized eggs with >95% efficiency.
 
-Consensus G1 cheater detection: -9.5 → Rule-13 parasitism proxy ≈ 0.6% (biology-tuned). The grid shows 98% Mutualism dominance in Row 13 with only 2% parasitism bleed — suppression is automatic, not negotiated. The suppression cost is near-zero — no propaganda, no prisons, no purge cycles needed beyond ongoing policing.
+Consensus G1 cheater detection: -9.5 → Rule-13 exploitationism proxy ≈ 0.6% (biology-tuned). The grid shows 98% Mutualism dominance in Row 13 with only 2% exploitationism bleed — suppression is automatic, not negotiated. The suppression cost is near-zero — no propaganda, no prisons, no purge cycles needed beyond ongoing policing.
 
 ## 3.3 Harvest & Niche – Negative Entropy Mastery
 
-Row 1 (harvest negative entropy) is the engine of persistence. Rome harvested externally through conquest and tribute — high-metabolism, high-risk, ultimately brittle as parasitism accumulated. Ants harvest internally through extreme, low-metabolism niche construction: Atta fungal gardens ventilated to 8 m depth, Formica thermoregulated mounds, pheromone trails reshaping resource landscapes over decades.
+Row 1 (harvest negative entropy) is the engine of persistence. Rome harvested externally through conquest and tribute — high-metabolism, high-risk, ultimately brittle as exploitationism accumulated. Ants harvest internally through extreme, low-metabolism niche construction: Atta fungal gardens ventilated to 8 m depth, Formica thermoregulated mounds, pheromone trails reshaping resource landscapes over decades.
 
 This internal harvest prioritizes persistence over expansion. A1–A3 all -10 reflect zero markets, property, or profit motive — resources flow via trophallaxis and collective need, maximizing entropy export without individual accumulation. The lattice shows mutualism dominance in rows 1–5 (harvest basics) and 6–8 (reproduction/adaptation), with minimal bleed — the system is engineered for long-duration stability rather than rapid growth.
 
@@ -40,7 +40,7 @@ This internal harvest prioritizes persistence over expansion. A1–A3 all -10 re
 | --- | --- | --- | --- | --- | --- |
 | 1 | Harvest negative entropy | -10 | ~90–100% | Low-metabolism internal harvest (trophallaxis, collective foraging) | High-metabolism external conquest/tribute |
 | 10 | Niche construction & colonization | -4.8 | ~52–85% | Persistent engineering (fungal gardens, trails, mounds) | Expansion via military colonization (high risk) |
-| 6–8 | Resource/Reproduction/Adaptation | -4 to +1 | ~63–85% | Mutualism core — reproduction and adaptation without conquest | Reproduction/adaptation stressed by parasitism |
+| 6–8 | Resource/Reproduction/Adaptation | -4 to +1 | ~63–85% | Mutualism core — reproduction and adaptation without conquest | Reproduction/adaptation stressed by exploitationism |
 
 Unlike Rome's external entropy raids (high X but fragile Y), ants' low-metabolism strategy (internal niche engineering) allows sustained negative entropy harvest across generations. This is the second pillar of the perfect lattice: harvest efficiently, persist indefinitely.
 
@@ -70,8 +70,8 @@ To test the lattice's resilience, we apply a queen death shock: -10 delta on L1 
 
 The result is a rapid phase transition:
 
-- Row 13 fractures from 98% Mutualism / 2% bleed to 70% Mutualism / 30% Parasitism — crossing the >30% collapse risk threshold.
-- Parasitism bleed spreads to harvest rows (1–5) and functional rows (6–10), reaching 10–20% in multiple places.
+- Row 13 fractures from 98% Mutualism / 2% bleed to 70% Mutualism / 30% Exploitationism — crossing the >30% collapse risk threshold.
+- Exploitationism bleed spreads to harvest rows (1–5) and functional rows (6–10), reaching 10–20% in multiple places.
 - Mutualism dominance weakens across the grid — the vertical spine splatters.
 
 This demonstrates the brittleness of biological hardware: the free Y-axis (-2.18 baseline) is only free while the queen is alive. Remove the central signal, and suppression cost explodes — the lattice collapses from perfect order to terminal entropy in a single step.
@@ -79,16 +79,16 @@ This demonstrates the brittleness of biological hardware: the free Y-axis (-2.18
 In contrast, human systems like Rome exhibit slow, distributed drift toward cascade. Ants are efficient but fragile; humans are leaky but redundant. The ledger's ceiling is high, but the drop is steep when the anchor fails.
 
 **Figure 3.4: 15×6 Master Grid – Ants Baseline with Queen Death Shock**  
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_3_4_ants_queen_death_shock_lattice.png)
+![Figure 3.4](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_3_4_ants_queen_death_shock_lattice.png)
 
-Post-shock grid: **Rule 13 fractures to 70% Mutualism / 30% Parasitism** (crossing >30% collapse threshold; baseline was 98%/2%). Bleed spreads to harvest rows (1–5) and functional rows (6–10) at 10–20%. Demonstrates brittleness of biological hardware when the central pheromone/reproductive anchor fails — suppression cost explodes from near-zero to terminal.  
+Post-shock grid: **Rule 13 fractures to 70% Mutualism / 30% Exploitationism** (crossing >30% collapse threshold; baseline was 98%/2%). Bleed spreads to harvest rows (1–5) and functional rows (6–10) at 10–20%. Demonstrates brittleness of biological hardware when the central pheromone/reproductive anchor fails — suppression cost explodes from near-zero to terminal.  
 [Source 35-metric scores: Ants Queen Death Shock (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_ants_queen_death_shock.csv)  
 
 ## 3.5 The Benchmark – The Perfect Lattice
 
 The 15×6 consensus grid is the ledger's zero-point: near-vertical Mutualism dominance (90–100% in column 0), sharp suppression anchor at Row 13 (98% Mutualism / 2% bleed), minimal splatter elsewhere. Rule-13 proxy 0.6%, longevity window ~97–180 years (tuned) — roughly equivalent to 1,000–2,000 human years if scaled by metabolic rate and generation turnover.
 
-This lattice is not an accident; it is the thermodynamic ideal. Every human system that follows adds splatter — and every added percentage point of parasitism or governance cost shortens the window.
+This lattice is not an accident; it is the thermodynamic ideal. Every human system that follows adds splatter — and every added percentage point of exploitationism or governance cost shortens the window.
 
 [Figure 3.1: The Perfect Lattice (Ant Baseline](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_3_1_%20ants_consensus_baseline_perfect_lattice.png)
 From this ceiling we descend into the noisy, high-entropy world of human replication — beginning with Venice's attempt to engineer an "artificial lattice" through institutional pheromones (Chapter 4).
