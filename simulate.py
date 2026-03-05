@@ -13,7 +13,7 @@ import sys
 # === CRL HARD ANCHORS & CONSTANTS ===
 # Calibration Reference Layer (CRL) – hard-locked values from manuscript Chapter 9
 
-# Late VOC 1780–1785: canonical corporate parasitic collapse / Chaos Boundary
+# Late VOC 1780–1785: canonical corporate exploitative collapse / Chaos Boundary
 # Centers from 7-run multi-model consensus; ±1 bands reflect historical limits
 VOC_ANCHORS = {
     'D1_Exploitationism': {
@@ -162,13 +162,14 @@ def compute_exploitationism_proxy(scores):
     return round(max(10, min(100, total)), 1)
 
 def build_15x6_matrix(scores):
-    """STUB – replace with your real 15×6 dominance matrix builder.
-       This stub returns a dummy matrix so the script runs without error."""
-    # Dummy 15x6 matrix (replace with real logic)
-    dummy_matrix = np.random.uniform(0, 20, (15, 6))
-    dummy_matrix = dummy_matrix / dummy_matrix.sum(axis=1, keepdims=True) * 100
-    print("Warning: Using dummy 15x6 matrix (build_15x6_matrix stub)")
-    return dummy_matrix
+    # Placeholder: map metric polarities to interaction dominance (expand later)
+    matrix = np.zeros((15, 6))
+    # Example: Row 13 (cheater suppression) heavy parasitism if D1 high & G1 low
+    parasitism_load = max(0, scores[9] / 10) * 0.6 + max(0, ( -scores[15] / 10) * 0.4)
+    matrix[12, 2] = parasitism_load  # index 2 = Parasitism column, assuming order +/+, +/0, +/-, -/-, 0/-, 0/0
+    # Normalize etc. – stub for now
+    matrix = matrix / (matrix.sum(axis=1, keepdims=True) + 1e-10) * 100
+    return matrix
 
 def apply_shock(scores, shock_type="none"):
     """Apply shock deltas."""
