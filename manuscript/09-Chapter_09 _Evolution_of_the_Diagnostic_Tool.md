@@ -39,7 +39,15 @@ The CRL currently includes the following reference systems with approximate basi
 - Qing Dynasty ~1820: Large inert agrarian empire → Low-energy Mutualism  
 - Late VOC 1780s: Corporate exploitative collapse → Chaos Boundary / Exploitationism  
 - United States ~1995: Mature market democracy → Mutualism  
-- Bitcoin Network ~2023: Decentralized digital replicator → Competition / emergent Mutualism  
+- Bitcoin Network ~2023: Decentralized digital replicator → Competition / emergent Mutualism
+
+  ### Calibration Reference Layer (CRL) Anchors
+
+| Anchor Name              | Snapshot Period       | Key Enforced Metrics                  | Proxy % | X / Y (post-scaling) | Zone                  | Longevity Window      | Note                                                                 |
+|--------------------------|-----------------------|---------------------------------------|---------|----------------------|-----------------------|-----------------------|----------------------------------------------------------------------|
+| Chaos Boundary (VOC)     | Late 1780–1785       | D1=9, G1=-8, F2=-8, E1=2             | ~65%    | X negative, Y moderate | Chaos Boundary        | Short (10–40 years)   | Unchecked parasitism → entropy export failure                        |
+| Rigid Trap (USSR)        | 1937 (Great Purge peak) | D1=9, G1=-8, H2/H3/L2/L3=9–10      | 68.8%   | X ≈0.04, Y=2.05      | Rigid Trap (Brittle)  | 30–80 years           | Max suppression + weaponized detection → brittleness                 |
+| Mutualism Reference (Provisional) | USA 1787–1789 (Constitution) | A1=+10, D1=-6, G1=+8, C2=+9, H3=-7, L2=-9 | ~20–30% | X positive, Y low-mod | Dynamic Mutualism     | 150–300+ years        | Balanced mutualism/competition, strong error repair — provisional; PRs welcome to refine scoring |
 
 ### 9.2.1 Hard-Locked Canonical Values – Late VOC (1780–1785 snapshot)
 
