@@ -62,7 +62,7 @@ This chapter applies the compass to three Roman phases, demonstrating how it rev
 The late Republic is a textbook high-metabolism separatrix state: conquest niches (Rule 10) export massive negative entropy, buffering internal decay until coordination failure cascades.
 
 **Figure 2.1: Late Roman Republic 15×6 Heatmap**  
-![](https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/figures/fig_2_1_late_republic_heatmap.png)
+![](https://raw.github.com/MementoMori15x6/15x6-sim/main/figures/fig_2_1_late_republic_heatmap.png)
 
 Consensus heatmap of the late Republic (133–27 BCE) reveals a classic separatrix splatter: high variance across interaction moves, with **Rule 13 row flat at ~18.3 % across all moves (exploitationism only 8.6 %)** — diagnostic of lost cheater-detection specificity (inability to distinguish legitimate variation from factional cannibalization). Export rows (1, 6, 10) remain strong (~35–43% mutualism/competition), but governance erosion flattens the grid overall. Entropy export ratio ≈ 7.82.
 [Source 35-metric scores Roman Republic 133 27 bce (CSV)](https://github.com/MementoMori15x6/15x6-sim/blob/main/data/35_metrics_roman_republic_133_27_bce.csv)
