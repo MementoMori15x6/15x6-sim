@@ -59,9 +59,7 @@ Most complex systems mix moves. Durable constitutions bias toward mutualism and 
 **Figure 1.1 – Exhaustive 3×3 Payoff Matrix**
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_1_1_payoff_matrix_updated.png)
-
 [](https://www.notion.so)
-
 *(Source: github.com/MementoMori15x6/15x6-sim/blob/main/scripts/fig_1_1_payoff_matrix_updated.py)*
 
 ### 1.3 The Fifteen Universal Rules: Constraints on Persistence
