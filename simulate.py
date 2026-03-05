@@ -94,18 +94,18 @@ print("USSR_ANCHORS loaded successfully (dict with", len(USSR_ANCHORS), "entries
 print(USSR_ANCHORS.keys())  # Should print the keys
 
 # Rule-13 proxy function (v1.7 baseline – D1-dominant, aligned with consensus)
-def compute_parasitism_proxy(scores):
+def compute_exploitationism_proxy(scores):
     """
-    Rule-13 leakage proxy: systemic energy lost to parasitism/rent/corruption.
+    Rule-13 leakage proxy: systemic energy lost to exploitationism/rent/corruption.
     Tuned to ~64.8% on canonical Late VOC hinge (D1=9, G1=-8) after 7-run consensus (~62% mean).
     D1 is primary driver; G1 penalty disabled for simplicity and alignment (can re-enable lightly later).
     Metric indices (0-based):
-    - d1 = scores[9]   # D1 Parasitism
+    - d1 = scores[9]   # D1 Exploitationism
     - g1 = scores[15]  # G1 Cheater Detection
     """
-    d1 = scores[9]   # Parasitism (+ = high leakage)
+    d1 = scores[9]   # Exploitationism (+ = high leakage)
 
-    # Primary driver: parasitism load (positive D1 contributes positively)
+    # Primary driver: exploitationism load (positive D1 contributes positively)
     base_from_d1 = max(0, d1 * 7.2)           # 9 * 7.2 = 64.8 → target alignment
 
     # Optional light detection penalty (disabled by default)
@@ -151,7 +151,7 @@ def compute_compass(scores):
     y = np.mean(penalized_gov) / 10 * 3.0
     return x, y
 
-def compute_parasitism_proxy(scores):
+def compute_exploitationism_proxy(scores):
     d1 = scores[9]
     g1 = scores[15]
     
@@ -207,7 +207,7 @@ def apply_shock(scores, shock_type="none"):
     shocked[gov_indices] -= 7.0  # was -4.0 → Y should drop toward -2.5 or lower
     
     # 3. Rule-13 fracture – elite impunity + detection failure
-    shocked[9]  = -7.5           # D1 stronger parasitism (was -6.5)
+    shocked[9]  = -7.5           # D1 stronger exploitationism (was -6.5)
     shocked[15] = 0.5            # G1 almost fails (was 1.0)
     
     # Optional: direct C2 variation choke (kills adaptability)
@@ -237,7 +237,7 @@ if __name__ == "__main__":
     scores = apply_shock(baseline_scores, args.shock)
 
     x, y = compute_compass(scores)
-    parasitism_pct = compute_parasitism_proxy(scores)
+    exploitationism_pct = compute_exploitationism_proxy(scores)
     
     # BUILD & SAVE MATRIX (placed correctly)
     matrix = build_15x6_matrix(scores)  # stub or real function
@@ -245,12 +245,12 @@ if __name__ == "__main__":
     print(f"Matrix saved: matrix_{args.system}_{args.shock}.csv")
 
     zone = "Stressed Mutualism" if x > 0 and y > 0 else "Boundary Saturation"
-    longevity = "80–140 years" if parasitism_pct < 50 else "30–80 years (compressed)"
+    longevity = "80–140 years" if exploitationism_pct < 50 else "30–80 years (compressed)"
 
     print("\n" + "="*60)
     print(f"RESULTS: {args.system.upper()} | {args.shock.upper()}")
     print(f"Compass X: {x:.2f}    Y: {y:.2f}")
-    print(f"Rule-13 Parasitism Proxy: {parasitism_pct:.1f}%")
+    print(f"Rule-13 Exploitationism Proxy: {exploitationism_pct:.1f}%")
     print(f"Zone: {zone}")
     print(f"Estimated Remaining Longevity: {longevity}")
     print("="*60 + "\n")
