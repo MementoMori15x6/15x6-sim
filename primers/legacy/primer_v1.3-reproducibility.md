@@ -1,3 +1,10 @@
+<!--
+  LEGACY VERSION – renamed from v1.1 to v1.3 for accuracy
+  This is a transitional reproducibility-enhanced release.
+  Features: framing anchors (tariffs/border/etc.), strict temp=0/output rules, primary-source rationales.
+  Superseded by v1.4+ shims and Anchor-First/CRL architecture.
+  Use only for historical comparison or reproducing early runs (Trump 2025, VOC 1780s, etc.).
+-->
 # Board Scoring Primer v1.1 – Interactive Polity Diagnostic (Reproducibility Patch)
 (Project “The Board – Political Thermodynamics” | Repo: https://github.com/MementoMori15x6/15x6-sim)
 
