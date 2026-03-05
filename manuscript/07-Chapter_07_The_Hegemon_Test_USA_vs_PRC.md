@@ -33,6 +33,7 @@ The 15×6 Master Grid reveals the underlying interaction dominance:
 
 **Figure 7.3: USA vs. PRC RC1 Diagnostic – 15×6 Master Grid**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_3_usa_vs_prc_rc1_heatmap.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Left: USA – Stressed Mutualism (balanced mutualism/competition in metabolic rows, moderate Rule-13 exploitationism).  
 Right: PRC – Boundary Saturation (suppression/amensalism dominance in governance rows, higher Rule-13 exploitationism).  
 Critical Rule 13: >30 % exploitationism → potential collapse risk.  
@@ -75,6 +76,7 @@ Neither maintains Rule-13 <30% **and** C2 >5–6 indefinitely. The planetary rep
 ## 7.6 Banked Shock 1: De-Dollarization Delta (USA)
 **Figure 7.6: USA Baseline vs De-Dollarization Shock – 15×6 Master Grid**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_6_usa_baseline_vs_dedollarization_shock.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Shock removes USD reserve entropy sink → metabolic rows darken, Rule-13 saturates exploitationism/competition dominance (71.5%), governance rows pull toward suppression/amensalism. Layout matched to Fig. 7.3 for consistency.  
 *Shock deltas and post-shock grids calibrated via CRL standards (Chapter 9 / Appendix A).*
 
@@ -96,6 +98,7 @@ Without the global sink, soft drift accelerates into visible, self-reinforcing c
 ## 7.7 Banked Shock 2: Rigidity Collapse Delta (PRC)
 **Figure 7.7: PRC Baseline vs Rigidity Collapse Shock – 15×6 Master Grid**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_7_7_prc_baseline_vs_rigidity_collapse.png)
+*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Shock simulates signal-cascade failure or external access loss. Suppression already saturates lattice → further rigidity tightens noose faster, not wider. Layout matched to Fig. 7.3 for consistency.  
 *Shock deltas and post-shock grids calibrated via CRL standards (Chapter 9 / Appendix A).*
 
