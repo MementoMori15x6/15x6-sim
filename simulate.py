@@ -164,12 +164,13 @@ def compute_exploitationism_proxy(scores):
 def build_15x6_matrix(scores):
     # Placeholder: map metric polarities to interaction dominance (expand later)
     matrix = np.zeros((15, 6))
-    # Example: Row 13 (cheater suppression) heavy parasitism if D1 high & G1 low
-    parasitism_load = max(0, scores[9] / 10) * 0.6 + max(0, ( -scores[15] / 10) * 0.4)
-    matrix[12, 2] = parasitism_load  # index 2 = Parasitism column, assuming order +/+, +/0, +/-, -/-, 0/-, 0/0
+    # Example: Row 13 (cheater suppression) heavy exploitationism if D1 high & G1 low
+    exploitationism_load = max(0, scores[9] / 10) * 0.6 + max(0, ( -scores[15] / 10) * 0.4)
+    matrix[12, 2] = exploitationism_load  # index 2 = Exploitationism column, assuming order +/+, +/0, +/-, -/-, 0/-, 0/0
     # Normalize etc. – stub for now
     matrix = matrix / (matrix.sum(axis=1, keepdims=True) + 1e-10) * 100
     return matrix
+    print(f"Loaded {len(baseline_scores)} scores from {csv_path}")
 
 def apply_shock(scores, shock_type="none"):
     """Apply shock deltas."""
