@@ -56,6 +56,41 @@ VOC_ANCHORS = {
     }
 }
 
+# USSR ~1937 – canonical ideological authoritarian / Rigid Trap reference
+# Centers from 4-run consensus (Claude x2, Grok 4, Gemini 3 Flash); ±1 bands
+USSR_ANCHORS = {
+    'H2_Ideological_Monopoly': {
+        'center': 9,
+        'band_low': 8,
+        'band_high': 10,
+        'note': 'Marxism-Leninism-Stalinism sole permissible framework; all alternatives eliminated'
+    },
+    'H3_Dissent_Suppression': {
+        'center': 9,
+        'band_low': 8,
+        'band_high': 10,
+        'note': 'Great Purge peak; NKVD terror and denunciation culture at maximum density'
+    },
+    'L2_Leadership_Cult': {
+        'center': 9,
+        'band_low': 8,
+        'band_high': 10,
+        'note': 'Stalin cult at maximum intensity; personal infallibility embedded in public culture'
+    },
+    'L3_Purge_Cycles': {
+        'center': 9,
+        'band_low': 8,
+        'band_high': 10,
+        'note': 'Great Purge operational peak; regular violent elite turnover as governance mechanism'
+    },
+    'G1_Cheater_Detection': {
+        'center': -8,
+        'band_low': -9,
+        'band_high': -7,
+        'note': 'Denunciation weaponized; NKVD quotas incentivize false positives over genuine detection'
+    }
+}
+
 # Rule-13 proxy function (v1.7 baseline – D1-dominant, aligned with consensus)
 def compute_parasitism_proxy(scores):
     """
