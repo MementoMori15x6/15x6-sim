@@ -1,12 +1,7 @@
-# The Board – Political Thermodynamics (v1.9 – Active CRL Enforcement & Rigidity Scaling, March 2026)
-# Co-authors: Memento & Mori
-# Major updates:
-#   - Active CRL anchor enforcement (overrides CSV deviations for canonical hinges)
-#   - Rigidity multiplier (R = Vs * Up) now scales Y for brittle regime detection
-#   - Light G1 penalty in Rule-13 proxy for weak cheater detection boost (~69% on USSR 1937)
-#   - Debug prints for enforcement & proxy calc (remove/comment before production)
-#   - Zone classification upgraded to detect Rigid Trap when Y > 1.5
-#   - Tested: USSR 1937 snapshot → X=0.04, Y=2.05, Rule-13=68.8%, Rigid Trap, 30–80 yr longevity
+# The Board – Political Thermodynamics
+# simulate.py v2.0 – March 2026
+# Major updates: full CRL enforcement by filename, rigidity multiplier active, scalar-safe X/Y calc, debug prints for R/vs/up
+# Tested: triangulation anchors (USA_1789, USSR_1937, VOC golden/late) complete with distinct collapse signatures
 # CORE GUIDELINES:
 # - All changes are explicit, reproducible, and open to PRs/refinement
 # - CRL anchors (VOC chaos boundary, USSR rigid trap) are hard locks — do not soften
