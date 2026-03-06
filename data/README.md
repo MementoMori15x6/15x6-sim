@@ -1,5 +1,10 @@
 # /data/ — 35-Metric Compass Score Files
 
+### USSR 1937 Snapshot (Rigid Trap Canonical)
+Run: `python simulate.py --system ussr_1937-snapshot --shock none`
+Expected (v1.9 with enforcement): X≈0.04, Y≈2.05, Rule-13 proxy≈68.8%, Zone=Rigid Trap, Longevity=30–80 years (compressed)
+CSV: data/35_metrics_ussr_1937-snapshot-present_consensus.csv (median scores from 6 LLM runs)
+
 This folder contains all input CSVs for the 35-metric compass protocol (Chapter 2). Each file scores a replicating system (biological, institutional, algorithmic) in baseline or shock state, following the exact column structure:
 
 - **Metric** (A1–M3 order)
