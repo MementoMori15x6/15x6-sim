@@ -1,5 +1,6 @@
 # /data/ — 35-Metric Compass Score Files
 
+**The 3 Triangulation Anchors for symmetry and clarity.**
 ### Provisional Mutualism Anchor (USA 1787–1789)
 This consensus gives us a strong, evidence-based "healthy replicator" reference:
 
