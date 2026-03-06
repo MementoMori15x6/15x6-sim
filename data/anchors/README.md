@@ -21,6 +21,23 @@ To run: python simulate.py data/anchors/usa_1789_anchor.csv
 All provisional — welcome PRs for new anchors or refinements.
 ## Quick Reference Diagnostics (from latest simulate.py run)
 
+## Triangulation Set – Canonical Anchors (March 2026 local runs)
+
+Purpose: Fixed reference points to bracket thermodynamic attractors and test drift.
+
+| Anchor                     | X     | Y      | R      | Rule-13 % | Systemic State              | Longevity Estimate          | Path / Hinge Signature |
+|----------------------------|-------|--------|--------|-----------|-----------------------------|-----------------------------|------------------------|
+| USA_1789 (enforced)        | 0.59  | -0.02  | ~0.00  | 10.0%     | Mutualism/Competition       | 150+ yrs (Low Parasitism)   | Healthy baseline: balanced mutualism, strong G rows, minimal suppression cost |
+| VOC Golden Age (raw)       | 0.29  | -0.43  | 0.0000 | 18.0%     | Mutualism/Competition       | 150+ yrs (Low Parasitism)   | Commercial zenith: low governance density, functional cheater detection |
+| VOC Late Decay (enforced)  | 0.10  | -0.43  | 0.0000 | 64.8%     | Rigid Trap (Brittle Regime) | 30–80 yrs (High Parasitism) | **Low-Y decay path**: pure metabolic/exploitation overload (D1↑, G1/F2↓), no rigidity boost |
+| USSR_1937 (enforced)       | 0.04  | 2.78   | 0.7425 | 64.8%     | Rigid Trap (Brittle Regime) | 30–80 yrs (High Parasitism) | **High-Y suppression path**: governance density overload (H/L maxed), strong rigidity penalty |
+
+Key observations:
+- Two distinct collapse paths to same Rule-13 % / longevity: low-Y exploitation sink (VOC late) vs high-Y suppression trap (USSR).
+- Rule-13 >60% → brittle regime, regardless of Y density.
+- Rigidity R=0 on VOC decay → confirms cheater detection failure alone can collapse a system without governance overload.
+- Health indicator: USA_1789 and VOC golden cluster in low-proxy, low-R, near-neutral/negative Y zone → extended persistence correlates with balanced mutualism/competition and minimal rigidity.
+
 | Anchor                  | X     | Y     | Dominant Zone | Rule-13 Expl % | Longevity Est. |
 |-------------------------|-------|-------|---------------|----------------|----------------|
 | usa_1789_anchor        | ~?   | ~?   | Healthy Mutualist? | <20%?         | High (200+ yrs?) |
