@@ -4,13 +4,13 @@
 ### Provisional Mutualism Anchor (USA 1787–1789)
 This consensus gives us a strong, evidence-based "healthy replicator" reference:
 
-Rule-13 leakage ~24% (low parasitism, strong cheater detection via checks/balances)
+Rule-13 leakage ~24% (low exploitationism, strong cheater detection via checks/balances)
 Positive X (market/property tilt), low-moderate Y (decentralized governance, no brittleness)
 High modularity/variation (federalism), robust error repair (separation of powers)
 Zone: Dynamic Mutualism
 Longevity: 200–400+ years (matches observed persistence)
 
-This completes the triangulation beautifully: VOC chaos (high parasitism), USSR rigid trap (high suppression), USA mutualism (balanced +/+ dominance, low leakage). The golden path signal is now measurable — win-win interactions, robust detection, adaptive variation → extended persistence.
+This completes the triangulation beautifully: VOC chaos (high exploitationism), USSR rigid trap (high suppression), USA mutualism (balanced +/+ dominance, low leakage). The golden path signal is now measurable — win-win interactions, robust detection, adaptive variation → extended persistence.
 
 ### USSR 1937 Snapshot (Rigid Trap Canonical) Anchor
 Run: `python simulate.py --system ussr_1937-snapshot --shock none`
@@ -34,14 +34,14 @@ F2 Error Repair = -8
 E1 Survival = +2
 (Provisional secondaries: D2 Competition = -8, A2 Market Allocation = -6)
 Rule-13 Proxy: ~65% (high systemic leakage to endemic corruption, private trade abuse, and undetected graft)
-Compass Position (post-enforcement): X deeply negative (metabolic collapse), Y moderate (governance density insufficient to suppress parasitism)
+Compass Position (post-enforcement): X deeply negative (metabolic collapse), Y moderate (governance density insufficient to suppress exploitationism)
 Zone: Chaos Boundary (Exploitationism Sinkhole)
 Longevity Window: Short (10–40 years from hinge; actual dissolution 1799)
-Health Read: The late VOC represents the canonical exploitationism sinkhole — unchecked D1 parasitism (particuliere handel, servant corruption) combined with collapsed G1/F2 (distant oversight failed to detect or repair cascading failures) led to systemic entropy export failure. E1 capped at zombie survival via bailouts. No rigidity trap (Y not maxed), but pure leakage compression. The system consumed its own structural capital until nothing remained but a legal shell.
+Health Read: The late VOC represents the canonical exploitationism sinkhole — unchecked D1 exploitationism (particuliere handel, servant corruption) combined with collapsed G1/F2 (distant oversight failed to detect or repair cascading failures) led to systemic entropy export failure. E1 capped at zombie survival via bailouts. No rigidity trap (Y not maxed), but pure leakage compression. The system consumed its own structural capital until nothing remained but a legal shell.
 These CSVs feed directly into `simulate.py` to compute:
 - X (economic metabolism), Y (governance density)
 - Zone splatter % across 10 attractors
-- Rule-13 parasitism % (key hinge for stability)
+- Rule-13 exploitationism % (key hinge for stability)
 - Longevity proxy / ε estimates
 
 All scores are provisional — community-refined via PRs. Rationales should cite verifiable public data only.
@@ -92,7 +92,7 @@ All scores are provisional — community-refined via PRs. Rationales should cite
 3. PR with filename following convention + brief commit message (e.g., "Add scored CSV: ancient Athens baseline")
 4. Reference in ledger discussions or Ch 12 appendix updates
 
-These files are the living ledger backbone — every new CSV helps test the Rule-13 hinge (>30% parasitism collapse signal) and fractal-sink / kill-switch hypotheses across scales.
+These files are the living ledger backbone — every new CSV helps test the Rule-13 hinge (>30% exploitationism collapse signal) and fractal-sink / kill-switch hypotheses across scales.
 
 Questions? Open an issue or PR. Let's keep refining the microscope.
 
