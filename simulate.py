@@ -40,6 +40,19 @@ USSR_ANCHORS = {
     'G1_Cheater_Detection': {'center': -8, 'band_low': -9, 'band_high': -7, 'note': 'NKVD quotas/false positives'}
 }
 
+USA_1789_ANCHORS = {
+    'G1_Cheater_Detection':   {'center': 8, 'band_low': 7, 'band_high': 9,  'note': 'Strong early institutions for detecting & punishing graft/corruption (courts, militias, civic norms)'},
+    'G2_Modularity':          {'center': 7, 'band_low': 6, 'band_high': 8,  'note': 'Federal structure + separation of powers enables subsystem autonomy & error isolation'},
+    'G3_Info_Storage':        {'center': 8, 'band_low': 7, 'band_high': 9,  'note': 'Written Constitution, free press foundations, literacy/high info fidelity'},
+    'D1_Exploitationism':     {'center': -2, 'band_low': -4, 'band_high': 0, 'note': 'Low systemic parasitism; rent-seeking present but checked by competition & rule of law'},
+    'D2_Competition':         {'center': 6, 'band_low': 5, 'band_high': 7,  'note': 'Healthy market & political competition; no monopoly charter dominance'},
+    'H2_Ideological_Monopoly':{'center': -5, 'band_low': -7, 'band_high': -3,'note': 'No state religion or enforced orthodoxy; pluralist founding ethos'},
+    'H3_Dissent_Suppression': {'center': -6, 'band_low': -8, 'band_high': -4,'note': 'First Amendment protections; dissent channeled via elections & press'},
+    'L2_Leadership_Cult':     {'center': -7, 'band_low': -9, 'band_high': -5,'note': 'No personality cult; Washington steps down sets precedent'},
+    'L3_Purge_Cycles':        {'center': -8, 'band_low': -9, 'band_high': -7,'note': 'Peaceful electoral turnover; no violent elite culls'},
+    'F2_Error_Repair':        {'center': 6, 'band_low': 5, 'band_high': 7,  'note': 'Constitutional amendment + judicial review mechanisms functional'}
+}
+
 print("USSR_ANCHORS loaded successfully (dict with", len(USSR_ANCHORS), "entries)")
 print(USSR_ANCHORS.keys())
 
@@ -95,14 +108,22 @@ def apply_nonlinear_penalty(scores):
     penalty = np.where(np.abs(scores) > 8, (np.abs(scores) - 8)**2 * 0.5 * np.sign(scores), 0)
     return scores + penalty
 
-def compute_compass(scores):
-    metabolic = scores[:18]
-    governance = scores[18:]
-    penalized_met = apply_nonlinear_penalty(metabolic)
-    penalized_gov = apply_nonlinear_penalty(governance)
-    x = np.mean(penalized_met) / 10 * 1.2
-    y = np.mean(penalized_gov) / 10 * 3.0
-    return x, y
+def compute_rigidity_multiplier(scores):
+    """
+    R = Vs * Up
+    Vs = variation suppression (negative mean of low-variation/autonomy metrics)
+    Up = uniformity pressure (mean of high-uniformity metrics)
+    """
+    c2 = scores[6]                  # C2_Variation
+    h_group = scores[17:20]         # H1–H3 Uniformity
+    i_group = scores[20:23]         # I1–I3 Autonomy/Expression
+    
+    vs = max(0, -np.mean([c2] + list(i_group)) / 10)
+    up = max(0, np.mean(h_group) / 10)
+    
+    r = vs * up
+    
+    return r, vs, up   # <-- must return tuple (r, vs, up)
 
 def build_15x6_matrix(scores):
     matrix = np.zeros((15, 6))
@@ -140,100 +161,163 @@ def apply_shock(scores, shock_type="none"):
         shocked[c2_idx] -= 6.0
         return shocked
 
-# === MAIN & CORE LOGIC ===
-
 def compute_rigidity_multiplier(scores):
-    """
-    Thermodynamic Logic: R = Vs * Up
-    Calculates the brittle scaling factor.
-    """
-    c2 = scores[6]              # C2 Variation
-    h_group = scores[17:20]     # H1, H2, H3 (Uniformity)
-    i_group = scores[20:23]     # I1, I2, I3 (Autonomy)
-    
-    vs = max(0, -np.mean([c2] + list(i_group)) / 10)
-    up = max(0, np.mean(h_group) / 10)
-    
-    return vs * up
+    # Force every input to float
+    c2 = float(scores[6])
+    h_group = [float(scores[i]) for i in range(17, 20)]
+    i_group = [float(scores[i]) for i in range(20, 23)]
+
+    # Scalar means
+    mean_var_sup = np.mean([c2] + i_group)
+    mean_uni_pres = np.mean(h_group)
+
+    vs = max(0.0, -float(mean_var_sup) / 10.0)
+    up = max(0.0, float(mean_uni_pres) / 10.0)
+
+    r = vs * up  # float * float = float
+
+    print(f"DEBUG rigidity: vs = {vs:.4f}, up = {up:.4f}, r = {r:.4f}")
+
+    return r  # guaranteed scalar float
 
 def compute_compass(scores):
+    """
+    Compute X,Y position with rigidity boost (current protocol).
+    """
+    # Rigidity multiplier (must be scalar)
     r = compute_rigidity_multiplier(scores)
-    
+
     metabolic = scores[:18]
     governance = scores[18:]
-    
+
     penalized_met = apply_nonlinear_penalty(metabolic)
     penalized_gov = apply_nonlinear_penalty(governance)
-    
-    raw_x = (np.mean(penalized_met) / 10) * 1.2
-    raw_y = (np.mean(penalized_gov) / 10) * 2.5 
-    
-    final_y = raw_y * (1 + 2.0 * r)  # stronger brittleness boost (2.0 instead of 1.5)
-    
-    print(f"DEBUG: Raw X: {raw_x:.3f}, Raw Y: {raw_y:.3f}, R: {r:.3f}, Final Y: {final_y:.3f}")
-    
+
+    # Scalar means + explicit float conversion
+    mean_met = float(np.mean(penalized_met))
+    mean_gov = float(np.mean(penalized_gov))
+
+    raw_x = mean_met / 10 * 1.2
+    raw_y = mean_gov / 10 * 2.5
+
+    final_y = raw_y * (1 + 2.0 * r)
+
+    print(f"DEBUG: Raw X: {raw_x:.3f}, Raw Y: {raw_y:.3f}")
+    print(f"DEBUG: Rigidity R = {r:.3f}")
+    print(f"DEBUG: Final Y after boost: {final_y:.3f}")
+
     return raw_x, final_y
 
-def enforce_crl_anchors(scores, system_name):
-    """
-    Active Enforcement: Overwrites CSV data with CRL Hard-Locks.
-    """
-    mapping = {
-        'D1_Exploitationism': 9,
-        'G1_Cheater_Detection': 15,
-        'H2_Ideological_Monopoly': 18,
-        'H3_Dissent_Suppression': 19,
-        'L2_Leadership_Cult': 30,
-        'L3_Purge_Cycles': 31
-    }
-    
-    if 'ussr' in system_name.lower():
-        print("!!! ENFORCING USSR 1937 CRL ANCHORS !!!")
-        for key, info in USSR_ANCHORS.items():
-            idx = mapping.get(key)
-            if idx is not None:
-                old = scores[idx]
-                scores[idx] = info['center']
-                print(f"  → {key} (idx {idx}): {old} → {info['center']}")
+# === Enforcement & Main Logic (cleaned, no undefined vars) ===
+
+# === Enforcement Helpers (clean & unified) ===
+
+def get_anchor_set(system_name):
+    system_lower = system_name.lower()
+    if "ussr_1937" in system_lower:
+        print("!!! ENFORCING USSR 1937 CRL ANCHORS (peak rigidity / high parasitism) !!!")
+        return USSR_ANCHORS
+    elif "voc" in system_lower and any(x in system_lower for x in ["1780", "1785", "late"]):
+        print("!!! ENFORCING LATE VOC 1780–1785 CRL ANCHORS (corporate decay / cheater collapse) !!!")
+        return VOC_ANCHORS
+    elif "usa_1789" in system_lower or "1789" in system_lower:
+        print("!!! ENFORCING USA 1789 HEALTHY CRL ANCHORS (mutualist / adaptive baseline) !!!")
+        return USA_1789_ANCHORS
+    else:
+        print("No CRL enforcement matched — using raw CSV scores.")
+        return {}
+
+METRIC_INDEX = {
+    'D1_Exploitationism': 9,
+    'D2_Competition': 10,
+    'E1_Survival': 10,
+    'F2_Error_Repair': 13,
+    'G1_Cheater_Detection': 15,
+    'G2_Modularity': 16,
+    'G3_Info_Storage': 17,
+    'H2_Ideological_Monopoly': 18,
+    'H3_Dissent_Suppression': 19,
+    'L2_Leadership_Cult': 29,
+    'L3_Purge_Cycles': 30,
+}
+
+def apply_anchors(scores, anchors):
+    if not anchors:
+        return scores
+    print("Applying CRL clamps:")
+    for key, params in anchors.items():
+        idx = METRIC_INDEX.get(key)
+        if idx is not None and 0 <= idx < len(scores):
+            current = scores[idx]
+            clamped = max(params['band_low'], min(params['band_high'], params['center']))
+            if abs(current - clamped) > 0.1:
+                print(f"  → {key} (idx {idx}): {current:.1f} → {clamped}  {params.get('note', '')}")
+            scores[idx] = clamped
     return scores
 
-def compute_exploitationism_proxy(scores):
-    d1 = scores[9]  # D1 Exploitationism (+ = high leakage)
-    base_from_d1 = max(0, d1 * 7.2)  # 9 * 7.2 = 64.8 target
-    detection_penalty = max(0, (-scores[15]) * 0.5)  # light boost for negative G1
-    total = base_from_d1 + detection_penalty
-    print(f"DEBUG: Proxy calc - D1: {d1}, G1: {scores[15]}, Base: {base_from_d1:.1f}, Penalty: {detection_penalty:.1f}, Total: {total:.1f}")
-    return round(max(10, min(100, total)), 1)
+# === MAIN EXECUTION ===
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="15×6 Simulator v1.8")
-    parser.add_argument("--system", default="ussr_1937-snapshot")
-    parser.add_argument("--shock", default="none")
-    args, unknown = parser.parse_known_args()
+    import argparse
 
-    print(f"Initializing simulation: {args.system}")
-    csv_path = f"data/35_metrics_{args.system}-present_consensus.csv"
-    
+    parser = argparse.ArgumentParser(description="15×6 Political Thermodynamics Simulator")
+    parser.add_argument("csv_path", nargs="?", default=None,
+                        help="Direct path to metrics CSV (overrides --system)")
+    parser.add_argument("--system", default=None,
+                        help="System name for enforcement & consensus file lookup")
+    parser.add_argument("--shock", default="none",
+                        choices=["none", "de_dollarization", "rigidity_collapse"],
+                        help="Apply shock scenario")
+    args = parser.parse_args()
+
+    # Determine path and system name
+    if args.csv_path:
+        csv_path = args.csv_path
+        base_name = args.csv_path.split('/')[-1].replace('.csv', '').lower()
+        system_name = base_name.replace('_anchor', '').replace('-present_consensus', '')
+        print(f"Direct CSV mode: {csv_path} → system '{system_name}' for CRL")
+    elif args.system:
+        system_name = args.system
+        csv_path = f"data/35_metrics_{system_name}-present_consensus.csv"
+        print(f"Consensus mode: {system_name} → {csv_path}")
+    else:
+        print("Error: Provide either --system or a direct CSV path")
+        parser.print_help()
+        sys.exit(1)
+
+    print(f"Initializing simulation: {system_name}")
+
     raw_scores = load_scores(csv_path)
-    scores = enforce_crl_anchors(raw_scores, args.system)
+    print(f"Loaded {len(raw_scores)} metrics")
+
+    anchors = get_anchor_set(system_name)
+    scores = apply_anchors(raw_scores.copy(), anchors)
+
     scores = apply_shock(scores, args.shock)
-    
+
     x, y = compute_compass(scores)
-    exploitationism_pct = compute_exploitationism_proxy(scores)
-    
-    if y > 1.5:
+    rule13_pct = compute_exploitationism_proxy(scores)
+
+    # Improved zone logic
+    if rule13_pct > 50 or y > 1.5:
         zone = "Rigid Trap (Brittle Regime)"
     elif x < 0 and y > 0.8:
         zone = "Exploitationism Basin"
     else:
         zone = "Mutualism/Competition"
 
-    longevity = "30–80 years (High Parasitism)" if exploitationism_pct > 50 else "80–140 years"
+    # Gradient longevity
+    if rule13_pct > 60:
+        longevity = "30–80 years (High Parasitism)"
+    elif rule13_pct > 30:
+        longevity = "80–150 years (Moderate Risk)"
+    else:
+        longevity = "150+ years (Low Parasitism)"
 
     print("\n" + "="*60)
-    print(f"RESULTS: {args.system.upper()} | {args.shock.upper()}")
+    print(f"RESULTS: {system_name.upper()} | {args.shock.upper()}")
     print(f"Compass X: {x:.2f} Y: {y:.2f}")
-    print(f"Rule-13 Proxy: {exploitationism_pct:.1f}%")
+    print(f"Rule-13 Proxy: {rule13_pct:.1f}%")
     print(f"Systemic State: {zone}")
     print(f"Longevity: {longevity}")
     print("="*60 + "\n")
