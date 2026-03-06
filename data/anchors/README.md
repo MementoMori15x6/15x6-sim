@@ -28,3 +28,15 @@ All provisional — welcome PRs for new anchors or refinements.
 | voc_golden_age_anchor  | pos  | mod  | Exploitation Sink? | mid-high?    | Medium         |
 
 (Fill from your runs — provisional!)
+## VOC Pair – Golden Age vs. Late Decay
+
+- voc_golden_age_anchor.csv
+  → Raw consensus (zenith phase)
+  → X: 0.29 Y: -0.43 | Rule-13: 18.0% | Mutualism/Competition | 150+ yrs (Low Parasitism)
+  → Rigidity R: 0.0000
+
+- voc_late_golden_age_anchor.csv (or voc_late_1780-1785_anchor.csv)
+  → Same consensus, enforced with VOC_ANCHORS (1780–1785 decay calibration)
+  → X: 0.10 Y: -0.43 | Rule-13: 64.8% | Rigid Trap (Brittle Regime) | 30–80 yrs (High Parasitism)
+  → Rigidity R: 0.0000
+  → Key: Cheater detection collapse + exploitation ramp (no Y density spike)
