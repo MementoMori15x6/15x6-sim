@@ -11,7 +11,7 @@ Longevity: 200–400+ years (matches observed persistence)
 
 This completes the triangulation beautifully: VOC chaos (high parasitism), USSR rigid trap (high suppression), USA mutualism (balanced +/+ dominance, low leakage). The golden path signal is now measurable — win-win interactions, robust detection, adaptive variation → extended persistence.
 
-### USSR 1937 Snapshot (Rigid Trap Canonical)
+### USSR 1937 Snapshot (Rigid Trap Canonical) Anchor
 Run: `python simulate.py --system ussr_1937-snapshot --shock none`
 Expected (v1.9 with enforcement): X≈0.04, Y≈2.05, Rule-13 proxy≈68.8%, Zone=Rigid Trap, Longevity=30–80 years (compressed)
 CSV: data/35_metrics_ussr_1937-snapshot-present_consensus.csv (median scores from 6 LLM runs)
@@ -23,6 +23,20 @@ This folder contains all input CSVs for the 35-metric compass protocol (Chapter 
 - **Score** (-10 to +10; negative = collectivist/authoritarian tilt, positive = market/libertarian tilt)
 - **Rationale** (1–2 sentences, evidence-based only, public sources)
 
+### Late VOC 1780–1785 (Chaos Boundary / Exploitationism Sinkhole Canonical) Anchor
+
+Snapshot Period: 1780–1785 (terminal phase of the Dutch East India Company, post-Anglo-Dutch War 4, pre-nationalization 1799)
+Key Enforced Metrics (CRL hard locks from Chapter 9 consensus):
+D1 Exploitationism = +9
+G1 Cheater Detection = -8
+F2 Error Repair = -8
+E1 Survival = +2
+(Provisional secondaries: D2 Competition = -8, A2 Market Allocation = -6)
+Rule-13 Proxy: ~65% (high systemic leakage to endemic corruption, private trade abuse, and undetected graft)
+Compass Position (post-enforcement): X deeply negative (metabolic collapse), Y moderate (governance density insufficient to suppress parasitism)
+Zone: Chaos Boundary (Exploitationism Sinkhole)
+Longevity Window: Short (10–40 years from hinge; actual dissolution 1799)
+Health Read: The late VOC represents the canonical exploitationism sinkhole — unchecked D1 parasitism (particuliere handel, servant corruption) combined with collapsed G1/F2 (distant oversight failed to detect or repair cascading failures) led to systemic entropy export failure. E1 capped at zombie survival via bailouts. No rigidity trap (Y not maxed), but pure leakage compression. The system consumed its own structural capital until nothing remained but a legal shell.
 These CSVs feed directly into `simulate.py` to compute:
 - X (economic metabolism), Y (governance density)
 - Zone splatter % across 10 attractors
