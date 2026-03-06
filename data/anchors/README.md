@@ -19,3 +19,12 @@ Current set:
 
 To run: python simulate.py data/anchors/usa_1789_anchor.csv
 All provisional — welcome PRs for new anchors or refinements.
+## Quick Reference Diagnostics (from latest simulate.py run)
+
+| Anchor                  | X     | Y     | Dominant Zone | Rule-13 Expl % | Longevity Est. |
+|-------------------------|-------|-------|---------------|----------------|----------------|
+| usa_1789_anchor        | ~?   | ~?   | Healthy Mutualist? | <20%?         | High (200+ yrs?) |
+| ussr_1937_anchor       | ~?   | high | Rigid Trap?   | >30%?         | Medium-low     |
+| voc_golden_age_anchor  | pos  | mod  | Exploitation Sink? | mid-high?    | Medium         |
+
+(Fill from your runs — provisional!)
