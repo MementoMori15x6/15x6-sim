@@ -1,6 +1,6 @@
 # /data/ — 35-Metric Compass Score Files
 
-###Provisional Mutualism Anchor (USA 1787–1789)
+### Provisional Mutualism Anchor (USA 1787–1789)
 This consensus gives us a strong, evidence-based "healthy replicator" reference:
 
 Rule-13 leakage ~24% (low parasitism, strong cheater detection via checks/balances)
