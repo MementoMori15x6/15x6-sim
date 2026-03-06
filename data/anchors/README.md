@@ -40,3 +40,15 @@ All provisional — welcome PRs for new anchors or refinements.
   → X: 0.10 Y: -0.43 | Rule-13: 64.8% | Rigid Trap (Brittle Regime) | 30–80 yrs (High Parasitism)
   → Rigidity R: 0.0000
   → Key: Cheater detection collapse + exploitation ramp (no Y density spike)
+# VOC Anchor Pair – Golden Age vs Late Decay (as of March 2026 local runs)
+
+**Golden Age** (raw, no enforcement)  
+X: 0.29 | Y: -0.43 | R: 0.0000 | Rule-13: 18.0%  
+State: Mutualism/Competition | Longevity: 150+ yrs (Low Parasitism)
+
+**Late Decay** (enforced via filename trigger "late")  
+X: 0.10 | Y: -0.43 | R: 0.0000 | Rule-13: 64.8%  
+State: Rigid Trap (Brittle Regime) | Longevity: 30–80 yrs (High Parasitism)
+
+Key clamps: D1 +9, G1 -8, F2 -8, E1 +2, D2 -8  
+Insight: Rule-13 overload alone compresses longevity dramatically, even with Y remaining low/negative (no rigidity boost). Distinct from USSR-style high-Y traps.
