@@ -33,7 +33,11 @@ After verification is complete, state:
 ```
 ## Usage Notes
 -AI alignment research
+
 -Measuring Replicating systems 
+
 -diagnostic, R & D 
+
 -analyzing the contextual nuances of the system's inner mechanics 
+
 -curiousity and wanting to open the Board ;)
