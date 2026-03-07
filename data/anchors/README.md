@@ -69,34 +69,20 @@ python simulate.py data/anchors/voc_late_golden_age_anchor.csv
 
 ---
 
-## VOC Pair — Golden Age vs. Late Decay
+**VOC Pair — Golden Age vs. Late Decay**
 
-### Golden Age *(raw, no enforcement)*
+**Golden Age** (raw, no enforcement)  
+X: 0.29 | Y: −0.43 | R: 0.0000 | Rule-13: 18.0%  
+State: Mutualism/Competition | Longevity: 150+ yrs (Low Parasitism)
 
-| Metric | Value |
-|--------|-------|
-| X | 0.29 |
-| Y | −0.43 |
-| R | 0.0000 |
-| Rule-13 | 18.0% |
-| State | Mutualism/Competition |
-| Longevity | 150+ yrs (Low Parasitism) |
+**Late Decay** (enforced via "late" trigger)  
+X: 0.10 | Y: −0.43 | R: 0.0000 | Rule-13: 64.8%  
+State: Rigid Trap (Brittle Regime) | Longevity: 30–80 yrs (High Parasitism)
 
-### Late Decay *(enforced via `"late"` trigger)*
+**Key clamps:** D1 +9, G1 −8, F2 −8, E1 +2, D2 −8  
 
-| Metric | Value |
-|--------|-------|
-| X | 0.10 |
-| Y | −0.43 |
-| R | 0.0000 |
-| Rule-13 | 64.8% |
-| State | Rigid Trap (Brittle Regime) |
-| Longevity | 30–80 yrs (High Parasitism) |
-
-**Key clamps:** `D1 +9`, `G1 −8`, `F2 −8`, `E1 +2`, `D2 −8`
-
-> **Insight:** Rule-13 overload alone compresses longevity dramatically, even with Y remaining low/negative (no rigidity boost). Distinct from USSR-style high-Y traps.
-
----
+**Insight:** Rule-13 overload alone compresses longevity dramatically, even with Y remaining low/negative (no rigidity boost). Distinct from USSR-style high-Y traps.
 
 *All scores provisional — open to empirical testing, shocks, and PRs for new anchors or refinements.*
+
+Memento mori. 🚀
