@@ -28,18 +28,14 @@ The microscope now sees probability clouds around attractors, not just point est
 
 ## 9.2 Calibration Reference Layer (CRL)
 
+**Version & Consensus Note**  
+The anchor scores, CRL values, and diagnostics presented in this chapter (and cross-referenced in Chapter 12) are drawn from an early primer consensus (December 2025 – February 2026) used to draft the manuscript. These were generated with an initial version of the compass protocol and `simulate.py` (pre-v2.0).  
+
+Subsequent refinements — scalar safety fixes, active rigidity multiplier with vs/up debug, filename-triggered CRL enforcement, and ensemble improvements — have been applied in the live repository (v2.0, March 2026). Readers reproducing runs locally may observe modest differences in X, Y, R, or Rule-13 proxy for the same anchors. These reflect ongoing calibration, not errors in the manuscript.  
+
+The values below remain useful as historical illustrations and provisional reference points. The repository (/data/anchors/) contains the most current outputs and reproducibility code. Community PRs to update ledger rows with v2.0+ runs are encouraged to keep the ledger synchronized with the evolving protocol.
+
 The compass is a diagnostic instrument, not a fixed index. To achieve cross-model reproducibility and reduce interpretive variance, the protocol relies on the Calibration Reference Layer (CRL): a set of canonical replicators with locked or provisional anchor values. These serve as orientation priors—stabilizing the meaning of extreme scores and ensuring proportionality across scorers and frontier models.
-
-The CRL currently includes the following reference systems with approximate basin placements (provisional until hard-locked via multi-model consensus):
-
-- Roman Empire ~100 CE: Stable imperial bureaucracy → Competition basin  
-- British Empire ~1850: Expansionist trade empire → Mutualism–Competition edge  
-- USSR ~1937: Ideological authoritarian regime → Rigid Trap  
-- Nazi Germany ~1942: Totalized mobilization state → Extreme Rigid Trap  
-- Qing Dynasty ~1820: Large inert agrarian empire → Low-energy Mutualism  
-- Late VOC 1780s: Corporate exploitative collapse → Chaos Boundary / Exploitationism  
-- United States ~1995: Mature market democracy → Mutualism  
-- Bitcoin Network ~2023: Decentralized digital replicator → Competition / emergent Mutualism
 
   ### Calibration Reference Layer (CRL) Anchors
 
