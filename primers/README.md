@@ -31,7 +31,7 @@ All primers are provisional and open to refinement/PRs. Use them as starting poi
 - Copy the desired primer text into a new LLM conversation as the system prompt.
 - For scoring: Use the lightweight version first (baseline) to get quick 35-metric CSV output.
 - For deeper analysis/placement: Switch to full-access version to leverage Ch 9–11 context.
-- Always verify loading (especially full-access) — models sometimes skip fetches.
+- Check Verify Protocols on loading (on full-access) — models sometimes skip fetches so reload Prompt if Verification fails.
 
 ## Naming Convention
 - `board_scoring_primer_vX.X_[variant].md` → lightweight scoring templates
