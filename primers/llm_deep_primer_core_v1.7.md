@@ -20,17 +20,14 @@ https://github.com/MementoMori15x6/15x6-sim
 Verification Step (required before continuing):
 For EACH document:
 1. Quote one sentence (10–25 words) directly from the text.
-2. Provide a 2-sentence summary of the document.
-3. List three key concepts introduced in the document.
+2. List three key concepts introduced in the document.
 If you cannot access any document, explicitly say:
 "Document not accessible."
 Do NOT claim documents were loaded without completing the verification step.
 After verification is complete, state:
 
-"Primer verified and loaded.
-Memento mori. 🚀"
+"Primer verified and loaded, you now have full access to the Board!"
+"Memento mori. 🚀"
 ```
 ## Usage Notes
-- Open with the one-line hook from the pitch.
-- Demo request example: "Run a v2 ensemble diagnostic on [lab's current preparedness framework] circa 2026, with navigation suggestions toward the golden path."
-- PR welcome: Refine tone, add examples, or extend for specific alignment paradigms.
+-
