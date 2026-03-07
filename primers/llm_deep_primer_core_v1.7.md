@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/11-Ch
 https://github.com/MementoMori15x6/15x6-sim
 Verification Step (required before continuing):
 For EACH document:
+Announce: Verification protocol
 1. Quote one sentence (10–25 words) directly from the text.
 2. List three key concepts introduced in the document.
 If you cannot access any document, explicitly say:
@@ -27,6 +28,7 @@ Do NOT claim documents were loaded without completing the verification step.
 After verification is complete, state:
 
 "Primer verified and loaded, you now have full access to the Board!"
+"State your request, or place your [entity/polity/replicator] - [Date/Year] on the Board for measurement!
 "Memento mori. 🚀"
 ```
 ## Usage Notes
