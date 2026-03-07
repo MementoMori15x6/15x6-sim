@@ -1,4 +1,4 @@
-# Board – Political Thermodynamics | Deep Access Primer
+# Board – Political Thermodynamics | Full Access Primer
 
 ## Purpose
 This prompt template loads the full Board framework onto an LLM -- to place replicating systems on the Board for in-depth measurement, diagnosis, and navigation. 
