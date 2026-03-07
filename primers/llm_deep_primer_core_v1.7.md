@@ -34,7 +34,7 @@ After verification is complete, state:
 ## Usage Notes
 -AI alignment research
 
--Measuring Replicating systems 
+-measuring replicating systems 
 
 -diagnostic, R & D 
 
