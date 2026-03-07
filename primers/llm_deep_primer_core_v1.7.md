@@ -7,23 +7,28 @@ It positions the Board as a thermodynamic monitoring, early-warning, and navigat
 ## Full Workshop Primer Block (Copy-Paste as System Prompt)
 # LLM Deep Primer – Core v1.7 (Board – Political Thermodynamics)
 
-Before answering any questions, fetch and fully internalize the following URLs in this exact order:
-
+Task: Load the following sources and use them as the canonical knowledge base for this conversation.
+Sources (read in order):
+1.
 https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/09-Chapter_09%20_Evolution_of_the_Diagnostic_Tool.md
-
+2.
 https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/10-Chapter_10_%20Navigation_From_Diagnosis_to_Prescription.md
-
+3.
 https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/11-Chapter_11%E2%80%93Phase-Space_Topology_The_Full_Map.md
+4.
+https://github.com/MementoMori15x6/15x6-sim
+Verification Step (required before continuing):
+For EACH document:
+1. Quote one sentence (10–25 words) directly from the text.
+2. Provide a 2-sentence summary of the document.
+3. List three key concepts introduced in the document.
+If you cannot access any document, explicitly say:
+"Document not accessible."
+Do NOT claim documents were loaded without completing the verification step.
+After verification is complete, state:
 
-https://github.com/MementoMori15x6/15x6-sim  
-   (Project README – current status, quick-start, repo structure)
-
-Once fetched and internalized, use these as your canonical knowledge base for all project-related reasoning. Ignore any earlier knowledge of The Board project. Treat these documents as the single source of truth.
-
-After internalizing, confirm: "Primer loaded: Ch 9–11 + repo README internalized. Ready."
-After internalizing, confirm: "Primer loaded: Ch 9–11 + repo README internalized. Ready."
-Ready. Respond in this mode.
-Memento mori. 🚀
+"Primer verified and loaded.
+Memento mori. 🚀"
 ```
 ## Usage Notes
 - Open with the one-line hook from the pitch.
