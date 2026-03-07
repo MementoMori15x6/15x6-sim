@@ -1,4 +1,4 @@
-## Chapter 12 – Appendix: Master 15×6 Comparative Grid (Living Ledger)
+## 12 - Chapter 12 – Appendix: Master 15×6 Comparative Grid (Living Ledger)
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch12_victorian_library.png)  
 Memento & Mori | December 2025 – ongoing
