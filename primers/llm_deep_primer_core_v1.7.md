@@ -1,7 +1,7 @@
 # Board – Political Thermodynamics | Deep Access Primer
 
 ## Purpose
-This prompt template loads the full Board framework for deeper, more confident discussions about its inner workings. 
+This prompt template loads the full Board framework, to place replicating systems on the Board for in-depth measurement, diagnosis, and navigation. 
 
 ```bash
 ## Full Workshop Primer Block (Copy-Paste as System Prompt)
@@ -32,9 +32,9 @@ After verification is complete, state:
 "Memento mori. 🚀"
 ```
 ## Usage Notes
--AI alignment research
+-AI alignment research (testing attractor wells, navigating the golden path +/+)
 
--measuring replicating systems 
+-measuring replicating systems--direct comparitive studies
 
 -diagnostic, R & D 
 
