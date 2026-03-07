@@ -71,10 +71,11 @@ The following hinge metrics are **hard-locked** as calibration centers with ±1 
 
 ### 9.2.2 Phased CRL Development
 
-Calibration proceeds in phases to maintain rigor without over-constraint:  
-- Phase 1 (current): Late VOC locked as primary collapse/Chaos Boundary anchor.  
-- Phase 2: USSR ~1937 (Rigid Trap) and United States ~1995 (Mutualism) targeted next for rigidity and healthy baselines.  
-- Phase 3: Remaining references (Roman, British Empire, Nazi Germany, Qing, Bitcoin) remain provisional with descriptive ranges; open to community multi-model runs and PR proposals.
+Calibration proceeds in phases to maintain rigor without over-constraint:
+
+- **Phase 1 (complete)**: Late VOC (1780–1785) locked as primary collapse / Chaos Boundary anchor.
+- **Phase 2 (complete)**: USSR ~1937 (Rigid Trap) and United States ~1789 (Mutualism / healthy baseline) locked for rigidity and adaptive mutualism references.
+- **Phase 3 (ongoing / provisional)**: Remaining references (Roman Empire ~100 CE, British Empire ~1850, Nazi Germany ~1942, Qing Dynasty ~1820, Bitcoin Network ~2023) remain provisional with descriptive ranges; open to community multi-model runs and PR proposals.
 
 The CRL is a living layer—extensible via evidence and consensus. Future anchors will follow the same center + band format to preserve reproducibility while welcoming expert refinement.
 
