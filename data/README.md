@@ -1,99 +1,67 @@
 # /data/ — 35-Metric Compass Score Files
 
-**The 3 Triangulation Anchors for symmetry and clarity.**
-### Provisional Mutualism Anchor (USA 1787–1789)
-This consensus gives us a strong, evidence-based "healthy replicator" reference:
+This folder contains all input CSVs for the 35-metric compass protocol (Chapter 2). Each file scores a replicating system (biological, institutional, algorithmic) in baseline or shock state.
 
-Rule-13 leakage ~24% (low exploitationism, strong cheater detection via checks/balances)
-Positive X (market/property tilt), low-moderate Y (decentralized governance, no brittleness)
-High modularity/variation (federalism), robust error repair (separation of powers)
-Zone: Dynamic Mutualism
-Longevity: 200–400+ years (matches observed persistence)
+**Format (locked v1)**  
+CSV with:
+- Header row: Metric,Description,Score,Rationale  
+- Single data row: 35 comma-separated scores (-10 to +10)  
+- No trailing commas, no strings, no extra rows
 
-This completes the triangulation beautifully: VOC chaos (high exploitationism), USSR rigid trap (high suppression), USA mutualism (balanced +/+ dominance, low leakage). The golden path signal is now measurable — win-win interactions, robust detection, adaptive variation → extended persistence.
-
-### USSR 1937 Snapshot (Rigid Trap Canonical) Anchor
-Run: `python simulate.py --system ussr_1937-snapshot --shock none`
-Expected (v1.9 with enforcement): X≈0.04, Y≈2.05, Rule-13 proxy≈68.8%, Zone=Rigid Trap, Longevity=30–80 years (compressed)
-CSV: data/35_metrics_ussr_1937-snapshot-present_consensus.csv (median scores from 6 LLM runs)
-
-This folder contains all input CSVs for the 35-metric compass protocol (Chapter 2). Each file scores a replicating system (biological, institutional, algorithmic) in baseline or shock state, following the exact column structure:
-
-- **Metric** (A1–M3 order)
-- **Description** (short label)
-- **Score** (-10 to +10; negative = collectivist/authoritarian tilt, positive = market/libertarian tilt)
-- **Rationale** (1–2 sentences, evidence-based only, public sources)
-
-### Late VOC 1780–1785 (Chaos Boundary / Exploitationism Sinkhole Canonical) Anchor
-
-Snapshot Period: 1780–1785 (terminal phase of the Dutch East India Company, post-Anglo-Dutch War 4, pre-nationalization 1799)
-Key Enforced Metrics (CRL hard locks from Chapter 9 consensus):
-D1 Exploitationism = +9
-G1 Cheater Detection = -8
-F2 Error Repair = -8
-E1 Survival = +2
-(Provisional secondaries: D2 Competition = -8, A2 Market Allocation = -6)
-Rule-13 Proxy: ~65% (high systemic leakage to endemic corruption, private trade abuse, and undetected graft)
-Compass Position (post-enforcement): X deeply negative (metabolic collapse), Y moderate (governance density insufficient to suppress exploitationism)
-Zone: Chaos Boundary (Exploitationism Sinkhole)
-Longevity Window: Short (10–40 years from hinge; actual dissolution 1799)
-Health Read: The late VOC represents the canonical exploitationism sinkhole — unchecked D1 exploitationism (particuliere handel, servant corruption) combined with collapsed G1/F2 (distant oversight failed to detect or repair cascading failures) led to systemic entropy export failure. E1 capped at zombie survival via bailouts. No rigidity trap (Y not maxed), but pure leakage compression. The system consumed its own structural capital until nothing remained but a legal shell.
-These CSVs feed directly into `simulate.py` to compute:
-- X (economic metabolism), Y (governance density)
-- Zone splatter % across 10 attractors
-- Rule-13 exploitationism % (key hinge for stability)
-- Longevity proxy / ε estimates
-
-All scores are provisional — community-refined via PRs. Rationales should cite verifiable public data only.
-
-## Naming Convention
-- `35_metrics_{system-or-context}_{variant-or-phase-or-shock}_consensus.csv`
-- `_consensus` suffix = converged/community/iterative scoring
-- `_shock_{event/year}` or `_phase_{n}` for perturbations
-- Blank starter: `35_metrics_blank_template.csv`
+**Naming Convention**  
+`35_metrics_{system-or-context}_{variant-or-phase-or-shock}_consensus.csv`  
+Examples:  
+- `35_metrics_voc_golden_age_consensus.csv`  
+- `35_metrics_voc_shock_1780s.csv`  
+- `35_metrics_blank_template.csv` (starter for new scorings)
 
 ## Current Files (as of March 2026)
 
+### Triangulation Anchors (core reference set)
+- `usa_1789_anchor.csv` — Founding constitutional baseline (healthy mutualism)  
+- `ussr_1937_anchor.csv` — Peak centralized command (high-Y rigid trap)  
+- `voc_golden_age_anchor.csv` — Dutch VOC commercial zenith (raw consensus)  
+- `voc_late_golden_age_anchor.csv` — VOC late decay (enforced 1780–1785 calibration)
+
 ### Biological / Superorganism Baselines
-- `35_metrics_eusocial_ant_colony.csv` — Healthy eusocial ant colony (thermodynamic ceiling, low parasitism, high mutualism)
+- `35_metrics_eusocial_ant_colony.csv` — Healthy eusocial ant colony  
 - `35_metrics_ants_queen_death_shock.csv` — Queen-death shock proxy (Rule-13 failure test)
 
 ### Historical Polities / Phases
-- `35_metrics_roman_republic_133_27_bce.csv` — Late Roman Republic (133–27 BCE) crisis phase
-- `35_metrics_agustus_baseline.csv` — Augustan Principate baseline (post-Republic stabilization)
-- `35_metrics_venice_pre_serrata_drift.csv` — Venice pre-Serrata drift (early merchant republic stress)
-- `35_metrics_venice_republic_697-1797_v2_consensus.csv` — Full Venetian Republic arc (697–1797, longevity benchmark)
-- `35_metrics_voc_ensemble_consensus.csv` — Dutch East India Company (VOC) baseline ensemble
+- `35_metrics_roman_republic_133_27_bce.csv` — Late Roman Republic crisis phase  
+- `35_metrics_augustus_baseline.csv` — Augustan Principate baseline  
+- `35_metrics_venice_pre_serrata_drift.csv` — Venice pre-Serrata drift  
+- `35_metrics_venice_republic_697-1797_v2_consensus.csv` — Full Venetian Republic arc  
+- `35_metrics_voc_ensemble_consensus.csv` — VOC baseline ensemble  
 - `35_metrics_voc_shock_1780s.csv` — VOC 1780s fracture shock
 
 ### Modern / Contemporary Hegemons
-- `35_metrics_usa_1971-present_consensus.csv` — USA post-1971 baseline (stressed mutualism era)
-- `35_metrics_usa_dedollarization_shock_dominance.csv` — USA dedollarization shock variant
-- `35_metrics_prc_1978-present_consensus.csv` — PRC 1978–present consensus (high-suppression centralized)
-- `35_metrics_prc_rigidity_collapse_shock.csv` — PRC rigidity-collapse shock test
+- `35_metrics_usa_1971-present_consensus.csv` — USA post-1971 baseline  
+- `35_metrics_usa_dedollarization_shock_dominance.csv` — USA dedollarization shock  
+- `35_metrics_prc_1978-present_consensus.csv` — PRC 1978–present consensus  
+- `35_metrics_prc_rigidity_collapse_shock.csv` — PRC rigidity-collapse shock
 
 ### Algorithmic / Millisecond-Lag Replicators
-- `35_metrics_bitcoin_consensus.csv` — Bitcoin physics-enforced baseline
-- `35_metrics_ethereum_consensus.csv` — Ethereum baseline
-- `35_metrics_ethereum_aihegemon_variant.csv` — Ethereum AI-hegemon variant (G1 boosted to 9.5)
-- `35_metrics_makerdao_consensus.csv` — MakerDAO governance-capture baseline
-- `35_metrics_polkadot_consensus.csv` — Polkadot modular consensus (fractal-sink proxy)
+- `35_metrics_bitcoin_consensus.csv` — Bitcoin baseline  
+- `35_metrics_ethereum_consensus.csv` — Ethereum baseline  
+- `35_metrics_ethereum_aihegemon_variant.csv` — Ethereum AI-hegemon variant  
+- `35_metrics_makerdao_consensus.csv` — MakerDAO governance baseline  
+- `35_metrics_polkadot_consensus.csv` — Polkadot modular consensus
 
 ### Helpers & Templates
-- `35_metrics_blank_template.csv` — Empty starter for new scorings
+- `35_metrics_blank_template.csv` — Empty starter  
 - `35_metrics_placeholders.csv` — Demo/filled placeholders for testing
 
 ## Subfolder Notes
-- `shocks/` — Legacy / intermediate shock matrices (most have been renamed and moved to root for flat access)
+- `shocks/` — Legacy shock matrices (most moved to root for flat access)
 
 ## How to Contribute
-1. Fork and copy `35_metrics_blank_template.csv`
-2. Fill scores + evidence-based rationales
-3. PR with filename following convention + brief commit message (e.g., "Add scored CSV: ancient Athens baseline")
-4. Reference in ledger discussions or Ch 12 appendix updates
+1. Copy `35_metrics_blank_template.csv`  
+2. Fill scores + evidence-based rationales (public sources only)  
+3. PR with filename following convention + brief message  
+4. Reference in ledger discussions or Ch 12 appendix updates  
 
 These files are the living ledger backbone — every new CSV helps test the Rule-13 hinge (>30% exploitationism collapse signal) and fractal-sink / kill-switch hypotheses across scales.
 
-Questions? Open an issue or PR. Let's keep refining the microscope.
-
+Questions? Open an issue or PR. Let's keep refining the microscope.  
 Memento mori. 🚀
