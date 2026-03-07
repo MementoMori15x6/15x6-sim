@@ -114,8 +114,10 @@ Vector fields would trace shock trajectories: arrows from baseline points, lengt
 
 This is not yet implemented. It requires higher-dimensional ensemble fitting (e.g., PCA or t-SNE reduction to 3D), VTK export from simulate.py, and interactive visualization tools (Paraview, Plotly 3D). But the seeds are already in the repo: ensemble_runner, hazard fits, shock sweeps, and graph complexity stubs.
 
-When built, the scanner would let us ask: which geometries are universally stable? Which forms resist capture? The board would no longer be flat — it would become a full observatory of thermodynamic possibility.
 ![Figure 11.6: Complexity Surface – Merger Resilience Illustration](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_6_complexity_surface.png)  
+
 **Caption:** Illustrative 3D surface of graph complexity across the compass plane (X, Y). Complexity peaks in hybrid lattice bands (resilience zone) and dips toward exploitationism/rigidity traps. Real replicators plotted as points on the surface.
+When built, the scanner would let us ask: which geometries are universally stable? Which forms resist capture? The board would no longer be flat — it would become a full observatory of thermodynamic possibility.
+
 The map is drawn, but never final.
 
