@@ -10,6 +10,11 @@ Chapter 11 steps back to map the entire phase space. Every replicator — RNA, a
 
 We propose an attractor catalog as the "periodic table" of replicators: a finite set of thermodynamic basins defined by X (economic metabolism), Y (governance density), and grid interaction balance.
 
+**Figure 11.1: Phase-Space Attractor Catalog**  
+Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by Rule-13 proxy (%). Canonical attractors shown as shaded basins. Ethereum, Polkadot, and AI-hegemon variant occupy distinct regions, with drift visible toward exploitationism/rigidity under noise.
+
+The central band — labeled the **Stable Corridor** — is the thermodynamically preferred operating zone for long-persistence replicators. Systems whose ensemble clouds remain anchored here exhibit balanced Mutualism (+/+) dominance in harvest and functional rows combined with calibrated Competition (–/–) in adaptation, boundary maintenance, and suppression rows (6–8, 13–14). Variation bandwidth remains high (C2 >7), rigidity penalty stays low, and Row-13 exploitationism bleed is suppressed below 20–25% baseline. This corridor is the topological expression of the healthy baseline observed in ant colonies, Venice plateau, Bitcoin PoW, and Polkadot/Cosmos fractal designs: the narrow path where entropy export outpaces accumulation without requiring extreme suppression or metabolic overload.
+
 ![Figure 11.1: Phase-Space Attractor Catalog](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_1_attractor_catalog.png)  
 *Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 **Caption:** Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by Rule-13 proxy (%). Canonical attractors shown as shaded basins. Ethereum, Polkadot, and AI-hegemon variant occupy distinct regions, with drift visible toward exploitationism/rigidity under noise.
@@ -20,65 +25,57 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
 
 1. **Mutualism Ellipsoid** (high X, low Y)  
    Stable core: balanced mutualism/competition across rows, low exploitationism, high C2 variation.  
-   Example: early ant colonies, healthy RNA replicators.  
    Longevity: centuries+, P(survive 500y) >90%.
 
 2. **Exploitationism Sinkhole** (low X, high Y)  
    Collapse trap: high rigidity (Y↑), Row 13 exploitationism dominance (>50%).  
-   Example: late VOC, PRC rigidity spikes.  
    Longevity: decades, rapid Gompertz acceleration.
 
 3. **Competition Toroid** (high X, moderate Y)  
    Cyclic high-variance orbits: strong competition suppresses exploitationism but prevents stasis.  
-   Example: Ethereum under L2 rivalry.  
    Longevity: centuries with periodic shocks.
 
 4. **Amensalism Channel** (low X, moderate Y)  
    One-sided drain: amensalism dominates rows, entropy export blocked.  
-   Example: late Rome frontier exploitationism.  
    Longevity: compression to short centuries.
 
 5. **Neutralism Void** (near-zero X/Y)  
    Stagnation basin: neutral interactions, no entropy gradient.  
-   Example: some isolated monastic systems.  
    Longevity: indefinite but no growth.
 
 6. **Commensalism Plains** (moderate X, low Y)  
    Passive stability: commensalism across rows, low competition.  
-   Example: some symbiotic microbial systems.  
-   Longevity: long but low adaptability.
+   Longevity: moderate centuries.
 
-7. **Hybrid Lattice Band** (high modularity, distributed sinks)  
-   Fractal extension: multiple sub-attractors linked by G2 modularity.  
-   Example: Polkadot-like designs.  
-   Longevity: centuries+, shock resilience improved.
+7. **Rigid Trap** (moderate X, high negative Y)  
+   Suppression overload: high governance density, low variation bandwidth.  
+   Longevity: decades under rigidity penalty.
 
-8. **Rigidity Wall** (extreme high Y)  
-   Suppression saturation: Y > +8, rigidity scalar >0.5, Gompertz b large.  
-   Example: late-stage ideological monopolies.  
-   Longevity: rapid exponential decay.
+8. **Boundary Saturation** (low X, high negative Y)  
+   Frontier exhaustion: boundary maintenance saturates, export fails.  
+   Longevity: compression to short centuries.
 
-9. **Drift Corridor** (low X, low Y)  
-   Soft decay: slow exploitationism creep, no sharp bifurcation.  
-   Example: some post-peak empires.  
-   Longevity: centuries but gradual decline.
+9. **Chaos Boundary** (extreme X/Y swings)  
+   High turbulence: unstable orbits between sinkholes.  
+   Longevity: short, unpredictable.
 
-10. **Bifurcation Ridge** (transition zone)  
-    Unstable saddle: small perturbations determine sinkhole vs ellipsoid.  
-    Example: USA 1971–present edge.  
-    Longevity: high variance, 50/50 collapse risk.
+10. **Stable Corridor** (moderate X, low-to-mild Y)  
+    Preferred resilience zone: balanced mutualism/competition, high C2, low rigidity.  
+    Longevity: centuries+, shock-absorbing.
 
 ![Figure 11.2: Row 13 Interaction Profiles by Canonical Attractor](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_2_row13_profiles.png)  
 *Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 **Caption:** Average move intensities in Row 13 for each attractor. Mutualism/competition balance defines stable cores; exploitationism dominance defines sinkholes.
 
-## 11.3 The Four Primary Attractor Wells & Kill-Switch Bifurcation
+## 11.3 Merger Dynamics – Graph Complexity
 
-Ensemble simulations show replicators settling into or migrating between four dominant dynamic basins (gravity wells). These wells are not separate from the ten canonical attractors (Fig 11.1); they are interpretive groupings of the attractors' long-run behavior and trajectory stability.
+Mergers and modular expansions increase graph complexity, distributing entropy sinks and buffering shocks.
 
-## 11.3 The Four Primary Attractor Wells & Kill-Switch Bifurcation
+- Nodes = sub-replicators (e.g., relay + parachains)  
+- Edges = interaction moves (mutualism, exploitationism, etc.)  
+- Complexity = Shannon entropy of edge types + connectivity  
 
-Ensemble simulations show replicators settling into or migrating between four dominant dynamic basins (gravity wells). These wells are interpretive groupings of the ten canonical attractors’ long-run behavior (see Fig 11.1 for raw clouds and points).
+Mergers increase complexity, distributing sinks and buffering shocks.
 
 **Figure 11.3: Four Primary Attractor Wells & Kill-Switch Bifurcation**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_four_attractor_wells_clean.png)
@@ -92,15 +89,32 @@ Phase-space map showing the four dominant basins: Stressed Mutualism (green), Hi
 
 The entropy-export ratio ε ≈ 1.1 acts as the empirical bifurcation threshold: above ~1.1, trajectories remain trapped in one of the first three wells (net export > internal friction); at or below ~1.1, the exploitationism well becomes dominant — suppression costs consume the entire surplus, triggering irreversible cascade into terminal descent. This threshold emerged from iterating the 15×6 grid across stochastic ensembles (see notebooks/attractor_ensemble.py) and serves as the kill-switch diagnostic used throughout the ledger. Full phase-space topology and vector fields are still in development.
 
-## 11.4 Merger Dynamics & Graph Complexity
+**Figure 11.4: Merger Dynamics – Graph Complexity**  
+Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
 
-Replicators can merge or absorb others, creating new topologies. We model this via graph complexity:
-- Nodes = sub-replicators (e.g., relay + parachains)
-- Edges = interaction moves (mutualism, exploitationism, etc.)
-- Complexity = Shannon entropy of edge types + connectivity
+## 11.4 The Periodic Table of Replicators
 
-Mergers increase complexity, distributing sinks and buffering shocks.
+The attractor catalog is not exhaustive — new variants may occupy intermediate zones or create hybrid basins. The Appendix (Ch. 12) maps every tested replicator onto this topology, with ensemble clouds and shock trajectories.
 
+The full map is now visible: a finite set of thermodynamic basins, connected by navigable vectors, bounded by rigidity walls and exploitationism sinkholes.
+
+## 11.5 Future Horizon: Toward a Phase-Space Topology Scanner
+
+The current compass projects replicators into 2D (X, Y) with ensemble clouds and Row 13 profiles. The natural next layer is a phase-space topology scanner that extrudes these geometries along a third axis — for example, cumulative hazard H(t) from survival fits, or entropy export rate.
+
+In this future view, each replicator would appear as a complex 3D form:  
+- Ant colonies: compact, smooth ellipsoids (high symmetry, low entropy loss)  
+- Late VOC/PRC: deep, funneling sinkholes (event horizon at ~30% proxy)  
+- Competition-dominant systems: braided toroids or chaotic attractors (cyclic high-variance orbits)  
+- Merger events: increased surface complexity (fractal-like sub-structures from added nodes/edges)  
+
+Vector fields would trace shock trajectories: arrows from baseline points, length scaled by longevity compression, divergence/curl indicating turbulence or laminar stability. Universal shapes could emerge — high C2 variation always forming helical twists, regardless of scale — letting us compare RNA toroids to Polkadot braids to state lattices.
+
+This is not yet implemented. It requires higher-dimensional ensemble fitting (e.g., PCA or t-SNE reduction to 3D), VTK export from simulate.py, and interactive visualization tools (Paraview, Plotly 3D). But the seeds are already in the repo: ensemble_runner, hazard fits, shock sweeps, and graph complexity stubs.
+
+When built, the scanner would let us ask: which geometries are universally stable? Which forms resist capture? The board would no longer be flat — it would become a full observatory of thermodynamic possibility.
+
+The map is drawn, but never final.
 ![Figure 11.4: Merger Dynamics – Graph Complexity](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_4_merger_dynamics.png)  
 **Caption:** Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
 
