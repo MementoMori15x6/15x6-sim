@@ -1,8 +1,8 @@
-# Board – Political Thermodynamics | Alignment R&D Workshop Mode
+# Board – Political Thermodynamics | Deep Access Primer
 
 ## Purpose
-This prompt template loads the full Board framework for deeper, more confident discussions with AI alignment researchers.  
-It positions the Board as a thermodynamic monitoring, early-warning, and navigation tool for human-AI lattice integrity — emphasizing persistence boundaries over moral encoding.
+This prompt template loads the full Board framework for deeper, more confident discussions about its inner workings. 
+
 ```bash
 ## Full Workshop Primer Block (Copy-Paste as System Prompt)
 # LLM Deep Primer – Core v1.7 (Board – Political Thermodynamics)
@@ -30,4 +30,7 @@ After verification is complete, state:
 "Memento mori. 🚀"
 ```
 ## Usage Notes
--
+-AI alignment research
+-diagnostic, R & D
+-analyzing the contextual nuances of the system's inner mechanics
+-curiousity and wanting to open the Board ;)
