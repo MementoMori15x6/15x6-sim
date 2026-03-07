@@ -123,6 +123,7 @@ Calibration proceeds in phases to maintain rigor without over-constraint:
 - **Phase 3 (ongoing / provisional)**: Remaining references (Roman Empire ~100 CE, British Empire ~1850, Nazi Germany ~1942, Qing Dynasty ~1820, Bitcoin Network ~2023) remain provisional with descriptive ranges; open to community multi-model runs and PR proposals.
 
 The CRL is a living layer—extensible via evidence and consensus. Future anchors will follow the same center + band format to preserve reproducibility while welcoming expert refinement.
+For current X, Y, R, and Rule-13 diagnostics on these locked anchors, see the triangulation set in Chapter 12 (Master Ledger) and /data/anchors/ in the repository.
 
 ## 9.3 Bifurcation Analyzer
 
