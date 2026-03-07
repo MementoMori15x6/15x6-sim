@@ -2,6 +2,9 @@
 (Project “The Board – Political Thermodynamics” | Repo: https://github.com/MementoMori15x6/15x6-sim)
 ### Purpose - Use the Primer prompt on a LLM of choice -- to gather and collect the 35-metric scores on replicating systems.
 **Do Not Use** this Primer to measure the replicator of your choice. **Only Use** to collect scores.  Use the "llm_full_access_primer_v1.7.md" for measuring and analyzing the replicating system for deeper coverage.
+
+**Copy & Paste into LLM prompt window to begin**
+
 ```bash
 **Model identifier**: [Insert model name here, e.g., Grok 4, Claude 4 Sonnet, Gemini 2.0 Flash]  
 **Run date/time**: [YYYY-MM-DD HH:MM TZ]  
