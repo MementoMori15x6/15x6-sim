@@ -172,5 +172,5 @@ Memento mori. 🚀
 Please state the polity or replicating system you would like to score, with exact date-line for accuracy.
 ```
 
-### Usage Notes
+## Usage Notes
 -quick gathering and collection of the 35metric scores (light weight prompt without the use of reading and loading from the repo)
