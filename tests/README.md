@@ -1,4 +1,4 @@
-# /tests/
+# /tests/ – Diagnostic Workbench
 
 This directory contains **validation, diagnostic, and calibration artifacts** for the 15×6 simulation pipeline in "The Board – Political Thermodynamics".
 
@@ -25,6 +25,18 @@ Everything in `/tests/` is provisional and open to refinement — treat it as a 
 
 - **comparatives/** (optional / future)  
   If `/outputs/` gets crowded, move pairwise diagnostic PNGs here for clearer organization.
+
+- **notebooks/**  
+  Exploratory Jupyter notebooks for test runs and validation.
+
+- **scripts/**  
+  Helper or variant Python scripts for isolated testing.
+
+## Root files
+
+- `blank_grid.py`: Quick template runner for blank 15×6 grids.
+- `requirements.txt`: Local deps for test env isolation.
+- `simulate.py`: Scratch/test copy (canonical version in `/scripts/`).
 
 ## How these files are created
 
