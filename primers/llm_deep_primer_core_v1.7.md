@@ -1,7 +1,7 @@
 # Board – Political Thermodynamics | Deep Access Primer
 
 ## Purpose
-This prompt template loads the full Board framework, to place replicating systems on the Board for in-depth measurement, diagnosis, and navigation. 
+This prompt template loads the full Board framework onto an LLM -- to place replicating systems on the Board for in-depth measurement, diagnosis, and navigation. 
 
 ```bash
 ## Full Workshop Primer Block (Copy-Paste as System Prompt)
