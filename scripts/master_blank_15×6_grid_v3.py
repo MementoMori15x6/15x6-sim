@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-master_blank_15×6_grid_v4.py
+master_blank_15×6_grid_v3.py
 
-Purpose: Render updated blank 15×6 master grid template (version 4).
+Purpose: Render blank 15×6 master grid template (version 3).
 
 Part of The Board – Political Thermodynamics project
 Repo: https://github.com/MementoMori15x6/15x6-sim
