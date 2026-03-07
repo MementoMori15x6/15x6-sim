@@ -5,14 +5,18 @@ Memento & Mori | December 2025 – ongoing
 
 This is the extensible master ledger: scored replicators with baseline/shock proxies, longevity windows, Row-13 jumps, attractor zone splatter %, and key diagnostics.
 
-**Triangulation Calibration Note** (March 2026, simulate.py v2.0)  
-The ledger now starts with four canonical anchors that bracket the main thermodynamic attractors:  
-- Healthy mutualist baseline (USA_1789)  
-- Commercial zenith (VOC Golden Age, raw)  
-- Low-Y exploitation decay sink (VOC Late Decay, enforced)  
-- High-Y suppression trap (USSR_1937, enforced)  
+**Triangulation Calibration Note** (March 2026, simulate.py v2.0)
 
-These runs demonstrate Rule-13 as the universal hinge: >60% proxy → brittle regime and sharp longevity compression, with two distinct paths (low-Y metabolic overload vs. high-Y governance density + rigidity penalty). All subsequent rows are calibrated against this set.
+The ledger begins with a triangulation set of three distinct historical references, and four canonical anchors that establish the core reference frame for the compass protocol:
+
+- USA_1789 (enforced) – healthy mutualist baseline  
+- VOC Golden Age (raw) – commercial zenith  
+- VOC Late Decay (enforced) – low-Y exploitation decay sink  
+- USSR_1937 (enforced) – high-Y suppression rigid trap  
+
+These anchors bracket the principal attractors observed in replicating systems and validate Rule 13 as the universal hinge: proxy >60% triggers brittle regime and sharp longevity compression, via two distinct paths (metabolic/exploitation overload with R=0 vs. governance/suppression density with R>0.7). All subsequent ledger entries are calibrated against this reference frame for consistency and comparability.
+
+**Important:** Ledger entries reflect the early primer consensus used at time of drafting (pre-v2.0 `simulate.py`). Live repository runs (v2.0, March 2026) include refinements (scalar safety, active rigidity multiplier, filename-triggered enforcement) and may show modest variations in X, Y, R, or Rule-13 proxy. For details on version evolution and current outputs, see Chapter 9.2 (Calibration Reference Layer – Version & Consensus Note) and /data/anchors/ in the repository. Community PRs to refresh ledger rows with v2.0+ runs are welcome.
 
 ### Scoring & Update Protocol
 - Use 35-metric compass → 15×6 grid mapping (simulate.py)
