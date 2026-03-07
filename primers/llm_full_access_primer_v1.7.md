@@ -3,7 +3,7 @@
 ## Purpose
 This prompt template loads the full Board framework onto an LLM -- to place replicating systems on the Board for in-depth measurement, diagnosis, and navigation. 
 
-**Copy & Paste into LLM prompt window and begin**
+**Copy & Paste into LLM prompt window to begin**
 ```bash
 ## Full Workshop Primer Block (Copy-Paste as System Prompt)
 # LLM Deep Primer – Core v1.7 (Board – Political Thermodynamics)
