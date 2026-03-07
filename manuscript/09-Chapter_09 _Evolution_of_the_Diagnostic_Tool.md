@@ -45,29 +45,74 @@ The compass is a diagnostic instrument, not a fixed index. To achieve cross-mode
 | Rigid Trap (USSR)        | 1937 (Great Purge peak) | D1=9, G1=-8, H2/H3/L2/L3=9–10      | 68.8%   | X ≈0.04, Y=2.05      | Rigid Trap (Brittle)  | 30–80 years           | Max suppression + weaponized detection → brittleness                 |
 | Mutualism Reference (Provisional) | USA 1787–1789 (Constitution) | A1=+10, D1=-6, G1=+8, C2=+9, H3=-7, L2=-9 | ~20–30% | X positive, Y low-mod | Dynamic Mutualism     | 150–300+ years        | Balanced mutualism/competition, strong error repair — provisional; PRs welcome to refine scoring |
 
-### 9.2.1 Hard-Locked Canonical Values – Late VOC (1780–1785 snapshot)
+### 9.2.1 Hard-Locked Canonical Anchors
+
+The CRL includes a growing set of hard-locked canonical anchors with enforced hinge metrics. These centers and bands are calibrated from historical evidence and multi-model consensus, then enforced in `simulate.py` (via anchor dictionaries) to ensure reproducibility across runs and scorers.
+
+#### 9.2.1.1 Late VOC (1780–1785 snapshot) – Corporate Exploitative Collapse / Chaos Boundary
 
 The Late VOC during the acute phase of the Fourth Anglo-Dutch War (1780–1785) is the first hard-locked reference for **corporate exploitative collapse** transitioning to the **Chaos Boundary** basin. This snapshot exhibits naval blockade-induced metabolic severance, zero liquidity, endemic servant corruption/private trade dominance, distant oversight failure, and formal institutional shell persistence via bailouts.
 
-The following hinge metrics are **hard-locked** as calibration centers with ±1 confidence bands (reflecting historical measurement limits and avoiding false precision). All future scorings of the Late VOC snapshot enforce these values.
+The following hinge metrics are **hard-locked** as calibration centers with ±1 confidence bands:
 
-| Metric                  | Canonical Center | Confidence Band | Justification (locked for reproducibility) |
-|-------------------------|------------------|-----------------|--------------------------------------------|
-| D1 Exploitationism           | +9               | 8 – 10          | Endemic servant corruption, particuliere handel, and smuggling reached structural dominance; private extraction exceeded legitimate trade flows under blockade. |
-| F2 Error Repair         | −8               | −7 to −9        | Systemic breakdown: Heeren XVII oversight failed to detect or correct cascading failures (falsified reports, fleet losses, corruption); no meaningful repair capacity. |
-| G1 Cheater Detection    | −8               | −7 to −9        | Internal visibility collapsed; widespread graft went undetected/unpunished at scale, triggering Enforcement Decay shim. |
-| E1 Survival             | +2               | 1 – 3           | Zombie/legal shell persisted via Republic bailouts and charter continuity, but no independent metabolic survival (zombie cap under blockade ceiling). |
+| Metric                | Canonical Center | Confidence Band | Justification (locked for reproducibility) |
+|-----------------------|------------------|-----------------|--------------------------------------------|
+| D1 Exploitationism    | +9               | 8 – 10          | Endemic servant corruption, particuliere handel, and smuggling reached structural dominance; private extraction exceeded legitimate trade flows under blockade. |
+| F2 Error Repair       | −8               | −7 to −9        | Systemic breakdown: Heeren XVII oversight failed to detect or correct cascading failures (falsified reports, fleet losses, corruption); no meaningful repair capacity. |
+| G1 Cheater Detection  | −8               | −7 to −9        | Internal visibility collapsed; widespread graft went undetected/unpunished at scale, triggering Enforcement Decay shim. |
+| E1 Survival           | +2               | 1 – 3           | Zombie/legal shell persisted via Republic bailouts and charter continuity, but no independent metabolic survival (zombie cap under blockade ceiling). |
 
-**Secondary guidance (provisional):**
+**Secondary guidance (provisional):**  
 - D2 Competition ≈ −8 (±1)  
-- A2 Market Allocation ≈ −6 (±1)  
+- A2 Market Allocation ≈ −6 (±1)
 
 **Application notes:**  
-- These locked hinge values (D1, F2, G1, E1) stabilize Rule-13 leakage calculations and Enforcement Decay/Ratchet shims across all ensemble runs and future scorings.  
-- Locked values are enforced in simulate.py (VOC_ANCHORS dict) and multi-model passes.  
+- These locked hinge values stabilize Rule-13 leakage calculations and Enforcement Decay/Ratchet shims across all ensemble runs and future scorings.  
+- Locked values are enforced in `simulate.py` (VOC_ANCHORS dict) and multi-model passes.  
 - Confidence bands allow minor interpretive flexibility while anchoring the integrity hinge.  
-- See Chapter 5 for the full Late VOC case study and multi-model consensus application.  
-- See Appendix A for code-level enforcement and reproducibility details.
+- See Chapter 5 for the full Late VOC case study and multi-model consensus application.
+
+#### 9.2.1.2 USSR ~1937 (Great Purge peak) – Rigid Trap / High-Y Suppression
+
+The USSR at the height of the Great Purge (1937) is hard-locked as the primary reference for **high-Y rigid trap** dynamics: extreme ideological monopoly, dissent suppression, leadership cult, purge cycles, and weaponized (but brittle) cheater detection.
+
+Hard-locked hinge metrics:
+
+| Metric                   | Canonical Center | Confidence Band | Justification |
+|--------------------------|------------------|-----------------|--------------|
+| D1 Exploitationism       | +9               | 8 – 10          | Total state extraction |
+| H2 Ideological Monopoly  | +9               | 8 – 10          | Marxism-Leninism-Stalinism sole framework |
+| H3 Dissent Suppression   | +9               | 8 – 10          | Great Purge peak |
+| L2 Leadership Cult       | +9               | 8 – 10          | Stalin infallibility |
+| L3 Purge Cycles          | +9               | 8 – 10          | Violent elite turnover |
+| G1 Cheater Detection     | −8               | −7 to −9        | NKVD quotas/false positives |
+
+**Application notes:**  
+- Enforced in `simulate.py` (USSR_ANCHORS dict).  
+- Produces high rigidity penalty (R ≈ 0.74) and Y ≈ 2.78 after boost.
+
+#### 9.2.1.3 United States ~1789 (Constitutional founding) – Mutualism / Healthy Baseline
+
+The United States at the 1787–1789 constitutional founding is hard-locked as the primary reference for **adaptive mutualism** with strong cheater detection, modularity, low suppression, and balanced competition.
+
+Hard-locked hinge metrics:
+
+| Metric                   | Canonical Center | Confidence Band | Justification |
+|--------------------------|------------------|-----------------|--------------|
+| G1 Cheater Detection     | +8               | 7 – 9           | Strong early institutions for detecting & punishing graft/corruption |
+| G2 Modularity            | +7               | 6 – 8           | Federal structure + separation of powers enables subsystem autonomy |
+| G3 Info Storage          | +8               | 7 – 9           | Written Constitution, free press foundations, literacy/high info fidelity |
+| D1 Exploitationism       | −2               | −4 – 0          | Low systemic parasitism; rent-seeking checked by competition & rule of law |
+| D2 Competition           | +6               | 5 – 7           | Healthy market & political competition; no monopoly dominance |
+| H2 Ideological Monopoly  | −5               | −7 – −3         | No state religion or enforced orthodoxy; pluralist founding ethos |
+| H3 Dissent Suppression   | −6               | −8 – −4         | First Amendment protections; dissent channeled via elections & press |
+| L2 Leadership Cult       | −7               | −9 – −5         | No personality cult; Washington precedent |
+| L3 Purge Cycles          | −8               | −9 – −7         | Peaceful electoral turnover; no violent elite culls |
+| F2 Error Repair          | +6               | 5 – 7           | Constitutional amendment + judicial review functional |
+
+**Application notes:**  
+- Enforced in `simulate.py` (USA_1789_ANCHORS dict).  
+- Produces low Rule-13 proxy (~10%) and near-zero Y (−0.02).
 
 ### 9.2.2 Phased CRL Development
 
