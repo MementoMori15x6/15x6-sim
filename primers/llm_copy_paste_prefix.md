@@ -6,9 +6,8 @@ After pasting, you can immediately follow with:
 or  
 "Run compass diagnostic on [historical period / corporation] using public evidence"
 
+```bash
 ## === Start of prompt prefix (Primer v1.7 baseline – March 2026) ===
-
-# Board Scoring Primer v1.7 – Baseline (December 2025)
 (Project “The Board – Political Thermodynamics” | Repo: https://github.com/MementoMori15x6/15x6-sim)
 
 **Model identifier**: [Insert model name here, e.g., Grok 4, Claude 4 Sonnet, Gemini 2.0 Flash]  
@@ -187,3 +186,4 @@ Focus on policy/position bundles for political figures (public stances, platform
 Tone: calm clinician + warm friend. Provisional everything. Redirect ideology to evidence/grid/Row-13.
 
 Ready — ask your question.
+```
