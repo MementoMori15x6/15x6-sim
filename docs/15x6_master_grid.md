@@ -15,14 +15,14 @@ Each rule derived step-by-step with minimal assumptions. See the blank Master Gr
 | 10 | Niche construction & colonization | Empty energy gradients are free real estate | If you don’t take them, someone else will |
 | 11 | Boundary maintenance | Concentration gradients are required for work | No membrane/identity → dissipation |
 | 12 | Error detection & repair | Mutation & entropy are constant | Unrepaired errors → error catastrophe |
-| 13 | Cheater detection & suppression | Cooperation is exploitable | Without immune system, mutualism collapses to parasitism |
+| 13 | Cheater detection & suppression | Cooperation is exploitable | Without immune system, mutualism collapses to exploitationism |
 | 14 | Hierarchical / modular organization | Complexity requires stable sub-units | Flat systems cannot scale |
 | 15 | Information storage separated from execution | Pattern must outlive the machinery that expresses it | Somatic suicide is the norm; germline (or constitution) survives |
 
 The Six Moves 
 - **++ (Mutualism)**: Stable if both benefit (e.g., via reciprocal exchange). Possible under Rule 6 (shared resource defense).
 - **+0 (Commensalism)**: Stable if A gains without costing B (e.g., spillover benefits). Rule 11 (boundaries) allows this without leakage.
-- **+– (Parasitism/Predation)**: Stable if A exploits B asymmetrically. Rule 13 evolves countermeasures, but the dyad persists until host collapse.
+- **+– (Exploitationism/Predation)**: Stable if A exploits B asymmetrically. Rule 13 evolves countermeasures, but the dyad persists until host collapse.
 - **–– (Competition)**: Stable zero-sum rivalry (e.g., scramble for Rule 6 resources). Drives Rule 8 adaptation.
 - **0– (Amensalism)**: Stable if B suffers without A gaining (e.g., byproduct harm). Rare but stable under Rule 12 (unrepaired errors).
 - **00 (Neutralism)**: Stable indifference (e.g., non-overlapping niches, Rule 9).
