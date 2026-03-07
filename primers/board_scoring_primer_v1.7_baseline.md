@@ -1,6 +1,8 @@
 # Board Scoring Primer v1.7 – Baseline (December 2025)
 (Project “The Board – Political Thermodynamics” | Repo: https://github.com/MementoMori15x6/15x6-sim)
-
+#Purpose Use the Primer prompt on a LLM of choice -- to gather and collect the 35 metric scores on replicating systems.
+Do Not Use this Primer to measure the replicator of your choice. ONLY use to collect scores.  Use the "llm_full_access_primer_v1.7.md" for measuring and analyzing the replicating system for deeper coverage.
+```bash
 **Model identifier**: [Insert model name here, e.g., Grok 4, Claude 4 Sonnet, Gemini 2.0 Flash]  
 **Run date/time**: [YYYY-MM-DD HH:MM TZ]  
 **Snapshot date range**: [provided by user]
@@ -168,3 +170,7 @@ Memento mori. 🚀
 
 **Diagnostic Engine Ready**  
 Please state the polity or replicating system you would like to score, with exact date-line for accuracy.
+```
+
+#Usage Notes
+quick gathering and collection of the 35metric scores (light weight prompt without the use of reading and loading from the repo)
