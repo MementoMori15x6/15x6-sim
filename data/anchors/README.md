@@ -84,5 +84,4 @@ State: Rigid Trap (Brittle Regime) | Longevity: 30–80 yrs (High Parasitism)
 **Insight:** Rule-13 overload alone compresses longevity dramatically, even with Y remaining low/negative (no rigidity boost). Distinct from USSR-style high-Y traps.
 
 *All scores provisional — open to empirical testing, shocks, and PRs for new anchors or refinements.*
-
 Memento mori. 🚀
