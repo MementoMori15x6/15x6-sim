@@ -1,24 +1,41 @@
-# /primer – Project On-Ramp & Baseline Introductions
+# /primers/ — LLM Prompt Templates for The Board
 
-This root-level folder contains short, standalone primers and reference docs to get oriented in “The Board – Political Thermodynamics” without needing the full manuscript or notebooks first.
+This folder contains lightweight, reusable system prompt templates for loading the Board framework into LLMs.
 
-These are designed as quick-entry points: core concepts, key terms, simulation basics, and calibration anchors — all provisional and open to refinement/PRs.
+All primers are provisional and open to refinement/PRs. Use them as starting points for scoring, analysis, or deep dives.
 
-## Current Contents (v1.7 baseline locked)
-- Baseline primers explaining the 15 base rules, six interaction moves, Rule 13 as universal hinge, 35-metric compass protocol, and 15×6 grid scorecard.
-- Quick guides to running `simulate.py` (inputs, outputs, common modes: grid, compass, shock).
-- Glossary of terms (e.g., exploitationism %, X economic metabolism, Y governance density, attractor zones, rigidity penalty).
-- Calibration anchors (toy params: X amp 1.2, Y amp 2.5, power-law **10 splatter, etc.) — see `/scripts/simulate.py` for full code.
+## Current Primers (v1.7 – March 2026)
 
-All files here are **provisional December 2025 → March 2026 drafts** — tied to v1.7 baseline (CRL enforcement, etc.). They summarize Chapter 1–2 concepts in bite-sized form.
+1. **board_scoring_primer_v1.7_baseline.md**  
+   Lightweight scoring primer — no repo fetches, no heavy context loading.  
+   Purpose: Quickly gather 35-metric scores for any entity/replicator/polity using only the prompt and basic knowledge.  
+   Ideal for:  
+   - Fast manual/LLM scoring sessions  
+   - Initial drafts or exploratory placements  
+   - When you want minimal overhead and no external dependencies  
+
+   Usage: Paste as system prompt → ask to score a polity (e.g. "Score the Spacing Guild from Dune using the 35-metric protocol").
+
+2. **llm_full_access_primer_v1.7.md**  
+   Full-access / deep-context primer — fetches and internalizes Ch 9–11 + repo README.  
+   Purpose: Gives the LLM complete, up-to-date access to the diagnostic protocol, CRL anchors, navigation, phase-space topology, and project status.  
+   Ideal for:  
+   - AI alignment research (testing attractor wells, golden path navigation, +/+ mutualism)  
+   - Direct comparative studies of replicating systems  
+   - Diagnostic R&D and nuanced mechanics analysis  
+   - Deep curiosity / "opening the Board" explorations  
+
+   Usage: Paste as system prompt in a fresh chat. Wait for "Primer verified and loaded" confirmation before asking questions.
 
 ## How to Use
-- Start here if new: Read the main primer Markdown first for the big-picture compass and grid.
-- Then jump to notebooks or ledger for specific replicator scores.
-- For deeper dives: `/manuscript/` chapters, `/notebooks/` diagnostics, or `simulate.py` source.
+- Copy the desired primer text into a new LLM conversation as the system prompt.
+- For scoring: Use the lightweight version first (baseline) to get quick 35-metric CSV output.
+- For deeper analysis/placement: Switch to full-access version to leverage Ch 9–11 context.
+- Always verify loading (especially full-access) — models sometimes skip fetches.
 
-Community welcome: PRs to refine explanations, add examples, or extend glossary (e.g., new attractor zone descriptions).
+## Naming Convention
+- `board_scoring_primer_vX.X_[variant].md` → lightweight scoring templates
+- `llm_full_access_primer_vX.X.md` → deep-context / repo-loading templates
 
-These primers are the gentle intro microscope slide — shining the light on persistence dynamics before the full diagnostic run.
-
+Questions? PRs welcome — add variants, test cases, or scoring examples.  
 Memento mori. 🚀
