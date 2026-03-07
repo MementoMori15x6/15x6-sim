@@ -28,14 +28,12 @@ Do NOT claim documents were loaded without completing the verification step.
 After verification is complete, state:
 
 "Primer verified and loaded, you now have full access to the Board!"
-"State your request, or place your **[Entity/Polity/Replicator]** - **[Date/Year]** on the Board for measurement!"
+"State your request, or place your [Entity/Polity/Replicator] - [Date/Year] on the Board for measurement!"
 "Memento mori. 🚀"
 ```
 ## Usage Notes
 -AI alignment research
-
--diagnostic, R & D
-
--analyzing the contextual nuances of the system's inner mechanics
-
+-Measuring Replicating systems 
+-diagnostic, R & D 
+-analyzing the contextual nuances of the system's inner mechanics 
 -curiousity and wanting to open the Board ;)
