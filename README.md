@@ -27,9 +27,10 @@ Best for: mechanics explanations, what-if vectors, attractor discussions, shock 
 ### How to Use (30 seconds)
 
 1. Open either primer link above
-2. Click **Raw** (top right) → copy the entire content
+2. Copy **bash section** 
 3. Paste into your LLM chat window
-4. With the **Full Access Primer**: add your question right after (e.g. *"Score the USA in 2025 using public evidence."*)
+4. **Full Access Primer**: add your question right after (e.g. *"Score the USA in 2025 using public evidence."*) 
+5. **Board Scoring Primer** should be solely for gathering and collecting score.
 
 ---
 
