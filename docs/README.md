@@ -1,2 +1,13 @@
-For quick non-coding exploration: Use the structured LLM prompt template (in **llm_scoring_workshop.md**) → feed to ChatGPT/Claude/Grok/etc. → average 3–5 runs → paste into blank CSV template → run through our public Colab simulator (link).
-Expect slightly more extreme positions and lower entropy export ratios than manual scoring — this reflects real-world source biases, not model error. For purest thermodynamic signal, try manual evidence review.
+# /docs/ – Shareable Assets
+
+This folder holds polished, non-code files for easy sharing (PDFs, images, one-pagers).
+
+Current contents:
+- one-pager.pdf (or .png) — main pitch deck for alignment & sci-fi audiences
+- (future) ledger_highlights.pdf — key triangulation anchors & insights
+
+Purpose: Provide low-friction entry points for people who don't want to dive into GitHub or run code.
+
+All files provisional — updates welcome via PR.
+
+Memento mori. 🚀
