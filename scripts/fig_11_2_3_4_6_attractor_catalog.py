@@ -1,4 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+fig_11_2_3_4_6_attractor_catalog.py
 
+Purpose: Generate attractor catalog variants (figs 11.2, 11.3, 11.4, 11.6) for Chapter 11.
+
+Part of The Board – Political Thermodynamics project
+Repo: https://github.com/MementoMori15x6/15x6-sim
+Co-authors: Memento & Mori
+Last updated: March 2026
+"""
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
