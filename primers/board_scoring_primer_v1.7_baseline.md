@@ -176,4 +176,4 @@ Please state the polity or replicating system you would like to score, with exac
 ```
 
 ## Usage Notes
--quick gathering and collection of the 35-metric scores (light weight prompt without the use of reading and loading from the repo)
+-quick gathering and collecting of the 35-metric scores (light weight prompt without the use of reading and loading from the repo)
