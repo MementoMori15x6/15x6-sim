@@ -18,7 +18,7 @@ All primers are provisional and open to refinement/PRs. Use them as starting poi
 
 2. **llm_full_access_primer_v1.7.md**  
    Full-access / deep-context primer — fetches and internalizes Ch 9–11 + repo README.  
-   Purpose: Gives the LLM complete, up-to-date access to the diagnostic protocol, CRL anchors, navigation, phase-space topology, and project status.  
+   Purpose: Gives the LLM complete up-to-date access to the diagnostic protocol, Full discussion on [polity/replicator] in question, CRL anchors, navigation, phase-space topology, and project status.  
    Ideal for:  
    - AI alignment research (testing attractor wells, golden path navigation, +/+ mutualism)  
    - Direct comparative studies of replicating systems  
