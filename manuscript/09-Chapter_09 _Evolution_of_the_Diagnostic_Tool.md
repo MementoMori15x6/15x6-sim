@@ -208,6 +208,10 @@ $$
 s_m = \frac{ \Delta o / \Delta m }{ \max(\Delta o / \Delta m) } , \quad o \in \{ t_{50}, \text{proxy}, \text{Row 13 par} \}
 $$
 
+$$
+s_m = \frac{ \Delta o / \Delta m }{ \max(\Delta o / \Delta m) } , \quad o \in \\{ t_{50}, \text{proxy}, \text{Row 13 par} \\}
+$$
+
 Example (preliminary on USA 1971 model):
 
 | Metric | Δ t_{50} | Δ Proxy | Δ Row 13 par | Sensitivity Rank |
