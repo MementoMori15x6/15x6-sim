@@ -15,8 +15,9 @@ Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by 
 
 The central band — labeled the **Stable Corridor** — is the thermodynamically preferred operating zone for long-persistence replicators. Systems whose ensemble clouds remain anchored here exhibit balanced Mutualism (+/+) dominance in harvest and functional rows combined with calibrated Competition (–/–) in adaptation, boundary maintenance, and suppression rows (6–8, 13–14). Variation bandwidth remains high (C2 >7), rigidity penalty stays low, and Row-13 exploitationism bleed is suppressed below 20–25% baseline. This corridor is the topological expression of the healthy baseline observed in ant colonies, Venice plateau, Bitcoin PoW, and Polkadot/Cosmos fractal designs: the narrow path where entropy export outpaces accumulation without requiring extreme suppression or metabolic overload.
 
+**Figure 11.1: Phase-Space Attractor Catalog**  
 ![Figure 11.1: Phase-Space Attractor Catalog](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_1_final_clean.png)  
-**Caption:** Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by Rule-13 proxy (%). Canonical attractors shown as shaded basins. Ethereum, Polkadot, and AI-hegemon variant occupy distinct regions, with drift visible toward exploitationism/rigidity under noise.
+Canonical attractor basins (#1–10) shown as shaded regions (colors illustrative for visual distinction only, carry no thermodynamic meaning). The **Stable Corridor (#10)** is the central preferred resilience zone for long-persistence replicators, characterized by balanced Mutualism (+/+) and calibrated Competition (–/–), high variation bandwidth (C2 >7), and low rigidity penalty. Small markers indicate approximate baseline positions of key manuscript examples: ants (Mutualism Ellipsoid #1), Venice plateau (Stable Corridor #10), late VOC (Exploitationism Sinkhole #2).
 
 ## 11.2 The Ten Canonical Attractors
 
@@ -61,9 +62,10 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
 10. **Stable Corridor** (moderate X, low-to-mild Y)  
     Preferred resilience zone: balanced mutualism/competition, high C2, low rigidity.  
     Longevity: centuries+, shock-absorbing.
-
+    
+**Figure 11.2: Row 13 Interaction Profiles by Canonical Attractor**  
 ![Figure 11.2: Row 13 Interaction Profiles by Canonical Attractor](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_2_row13_profiles_updated.png)  
-**Caption:** Average move intensities in Row 13 for each attractor. Mutualism/competition balance defines stable cores; exploitationism dominance defines sinkholes.
+Bar charts showing typical dominance intensity (0–10 scale) of the six interaction moves in Row 13 (cheater detection & suppression) for each canonical basin (#1–10). High exploitationism dominance (third bar in each plot) signals loss of suppression specificity and increased fracture risk. Low exploitationism with balanced mutualism/competition is characteristic of the Stable Corridor (#10).
 
 ## 11.3 Merger Dynamics – Graph Complexity
 
@@ -77,7 +79,7 @@ Mergers increase complexity, distributing sinks and buffering shocks.
 
 **Figure 11.3: Four Primary Attractor Wells & Kill-Switch Bifurcation**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_four_wells_kill_switch_ridge.png)
-Phase-space map showing the four dominant basins: Stressed Mutualism (green), Hierarchical Cooling (blue), Boundary Saturation (gold), and Exploitationism-dominated Terminal Descent (red). The dashed red line at ε ≈ 1.1 marks the bifurcation threshold where the exploitationism well becomes dominant.
+Overlapping primary attractor wells illustrating dynamic transitions and bifurcation risks. Ellipse shapes are elongated along X (economic metabolism) to reflect greater flexibility in market flows compared to the higher thermodynamic cost/friction of governance density changes along Y. The red dashed line marks the kill-switch threshold (ε ≈ 1.1), above which Exploitationism Sinkhole dominance accelerates collapse. The gold dashed line indicates the Bifurcation Ridge (separatrix / tipping boundary), where modest metric shifts can push systems from healthier zones into terminal basins.
 
 1. **Stressed Mutualism** — high entropy export with moderate suppression cost (broad, shallow basin; resilient under shocks)  
 2. **Hierarchical Cooling** — variation bandwidth traded for sharpened Rule-13 suppression (deep, stable well; longevity extended via rigidity)  
