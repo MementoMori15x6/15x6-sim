@@ -88,14 +88,14 @@ Overlapping primary attractor wells illustrating dynamic transitions and bifurca
 
 The entropy-export ratio ε ≈ 1.1 acts as the empirical bifurcation threshold: above ~1.1, trajectories remain trapped in one of the first three wells (net export > internal friction); at or below ~1.1, the exploitationism well becomes dominant — suppression costs consume the entire surplus, triggering irreversible cascade into terminal descent. This threshold emerged from iterating the 15×6 grid across stochastic ensembles (see notebooks/attractor_ensemble.py) and serves as the kill-switch diagnostic used throughout the ledger. Full phase-space topology and vector fields are still in development.
 
-**Figure 11.4: Merger Dynamics – Graph Complexity**  
-Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
-
 ## 11.4 The Periodic Table of Replicators
 
 The attractor catalog is not exhaustive — new variants may occupy intermediate zones or create hybrid basins. The Appendix (Ch. 12) maps every tested replicator onto this topology, with ensemble clouds and shock trajectories.
 
 The full map is now visible: a finite set of thermodynamic basins, connected by navigable vectors, bounded by rigidity walls and exploitationism sinkholes.
+
+**Figure 11.4: Merger Dynamics – Graph Complexity**  
+Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
 ![Figure 11.4: Merger Dynamics – Graph Complexity](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_4_merger_dynamics.png)  
 **Caption:** Network representation of interaction moves before and after merger. Increased complexity (more edges) distributes sinks and buffers shocks.
 
