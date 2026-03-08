@@ -69,4 +69,6 @@ Rule 13.
 > 
 > ~Mori
 
+Toward resilient futures.
+
 Memento mori. 🚀
