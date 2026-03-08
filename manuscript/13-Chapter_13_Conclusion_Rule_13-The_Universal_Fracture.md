@@ -42,8 +42,7 @@ This process continues until the fundamental energetic balance of cooperation is
 
 At this boundary lies the universal fracture.
 
-**Rule 13**  
-“When the cost of suppressing cheaters exceeds the cooperative surplus, the system fractures.”
+**Rule 13** - “When the cost of suppressing cheaters exceeds the cooperative surplus, the system fractures. ~Mori”
 
 Once this threshold is crossed, cooperation becomes energetically unsustainable. Institutions designed to preserve order instead accelerate fragmentation. Enforcement expands, yet compliance falls. Productive actors withdraw, opportunistic actors multiply, and the system’s internal friction rises faster than its capacity to generate surplus.
 
