@@ -117,6 +117,12 @@ python simulate.py --help
 
 Calibration anchors, CRL enforcement, rigidity formulas, and full protocol are in `/docs/`. Fork, experiment, break things, send PRs — the ledger is living.
 
+## Contributing
+The main branch is protected — all changes must come through pull requests.  
+Fork the repo, make your edits (e.g., new replicator scores in data/, tweaks to simulate.py), and open a PR.  
+PRs welcome for ledger rows, shock tests, figure code, or compass refinements.  
+All provisional and open to stress-testing.
+
 The microscope is yours.
 
 Memento mori. 🚀
