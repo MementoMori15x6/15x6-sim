@@ -1,5 +1,5 @@
 # The Board – Political Thermodynamics
-
+ 
 A diagnostic compass for far-from-equilibrium replicating systems — RNA to polities, corporations, protocols, AI agents.
 
 **15×6 grid** (15 rules × 6 moves) + **35-metric compass** → phase-space position (X economic metabolism, Y governance density), Rule-13 exploitationism proxy (key hinge), rigidity penalty, stochastic longevity estimates.
