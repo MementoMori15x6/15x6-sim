@@ -29,7 +29,7 @@ Best for: Full discussion on [polity/replicator] in question, mechanics explanat
 1. Open either primer link above
 2. Copy **bash section** 
 3. Paste into your LLM chat window
-4. **Full Access Primer**: add your question right after (e.g. *"Score the USA in 2025 using public evidence."*) 
+4. **Full Access Primer**: add your question right after (e.g. *"the USA in 2025-present using public evidence."*) 
 5. **Board Scoring Primer** should be solely for gathering and collecting score.
 
 ---
