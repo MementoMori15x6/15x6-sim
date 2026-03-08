@@ -16,7 +16,6 @@ Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by 
 The central band — labeled the **Stable Corridor** — is the thermodynamically preferred operating zone for long-persistence replicators. Systems whose ensemble clouds remain anchored here exhibit balanced Mutualism (+/+) dominance in harvest and functional rows combined with calibrated Competition (–/–) in adaptation, boundary maintenance, and suppression rows (6–8, 13–14). Variation bandwidth remains high (C2 >7), rigidity penalty stays low, and Row-13 exploitationism bleed is suppressed below 20–25% baseline. This corridor is the topological expression of the healthy baseline observed in ant colonies, Venice plateau, Bitcoin PoW, and Polkadot/Cosmos fractal designs: the narrow path where entropy export outpaces accumulation without requiring extreme suppression or metabolic overload.
 
 ![Figure 11.1: Phase-Space Attractor Catalog](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_1_final_clean.png)  
-*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 **Caption:** Ensemble clouds (n=50 per replicator, σ=0.07) on the compass plane, colored by Rule-13 proxy (%). Canonical attractors shown as shaded basins. Ethereum, Polkadot, and AI-hegemon variant occupy distinct regions, with drift visible toward exploitationism/rigidity under noise.
 
 ## 11.2 The Ten Canonical Attractors
@@ -64,7 +63,6 @@ The compass plane (X: -1.2 to +1.2, Y: -3.0 to +3.0) contains ten recurring attr
     Longevity: centuries+, shock-absorbing.
 
 ![Figure 11.2: Row 13 Interaction Profiles by Canonical Attractor](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_2_row13_profiles_updated.png)  
-*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 **Caption:** Average move intensities in Row 13 for each attractor. Mutualism/competition balance defines stable cores; exploitationism dominance defines sinkholes.
 
 ## 11.3 Merger Dynamics – Graph Complexity
@@ -79,7 +77,6 @@ Mergers increase complexity, distributing sinks and buffering shocks.
 
 **Figure 11.3: Four Primary Attractor Wells & Kill-Switch Bifurcation**  
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/fig_11_3_four_wells_kill_switch_ridge.png)
-*Note: The (+/–) move is now formally termed **Exploitationism** (systemic extraction); “Parasitism” is retained in legacy figures until updated.*
 Phase-space map showing the four dominant basins: Stressed Mutualism (green), Hierarchical Cooling (blue), Boundary Saturation (gold), and Exploitationism-dominated Terminal Descent (red). The dashed red line at ε ≈ 1.1 marks the bifurcation threshold where the exploitationism well becomes dominant.
 
 1. **Stressed Mutualism** — high entropy export with moderate suppression cost (broad, shallow basin; resilient under shocks)  
