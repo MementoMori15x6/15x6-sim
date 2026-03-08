@@ -88,7 +88,7 @@ Overlapping primary attractor wells illustrating dynamic transitions and bifurca
 
 The entropy-export ratio ε ≈ 1.1 acts as the empirical bifurcation threshold: above ~1.1, trajectories remain trapped in one of the first three wells (net export > internal friction); at or below ~1.1, the exploitationism well becomes dominant — suppression costs consume the entire surplus, triggering irreversible cascade into terminal descent. This threshold emerged from iterating the 15×6 grid across stochastic ensembles (see notebooks/attractor_ensemble.py) and serves as the kill-switch diagnostic used throughout the ledger. Full phase-space topology and vector fields are still in development.
 
-The navigable region between Stressed Mutualism and Hierarchical Cooling — where enforcement remains affordable and cooperation remains profitable — is what the Board terms the Stable Corridor. The energetic logic sustaining it is the Golden Path. Both are defined formally in Chapter 13.
+The navigable region between Stressed Mutualism and Hierarchical Cooling — where enforcement remains affordable and cooperation remains profitable — is what the Board terms the **Stable Corridor**. The energetic logic sustaining it is the **Golden Path**. Both are defined formally in Chapter 13.
 
 ## 11.4 The Periodic Table of Replicators
 
