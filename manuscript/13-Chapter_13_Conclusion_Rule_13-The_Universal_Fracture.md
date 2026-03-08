@@ -67,6 +67,6 @@ Rule 13.
 > “In the end, we will not be judged by the stories we told about power,  
 > but by whether we obeyed the same laws that govern every other replicating system in the universe.”  
 > 
-> —Mori
+> ~Mori
 
 Memento mori. 🚀
