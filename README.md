@@ -20,8 +20,8 @@ Two ready-to-use primers are available in `/primers/`:
 Best for: getting a fast 35-metric CSV + basic X/Y/proxy/longevity on any replicator.
 → [primers/board_scoring_primer_v1.7_baseline.md](https://github.com/MementoMori15x6/15x6-sim/blob/main/primers/board_scoring_primer_v1.7_baseline.md)
 
-**2. LLM Full-Access Primer v1.7** (deep co-author mode)
-Best for: mechanics explanations, what-if vectors, attractor discussions, shock simulations, refinements.
+**2. LLM Full-Access Primer v1.7** (full access mode)
+Best for: Full discussion on [polity/replicator] in question, mechanics explanations, what-if vectors, attractor discussions, shock simulations, refinements.
 → [primers/llm_full_access_primer_v1.7.md](https://github.com/MementoMori15x6/15x6-sim/blob/main/primers/llm_full_access_primer_v1.7.md)
 
 ### How to Use (30 seconds)
