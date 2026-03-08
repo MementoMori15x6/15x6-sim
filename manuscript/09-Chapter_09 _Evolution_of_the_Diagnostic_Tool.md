@@ -205,10 +205,6 @@ The tool now quantifies decay curves — probabilistic health trajectories, not 
 Not all metrics are equally important. The Sensitivity Matrix quantifies impact: sweep ±20% on each metric individually, measure normalized delta in median longevity (t_{50}), proxy, Row 13 par intensity:
 
 $$
-s_m = \frac{ \Delta o / \Delta m }{ \max(\Delta o / \Delta m) } , \quad o \in \{ t_{50}, \text{proxy}, \text{Row 13 par} \}
-$$
-
-$$
 s_m = \frac{ \Delta o / \Delta m }{ \max(\Delta o / \Delta m) } , \quad o \in \\{ t_{50}, \text{proxy}, \text{Row 13 par} \\}
 $$
 
