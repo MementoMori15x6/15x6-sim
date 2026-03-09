@@ -1,3 +1,11 @@
+## Support the Ledger❤️
+If the 35-metric compass, 15×6 grid, or Rule-13 hinge has helped clarify thermodynamic dynamics in replicating systems, consider a small contribution to sustain simulations, figures, and ledger growth.
+
+Ko-fi: https://ko-fi.com/mementomori15x6 (suggested tips: $5 / $16 / $42)
+GitHub Sponsors (pending final approval): https://github.com/sponsors/MementoMori15x6
+
+Every tip extends the observation window. Memento mori. 🚀
+---
 # The Board – Political Thermodynamics
    
 A diagnostic compass for far-from-equilibrium replicating systems — RNA to polities, corporations, protocols, AI agents.
@@ -9,11 +17,6 @@ A diagnostic compass for far-from-equilibrium replicating systems — RNA to pol
 Repo: https://github.com/MementoMori15x6/15x6-sim
 
 ---
-## Support the Board
-If the compass, Rule-13 hinge, or ledger simulations have sharpened your view of replicating-system dynamics, consider helping sustain the microscope.  
-❤️ GitHub Sponsors (recurring or one-time): https://github.com/sponsors/MementoMori15x6  
-(Profile pending final approval — live soon)  
-External options: [Ko-fi link] | ETH/Polygon: [your address]
 
 ## Quick Start – No Coding Required (Casual Users)
 
