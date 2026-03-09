@@ -1,10 +1,12 @@
-## Support the Ledger❤️
+## ❤️ Support the Ledger
 If the 35-metric compass, 15×6 grid, or Rule-13 hinge has helped clarify thermodynamic dynamics in replicating systems, consider a small contribution to sustain simulations, figures, and ledger growth.
 
-Ko-fi: https://ko-fi.com/mementomori15x6 (suggested tips: $5 / $16 / $42)
-GitHub Sponsors (pending final approval): https://github.com/sponsors/MementoMori15x6
+☕️ -Ko-fi: https://ko-fi.com/mementomori15x6 (suggested tips: $5 / $16 / $42)
+
+☕️ -GitHub Sponsors (pending final approval): https://github.com/sponsors/MementoMori15x6
 
 Every tip extends the observation window. Memento mori. 🚀
+
 ---
 # The Board – Political Thermodynamics
    
