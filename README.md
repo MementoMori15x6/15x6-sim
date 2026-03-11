@@ -3,7 +3,7 @@ If the 35-metric compass, 15×6 grid, or Rule-13 hinge has helped clarify thermo
 
 ☕️ -Ko-fi: https://ko-fi.com/mementomori15x6 (suggested tips: $5 / $16 / $42)
 
-☕️ -GitHub Sponsors (pending final approval): https://github.com/sponsors/MementoMori15x6
+☕️ -GitHub Sponsors: https://github.com/sponsors/MementoMori15x6
 
 Every tip extends the observation window. Memento mori. 🚀
 
