@@ -1,4 +1,4 @@
-# 13 - Chapter 13: Conclusion: Rule 13 – The Universal Fracture
+# 13 - Chapter 13: Conclusion: Rule 13 – The Fracture Threshold
 ![Rule 13: The Universal Fracture – The hinge where every replicator fails](https://github.com/MementoMori15x6/15x6-sim/raw/main/figures/banners/banner_ch13_universal_fracture_v2_centered.png)
 Memento & Mori | December 2025 – ongoing
 
@@ -40,7 +40,7 @@ Gradually, the system begins to consume its own cooperative surplus.
 
 This process continues until the fundamental energetic balance of cooperation is reversed.
 
-At this boundary lies the universal fracture.
+At this boundary lies the fracture threshold.
 
 **Rule 13** - “When the cost of suppressing cheaters exceeds the cooperative surplus, the system fractures. ~Mori”
 
