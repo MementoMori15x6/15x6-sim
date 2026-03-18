@@ -7,6 +7,14 @@ If the 35-metric compass, 15×6 grid, or Rule-13 hinge has helped clarify thermo
 
 Every tip extends the observation window. Memento mori. 🚀
 
+
+---
+
+## Licensing
+
+- **Open-source / academic / research / community use**: GNU Affero General Public License v3.0 (see LICENSE)  
+- **Commercial / proprietary / closed-source / enterprise / SaaS use**: Separate paid license required. Contact @MementoMori15x6 on X for terms.
+
 ---
 # The Board – Political Thermodynamics
    
