@@ -12,3 +12,5 @@ This folder contains the full Board scoring and Monte Carlo analysis for Terra/L
 1. Open terra-luna_mc_sensitivity.ipynb in Colab
 2. Run all cells
 3. Outputs: collapse probabilities, CIs, and perturbed Fracture Meter distributions
+
+## Add Monte Carlo raw outputs and converted 35-metric CSVs for all Terra/Luna stages
