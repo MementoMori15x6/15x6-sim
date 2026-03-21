@@ -27,6 +27,29 @@ Only Stage 3 consistently crosses the fracture threshold under realistic uncerta
 - `*_converted_*.csv` — recalibrated 35-metric consensus scores that produce the ensemble mean Fracture Meter (ready for simulate.py / compass protocol)
 - `notebooks/terra-luna_mc_sensitivity.ipynb` — full MC code, baseline arrays, and export logic
 
+## Monte Carlo Setup
+- 5,000 iterations per stage
+- Gaussian noise: σ=1.0 on main hinges (D1, G1, F2), σ=0.5 on secondary (H3, L2, C2), σ=0.3 on others
+- Collapse flag: Fracture Meter >45% = collapse-prone under uncertainty
+- Notebook: `notebooks/terra-luna_mc_sensitivity.ipynb`
+
+## Summary Table – Baseline Noise (recalibrated means from converted CSVs)
+
+| Stage                                      | Mean Fracture Meter | 95% CI          | % >45% | % >50% | % >55% | Collapse Prob (>45%) | Raw CSV                                      | Converted CSV (35-metric)                    |
+|--------------------------------------------|----------------------|-----------------|--------|--------|--------|----------------------|----------------------------------------------|----------------------------------------------|
+| Stage 1 (2019 Genesis)                     | 39.8%               | 34.0–45.5%      | 3.8%   | 0.0%   | 0.0%   | 3.8%                 | raw_terra-luna_mc_results_stage1.csv         | terra-luna_mc_converted_stage1.csv           |
+| Stage 2 (2020 Anchor Launch)               | 37.3%               | 31.3–43.1%      | 0.4%   | 0.0%   | 0.0%   | 0.4%                 | raw_terra-luna_mc_results_stage2.csv         | terra-luna_mc_converted_stage2.csv           |
+| Stage 3 (2021 Parabolic)                   | 51.2%               | 45.5–56.9%      | 98.3%  | 66.3%  | 9.3%   | 98.3%                | raw_terra-luna_mc_results_stage3.csv         | terra-luna_mc_converted_stage3.csv           |
+| Stage 3 + Combined Shock (+1 D1 & -1 G1)   | 55.1%               | 49.5–60.6%      | 100.0% | 96.1%  | 52.9%  | 100.0%               | (shock variant – not yet raw-exported)       | (shock variant – not yet converted)          |
+
+**Key Insight**  
+Only Stage 3 consistently crosses the fracture threshold under realistic uncertainty. Earlier stages remain robust. The combined shock pushes Stage 3 to certain collapse — showing zero margin for error once the parabolic phase is reached.
+
+## Files Overview
+- `raw_*.csv` — raw 5,000 iteration Fracture Meter values (one file per stage)
+- `*_converted_*.csv` — recalibrated 35-metric consensus scores that produce the ensemble mean Fracture Meter (ready for simulate.py / compass protocol)
+- `notebooks/terra-luna_mc_sensitivity.ipynb` — full MC code, baseline arrays, and export logic
+
 ## How to Reproduce
 1. Open `notebooks/terra-luna_mc_sensitivity.ipynb` in Colab
 2. Run all cells top-to-bottom
