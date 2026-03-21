@@ -8,8 +8,15 @@ Use these as reference points in `simulate.py` for:
 - Splatter % relative to healthy vs. rigid attractors
 - Shock delta testing (copy → perturb → compare)
 
-  **CRL anchors are stored in data/anchors/*.csv.  
-See crl_terra_luna.md for Terra/Luna progression and roles.**
+# CRL Terra-Luna Anchors
+
+Calibration reference anchors for the compass protocol.
+
+- `crl_terra_luna.csv`: Terra/Luna 2019–2022 progression (4 poles)
+- Parabolic uses exact CSV hinge for self-consistency (~61.5%)
+- Shocked adds institutional capture acceleration (~80%)
+
+See the project ledger (Chapter 12) for usage.
 
 ---
 
