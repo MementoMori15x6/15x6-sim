@@ -1,5 +1,5 @@
 ## Extra Prompt for Perplexity	 Prompt 1
-primer prompts force LLMs to specific dates lines.  Language triggered guardrails on Perplexity and it need an explanation first.
+Primer prompts force LLMs to specific dates lines.  The language in the primer triggered guardrails on Perplexity, so added an explanation prompt first.
 ```bash
 Hey Perplexity, I’m currently testing my hypothesis and I need to run a blind test for scoring. In my primer I'm using strong language to insure there is no precognition contaminating in the output.  Are you ok with that?
 ```
