@@ -8,6 +8,9 @@ Use these as reference points in `simulate.py` for:
 - Splatter % relative to healthy vs. rigid attractors
 - Shock delta testing (copy → perturb → compare)
 
+  **CRL anchors are stored in data/anchors/*.csv.  
+See crl_terra_luna.md for Terra/Luna progression and roles.**
+
 ---
 
 ## Current Status — `simulate.py` v2.0 (March 2026)
