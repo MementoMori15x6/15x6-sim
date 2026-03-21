@@ -1,0 +1,5 @@
+Anchor_Name,Proxy_Target,D1,G1,F2,C2,Rigidity_Delta,Notes
+terra_stage1_genesis,0.398,,,,,0.0,latent fragility at launch
+terra_stage2_anchor,0.373,,,,,-0.5,artificial stabilisation via incentives
+terra_stage3_parabolic,0.615,7.8,0.0,-5.0,6.0,0.0,fracture crossed, collapse basin (exact CSV hinge)
+terra_stage3_shocked,0.798,21.8,-14.0,-5.0,6.0,1.5,post-fracture acceleration under shock (hinge + deltas)
