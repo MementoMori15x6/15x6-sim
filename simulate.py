@@ -1,91 +1,5 @@
-
-import pandas as pd
-
-# === CRL ANCHORS - Terra/Luna (dynamic load from CSV) ===
-crl_path = "data/anchors/crl_terra_luna.csv"
-crl_df = pd.read_csv(crl_path)
-
-CRL_ANCHORS = {}
-for _, row in crl_df.iterrows():
-    name = row['Anchor_Name']
-    CRL_ANCHORS[name] = {
-        "proxy_target": float(row['Proxy_Target']),
-        "D1": float(row['D1']) if row['D1'] != "-" else None,
-        "G1": float(row['G1']) if row['G1'] != "-" else None,
-        "F2": float(row['F2']) if row['F2'] != "-" else None,
-        "C2": float(row['C2']) if row['C2'] != "-" else None,
-        "rigidity_delta": float(row['Rigidity_Delta']),
-        "notes": row['Notes']
-    }
-
-print("✅ CRL anchors loaded:", list(CRL_ANCHORS.keys()))
-
-def apply_crl_anchor(df, anchor_name):
-    \"\"\"Apply exact hinge values from anchor to the dataframe.\"\"\"
-    if anchor_name not in CRL_ANCHORS:
-        print(f"⚠ Anchor {anchor_name} not found")
-        return df
-    
-    anchor = CRL_ANCHORS[anchor_name]
-    
-    # Apply exact hinge values (None = skip)
-    for metric, value in [("D1", anchor["D1"]), ("G1", anchor["G1"]),
-                          ("F2", anchor["F2"]), ("C2", anchor["C2"])]:
-        if value is not None and metric in df['Metric'].values:
-            df.loc[df['Metric'] == metric, 'Score'] = value
-    
-    # Optional rigidity adjustment (future use)
-    if anchor["rigidity_delta"] != 0:
-        print(f"  Rigidity delta applied: {anchor['rigidity_delta']}")
-    
-    return df
-
-
-
-import pandas as pd
-
-# === CRL ANCHORS - Terra/Luna (dynamic load from CSV) ===
-crl_path = "data/anchors/crl_terra_luna.csv"
-crl_df = pd.read_csv(crl_path)
-
-CRL_ANCHORS = {}
-for _, row in crl_df.iterrows():
-    name = row['Anchor_Name']
-    CRL_ANCHORS[name] = {
-        "proxy_target": float(row['Proxy_Target']),
-        "D1": float(row['D1']) if row['D1'] != "-" else None,
-        "G1": float(row['G1']) if row['G1'] != "-" else None,
-        "F2": float(row['F2']) if row['F2'] != "-" else None,
-        "C2": float(row['C2']) if row['C2'] != "-" else None,
-        "rigidity_delta": float(row['Rigidity_Delta']),
-        "notes": row['Notes']
-    }
-
-print("✅ CRL anchors loaded:", list(CRL_ANCHORS.keys()))
-
-def apply_crl_anchor(df, anchor_name):
-    \"\"\"Apply exact hinge values from anchor to the dataframe.\"\"\"
-    if anchor_name not in CRL_ANCHORS:
-        print(f"⚠ Anchor {anchor_name} not found")
-        return df
-    
-    anchor = CRL_ANCHORS[anchor_name]
-    
-    # Apply exact hinge values (None = skip)
-    for metric, value in [("D1", anchor["D1"]), ("G1", anchor["G1"]),
-                          ("F2", anchor["F2"]), ("C2", anchor["C2"])]:
-        if value is not None and metric in df['Metric'].values:
-            df.loc[df['Metric'] == metric, 'Score'] = value
-    
-    # Optional rigidity adjustment (future use)
-    if anchor["rigidity_delta"] != 0:
-        print(f"  Rigidity delta applied: {anchor['rigidity_delta']}")
-    
-    return df
-
-
 # The Board – Political Thermodynamics
-# simulate.py v2.0 – March 2026
+# simulate.py v2.0 – March 2026 (updated with Terra/Luna CRL + MC proxy)
 # Major updates: full CRL enforcement by filename, rigidity multiplier active, scalar-safe X/Y calc, debug prints for R/vs/up
 # Tested: triangulation anchors (USA_1789, USSR_1937, VOC golden/late) complete with distinct collapse signatures
 # CORE GUIDELINES:
@@ -95,10 +9,53 @@ def apply_crl_anchor(df, anchor_name):
 # - No image generation — figures via matplotlib/seaborn in Colab only
 # Repo: https://github.com/MementoMori15x6/15x6-sim
 # Mission: Microscope & compass for thermodynamic replicating systems — entropy export, variation bandwidth, suppression cost
+
 import pandas as pd
 import numpy as np
 import argparse
 import sys
+
+# === CRL ANCHORS - Terra/Luna (dynamic load from CSV) ===
+crl_path = "data/anchors/crl_terra_luna.csv"
+
+try:
+    crl_df = pd.read_csv(crl_path)
+    CRL_ANCHORS = {}
+    for _, row in crl_df.iterrows():
+        name = row['Anchor_Name']
+        CRL_ANCHORS[name] = {
+            "proxy_target": float(row['Proxy_Target']),
+            "D1": float(row['D1']) if row['D1'] != "-" else None,
+            "G1": float(row['G1']) if row['G1'] != "-" else None,
+            "F2": float(row['F2']) if row['F2'] != "-" else None,
+            "C2": float(row['C2']) if row['C2'] != "-" else None,
+            "rigidity_delta": float(row['Rigidity_Delta']),
+            "notes": row['Notes']
+        }
+    print("✅ CRL anchors loaded:", list(CRL_ANCHORS.keys()))
+except Exception as e:
+    print(f"Failed to load CRL anchors: {e}")
+    CRL_ANCHORS = {}
+
+def apply_crl_anchor(df, anchor_name):
+    """Apply exact hinge values from anchor to the dataframe."""
+    if anchor_name not in CRL_ANCHORS:
+        print(f"⚠ Anchor {anchor_name} not found")
+        return df
+   
+    anchor = CRL_ANCHORS[anchor_name]
+   
+    # Apply exact hinge values (None = skip)
+    for metric, value in [("D1", anchor["D1"]), ("G1", anchor["G1"]),
+                          ("F2", anchor["F2"]), ("C2", anchor["C2"])]:
+        if value is not None and metric in df['Metric'].values:
+            df.loc[df['Metric'] == metric, 'Score'] = value
+   
+    # Optional rigidity adjustment (future use)
+    if anchor["rigidity_delta"] != 0:
+        print(f"  Rigidity delta applied: {anchor['rigidity_delta']}")
+   
+    return df
 
 # === CRL HARD ANCHORS & CONSTANTS ===
 # Late VOC 1780–1785: canonical corporate exploitative collapse / Chaos Boundary
@@ -111,7 +68,6 @@ VOC_ANCHORS = {
     'D2_Competition': {'center': -8, 'band_low': -9, 'band_high': -7, 'note': 'External competition suppressed by charter; British naval actions imposed destructive pressure'},
     'A2_Market_Allocation': {'center': -6, 'band_low': -7, 'band_high': -5, 'note': 'Monopoly on paper but war/seizures shifted effective allocation to unregulated smuggling'}
 }
-
 USSR_ANCHORS = {
     'D1_Exploitationism': {'center': 9, 'band_low': 8, 'band_high': 10, 'note': 'Total state extraction'},
     'H2_Ideological_Monopoly': {'center': 9, 'band_low': 8, 'band_high': 10, 'note': 'Marxism-Leninism-Stalinism sole framework'},
@@ -120,20 +76,18 @@ USSR_ANCHORS = {
     'L3_Purge_Cycles': {'center': 9, 'band_low': 8, 'band_high': 10, 'note': 'Violent elite turnover'},
     'G1_Cheater_Detection': {'center': -8, 'band_low': -9, 'band_high': -7, 'note': 'NKVD quotas/false positives'}
 }
-
 USA_1789_ANCHORS = {
-    'G1_Cheater_Detection':   {'center': 8, 'band_low': 7, 'band_high': 9,  'note': 'Strong early institutions for detecting & punishing graft/corruption (courts, militias, civic norms)'},
-    'G2_Modularity':          {'center': 7, 'band_low': 6, 'band_high': 8,  'note': 'Federal structure + separation of powers enables subsystem autonomy & error isolation'},
-    'G3_Info_Storage':        {'center': 8, 'band_low': 7, 'band_high': 9,  'note': 'Written Constitution, free press foundations, literacy/high info fidelity'},
-    'D1_Exploitationism':     {'center': -2, 'band_low': -4, 'band_high': 0, 'note': 'Low systemic parasitism; rent-seeking present but checked by competition & rule of law'},
-    'D2_Competition':         {'center': 6, 'band_low': 5, 'band_high': 7,  'note': 'Healthy market & political competition; no monopoly charter dominance'},
+    'G1_Cheater_Detection': {'center': 8, 'band_low': 7, 'band_high': 9, 'note': 'Strong early institutions for detecting & punishing graft/corruption (courts, militias, civic norms)'},
+    'G2_Modularity': {'center': 7, 'band_low': 6, 'band_high': 8, 'note': 'Federal structure + separation of powers enables subsystem autonomy & error isolation'},
+    'G3_Info_Storage': {'center': 8, 'band_low': 7, 'band_high': 9, 'note': 'Written Constitution, free press foundations, literacy/high info fidelity'},
+    'D1_Exploitationism': {'center': -2, 'band_low': -4, 'band_high': 0, 'note': 'Low systemic parasitism; rent-seeking present but checked by competition & rule of law'},
+    'D2_Competition': {'center': 6, 'band_low': 5, 'band_high': 7, 'note': 'Healthy market & political competition; no monopoly charter dominance'},
     'H2_Ideological_Monopoly':{'center': -5, 'band_low': -7, 'band_high': -3,'note': 'No state religion or enforced orthodoxy; pluralist founding ethos'},
     'H3_Dissent_Suppression': {'center': -6, 'band_low': -8, 'band_high': -4,'note': 'First Amendment protections; dissent channeled via elections & press'},
-    'L2_Leadership_Cult':     {'center': -7, 'band_low': -9, 'band_high': -5,'note': 'No personality cult; Washington steps down sets precedent'},
-    'L3_Purge_Cycles':        {'center': -8, 'band_low': -9, 'band_high': -7,'note': 'Peaceful electoral turnover; no violent elite culls'},
-    'F2_Error_Repair':        {'center': 6, 'band_low': 5, 'band_high': 7,  'note': 'Constitutional amendment + judicial review mechanisms functional'}
+    'L2_Leadership_Cult': {'center': -7, 'band_low': -9, 'band_high': -5,'note': 'No personality cult; Washington steps down sets precedent'},
+    'L3_Purge_Cycles': {'center': -8, 'band_low': -9, 'band_high': -7,'note': 'Peaceful electoral turnover; no violent elite culls'},
+    'F2_Error_Repair': {'center': 6, 'band_low': 5, 'band_high': 7, 'note': 'Constitutional amendment + judicial review mechanisms functional'}
 }
-
 print("USSR_ANCHORS loaded successfully (dict with", len(USSR_ANCHORS), "entries)")
 print(USSR_ANCHORS.keys())
 
@@ -144,33 +98,33 @@ def compute_rule13_proxy(metrics):
     Calibrated against CRL anchors: VOC 65.0%, USSR 66.9%, USA1789 ~1.6%, USA Modern 21.1%
     Bifurcation validated: crosses 30% at G1 ≈ -6 in USA-modern baseline
     """
-    d1 = metrics[8]   
-    d2 = metrics[9]   
-    g1 = metrics[14]  
-    f2 = metrics[13]  
-    g3 = metrics[16]  
-    h2 = metrics[18]  
-
+    d1 = metrics[8]
+    d2 = metrics[9]
+    g1 = metrics[14]
+    f2 = metrics[13]
+    g3 = metrics[16]
+    h2 = metrics[18]
     extraction_pressure = d1 * 0.85 + d2 * 0.10
     detection_capacity = g1 * 0.13 + f2 * 0.06 + g3 * 0.10
-
     masking_penalty = h2 * 0.10 if h2 > 3 else 0
     effective_detection = detection_capacity - masking_penalty
-
     raw_proxy = extraction_pressure - effective_detection + 1.5
-
     if g1 < -5 and d1 > 5:
         raw_proxy *= 1.5
     elif g1 < -5:
         raw_proxy *= 1.2
-
     MINIMUM_FLOOR = 0.4
     raw_proxy = max(raw_proxy, MINIMUM_FLOOR)
-
     scale_factor = 4.06
-
     proxy_percent = max(0, min(100, raw_proxy * scale_factor))
     return proxy_percent
+
+# MC-aligned proxy (Bitcoin ~39.8%, Terra ~51.8%, shocked ~76.1%)
+def mc_aligned_proxy(d1, g1, rigidity=0):
+    raw = 41.91 + (d1 * 1 + g1 * 0.4) - (rigidity * 12.8)
+    bounded = 118 / (1 + np.exp(-(raw - 50) / 10))
+    return bounded
+
 def load_scores(csv_path):
     try:
         df = pd.read_csv(csv_path)
@@ -179,7 +133,7 @@ def load_scores(csv_path):
         scores = df['Score'].astype(float).values
         if len(scores) != 35:
             raise ValueError(f"Expected 35 metrics, got {len(scores)}")
-        return scores
+        return scores, df  # return both scores array and original df for anchor application
     except Exception as e:
         print(f"Load error for {csv_path}: {e}")
         sys.exit(1)
@@ -216,25 +170,25 @@ def compute_rigidity_multiplier(scores):
     Vs = variation suppression (negative mean of low-variation/autonomy metrics)
     Up = uniformity pressure (mean of high-uniformity metrics)
     """
-    c2 = scores[6]                  # C2_Variation
-    h_group = scores[17:20]         # H1–H3 Uniformity
-    i_group = scores[20:23]         # I1–I3 Autonomy/Expression
-    
+    c2 = scores[6] # C2_Variation
+    h_group = scores[17:20] # H1–H3 Uniformity
+    i_group = scores[20:23] # I1–I3 Autonomy/Expression
+   
     vs = max(0, -np.mean([c2] + list(i_group)) / 10)
     up = max(0, np.mean(h_group) / 10)
-    
+   
     r = vs * up
-    
-    return r, vs, up   # <-- must return tuple (r, vs, up)
+   
+    return r, vs, up
 
 def build_15x6_matrix(scores):
     matrix = np.zeros((15, 6))
     # Row 12 = Rule 13: cheater detection & suppression
     parasitism_load = max(0, scores[9] / 10.0) * 0.6 + max(0, (-scores[15] / 10.0)) * 0.4
-    matrix[12, 2] = parasitism_load  # column 2 = Parasitism (+/–)
+    matrix[12, 2] = parasitism_load # column 2 = Parasitism (+/–)
     print(f"Rule-13 Parasitism seed before norm: {parasitism_load:.2f}")
     row_sums = matrix.sum(axis=1, keepdims=True)
-    matrix = np.where(row_sums > 0, matrix / row_sums * 100, 100.0 / 6)  # uniform fallback
+    matrix = np.where(row_sums > 0, matrix / row_sums * 100, 100.0 / 6) # uniform fallback
     return matrix
 
 def apply_shock(scores, shock_type="none"):
@@ -253,69 +207,46 @@ def apply_shock(scores, shock_type="none"):
         shocked[gov_indices] += 0.8
         return shocked
     if shock_type == "rigidity_collapse":
-        print("Applying rigidity/boundary saturation shock...")
-        shocked[:18] -= 4.0
-        gov_indices = list(range(18, 35))
-        shocked[gov_indices] -= 7.0
-        shocked[9] = -7.5
-        shocked[15] = 0.5
-        c2_idx = 6  # C2_Variation
-        shocked[c2_idx] -= 6.0
-        return shocked
-
-def compute_rigidity_multiplier(scores):
-    # Force every input to float
-    c2 = float(scores[6])
-    h_group = [float(scores[i]) for i in range(17, 20)]
-    i_group = [float(scores[i]) for i in range(20, 23)]
-
-    # Scalar means
-    mean_var_sup = np.mean([c2] + i_group)
-    mean_uni_pres = np.mean(h_group)
-
-    vs = max(0.0, -float(mean_var_sup) / 10.0)
-    up = max(0.0, float(mean_uni_pres) / 10.0)
-
-    r = vs * up  # float * float = float
-
-    print(f"DEBUG rigidity: vs = {vs:.4f}, up = {up:.4f}, r = {r:.4f}")
-
-    return r  # guaranteed scalar float
+    print("Applying rigidity/boundary saturation shock (corrected — fracture acceleration)...")
+    
+    shocked[:18] -= 1.5                     # mild economic stress
+    gov_indices = list(range(18, 35))
+    shocked[gov_indices] += 5.5             # heavy suppression ramp
+    shocked[8]  = 9.0                       # D1 → +9 (exploitation bleed)
+    shocked[14] = -8.5                      # G1 → -8.5 (detection collapse)
+    shocked[6]  -= 5.0                      # C2 suppressed
+    shocked[17:20] += 4.0                   # H1–H3 up
+    shocked[20:23] -= 4.5                   # I1–I3 down
+    shocked[13] -= 3.0                      # F2 degrade
 
 def compute_compass(scores):
     """
     Compute X,Y position with rigidity boost (current protocol).
     """
     # Rigidity multiplier (must be scalar)
-    r = compute_rigidity_multiplier(scores)
-
+    r, vs, up = compute_rigidity_multiplier(scores)
     metabolic = scores[:18]
     governance = scores[18:]
-
     penalized_met = apply_nonlinear_penalty(metabolic)
     penalized_gov = apply_nonlinear_penalty(governance)
-
     # Scalar means + explicit float conversion
     mean_met = float(np.mean(penalized_met))
     mean_gov = float(np.mean(penalized_gov))
-
     raw_x = mean_met / 10 * 1.2
     raw_y = mean_gov / 10 * 2.5
-
     final_y = raw_y * (1 + 2.0 * r)
-
     print(f"DEBUG: Raw X: {raw_x:.3f}, Raw Y: {raw_y:.3f}")
     print(f"DEBUG: Rigidity R = {r:.3f}")
     print(f"DEBUG: Final Y after boost: {final_y:.3f}")
-
     return raw_x, final_y
 
 # === Enforcement & Main Logic (cleaned, no undefined vars) ===
-
 # === Enforcement Helpers (clean & unified) ===
-
 def get_anchor_set(system_name):
     system_lower = system_name.lower()
+    if "terra" in system_lower or "luna" in system_lower:
+        print("!!! ENFORCING TERRA/LUNA DYNAMIC CRL ANCHORS FROM CSV !!!")
+        return CRL_ANCHORS
     if "ussr_1937" in system_lower:
         print("!!! ENFORCING USSR 1937 CRL ANCHORS (peak rigidity / high parasitism) !!!")
         return USSR_ANCHORS
@@ -353,15 +284,12 @@ def apply_anchors(scores, anchors):
             current = scores[idx]
             clamped = max(params['band_low'], min(params['band_high'], params['center']))
             if abs(current - clamped) > 0.1:
-                print(f"  → {key} (idx {idx}): {current:.1f} → {clamped}  {params.get('note', '')}")
+                print(f" → {key} (idx {idx}): {current:.1f} → {clamped} {params.get('note', '')}")
             scores[idx] = clamped
     return scores
 
 # === MAIN EXECUTION ===
-
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser(description="15×6 Political Thermodynamics Simulator")
     parser.add_argument("csv_path", nargs="?", default=None,
                         help="Direct path to metrics CSV (overrides --system)")
@@ -388,17 +316,30 @@ if __name__ == "__main__":
         sys.exit(1)
 
     print(f"Initializing simulation: {system_name}")
-
-    raw_scores = load_scores(csv_path)
+    raw_scores, df = load_scores(csv_path)  # now returns scores + df
     print(f"Loaded {len(raw_scores)} metrics")
 
     anchors = get_anchor_set(system_name)
-    scores = apply_anchors(raw_scores.copy(), anchors)
 
+    # Apply dynamic CRL anchor if Terra/Luna (uses df)
+    if "terra" in system_name.lower() or "luna" in system_name.lower():
+        df = apply_crl_anchor(df, system_name)  # or specific anchor name if needed
+        scores = df['Score'].astype(float).values
+    else:
+        scores = raw_scores.copy()
+
+    scores = apply_anchors(scores, anchors)
     scores = apply_shock(scores, args.shock)
 
     x, y = compute_compass(scores)
     rule13_pct = compute_rule13_proxy(scores)
+
+    # Optional: MC-aligned proxy (example usage – replace or add to output as needed)
+    d1 = scores[8]   # D1_Exploitationism
+    g1 = scores[14]  # G1_Cheater_Detection
+    r, _, _ = compute_rigidity_multiplier(scores)
+    mc_proxy = mc_aligned_proxy(d1, g1, r)
+    print(f"MC-aligned proxy: {mc_proxy:.1f}%")
 
     # Improved zone logic
     if rule13_pct > 50 or y > 1.5:
@@ -416,10 +357,23 @@ if __name__ == "__main__":
     else:
         longevity = "150+ years (Low Parasitism)"
 
+    # After computing r, rule13_pct, etc.
+    proxy_mc = estimate_proxy(scores[8], scores[14], r)   # or mc_aligned_proxy if you kept that name
+    print(f"MC-aligned Proxy (hinge): {proxy_mc:.1f}%")
+
+    zone = (
+    "Stable regime" if proxy_mc < 44 else
+    "Pre-fracture / latent fragility" if proxy_mc < 45.5 else
+    "Collapse basin (hinge crossed)" if proxy_mc < 50 else
+    "Irreversible collapse"
+    )
+    print(f"Zone: {zone}")
+
     print("\n" + "="*60)
     print(f"RESULTS: {system_name.upper()} | {args.shock.upper()}")
     print(f"Compass X: {x:.2f} Y: {y:.2f}")
     print(f"Rule-13 Proxy: {rule13_pct:.1f}%")
+    print(f"MC-aligned Proxy: {mc_proxy:.1f}%")
     print(f"Systemic State: {zone}")
     print(f"Longevity: {longevity}")
     print("="*60 + "\n")
