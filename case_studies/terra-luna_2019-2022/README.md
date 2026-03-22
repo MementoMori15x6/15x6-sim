@@ -14,3 +14,6 @@ This folder contains the full Board scoring and Monte Carlo analysis for Terra/L
 3. Outputs: collapse probabilities, CIs, and perturbed Fracture Meter distributions
 
 ## Add Monte Carlo raw outputs and converted 35-metric CSVs for all Terra/Luna stages
+
+## rule 13 found exact fracture threshold
+45.5–46.4% fracture hinge
