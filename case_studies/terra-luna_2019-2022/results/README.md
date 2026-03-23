@@ -1,3 +1,10 @@
+##Update simulate.py to v3.2 calibration:
+- MC-aligned proxy tuned for Terra trajectory (Stage 1 38.3% → Stage 4 96.3%)
+- ETH S3 at 55.4% (pre-fracture signal – historically plausible 2018–2021 stress)
+- Rigidity buildup visible in Terra (R 0.00 → 0.32)
+- Full ledger table generated with baselines + 4 stages
+
+
 # Terra/Luna Case Study (2019–2022) – Monte Carlo Sensitivity Analysis
 
 This folder contains all derived outputs from the Monte Carlo perturbation of the 35-metric consensus scores across the key stages of Terra/Luna, with contrast runs on Bitcoin and Ethereum baselines.
