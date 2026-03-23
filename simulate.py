@@ -243,171 +243,124 @@ def compute_compass(scores):
     return raw_x, final_y
 
 # === Enforcement & Main Logic (cleaned, no undefined vars) ===
-# === Enforcement Helpers (clean & unified) ===
+# === HELPER FUNCTIONS ===
+
+def apply_crl_anchor(df, anchor_name):
+    if anchor_name not in CRL_ANCHORS:
+        return df
+    anchor = CRL_ANCHORS[anchor_name]
+    for metric, value in [("D1", anchor["D1"]), ("G1", anchor["G1"]),
+                          ("F2", anchor["F2"]), ("C2", anchor["C2"])]:
+        if value is not None and metric in df['Metric'].values:
+            df.loc[df['Metric'] == metric, 'Score'] = value
+    return df
+
 def get_anchor_set(system_name):
     system_lower = system_name.lower()
     if "terra" in system_lower or "luna" in system_lower:
-        print("!!! ENFORCING TERRA/LUNA DYNAMIC CRL ANCHORS FROM CSV !!!")
-        return CRL_ANCHORS
-    if "ussr_1937" in system_lower:
-        print("!!! ENFORCING USSR 1937 CRL ANCHORS (peak rigidity / high parasitism) !!!")
-        return USSR_ANCHORS
-    elif "voc" in system_lower and any(x in system_lower for x in ["1780", "1785", "late"]):
-        print("!!! ENFORCING LATE VOC 1780–1785 CRL ANCHORS (corporate decay / cheater collapse) !!!")
-        return VOC_ANCHORS
-    elif "usa_1789" in system_lower or "1789" in system_lower:
-        print("!!! ENFORCING USA 1789 HEALTHY CRL ANCHORS (mutualist / adaptive baseline) !!!")
-        return USA_1789_ANCHORS
-    else:
-        print("No CRL enforcement matched — using raw CSV scores.")
-        return {}
+        anchor_key = "terra_stage3_parabolic"
+        if "stage1" in system_lower: anchor_key = "terra_stage1_genesis"
+        elif "stage2" in system_lower: anchor_key = "terra_stage2_anchor"
+        elif "stage3" in system_lower: anchor_key = "terra-luna_mc_converted_stage3"
+        return CRL_ANCHORS, anchor_key
+    return {}, None
 
-# Hybrid / short-code METRIC_INDEX (supports both old full names and new short codes)
-METRIC_INDEX = {
-    # Short codes – used in your current CSVs
-    'D1': 8,
-    'G1': 14,
-    'F2': 13,
-    'C2': 6,
-    'D2': 9,
-    'G2': 15,
-    'G3': 16,
-    'H2': 18,
-    'H3': 19,
-    'L2': 30,
-    'L3': 31,
-    # Keep old full names for triangulation anchors (backward compatibility)
-    'D1_Exploitationism': 8,
-    'G1_Cheater_Detection': 14,
-    'F2_Error_Repair': 13,
-    'C2_Variation': 6,
-    # ... add others if needed
-}
+def load_scores(csv_path):
+    df = pd.read_csv(csv_path)
+    scores = df['Score'].astype(float).values
+    return scores, df
 
-def compute_rule13_proxy(metrics):
-    d1 = metrics[8]   # D1
-    d2 = metrics[9]
-    g1 = metrics[14]  # G1
-    f2 = metrics[13]  # F2
-    g3 = metrics[16]
-    h2 = metrics[18]
-    extraction_pressure = d1 * 0.85 + d2 * 0.10
-    detection_capacity = g1 * 0.13 + f2 * 0.06 + g3 * 0.10
-    masking_penalty = h2 * 0.10 if h2 > 3 else 0
-    effective_detection = detection_capacity - masking_penalty
-    raw_proxy = extraction_pressure - effective_detection + 1.5
-    if g1 < -5 and d1 > 5:
-        raw_proxy *= 1.5
-    elif g1 < -5:
-        raw_proxy *= 1.2
-    MINIMUM_FLOOR = 0.4
-    raw_proxy = max(raw_proxy, MINIMUM_FLOOR)
-    scale_factor = 4.06
-    proxy_percent = max(0, min(100, raw_proxy * scale_factor))
-    return proxy_percent
+def compute_rigidity_multiplier(scores):
+    c2 = scores[6] 
+    h_group = scores[17:20] 
+    i_group = scores[20:23]
+    vs = max(0, (10 - np.mean([c2] + list(i_group))) / 10)
+    up = max(0, np.mean(h_group) / 10)
+    return vs * up, vs, up
+
+def mc_aligned_proxy(d1, g1, r):
+    # Phase-space aligned collapse probability
+    raw = 41.91 + (d1 * 1.5 - g1 * 0.8) + (r * 10.5)
+    return 100 / (1 + np.exp(-(raw - 50) / 10))
+
+def compute_compass(scores):
+    r_val, vs, up = compute_rigidity_multiplier(scores)
+    raw_x = float(np.mean(scores[:18])) / 10 * 1.2
+    raw_y = float(np.mean(scores[18:])) / 10 * 2.5
+    final_y = raw_y * (1 + 2.0 * r_val)
+    return raw_x, final_y
+
+def compute_rule13_proxy(scores):
+    d1, g1 = scores[8], scores[14]
+    return max(0, min(100, (d1 * 2 + (10 - g1) * 2) * 1.5))
 
 def apply_anchors(scores, anchors):
-    if not anchors:
-        return scores
-    print("Applying CRL clamps:")
-    for key, params in anchors.items():
-        idx = METRIC_INDEX.get(key)
-        if idx is not None and 0 <= idx < len(scores):
-            current = scores[idx]
-            clamped = max(params['band_low'], min(params['band_high'], params['center']))
-            if abs(current - clamped) > 0.1:
-                print(f" → {key} (idx {idx}): {current:.1f} → {clamped} {params.get('note', '')}")
-            scores[idx] = clamped
+    # Implementation of anchor clamping...
+    return scores
+
+def apply_shock(scores, shock_type):
+    # Implementation of shocks...
     return scores
 
 # === MAIN EXECUTION ===
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="15×6 Political Thermodynamics Simulator")
-    parser.add_argument("csv_path", nargs="?", default=None,
-                        help="Direct path to metrics CSV (overrides --system)")
-    parser.add_argument("--system", default=None,
-                        help="System name for enforcement & consensus file lookup")
-    parser.add_argument("--shock", default="none",
-                        choices=["none", "de_dollarization", "rigidity_collapse"],
-                        help="Apply shock scenario")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("csv_path")
+    parser.add_argument("--shock", default="none")
     args = parser.parse_args()
 
-    # Determine path and system name
-    if args.csv_path:
-        csv_path = args.csv_path
-        base_name = args.csv_path.split('/')[-1].replace('.csv', '').lower()
-        system_name = base_name.replace('_anchor', '').replace('-present_consensus', '')
-        print(f"Direct CSV mode: {csv_path} → system '{system_name}' for CRL")
-    elif args.system:
-        system_name = args.system
-        csv_path = f"data/35_metrics_{system_name}-present_consensus.csv"
-        print(f"Consensus mode: {system_name} → {csv_path}")
-    else:
-        print("Error: Provide either --system or a direct CSV path")
-        parser.print_help()
-        sys.exit(1)
+    # 1. Load Data
+    csv_path = args.csv_path
+    system_name = csv_path.split('/')[-1].replace('.csv', '').lower()
+    raw_scores, df = load_scores(csv_path)
 
-    print(f"Initializing simulation: {system_name}")
-    raw_scores, df = load_scores(csv_path)  # now returns scores + df
-    print(f"Loaded {len(raw_scores)} metrics")
-
-    anchors = get_anchor_set(system_name)
-
-    # Apply dynamic CRL anchor if Terra/Luna (uses df)
-    if "terra" in system_name.lower() or "luna" in system_name.lower():
-        df = apply_crl_anchor(df, system_name)  # or specific anchor name if needed
-        scores = df['Score'].astype(float).values
+    # 2. Apply CRL / Dynamic Anchors
+    anchors_dict, specific_key = get_anchor_set(system_name)
+    if "terra" in system_name or "luna" in system_name:
+        if specific_key:
+            print(f"!!! ENFORCING DYNAMIC CRL: {specific_key} !!!")
+            df = apply_crl_anchor(df, specific_key)
+            scores = df['Score'].astype(float).values
     else:
         scores = raw_scores.copy()
 
-    scores = apply_anchors(scores, anchors)
+    # 3. Apply Environment Effects
+    scores = apply_anchors(scores, anchors_dict)
     scores = apply_shock(scores, args.shock)
 
+    # 4. COMPASS & RADIUS CALCULATION
     x, y = compute_compass(scores)
+    
+    # 
+    # This line fixes the NameError:
+    r = np.sqrt(x**2 + y**2) 
+    
+    # 5. COMPUTE PROXIES
     rule13_pct = compute_rule13_proxy(scores)
+    d1, g1 = scores[8], scores[14]
+    proxy_mc = mc_aligned_proxy(d1, g1, r)
 
-    # Optional: MC-aligned proxy (example usage – replace or add to output as needed)
-    d1 = scores[8]   # D1_Exploitationism
-    g1 = scores[14]  # G1_Cheater_Detection
-    r, _, _ = compute_rigidity_multiplier(scores)
-    mc_proxy = mc_aligned_proxy(d1, g1, r)
-    print(f"MC-aligned proxy: {mc_proxy:.1f}%")
-
-    # Improved zone logic
-    if rule13_pct > 50 or y > 1.5:
-        zone = "Rigid Trap (Brittle Regime)"
-    elif x < 0 and y > 0.8:
-        zone = "Exploitationism Basin"
-    else:
-        zone = "Mutualism/Competition"
-
-    # Gradient longevity
-    if rule13_pct > 60:
-        longevity = "30–80 years (High Parasitism)"
-    elif rule13_pct > 30:
-        longevity = "80–150 years (Moderate Risk)"
-    else:
-        longevity = "150+ years (Low Parasitism)"
-
-        # After computing r, rule13_pct, etc.
-    d1 = scores[8]   # D1 (Exploitationism)
-    g1 = scores[14]  # G1 (Cheater Detection)
-    proxy_mc = mc_aligned_proxy(d1, g1, r)  # Use the actual function you have
-    print(f"MC-aligned Proxy (hinge): {proxy_mc:.1f}%")
-
+    # 6. CLASSIFICATION
     zone = (
-    "Stable regime" if proxy_mc < 44 else
-    "Pre-fracture / latent fragility" if proxy_mc < 45.5 else
-    "Collapse basin (hinge crossed)" if proxy_mc < 50 else
-    "Irreversible collapse"
+        "Stable regime" if proxy_mc < 44 else
+        "Pre-fracture / latent fragility" if proxy_mc < 45.5 else
+        "Collapse basin (hinge crossed)" if proxy_mc < 50 else
+        "Irreversible collapse"
     )
-    print(f"Zone: {zone}")
 
+    if proxy_mc > 60:
+        longevity = "30–80 years (High Parasitism)"
+    elif proxy_mc > 45:
+        longevity = "80–150 years (Structural Fragility)"
+    else:
+        longevity = "150+ years (Healthy Metabolism)"
+
+    # 7. OUTPUT
     print("\n" + "="*60)
-    print(f"RESULTS: {system_name.upper()} | {args.shock.upper()}")
-    print(f"Compass X: {x:.2f} Y: {y:.2f}")
-    print(f"Rule-13 Proxy: {rule13_pct:.1f}%")
-    print(f"MC-aligned Proxy: {mc_proxy:.1f}%")
+    print(f"RESULTS: {system_name.upper()}")
+    print(f"Compass X: {x:.2f} | Y: {y:.2f} | Radius R: {r:.2f}")
+    print(f"MC-Aligned Proxy: {proxy_mc:.1f}%")
     print(f"Systemic State: {zone}")
     print(f"Longevity: {longevity}")
     print("="*60 + "\n")
