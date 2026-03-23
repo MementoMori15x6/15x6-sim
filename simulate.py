@@ -119,15 +119,6 @@ def compute_rule13_proxy(metrics):
     proxy_percent = max(0, min(100, raw_proxy * scale_factor))
     return proxy_percent
 
-# === Your MC-aligned proxy function (tweak here as needed) ===
-def mc_aligned_proxy(d1, g1, f2, rigidity=.0):
-    raw = 40.2 + (d1 * 1.4) + (g1 * -0.18) + (f2 * -0.4) - (rigidity * 10)
-    bounded = 117 / (1 + np.exp(-(raw - 49) / 10))
-    return bounded
-
-# Then in ledger cell:
-proxy_mc = mc_aligned_proxy(scores[8], scores[14], scores[13], r)
-
 def load_scores(csv_path):
     try:
         df = pd.read_csv(csv_path)
@@ -281,10 +272,14 @@ def compute_rigidity_multiplier(scores):
     up = max(0, np.mean(h_group) / 10)
     return vs * up, vs, up
 
-def mc_aligned_proxy(d1, g1, r):
-    # Phase-space aligned collapse probability
-    raw = 41.91 + (d1 * 1.5 - g1 * 0.8) + (r * 10.5)
-    return 100 / (1 + np.exp(-(raw - 50) / 10))
+# === Your MC-aligned proxy function (tweak here as needed) ===
+def mc_aligned_proxy(d1, g1, f2, rigidity=.0):
+    raw = 40.2 + (d1 * 1.4) + (g1 * -0.18) + (f2 * -0.4) - (rigidity * 10)
+    bounded = 117 / (1 + np.exp(-(raw - 49) / 10))
+    return bounded
+
+# Then in ledger cell:
+proxy_mc = mc_aligned_proxy(scores[8], scores[14], scores[13], r)
 
 def compute_compass(scores):
     r_val, vs, up = compute_rigidity_multiplier(scores)
