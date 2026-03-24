@@ -63,7 +63,7 @@ The Board is a 35-metric diagnostic framework designed to evaluate the thermodyn
 
 #### Trajectory Visual
 
-*(Insert your latest corrected phase map here — board_07_dateline.png with the accurate Stage 2 dip and Early 2021 dateline)*
+![Terra-Luna Collapse Trajectory](case_studies/terra-luna_2019-2022/manuscript/visuals/board_07_dateline.png)
 
 #### Stage Narrative
 
