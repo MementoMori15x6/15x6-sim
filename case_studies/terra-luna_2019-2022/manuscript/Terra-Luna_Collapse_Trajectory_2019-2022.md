@@ -91,7 +91,7 @@ By late 2020 (Stage 2), the Board showed a definite collapse trajectory under th
 
 Collapse, as revealed by the Board, is a trajectory, not an event.
 
-An unexpected discovery was Ethereum Stage 3 (2018–2021). The proxy reached 55.4% and pushed near the hinge under real structural pressure, yet the system remained functionally stable through ongoing corrections and adaptation. This highlights the Board’s sensitivity to latent stress even in otherwise resilient replicators.
+An unexpected discovery was Ethereum Stage 3 (2018–2021). The proxy reached 46.4% and pushed near the hinge under real structural pressure, yet the system remained functionally stable through ongoing corrections and adaptation. This highlights the Board’s sensitivity to latent stress even in otherwise resilient replicators.
 
 ---
 
@@ -108,10 +108,4 @@ The Terra-Luna case demonstrates that the Board can reveal hidden thermodynamic 
 
 ---
 
-This is **exactly 3–4 pages** when exported to PDF with normal formatting (12pt font, 1.5 spacing, one full-page figure).
 
-You can now copy the whole thing into a Markdown file, drop in your Introduction text, insert the latest phase map image, and export.
-
-Would you like any small tweaks to wording before you finalise it?
-
-Memento mori. 🚀
