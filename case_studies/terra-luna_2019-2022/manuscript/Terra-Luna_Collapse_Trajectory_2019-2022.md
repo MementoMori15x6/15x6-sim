@@ -19,8 +19,25 @@ The Board diagnostic framework was applied to the Terra-Luna ecosystem across fo
 
 ### 1. Introduction
 
-*(Your current introduction text goes here — keep as written)*
+“The board is a structured way to make complex systems legible, so their stability can be judged before failure becomes obvious.”
+— Mori
 
+All complex systems accumulate blind spots. Markets, institutions, technologies, and social movements grow through replication — attracting participants, capital, or belief — and the larger they become, the harder it is to see their internal weaknesses.
+
+The question is not whether blind spots exist. They always do.  
+The question is whether a system can detect and correct them before fracture.
+
+The Board is an attempt to make that question measurable. It does this by forcing a structured evaluation across a fixed set of 35 metrics that reflect two essential pressures: how value flows through the system, and how effectively the system detects and suppresses exploitation of those flows.
+
+The goal is not prediction in the usual sense. The goal is clarity.
+
+To test whether the Board had any practical signal, it was applied to a known historical collapse: the Terra/Luna ecosystem between 2019 and 2022. Using only information available at each stage, the system was scored across four defined periods. The intention was modest — to observe whether the Board’s outputs would reflect the system’s increasing fragility over time.
+
+An unexpected insight also emerged during calibration when the same framework was applied to Ethereum’s late pre-Merge phase (2018–2021). Despite strong growth and adoption, the Board repeatedly placed it closer to structural tension than expected. This does not imply imminent failure, but suggests that a system can carry significant internal pressure while still surviving through adaptation.
+
+The Terra-Luna case was the first real test of the Board. This short study presents the results.
+
+Memento mori.
 ---
 
 ### 2. The Board Framework
