@@ -88,9 +88,11 @@ The Terra-Luna case demonstrates that the Board can reveal hidden thermodynamic 
 
 ---
 
-**Appendix**  
-- Full ledger CSV: `terra_luna_ledger.csv`  
-- Main manuscript: *The Board – Political Thermodynamics* (for complete methodology)
+**Appendix**
+
+- Full ledger CSV: [terra_luna_ledger.csv](https://github.com/MementoMori15x6/15x6-sim/blob/main/case_studies/terra-luna_2019-2022/terra_luna_ledger.csv)
+
+- Main manuscript: [*The Board – Political Thermodynamics*](https://github.com/MementoMori15x6/15x6-sim/blob/main/manuscript/0.1-Title_page_the_Board_Political%20Thermodynamics.md) (for complete methodology)
 
 ---
 
