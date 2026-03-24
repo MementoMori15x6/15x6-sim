@@ -7,6 +7,17 @@
 **Memento & Mori** | **March 2026**
 
 ---
+
+### Experimental Protocol
+
+To minimise retrospective bias, the Terra system was evaluated at four historical stages (2019–2022).
+For each stage, metric scoring used only information available at that time.
+
+The Board outputs were then plotted as a trajectory across phase space.
+
+The goal was not prediction but retrospective calibration against a known collapse event.
+
+---
 ### 1. Introduction
 
 This case study applies the Board — a structural diagnostic framework for replicating systems — to the Terra-Luna ecosystem from 2019 to 2022.
