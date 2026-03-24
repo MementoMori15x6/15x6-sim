@@ -6,8 +6,6 @@
 
 **Memento & Mori** | **March 2026**
 
-**Version 3.1**  
-
 ---
 ### 1. Introduction
 
