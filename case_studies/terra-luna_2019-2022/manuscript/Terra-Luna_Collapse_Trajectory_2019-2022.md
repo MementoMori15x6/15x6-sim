@@ -8,36 +8,23 @@
 
 **Version 3.1**  
 
-
 ---
-
-### Abstract
-
-The Board diagnostic framework was applied to the Terra-Luna ecosystem across four stages from 2019 to 2022. Using the 35-metric compass and MC-aligned proxy (v3.1), the analysis reveals a clear thermodynamic trajectory: latent fragility in Stage 1, suppression illusion in Stage 2, decisive hinge cross in Stage 3, and terminal sinkhole in Stage 4. The Board identified the collapse trajectory by late 2020 and the irreversible hinge cross in early 2021 — approximately one year before the public May–June 2022 depeg and death spiral. An unexpected finding was Ethereum Stage 3 (2018–2021), which showed significant structural pressure pushing near the 45.5% hinge yet remained functionally stable through ongoing corrections and adaptation. This case demonstrates the Board’s ability to detect hidden fragility and map collapse as a trajectory rather than a discrete event.
-
----
-
 ### 1. Introduction
 
-“The board is a structured way to make complex systems legible, so their stability can be judged before failure becomes obvious.”
-— Mori
+This case study applies the Board — a structural diagnostic framework for replicating systems — to the Terra-Luna ecosystem from 2019 to 2022.
+What the Board does: it uses a fixed set of 35 structural metrics to create a detailed diagnostic portrait of a replicating system at a given point in time. These metrics capture two core pressures — how value and resources flow through the system, and how effectively the system detects and suppresses exploitation of those flows — allowing us to map its position in phase space and assess its proximity to the fracture hinge.
 
-All complex systems accumulate blind spots. Markets, institutions, technologies, and social movements grow through replication — attracting participants, capital, or belief — and the larger they become, the harder it is to see their internal weaknesses.
+The Terra-Luna results show a clear trajectory: early latent fragility in 2019, a period of suppression illusion in 2020, a decisive crossing of a fracture hinge in 2021, and full entry into collapse by 2022. The framework detected the irreversible turn approximately one year before the public depeg and death spiral in May–June 2022.
+The same framework was applied to our baseline comparison, Bitcoin and Ethereum.
 
-The question is not whether blind spots exist. They always do.  
-The question is whether a system can detect and correct them before fracture.
+Ethereum’s late pre-Merge phase proved difficult to classify as fully stable. Despite strong growth and adoption, the Board repeatedly placed it closer to structural tension than expected. What it suggests is something more subtle: a system carrying significant internal pressure while still surviving through adaptation. Resilience may not come from the absence of stress, but from a system’s capacity to evolve under it.
 
-The Board is an attempt to make that question measurable. It does this by forcing a structured evaluation across a fixed set of 35 metrics that reflect two essential pressures: how value flows through the system, and how effectively the system detects and suppresses exploitation of those flows.
+This observation was not the original goal of the experiment, but it highlights why structured measurement can be useful.
 
-The goal is not prediction in the usual sense. The goal is clarity.
-
-To test whether the Board had any practical signal, it was applied to a known historical collapse: the Terra/Luna ecosystem between 2019 and 2022. Using only information available at each stage, the system was scored across four defined periods. The intention was modest — to observe whether the Board’s outputs would reflect the system’s increasing fragility over time.
-
-An unexpected insight also emerged during calibration when the same framework was applied to Ethereum’s late pre-Merge phase (2018–2021). Despite strong growth and adoption, the Board repeatedly placed it closer to structural tension than expected. This does not imply imminent failure, but suggests that a system can carry significant internal pressure while still surviving through adaptation.
-
-The Terra-Luna case was the first real test of the Board. This short study presents the results.
+In the case of Terra-Luna, it illustrates that collapse is not a sudden event, but a measurable thermodynamic trajectory that can be tracked in advance, and potentially avoided.
 
 Memento mori.
+
 ---
 
 ### 2. The Board Framework
