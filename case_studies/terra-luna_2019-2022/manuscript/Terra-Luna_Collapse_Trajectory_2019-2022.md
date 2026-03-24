@@ -35,16 +35,16 @@ The Board is a 35-metric diagnostic framework designed to evaluate the thermodyn
 
 #### Ledger Summary
 
-| Replicator_Stage       | X    | Y     | R     | Rule13_Proxy_% | MC_Truth_Proxy_% | Zone                            | Longevity Estimate              |
-|------------------------|------|-------|-------|----------------|------------------|---------------------------------|---------------------------------|
-| bitcoin stage1         | 0.51 | -0.36 | 0.00  | 32.7           | 36.0             | Stable regime                   | 80–150 years (Moderate Risk)    |
-| bitcoin stage3         | 0.59 | -0.43 | 0.00  | 33.0           | 38.0             | Stable regime                   | 80–150 years (Moderate Risk)    |
-| ethereum stage1        | 0.58 | -0.47 | 0.00  | 33.0           | 37.0             | Stable regime                   | 80–150 years (Moderate Risk)    |
-| ethereum stage3        | 0.51 | -0.57 | 0.00  | 40.5           | 46.4             | Pre-fracture / latent fragility | 80–150 years (Moderate Risk)    |
-| terra-luna stage1      | 0.38 | -0.01 | 0.092 | 33.0           | 42.8             | Stable regime                   | 80–150 years (Moderate Risk)    |
-| terra-luna stage2      | 0.37 | 0.02  | 0.076 | 33.0           | 41.6             | Stable regime                   | 80–150 years (Moderate Risk)    |
-| terra-luna stage3      | 0.59 | 0.25  | 0.168 | 53.4           | 63.3             | Irreversible collapse           | 80–150 years (Moderate Risk)    |
-| terra-luna stage4      | 0.04 | 0.46  | 0.321 | 72.0           | 78.1             | Irreversible collapse           | 30–80 years (High Exploitationism)   |
+| Replicator_Stage       | X    | Y     | R     | Rule13_Proxy_% | MC_Truth_Proxy_% | Zone                            |
+|------------------------|------|-------|-------|----------------|------------------|---------------------------------|
+| bitcoin stage1         | 0.51 | -0.36 | 0.00  | 32.7           | 36.0             | Stable regime                   |
+| bitcoin stage3         | 0.59 | -0.43 | 0.00  | 33.0           | 38.0             | Stable regime                   |
+| ethereum stage1        | 0.58 | -0.47 | 0.00  | 33.0           | 37.0             | Stable regime                   |
+| ethereum stage3        | 0.51 | -0.57 | 0.00  | 40.5           | 46.4             | Pre-fracture / latent fragility |
+| terra-luna stage1      | 0.38 | -0.01 | 0.092 | 33.0           | 42.8             | Stable regime                   |
+| terra-luna stage2      | 0.37 | 0.02  | 0.076 | 33.0           | 41.6             | Stable regime                   |
+| terra-luna stage3      | 0.59 | 0.25  | 0.168 | 53.4           | 63.3             | Irreversible collapse           |
+| terra-luna stage4      | 0.04 | 0.46  | 0.321 | 72.0           | 78.1             | Irreversible collapse           |
 
 ### Phase-Space Map
 
