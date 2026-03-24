@@ -84,13 +84,12 @@ An unexpected discovery was Ethereum Stage 3 (2018–2021). The proxy reached 46
 
 ### 5. Conclusion
 
-The Terra-Luna case demonstrates that the Board can reveal hidden thermodynamic fragility well in advance of visible failure. Future work will apply the framework to additional replicating systems to further test its generalisability.
+The Terra-Luna case demonstrates that the Board can reveal hidden thermodynamic fragility well in advance of visible failure. Future work will apply the framework to other systems to see if the signal holds.
 
 ---
 
 **Appendix**  
 - Full ledger CSV: `terra_luna_ledger.csv`  
-- Phase map: `board_07_dateline.png`  
 - Main manuscript: *The Board – Political Thermodynamics* (for complete methodology)
 
 ---
