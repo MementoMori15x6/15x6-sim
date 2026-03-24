@@ -53,7 +53,7 @@ The Board is a 35-metric diagnostic framework designed to evaluate the thermodyn
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/case_studies/terra-luna_2019-2022/manuscript/visuals/board_01_phase_map.png)
 The phase-space map shows the Terra-Luna trajectory clearly diverging from the stable cluster occupied by Bitcoin and Ethereum. While Bitcoin remained deep in the stable regime across both stages, Ethereum Stage 3 was pushed noticeably higher, reflecting structural pressures during the 2018–2021 period, yet stayed functionally adaptive. In contrast, Terra-Luna’s path remained near the boundary in Stages 1 and 2 before making a sharp turn into the collapse basin in Stage 3.
 
-### MC-Aligned Proxy Comparison
+### Monte Carlo testing - Aligned Proxy Comparison
 
 ![](https://github.com/MementoMori15x6/15x6-sim/raw/main/case_studies/terra-luna_2019-2022/manuscript/visuals/board_04_comparison_bars.png)
 
