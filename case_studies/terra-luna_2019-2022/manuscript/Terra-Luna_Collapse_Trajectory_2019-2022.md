@@ -61,9 +61,20 @@ The Board is a 35-metric diagnostic framework designed to evaluate the thermodyn
 | terra-luna stage3      | 0.59 | 0.25  | 0.168 | 53.4           | 63.3             | Irreversible collapse           | 80–150 years (Moderate Risk)    |
 | terra-luna stage4      | 0.04 | 0.46  | 0.321 | 72.0           | 78.1             | Irreversible collapse           | 30–80 years (High Parasitism)   |
 
-#### Trajectory Visual
+### Phase-Space Map
 
-![Terra-Luna Collapse Trajectory](case_studies/terra-luna_2019-2022/manuscript/visuals/board_07_dateline.png)
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/case_studies/terra-luna_2019-2022/manuscript/visuals/board_01_phase_map.png)
+The phase-space map shows the Terra-Luna trajectory clearly diverging from the stable cluster occupied by Bitcoin and Ethereum. While Bitcoin remained deep in the stable regime across both stages, Ethereum Stage 3 was pushed noticeably higher, reflecting structural pressures during the 2018–2021 period, yet stayed functionally adaptive. In contrast, Terra-Luna’s path remained near the boundary in Stages 1 and 2 before making a sharp turn into the collapse basin in Stage 3.
+
+### MC-Aligned Proxy Comparison
+
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/case_studies/terra-luna_2019-2022/manuscript/visuals/board_04_comparison_bars.png)
+
+The bar chart provides a direct comparison of MC-aligned proxy values. Bitcoin stages remain firmly in the stable regime (36.0%–38.0%). Ethereum Stage 3 reaches 46.4%, sitting just above the 45.5% fracture hinge and indicating latent structural pressure, yet the system remained functionally stable through adaptation. Terra-Luna shows the clearest progression: Stages 1 and 2 stay below the hinge (42.8% and 41.6%), Stage 3 crosses decisively into the collapse basin (63.3%), and Stage 4 deepens further into the terminal sinkhole (78.1%).
+
+
+#### Trajectory Visual
+![](https://github.com/MementoMori15x6/15x6-sim/raw/main/case_studies/terra-luna_2019-2022/manuscript/visuals/board_07_dateline.png)
 
 #### Stage Narrative
 
