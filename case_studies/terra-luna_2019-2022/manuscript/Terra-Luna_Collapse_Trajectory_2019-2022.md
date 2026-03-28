@@ -18,19 +18,15 @@ The Board outputs were then plotted as a trajectory across phase space.
 The goal was not prediction but retrospective calibration against a known collapse event.
 
 ---
-### 1. Introduction
+### Abstract
 
-This case study applies the Board — a structural diagnostic framework for replicating systems — to the Terra-Luna ecosystem from 2019 to 2022.
-What the Board does: it uses a fixed set of 35 structural metrics to create a detailed diagnostic portrait of a replicating system at a given point in time. These metrics capture two core pressures — how value and resources flow through the system, and how effectively the system detects and suppresses exploitation of those flows — allowing us to map its position in phase space and assess its proximity to the fracture hinge.
+This case study applies the Board, a 35-metric structural diagnostic framework, to the Terra–Luna ecosystem over the period 2019–2022. Using only contemporaneous data at four historical stages, the system was evaluated in phase space (economic metabolism vs. governance density) to reconstruct its thermodynamic trajectory without retrospective bias.
 
-The Terra-Luna results show a clear trajectory: early latent fragility in 2019, a period of suppression illusion in 2020, a decisive crossing of a fracture hinge in 2021, and full entry into collapse by 2022. The framework detected the irreversible turn approximately one year before the public depeg and death spiral in May–June 2022.
-The same framework was applied to our baseline comparison, Bitcoin and Ethereum.
+Results show a consistent progression from latent fragility (2019) through a suppression illusion phase (2020), followed by a decisive crossing of the fracture hinge in 2021 and full entry into irreversible collapse by 2022. The Board’s MC-aligned proxy indicates that the critical transition occurred approximately one year prior to the observed depeg and terminal failure in May–June 2022.
 
-Ethereum’s late pre-Merge phase proved difficult to classify as fully stable. Despite strong growth and adoption, the Board repeatedly placed it closer to structural tension than expected. What it suggests is something more subtle: a system carrying significant internal pressure while still surviving through adaptation. Resilience may not come from the absence of stress, but from a system’s capacity to evolve under it.
+Comparative baselines using Bitcoin and Ethereum confirm the framework’s discriminative capacity. Bitcoin remained within a stable regime across all observed stages. Ethereum, however, approached and briefly exceeded the fracture threshold during its late pre-Merge phase, suggesting the presence of significant internal stress despite continued functional adaptation. This highlights a key distinction between resilience and stability: systems may persist not by avoiding thermodynamic pressure, but by adapting under it.
 
-This observation was not the original goal of the experiment, but it highlights why structured measurement can be useful.
-
-In the case of Terra-Luna, it illustrates that collapse is not a sudden event, but a measurable thermodynamic trajectory that can be tracked in advance, and potentially avoided.
+The findings support the central claim that collapse is not a discrete event but a measurable trajectory through phase space. The Board framework demonstrates the ability to detect irreversible structural transitions in advance, offering a potential tool for early warning and comparative system analysis.
 
 Memento mori.
 
