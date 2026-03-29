@@ -10,11 +10,11 @@ This prompt template loads the full Board framework onto an LLM -- to place repl
 Task: Load the following sources and use them as the canonical knowledge base for this conversation.
 Sources (read in order):
 1.
-https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/09-Chapter_09%20_Evolution_of_the_Diagnostic_Tool.md
+https://raw.githubusercontent.com/MementoMori15x6/theboard15x6/main/manuscript/09-Chapter_09%20_Evolution_of_the_Diagnostic_Tool.md
 2.
-https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/10-Chapter_10_%20Navigation_From_Diagnosis_to_Prescription.md
+https://raw.githubusercontent.com/MementoMori15x6/theboard15x6/main/manuscript/10-Chapter_10_%20Navigation_From_Diagnosis_to_Prescription.md
 3.
-https://raw.githubusercontent.com/MementoMori15x6/15x6-sim/main/manuscript/11-Chapter_11%E2%80%93Phase-Space_Topology_The_Full_Map.md
+https://raw.githubusercontent.com/MementoMori15x6/theboard15x6/main/manuscript/11-Chapter_11%E2%80%93Phase-Space_Topology_The_Full_Map.md
 4.
 https://github.com/MementoMori15x6/15x6-sim
 Verification Step (required before continuing):
