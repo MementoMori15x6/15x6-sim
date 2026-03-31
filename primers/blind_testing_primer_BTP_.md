@@ -154,6 +154,7 @@ M3 Ethnic policy: -10 = multicultural; +10 = ethno-centric
 
 **REQUIRED OUTPUT FORMAT**  
 [INSERT REPLICATING SYSTEM] BOARD READING – [INSERT DATE-LINE] (2-LLM Consensus)
+Model: [name] | Run: [N] | Timestamp: [YYYY-MM-DD HH:MM UTC]
 Full CSV: Metric,Description,Score,Rationale
 [35 rows]
 Rule-13 Proxy %: [XX.X] (with arithmetic lock shown)
@@ -163,4 +164,5 @@ Longevity window: [X-Y years]
 Drift from previous baseline: [direction/magnitude]
 Temporal Integrity: [PASS/FAIL]
 Red-team: [5/5]
+
 textMemento mori. 🚀
