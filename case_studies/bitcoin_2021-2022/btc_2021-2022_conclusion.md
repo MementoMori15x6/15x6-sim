@@ -3,6 +3,21 @@
 **Objective**  
 This flagship case study tested the locked v2.4 CCI (with sigma-adjusted velocity and optional Mid-15-Day Pulse) against Bitcoin during the 2021 bull peak through the 2022 bear market. The test followed our live-monitoring cadence: monthly CCI runs, optional Pulse when triggered, and 2-LLM Board readings every ~90 days (or on alert). The Structural Stress Multiplier (based on Rule-13 proxy) was applied only to the Regime Flag for additional context.
 
+## Interactive CCI Dashboard
+
+**[Open Interactive Bitcoin 2021–2022 CCI Dashboard](btc_cci_dashboard.html)**
+
+This is a fully self-contained HTML dashboard (no external dependencies except Chart.js from CDN).  
+It shows all 9 phases, main CCI line, Mid-15-Day Pulse, MV price action, regime bands, and phase notes.
+
+**Features:**
+- Click any phase card to highlight details
+- Dual-axis chart with CCI + MV
+- Background bands for bullish/bearish zones
+- Hover tooltips with velocity and regime information
+
+(Works best in Chrome/Firefox. Dark mode supported.)
+
 **Results Summary**
 
 The CCI + Pulse combination delivered **consistent 4–8 weeks of lead time** before major drawdowns across the 9 phases (Nov 2021 – Dec 2022).
