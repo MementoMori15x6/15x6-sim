@@ -5,7 +5,9 @@ This flagship case study tested the locked v2.4 CCI (with sigma-adjusted velocit
 
 ## Interactive CCI Dashboard
 
-`https://MementoMori15x6.github.io/theboard15x6/case_studies/bitcoin_2021-2022/btc_cci_dashboard.html`
+[`https://MementoMori15x6.github.io/theboard15x6/case_studies/bitcoin_2021-2022/btc_cci_dashboard.html`]
+
+(https://MementoMori15x6.github.io/theboard15x6/case_studies/bitcoin_2021-2022/btc_cci_dashboard.html)
 
 This is a fully self-contained HTML dashboard (no external dependencies except Chart.js from CDN).  
 It shows all 9 phases, main CCI line, Mid-15-Day Pulse, MV price action, regime bands, and phase notes.
